@@ -80,7 +80,18 @@
       "marketValue": 18,
       "contractUntil": "2028-06-30",
       "shirtNumber": 15,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfB Stuttgart",
+          "toClubId": "west-ham"
+        }
+      ]
     },
     {
       "id": "aaron-wan-bissaka",
@@ -94,7 +105,27 @@
       "marketValue": 22,
       "contractUntil": "2029-06-30",
       "shirtNumber": 24,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-06-29",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "crystal-palace",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2024-08-15",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-united",
+          "toClubId": "west-ham"
+        }
+      ]
     },
     {
       "id": "el-hadji-malick-diouf",
@@ -150,7 +181,18 @@
       "marketValue": 30,
       "contractUntil": "2027-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-29",
+          "fee": 43,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "west-ham"
+        }
+      ]
     },
     {
       "id": "jarrod-bowen",
@@ -164,7 +206,18 @@
       "marketValue": 35,
       "contractUntil": "2030-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-31",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Hull City",
+          "toClubId": "west-ham"
+        }
+      ]
     },
     {
       "id": "crysencio-summerville",
@@ -178,7 +231,18 @@
       "marketValue": 25,
       "contractUntil": "2029-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-31",
+          "fee": 28,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leeds United",
+          "toClubId": "west-ham"
+        }
+      ]
     },
     {
       "id": "niclas-fullkrug",
@@ -192,7 +256,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-08",
+          "fee": 27,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Borussia Dortmund",
+          "toClubId": "west-ham"
+        }
+      ]
     }
   ]
 }

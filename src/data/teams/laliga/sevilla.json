@@ -66,7 +66,18 @@
       "marketValue": 25,
       "contractUntil": "2029-06-30",
       "shirtNumber": 22,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Rennais",
+          "toClubId": "sevilla"
+        }
+      ]
     },
     {
       "id": "kike-salas",
@@ -94,7 +105,18 @@
       "marketValue": 8,
       "contractUntil": "2027-06-30",
       "shirtNumber": 4,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2022-07-15",
+          "fee": 13,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Galatasaray",
+          "toClubId": "sevilla"
+        }
+      ]
     },
     {
       "id": "gabriel-suazo",
@@ -164,7 +186,18 @@
       "marketValue": 12,
       "contractUntil": "2028-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-30",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "sevilla"
+        }
+      ]
     },
     {
       "id": "djibril-sow",
@@ -178,7 +211,18 @@
       "marketValue": 8,
       "contractUntil": "2028-06-30",
       "shirtNumber": 24,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-08-15",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Eintracht Fráncfort",
+          "toClubId": "sevilla"
+        }
+      ]
     },
     {
       "id": "dodi-lukebakio",
@@ -192,7 +236,18 @@
       "marketValue": 18,
       "contractUntil": "2027-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Hertha Berlín",
+          "toClubId": "sevilla"
+        }
+      ]
     },
     {
       "id": "ruben-vargas",
@@ -206,7 +261,18 @@
       "marketValue": 12,
       "contractUntil": "2029-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-31",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Augsburgo",
+          "toClubId": "sevilla"
+        }
+      ]
     },
     {
       "id": "isaac-romero",

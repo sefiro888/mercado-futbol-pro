@@ -94,7 +94,27 @@
       "marketValue": 2,
       "contractUntil": "2026-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-09-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2024-08-30",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "celta-vigo"
+        }
+      ]
     },
     {
       "id": "luca-de-la-torre",
@@ -136,7 +156,27 @@
       "marketValue": 4,
       "contractUntil": "2026-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-06-23",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "celta-vigo",
+          "toClubId": "liverpool"
+        },
+        {
+          "date": "2015-06-19",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sevilla",
+          "toClubId": "celta-vigo"
+        }
+      ]
     },
     {
       "id": "borja-iglesias",
@@ -150,7 +190,27 @@
       "marketValue": 6,
       "contractUntil": "2028-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-08-27",
+          "fee": 28,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "espanyol",
+          "toClubId": "real-betis"
+        },
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "celta-vigo"
+        }
+      ]
     },
     {
       "id": "williot-swedberg",

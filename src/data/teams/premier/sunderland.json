@@ -66,7 +66,18 @@
       "marketValue": 10,
       "contractUntil": "2029-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "getafe",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "reinildo-sunderland",
@@ -80,7 +91,18 @@
       "marketValue": 12,
       "contractUntil": "2026-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-25",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "París Saint-Germain",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "granit-xhaka",
@@ -94,7 +116,36 @@
       "marketValue": 12,
       "contractUntil": "2028-06-30",
       "shirtNumber": 34,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2016-05-25",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Borussia Mönchengladbach",
+          "toClubId": "arsenal"
+        },
+        {
+          "date": "2023-07-06",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "arsenal",
+          "toClubName": "Bayer Leverkusen"
+        },
+        {
+          "date": "2025-07-26",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "habib-diarra",
@@ -108,7 +159,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 17,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-21",
+          "fee": 32,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RC Estrasburgo",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "noah-sadiki",
@@ -122,7 +184,18 @@
       "marketValue": 10,
       "contractUntil": "2030-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-08",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Union Saint-Gilloise",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "enzo-le-fee",
@@ -136,7 +209,18 @@
       "marketValue": 18,
       "contractUntil": "2030-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-23",
+          "fee": 23,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "roma",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "chris-rigg",
@@ -178,7 +262,18 @@
       "marketValue": 18,
       "contractUntil": "2026-06-30",
       "shirtNumber": 11,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-08",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Ajax",
+          "toClubId": "sunderland"
+        }
+      ]
     },
     {
       "id": "chemsdine-talbi",

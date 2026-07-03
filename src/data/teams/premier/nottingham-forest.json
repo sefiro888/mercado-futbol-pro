@@ -24,7 +24,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 26,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-02-01",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RC Estrasburgo",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "ola-aina",
@@ -52,7 +63,18 @@
       "marketValue": 45,
       "contractUntil": "2029-06-30",
       "shirtNumber": 40,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Corinthians",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "nikola-milenkovic",
@@ -66,7 +88,18 @@
       "marketValue": 25,
       "contractUntil": "2028-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-09",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "fiorentina",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "neco-williams",
@@ -122,7 +155,27 @@
       "marketValue": 25,
       "contractUntil": "2028-06-30",
       "shirtNumber": 16,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-06-29",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "aston-villa",
+          "toClubId": "juventus"
+        },
+        {
+          "date": "2025-08-06",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "morgan-gibbs-white",
@@ -136,7 +189,18 @@
       "marketValue": 50,
       "contractUntil": "2028-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-19",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "wolves",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "callum-hudson-odoi",
@@ -150,7 +214,18 @@
       "marketValue": 22,
       "contractUntil": "2027-06-30",
       "shirtNumber": 14,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-09-01",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "dan-ndoye",
@@ -164,7 +239,18 @@
       "marketValue": 30,
       "contractUntil": "2030-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-12",
+          "fee": 42,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "bologna",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "chris-wood",
@@ -178,7 +264,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-06-30",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "newcastle",
+          "toClubId": "nottingham-forest"
+        }
+      ]
     },
     {
       "id": "igor-jesus",

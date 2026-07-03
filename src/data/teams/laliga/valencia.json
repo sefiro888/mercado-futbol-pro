@@ -108,7 +108,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-05",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "levante",
+          "toClubId": "valencia"
+        }
+      ]
     },
     {
       "id": "javi-guerra",
@@ -164,7 +175,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "getafe",
+          "toClubId": "valencia"
+        }
+      ]
     },
     {
       "id": "diego-lopez-val",

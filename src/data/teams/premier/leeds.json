@@ -206,7 +206,18 @@
       "marketValue": 10,
       "contractUntil": "2029-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-15",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympiacos",
+          "toClubId": "wolves"
+        }
+      ]
     }
   ]
 }

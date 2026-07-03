@@ -38,7 +38,18 @@
       "marketValue": 30,
       "contractUntil": "2028-06-30",
       "shirtNumber": 12,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-11",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "KRC Genk",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "marc-guehi",
@@ -52,7 +63,18 @@
       "marketValue": 50,
       "contractUntil": "2026-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-18",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "maxence-lacroix",
@@ -66,7 +88,18 @@
       "marketValue": 30,
       "contractUntil": "2029-06-30",
       "shirtNumber": 5,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-28",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfL Wolfsburgo",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "chris-richards",
@@ -108,7 +141,18 @@
       "marketValue": 14,
       "contractUntil": "2027-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "lazio",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "cheick-doucoure",
@@ -136,7 +180,18 @@
       "marketValue": 30,
       "contractUntil": "2028-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-15",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Marsella",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "yeremy-pino",
@@ -150,7 +205,18 @@
       "marketValue": 30,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-13",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "villarreal",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "jean-philippe-mateta",
@@ -164,7 +230,18 @@
       "marketValue": 40,
       "contractUntil": "2027-06-30",
       "shirtNumber": 14,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-01-21",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Mainz 05",
+          "toClubId": "crystal-palace"
+        }
+      ]
     },
     {
       "id": "eddie-nketiah",

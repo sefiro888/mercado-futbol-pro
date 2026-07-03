@@ -440,7 +440,27 @@
       "marketValue": 22,
       "contractUntil": "2031-06-30",
       "shirtNumber": 24,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Basilea",
+          "toClubId": "chelsea"
+        },
+        {
+          "date": "2025-08-15",
+          "fee": 24.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "morgan-rogers",

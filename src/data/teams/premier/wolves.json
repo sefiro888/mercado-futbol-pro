@@ -94,7 +94,18 @@
       "marketValue": 40,
       "contractUntil": "2029-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-01-27",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Flamengo",
+          "toClubId": "wolves"
+        }
+      ]
     },
     {
       "id": "andre-wolves",
@@ -136,7 +147,18 @@
       "marketValue": 20,
       "contractUntil": "2030-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-25",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Fluminense",
+          "toClubId": "wolves"
+        }
+      ]
     },
     {
       "id": "rodrigo-gomes",
@@ -164,7 +186,18 @@
       "marketValue": 30,
       "contractUntil": "2029-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-10",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "celta-vigo",
+          "toClubId": "wolves"
+        }
+      ]
     },
     {
       "id": "hwang-hee-chan",
@@ -178,7 +211,18 @@
       "marketValue": 12,
       "contractUntil": "2028-06-30",
       "shirtNumber": 11,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2021-08-29",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Leipzig",
+          "toClubId": "wolves"
+        }
+      ]
     },
     {
       "id": "tolu-arokodare",

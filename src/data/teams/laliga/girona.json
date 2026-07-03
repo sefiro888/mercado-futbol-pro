@@ -24,7 +24,18 @@
       "marketValue": 4,
       "contractUntil": "2027-06-30",
       "shirtNumber": 13,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Fulham",
+          "toClubId": "girona"
+        }
+      ]
     },
     {
       "id": "arnau-martinez",
@@ -150,7 +161,27 @@
       "marketValue": 6,
       "contractUntil": "2027-06-30",
       "shirtNumber": 21,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2020-09-02",
+          "fee": 39,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Ajax",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2024-07-13",
+          "fee": 0.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-united",
+          "toClubId": "girona"
+        }
+      ]
     },
     {
       "id": "cristhian-stuani",
@@ -164,7 +195,18 @@
       "marketValue": 2,
       "contractUntil": "2026-06-30",
       "shirtNumber": 7,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2017-07-25",
+          "fee": 2,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Middlesbrough",
+          "toClubId": "girona"
+        }
+      ]
     },
     {
       "id": "bryan-gil",
@@ -178,7 +220,27 @@
       "marketValue": 10,
       "contractUntil": "2030-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-31",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sevilla",
+          "toClubId": "tottenham"
+        },
+        {
+          "date": "2025-07-21",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "tottenham",
+          "toClubId": "girona"
+        }
+      ]
     },
     {
       "id": "vladyslav-vanat",
@@ -192,7 +254,18 @@
       "marketValue": 12,
       "contractUntil": "2030-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-09-01",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Dynamo de Kiev",
+          "toClubId": "girona"
+        }
+      ]
     },
     {
       "id": "abel-ruiz",

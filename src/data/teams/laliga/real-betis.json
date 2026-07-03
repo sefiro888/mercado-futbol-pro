@@ -80,7 +80,27 @@
       "marketValue": 15,
       "contractUntil": "2030-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-09",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Red Bull Bragantino",
+          "toClubId": "napoli"
+        },
+        {
+          "date": "2025-07-30",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "napoli",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "diego-llorente",
@@ -136,7 +156,27 @@
       "marketValue": 8,
       "contractUntil": "2029-06-30",
       "shirtNumber": 21,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-10-05",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "espanyol",
+          "toClubName": "Bayern de Múnich"
+        },
+        {
+          "date": "2023-07-06",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leeds United",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "giovani-lo-celso",
@@ -150,7 +190,27 @@
       "marketValue": 18,
       "contractUntil": "2028-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-28",
+          "fee": 32,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "tottenham"
+        },
+        {
+          "date": "2024-08-21",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "tottenham",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "isco",
@@ -164,7 +224,36 @@
       "marketValue": 8,
       "contractUntil": "2027-06-30",
       "shirtNumber": 22,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-07-03",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Málaga CF",
+          "toClubId": "real-madrid"
+        },
+        {
+          "date": "2022-08-08",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "sevilla"
+        },
+        {
+          "date": "2023-08-04",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Agente libre",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "pablo-fornals",
@@ -178,7 +267,27 @@
       "marketValue": 10,
       "contractUntil": "2028-06-30",
       "shirtNumber": 8,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2019-06-14",
+          "fee": 28,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "villarreal",
+          "toClubId": "west-ham"
+        },
+        {
+          "date": "2024-02-01",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "west-ham",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "antony",
@@ -192,7 +301,27 @@
       "marketValue": 30,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-30",
+          "fee": 95,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Ajax",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2025-08-30",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-united",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "abde-ezzalzouli",
@@ -206,7 +335,18 @@
       "marketValue": 18,
       "contractUntil": "2028-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-09-01",
+          "fee": 7.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "cucho-hernandez",
@@ -220,7 +360,18 @@
       "marketValue": 12,
       "contractUntil": "2030-06-30",
       "shirtNumber": 12,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-02-01",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Columbus Crew",
+          "toClubId": "real-betis"
+        }
+      ]
     },
     {
       "id": "nelson-deossa",

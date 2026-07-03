@@ -24,7 +24,18 @@
       "marketValue": 30,
       "contractUntil": "2028-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-05",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Anderlecht",
+          "toClubId": "brighton"
+        }
+      ]
     },
     {
       "id": "joel-veltman",
@@ -66,7 +77,18 @@
       "marketValue": 25,
       "contractUntil": "2029-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-27",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Fenerbahçe",
+          "toClubId": "brighton"
+        }
+      ]
     },
     {
       "id": "maxim-de-cuyper",
@@ -94,7 +116,18 @@
       "marketValue": 60,
       "contractUntil": "2028-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-27",
+          "fee": 27,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Lille",
+          "toClubId": "brighton"
+        }
+      ]
     },
     {
       "id": "mats-wieffer",
@@ -136,7 +169,18 @@
       "marketValue": 45,
       "contractUntil": "2028-06-30",
       "shirtNumber": 22,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-11",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Kawasaki Frontale",
+          "toClubId": "brighton"
+        }
+      ]
     },
     {
       "id": "yankuba-minteh",
@@ -150,7 +194,18 @@
       "marketValue": 40,
       "contractUntil": "2029-06-30",
       "shirtNumber": 17,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-05",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "newcastle",
+          "toClubId": "brighton"
+        }
+      ]
     },
     {
       "id": "georginio-rutter",
@@ -164,7 +219,18 @@
       "marketValue": 35,
       "contractUntil": "2029-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-19",
+          "fee": 46,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leeds United",
+          "toClubId": "brighton"
+        }
+      ]
     },
     {
       "id": "danny-welbeck",

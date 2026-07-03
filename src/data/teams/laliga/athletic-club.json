@@ -178,7 +178,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 7,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2020-10-05",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "torino",
+          "toClubId": "athletic-club"
+        }
+      ]
     },
     {
       "id": "nico-williams",

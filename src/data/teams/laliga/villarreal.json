@@ -38,7 +38,18 @@
       "marketValue": 22,
       "contractUntil": "2026-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "tottenham",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "logan-costa",
@@ -94,7 +105,18 @@
       "marketValue": 4,
       "contractUntil": "2026-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-08-13",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "valencia",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "santi-comesana",
@@ -108,7 +130,18 @@
       "marketValue": 15,
       "contractUntil": "2028-06-30",
       "shirtNumber": 14,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-13",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "rayo-vallecano",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "thomas-partey",
@@ -122,7 +155,27 @@
       "marketValue": 8,
       "contractUntil": "2026-06-30",
       "shirtNumber": 22,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2020-10-05",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atletico-madrid",
+          "toClubId": "arsenal"
+        },
+        {
+          "date": "2025-08-05",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "alberto-moleiro",
@@ -136,7 +189,18 @@
       "marketValue": 20,
       "contractUntil": "2030-06-30",
       "shirtNumber": 16,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-08",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "UD Las Palmas",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "ayoze-perez",
@@ -150,7 +214,18 @@
       "marketValue": 12,
       "contractUntil": "2028-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-29",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "tajon-buchanan",
@@ -164,7 +239,27 @@
       "marketValue": 12,
       "contractUntil": "2030-06-30",
       "shirtNumber": 17,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-01-31",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Club Brujas",
+          "toClubId": "inter"
+        },
+        {
+          "date": "2025-07-04",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "georges-mikautadze",
@@ -178,7 +273,27 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-25",
+          "fee": 18.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Metz",
+          "toClubName": "Olympique de Lyon"
+        },
+        {
+          "date": "2025-09-01",
+          "fee": 31,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "gerard-moreno",
@@ -192,7 +307,18 @@
       "marketValue": 8,
       "contractUntil": "2026-06-30",
       "shirtNumber": 11,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2018-06-20",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "espanyol",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "nicolas-pepe",
@@ -206,7 +332,27 @@
       "marketValue": 8,
       "contractUntil": "2027-06-30",
       "shirtNumber": 19,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2019-08-01",
+          "fee": 80,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Lille",
+          "toClubId": "arsenal"
+        },
+        {
+          "date": "2024-08-31",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Trabzonspor",
+          "toClubId": "villarreal"
+        }
+      ]
     },
     {
       "id": "mathias-olivera",

@@ -409,7 +409,18 @@
       "marketValue": 50,
       "contractUntil": "2031-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-02-01",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Blackburn Rovers",
+          "toClubId": "crystal-palace"
+        }
+      ]
     }
   ]
 }
