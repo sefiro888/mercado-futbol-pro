@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom'
 import StatusBadge from './StatusBadge.jsx'
 import ReliabilityBadge from './ReliabilityBadge.jsx'
 import SourceBadge from './SourceBadge.jsx'
+import Badge from './Badge.jsx'
 import Icon from './Icon.jsx'
 import Crest from './Crest.jsx'
 import { RUMOUR_STATUS, OPERATION_TYPE, resolve } from '@/lib/taxonomy.js'
 import { formatDate } from '@/lib/format.js'
-import { getPlayerById, getClubById, getSources } from '@/lib/data.js'
+import { getPlayerById, getClubById, getSources, getRumourOutcome } from '@/lib/data.js'
 import { clubLogoUrl } from '@/lib/logos.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
 import './RumourCard.css'
@@ -25,6 +26,8 @@ export default function RumourCard({ rumour }) {
   const isRenewal = rumour.operationType === 'renovacion'
   // "Caliente": fiabilidad alta/oficial y operación todavía viva.
   const isHot = ['alta', 'oficial'].includes(rumour.reliability) && rumour.status !== 'descartado'
+  // Veredicto contra la realidad: se cruza con los traspasos confirmados.
+  const outcome = getRumourOutcome(rumour)
 
   const photoUrl = player && !imgError ? playerPhotoUrl(player) : null
   const clubColor = interested?.primaryColor || current?.primaryColor || '#a78bfa'
@@ -50,6 +53,8 @@ export default function RumourCard({ rumour }) {
           <StatusBadge map={RUMOUR_STATUS} value={rumour.status} />
           <ReliabilityBadge level={rumour.reliability} />
           <span className="chip">{operation.label}</span>
+          {outcome === 'cumplido' && <Badge tone="success">✓ Se cumplió</Badge>}
+          {outcome === 'fallido' && <Badge tone="danger">✗ No se cumplió</Badge>}
         </div>
         <span className="rumour-date dim">Act. {formatDate(rumour.lastUpdated)}</span>
       </div>
@@ -74,7 +79,7 @@ export default function RumourCard({ rumour }) {
             <span>{current.name}</span>
           </Link>
         ) : (
-          <span className="club-pill">{rumour.currentClubId || '—'}</span>
+          <span className="club-pill">{rumour.currentClubName || rumour.currentClubId || '—'}</span>
         )}
 
         <span className="arrow" aria-hidden="true">{isRenewal ? '↻' : '→'}</span>
@@ -87,7 +92,7 @@ export default function RumourCard({ rumour }) {
             <span>{interested.name}</span>
           </Link>
         ) : (
-          <span className="club-pill">{rumour.interestedClubId || '—'}</span>
+          <span className="club-pill">{rumour.interestedClubName || rumour.interestedClubId || '—'}</span>
         )}
       </div>
 

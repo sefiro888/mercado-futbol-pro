@@ -1,25 +1,36 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, lazy, Suspense } from 'react'
 
 import Header from '@/components/Header.jsx'
 import Footer from '@/components/Footer.jsx'
 import ScrollProgress from '@/components/ScrollProgress.jsx'
 
-import Home from '@/pages/Home.jsx'
-import News from '@/pages/News.jsx'
-import Transfers from '@/pages/Transfers.jsx'
-import Clubs from '@/pages/Clubs.jsx'
-import ClubDetail from '@/pages/ClubDetail.jsx'
-import Players from '@/pages/Players.jsx'
-import PlayerDetail from '@/pages/PlayerDetail.jsx'
-import Rumours from '@/pages/Rumours.jsx'
-import NotFound from '@/pages/NotFound.jsx'
+// Carga perezosa por página: el navegador solo descarga el código de la
+// sección que visita. Acelera mucho la primera carga, sobre todo en móvil.
+const Home = lazy(() => import('@/pages/Home.jsx'))
+const News = lazy(() => import('@/pages/News.jsx'))
+const Transfers = lazy(() => import('@/pages/Transfers.jsx'))
+const Clubs = lazy(() => import('@/pages/Clubs.jsx'))
+const ClubDetail = lazy(() => import('@/pages/ClubDetail.jsx'))
+const Players = lazy(() => import('@/pages/Players.jsx'))
+const PlayerDetail = lazy(() => import('@/pages/PlayerDetail.jsx'))
+const Rumours = lazy(() => import('@/pages/Rumours.jsx'))
+const NotFound = lazy(() => import('@/pages/NotFound.jsx'))
 
 // Vuelve arriba al cambiar de ruta (mejor UX en navegación SPA).
 function ScrollToTop() {
   const { pathname } = useLocation()
   useEffect(() => window.scrollTo(0, 0), [pathname])
   return null
+}
+
+// Indicador mínimo mientras se descarga el código de una página.
+function RouteLoader() {
+  return (
+    <div className="route-loader" role="status" aria-label="Cargando sección">
+      <span className="route-loader-ball" />
+    </div>
+  )
 }
 
 export default function App() {
@@ -34,17 +45,19 @@ export default function App() {
       <Header />
       <main id="contenido">
         <div className="route-view" key={pathname}>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/noticias" element={<News />} />
-            <Route path="/fichajes" element={<Transfers />} />
-            <Route path="/clubes" element={<Clubs />} />
-            <Route path="/clubes/:slug" element={<ClubDetail />} />
-            <Route path="/jugadores" element={<Players />} />
-            <Route path="/jugadores/:slug" element={<PlayerDetail />} />
-            <Route path="/rumores" element={<Rumours />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
+          <Suspense fallback={<RouteLoader />}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/noticias" element={<News />} />
+              <Route path="/fichajes" element={<Transfers />} />
+              <Route path="/clubes" element={<Clubs />} />
+              <Route path="/clubes/:slug" element={<ClubDetail />} />
+              <Route path="/jugadores" element={<Players />} />
+              <Route path="/jugadores/:slug" element={<PlayerDetail />} />
+              <Route path="/rumores" element={<Rumours />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Suspense>
         </div>
       </main>
       <Footer />

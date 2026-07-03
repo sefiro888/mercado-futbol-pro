@@ -723,6 +723,28 @@ table.data tbody tr { transition: background 0.15s var(--ease); }
   transition: transform 0.08s linear;
 }
 
+/* --------------------------------------------------------------- Cargador de sección */
+/* Balón que bota mientras se descarga el código de la página (lazy loading). */
+.route-loader {
+  display: grid;
+  place-items: center;
+  min-height: 46vh;
+}
+.route-loader-ball {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 32% 30%, rgba(255, 255, 255, 0.85) 0 18%, transparent 20%),
+    conic-gradient(var(--brand), var(--accent, #38bdf8), var(--brand));
+  box-shadow: 0 12px 22px -8px rgba(0, 0, 0, 0.7);
+  animation: loaderBounce 0.7s ease-in-out infinite alternate;
+}
+@keyframes loaderBounce {
+  from { transform: translateY(-14px) scale(1); }
+  to   { transform: translateY(10px) scale(0.94, 1.04); }
+}
+
 /* --------------------------------------------------------------- Transición entre rutas */
 .route-view { animation: routeIn 0.42s var(--ease) both; }
 @keyframes routeIn {

@@ -434,12 +434,17 @@
   .list-layout { gap: 14px; }
 }
 
-/* --- Dashboard de rumores: Guía + Termómetro --- */
+/* --- Dashboard de rumores: Guía + Ranking de fuentes + Termómetro --- */
 .rumours-dashboard-layout {
   display: grid;
   grid-template-columns: 1fr 340px;
   gap: 24px;
   align-items: stretch;
+}
+.thermometer-card-col {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .reliability-guide-col {

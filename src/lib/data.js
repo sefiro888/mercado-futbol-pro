@@ -231,6 +231,58 @@ export const getAllTransfers = () => [...transfers()].sort(byDateDesc)
 export const getAllRumours = () => [...rumours()].sort(byDateDesc)
 
 // ---------------------------------------------------------------------------
+// Resolución de rumores contra la realidad: cruza cada rumor con los traspasos
+// confirmados para saber si se cumplió, falló o sigue pendiente. De ahí sale
+// el ranking de qué fuentes aciertan más (sin mantener nada a mano).
+// ---------------------------------------------------------------------------
+export function getRumourOutcome(rumour) {
+  if (rumour.status === 'descartado') return 'fallido'
+  const moves = transfers().filter(
+    (t) => t.playerId === rumour.playerId && t.status === 'confirmado' && t.transferDate,
+  )
+  // Solo cuentan los traspasos posteriores (o casi) a la última actualización
+  // del rumor: un fichaje viejo no valida un rumor nuevo.
+  const since = rumour.lastUpdated ? new Date(rumour.lastUpdated) : null
+  const after = since
+    ? moves.filter((t) => new Date(t.transferDate) >= since)
+    : moves
+  if (rumour.operationType === 'renovacion') {
+    // Una renovación se da por fallida si el jugador acabó saliendo del club.
+    return after.some((t) => t.fromClubId === rumour.currentClubId) ? 'fallido' : 'pendiente'
+  }
+  if (after.some((t) => t.toClubId === rumour.interestedClubId)) return 'cumplido'
+  if (after.length > 0) return 'fallido'
+  return 'pendiente'
+}
+
+export function getSourceAccuracyRanking() {
+  const bySource = new Map()
+  rumours().forEach((r) => {
+    const outcome = getRumourOutcome(r)
+    ;(r.sources || []).forEach((id) => {
+      const e = bySource.get(id) || { hits: 0, misses: 0, pending: 0, total: 0 }
+      if (outcome === 'cumplido') e.hits += 1
+      else if (outcome === 'fallido') e.misses += 1
+      else e.pending += 1
+      e.total += 1
+      bySource.set(id, e)
+    })
+  })
+  return [...bySource.entries()]
+    .map(([id, s]) => {
+      const resolved = s.hits + s.misses
+      return {
+        source: getSourceById(id),
+        ...s,
+        resolved,
+        accuracy: resolved > 0 ? s.hits / resolved : null,
+      }
+    })
+    .filter((row) => row.source)
+    .sort((a, b) => (b.accuracy ?? -1) - (a.accuracy ?? -1) || b.total - a.total)
+}
+
+// ---------------------------------------------------------------------------
 // Interfaz async (preparada para API/Supabase).
 // Cuando migres, cambia el cuerpo por un fetch/consulta y conserva la firma.
 // ---------------------------------------------------------------------------

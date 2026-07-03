@@ -184,5 +184,82 @@
     ],
     "summary": "El Barça negocia ejecutar la opción de compra tras la cesión. Rumor ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-19"
+  },
+  {
+    "id": "ru25-wirtz-liverpool",
+    "playerId": "florian-wirtz",
+    "currentClubId": null,
+    "interestedClubId": "liverpool",
+    "operationType": "compra",
+    "status": "acuerdo-cercano",
+    "reliability": "alta",
+    "sources": [
+      "src-fabrizio-romano",
+      "src-sky-sports"
+    ],
+    "summary": "El Liverpool negocia con el Leverkusen el fichaje récord de Wirtz; el Bayern se retiró de la puja. Resumen propio.",
+    "lastUpdated": "2025-06-05",
+    "currentClubName": "Bayer Leverkusen"
+  },
+  {
+    "id": "ru25-isak-liverpool",
+    "playerId": "alexander-isak",
+    "currentClubId": "newcastle",
+    "interestedClubId": "liverpool",
+    "operationType": "compra",
+    "status": "negociacion",
+    "reliability": "alta",
+    "sources": [
+      "src-sky-sports",
+      "src-bbc-sport"
+    ],
+    "summary": "Isak fuerza su salida del Newcastle y el Liverpool prepara una oferta récord británica. Resumen propio.",
+    "lastUpdated": "2025-08-12"
+  },
+  {
+    "id": "ru25-rashford-barcelona",
+    "playerId": "marcus-rashford",
+    "currentClubId": "manchester-united",
+    "interestedClubId": "barcelona",
+    "operationType": "compra",
+    "status": "negociacion",
+    "reliability": "alta",
+    "sources": [
+      "src-fabrizio-romano",
+      "src-marca"
+    ],
+    "summary": "El Barça negocia la llegada de Rashford tras su ruptura con Amorim en el United. Resumen propio.",
+    "lastUpdated": "2025-07-10"
+  },
+  {
+    "id": "ru25-ekitike-newcastle",
+    "playerId": "hugo-ekitike",
+    "currentClubId": null,
+    "interestedClubId": "newcastle",
+    "operationType": "compra",
+    "status": "oferta-enviada",
+    "reliability": "media",
+    "sources": [
+      "src-sky-sports",
+      "src-bbc-sport"
+    ],
+    "summary": "El Newcastle presenta una oferta de unos 80 M€ al Eintracht por Ekitike como recambio de Isak. Resumen propio.",
+    "lastUpdated": "2025-07-15",
+    "currentClubName": "Eintracht Fráncfort"
+  },
+  {
+    "id": "ru25-garnacho-napoli",
+    "playerId": "alejandro-garnacho",
+    "currentClubId": "manchester-united",
+    "interestedClubId": "napoli",
+    "operationType": "compra",
+    "status": "contactos",
+    "reliability": "media",
+    "sources": [
+      "src-fabrizio-romano",
+      "src-gazzetta"
+    ],
+    "summary": "El Nápoles de Conte insiste por Garnacho, señalado como transferible en el United. Resumen propio.",
+    "lastUpdated": "2025-06-20"
   }
 ]

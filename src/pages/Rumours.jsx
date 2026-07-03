@@ -3,6 +3,7 @@ import RumourCard from '@/components/RumourCard.jsx'
 import FilterPanel from '@/components/FilterPanel.jsx'
 import Icon from '@/components/Icon.jsx'
 import StatCard from '@/components/StatCard.jsx'
+import SourceRanking from '@/components/SourceRanking.jsx'
 import { setPageSeo } from '@/lib/seo.js'
 import PremiumHeader from '@/components/PremiumHeader.jsx'
 import { RUMOUR_STATUS, RELIABILITY, OPERATION_TYPE } from '@/lib/taxonomy.js'
@@ -100,6 +101,7 @@ export default function Rumours() {
           </div>
 
           <div className="thermometer-card-col">
+            <SourceRanking />
             <div className="card thermometer-card" style={{ '--temp-c': stats.temp > 75 ? '#ef4444' : stats.temp > 50 ? '#f59e0b' : '#22c55e' }}>
               <div className="tc-header">
                 <Icon name="flame" size={20} className="tc-flame-icon" />
