@@ -1,131 +1,282 @@
-/* Estilos compartidos por ClubProfile y PlayerProfile. */
+/* ===========================================================================
+   DISEÑO DE PERFILES PREMIUM (CLUB & JUGADOR HEROES)
+   Estilos para cabeceras hero monumentales con focos radiales de estadio,
+   biseles metálicos, marcas de agua flotantes y layouts dinámicos teñidos
+   del color de cada club.
+   =========================================================================== */
 
 .profile-hero {
   position: relative;
   overflow: hidden;
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px;
-  margin-bottom: 28px;
-  background: var(--bg-card);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+  padding: 40px;
+  margin-bottom: 32px;
+  background: 
+    linear-gradient(135deg, 
+      color-mix(in srgb, var(--hero-color, var(--brand)) 14%, #121826) 0%, 
+      #0b0f17 100%);
+  box-shadow: 
+    0 25px 55px rgba(0, 0, 0, 0.55),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
   animation: fadeInUp 0.5s var(--ease) both;
 }
+
+/* Foco radial de estadio que proyecta luz desde la esquina superior izquierda */
 .profile-hero::before {
   content: '';
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(70% 120% at 0% 0%, var(--hero-color, var(--brand)) 0%, transparent 55%),
-    radial-gradient(60% 100% at 100% 100%, var(--brand-2) 0%, transparent 60%);
-  opacity: 0.16;
+    radial-gradient(80% 130% at 0% 0%, color-mix(in srgb, var(--hero-color, var(--brand)) 55%, transparent) 0%, transparent 60%),
+    radial-gradient(70% 100% at 100% 100%, rgba(45, 212, 191, 0.15) 0%, transparent 65%);
+  opacity: 0.28;
   pointer-events: none;
 }
-/* Línea de acento superior */
+
+/* Línea de acento superior metálica */
 .profile-hero::after {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--grad-brand);
-  opacity: 0.85;
+  height: 4px;
+  background: linear-gradient(90deg, var(--hero-color, var(--brand)), rgba(45, 212, 191, 0.8), transparent 90%);
+  opacity: 1;
 }
+
 .profile-hero-inner {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 32px;
+  flex-wrap: wrap;
+  z-index: 2;
+}
+
+.profile-hero h1 {
+  margin: 0 0 6px;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  font-family: var(--font-display);
+  font-weight: 900;
+  line-height: 1.05;
+  color: #fff;
+  text-shadow: 0 3px 12px rgba(0,0,0,0.55);
+}
+
+.profile-hero .hero-sub {
+  color: var(--text-muted);
+  font-size: 1.08rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
   flex-wrap: wrap;
 }
-.profile-hero h1 { margin: 0 0 4px; }
-.profile-hero .hero-sub { color: var(--text-muted); font-size: 1rem; }
-.profile-hero .hero-club { display: inline-flex; align-items: center; gap: 7px; font-weight: 600; color: var(--text); }
-.profile-hero .hero-club:hover { color: var(--brand); }
-.profile-hero .hero-club .crest { flex-shrink: 0; vertical-align: middle; }
-.profile-hero .chip { display: inline-flex; align-items: center; gap: 6px; }
-.profile-hero .hero-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
 
-.profile-section { margin-top: 36px; }
-.profile-section:first-of-type { margin-top: 0; }
+.profile-hero .hero-club {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #fff;
+  transition: color 0.2s var(--ease);
+}
+.profile-hero .hero-club:hover {
+  color: var(--brand);
+}
+.profile-hero .hero-club .crest {
+  flex-shrink: 0;
+  vertical-align: middle;
+}
 
-/* --- Barra de peso del jugador en la plantilla --- */
-.value-weight {
+.profile-hero .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-family: var(--font-display);
+  font-weight: 700;
+}
+
+.profile-hero .hero-tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
   margin-top: 18px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
+}
+
+.profile-section {
+  margin-top: 44px;
+}
+.profile-section:first-of-type {
+  margin-top: 0;
+}
+
+/* --- Barra de peso del jugador en la plantilla (Telemetry widget) --- */
+.value-weight {
+  margin-top: 24px;
+  background: rgba(21, 28, 44, 0.65);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-strong);
   border-radius: var(--radius);
-  padding: 16px 18px;
+  padding: 20px 22px;
+  box-shadow: var(--shadow-sm);
 }
 .vw-head {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  font-weight: 600;
-  margin-bottom: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.98rem;
+  margin-bottom: 12px;
 }
-.vw-head .num { font-size: 1.3rem; font-weight: 800; color: var(--brand); }
+.vw-head .num {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--brand);
+}
 .vw-bar {
-  height: 12px;
+  height: 14px;
   border-radius: 999px;
-  background: var(--bg-input);
+  background: rgba(8, 12, 20, 0.6);
   overflow: hidden;
-  border: 1px solid var(--border);
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 .vw-fill {
   height: 100%;
   border-radius: 999px;
   background: var(--grad-brand);
-  box-shadow: 0 0 12px rgba(34, 197, 94, 0.5);
-  animation: growWidth 1s var(--ease) both;
+  box-shadow: 0 0 16px rgba(34, 197, 94, 0.7);
+  animation: growWidth 1.2s var(--ease) both;
 }
-@keyframes growWidth { from { width: 0 !important; } }
-.vw-note { font-size: 0.8rem; margin: 8px 0 0; }
+@keyframes growWidth {
+  from { width: 0 !important; }
+}
+.vw-note {
+  font-size: 0.82rem;
+  margin: 10px 0 0;
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.data-audit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.data-audit-card {
+  padding: 16px 18px;
+  border-radius: var(--radius);
+  background: rgba(21, 28, 44, 0.75);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.data-audit-card span,
+.data-audit-card small {
+  display: block;
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.data-audit-card strong {
+  display: block;
+  margin-top: 4px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+}
+
+.data-audit-card small {
+  margin-top: 2px;
+  color: var(--text-muted);
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: none;
+}
 
 /* --- Pestañas de la ficha de club --- */
 .club-tabs {
   display: flex;
-  gap: 4px;
-  margin-top: 28px;
-  padding: 5px;
-  background: var(--bg-elevated);
+  gap: 6px;
+  margin-top: 32px;
+  padding: 6px;
+  background: rgba(18, 24, 38, 0.65);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   overflow-x: auto;
   scrollbar-width: none;
+  box-shadow: var(--shadow-sm);
 }
-.club-tabs::-webkit-scrollbar { display: none; }
+.club-tabs::-webkit-scrollbar {
+  display: none;
+}
 .club-tabs button {
   flex: 1;
   min-width: max-content;
   border: none;
   background: transparent;
   color: var(--text-muted);
+  font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.92rem;
-  padding: 10px 20px;
+  font-size: 0.95rem;
+  padding: 11px 22px;
   border-radius: var(--radius-pill);
   white-space: nowrap;
-  transition: background 0.18s var(--ease), color 0.18s var(--ease), transform 0.1s var(--ease);
+  transition: 
+    background 0.22s var(--ease), 
+    color 0.22s var(--ease), 
+    transform 0.1s var(--ease);
 }
-.club-tabs button:hover { color: var(--text); }
-.club-tabs button:active { transform: scale(0.97); }
+.club-tabs button:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.03);
+}
+.club-tabs button:active {
+  transform: scale(0.97);
+}
 .club-tabs button.active {
-  background: var(--grad-brand);
-  color: #052e16;
-  box-shadow: 0 6px 16px -8px rgba(34, 197, 94, 0.7);
+  background: linear-gradient(135deg, var(--hero-color, var(--brand)), color-mix(in srgb, var(--hero-color, var(--brand)) 60%, #000));
+  color: #fff;
+  box-shadow: 0 8px 20px -8px color-mix(in srgb, var(--hero-color, var(--brand)) 90%, transparent);
 }
-.club-tab-body { margin-top: 26px; animation: fadeIn 0.35s var(--ease); }
-.club-tab-body .profile-section:first-child { margin-top: 0; }
+.club-tab-body {
+  margin-top: 30px;
+  animation: fadeIn 0.4s var(--ease);
+}
 
 /* --- Badge de posición coloreado por demarcación --- */
-.pos-badge { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 0.82rem; }
-.pos-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.pos-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+}
+.pos-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 6px currentColor;
+}
 
 /* --- Toggle de vista (Cromos / Tabla) --- */
 .view-toggle {
   display: inline-flex;
-  gap: 3px;
-  padding: 3px;
-  background: var(--bg-elevated);
+  gap: 4px;
+  padding: 4px;
+  background: rgba(18, 24, 38, 0.65);
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
 }
@@ -133,64 +284,504 @@
   border: none;
   background: transparent;
   color: var(--text-muted);
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.8rem;
-  padding: 5px 14px;
+  padding: 6px 16px;
   border-radius: var(--radius-pill);
-  transition: background 0.15s var(--ease), color 0.15s var(--ease);
+  transition: background 0.18s var(--ease), color 0.18s var(--ease);
 }
-.view-toggle button:hover { color: var(--text); }
-.view-toggle button.active { background: var(--hero-color, var(--brand)); color: #fff; }
-
-/* --- El hero y las pestañas se tiñen con el color del club --- */
-.profile-hero { border-color: color-mix(in srgb, var(--hero-color, var(--brand)) 30%, var(--border)); }
-.profile-hero::after { background: var(--hero-color, var(--brand)); opacity: 1; }
-.club-tabs button.active {
-  background: linear-gradient(135deg, var(--hero-color, var(--brand)), color-mix(in srgb, var(--hero-color, var(--brand)) 55%, #000));
+.view-toggle button:hover {
   color: #fff;
-  box-shadow: 0 6px 16px -8px color-mix(in srgb, var(--hero-color, var(--brand)) 90%, transparent);
+}
+.view-toggle button.active {
+  background: var(--hero-color, var(--brand));
+  color: #fff;
+  box-shadow: 0 4px 10px -3px color-mix(in srgb, var(--hero-color, var(--brand)) 90%, transparent);
 }
 
-/* Cuadrícula de datos clave (datos personales/deportivos). */
+/* --- Enlace e interacciones del color del club --- */
+.profile-hero {
+  border-color: color-mix(in srgb, var(--hero-color, var(--brand)) 25%, var(--border));
+}
+
+/* Cuadrícula de datos clave (Telemetry telemetry boxes) */
 .data-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 1px;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5px;
   background: var(--border);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
+  box-shadow: var(--shadow-sm);
 }
 .data-grid .dg-item {
   background: var(--bg-card);
-  padding: 14px 16px;
+  padding: 16px 18px;
+  transition: background-color 0.2s var(--ease);
+}
+.data-grid .dg-item:hover {
+  background: var(--bg-card-hover);
 }
 .data-grid .dg-k {
-  font-size: 0.7rem;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   color: var(--text-dim);
-  font-weight: 700;
-  margin-bottom: 4px;
+  font-weight: 800;
+  margin-bottom: 6px;
 }
-.data-grid .dg-v { font-weight: 600; }
+.data-grid .dg-v {
+  font-weight: 700;
+  color: #fff;
+}
 
-/* Listas de historial (clubes / transferencias). */
-.timeline { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.timeline li {
+/* --- Historial de clubes (Pills con conectores) --- */
+.club-history-timeline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  background: rgba(21, 28, 44, 0.4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.club-history-node {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.club-history-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(18, 24, 38, 0.85);
+  border: 1px solid color-mix(in srgb, var(--club-c) 30%, var(--border));
+  border-radius: var(--radius-pill);
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: 
+    transform 0.25s var(--ease), 
+    border-color 0.25s var(--ease),
+    box-shadow 0.25s var(--ease);
+}
+
+.club-history-pill:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--club-c) 80%, #fff 15%);
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.45),
+    0 0 15px -4px color-mix(in srgb, var(--club-c) 60%, transparent);
+}
+
+.club-history-connector {
+  font-weight: 900;
+  color: var(--brand);
+  font-size: 1.1rem;
+  text-shadow: 0 0 8px color-mix(in srgb, var(--brand) 55%, transparent);
+  pointer-events: none;
+}
+
+/* --- Historial de transferencias (Timeline premium vertical) --- */
+.visual-timeline-container {
+  position: relative;
+  padding-left: 20px;
+}
+
+.visual-timeline-container::before {
+  content: '';
+  position: absolute;
+  left: 38px;
+  top: 15px;
+  bottom: 15px;
+  width: 3px;
+  background: linear-gradient(180deg, var(--brand) 0%, rgba(56, 189, 248, 0.5) 50%, rgba(255, 255, 255, 0.05) 100%);
+  border-radius: 99px;
+  opacity: 0.55;
+}
+
+.visual-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vt-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  align-items: center;
+  gap: 20px;
+  background: 
+    radial-gradient(100% 100% at 0% 0%, color-mix(in srgb, var(--to-club-c) 8%, transparent), transparent 75%),
+    linear-gradient(168deg, #121826 0%, #080b11 100%);
+  border: 1px solid color-mix(in srgb, var(--to-club-c) 25%, var(--border));
+  border-radius: var(--radius);
+  padding: 16px 24px;
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  transition: 
+    transform 0.3s var(--ease), 
+    border-color 0.3s var(--ease), 
+    box-shadow 0.3s var(--ease);
+}
+
+.vt-item:hover {
+  transform: translateX(6px);
+  border-color: color-mix(in srgb, var(--to-club-c) 85%, #fff 15%);
+  box-shadow: 
+    0 12px 32px rgba(0, 0, 0, 0.7), 
+    0 0 25px -10px color-mix(in srgb, var(--to-club-c) 70%, transparent);
+}
+
+/* Indicador circular de nodo en la línea */
+.vt-item::before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--to-club-c);
+  border: 3.5px solid #080b11;
+  box-shadow: 0 0 12px var(--to-club-c);
+  z-index: 5;
+  transition: transform 0.3s var(--ease);
+}
+
+.vt-item:hover::before {
+  transform: translateY(-50%) scale(1.35);
+}
+
+.vt-season-badge {
+  font-family: var(--font-mono);
+  font-weight: 900;
+  font-size: 1rem;
+  color: var(--brand);
+  background: var(--grad-brand-soft);
+  border: 1px solid rgba(45, 212, 191, 0.2);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+.vt-clubs {
   display: flex;
   align-items: center;
   gap: 12px;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  padding: 12px 16px;
   flex-wrap: wrap;
 }
-.timeline .tl-season { font-family: var(--font-mono); color: var(--brand); font-weight: 700; min-width: 54px; }
-.timeline .tl-main { flex: 1; min-width: 180px; }
-.timeline .tl-fee { font-family: var(--font-mono); font-weight: 700; }
 
+.vt-sources {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.vt-club-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-weight: 700;
+  transition: color 0.2s var(--ease);
+}
+
+.vt-club-link:hover {
+  color: #fff;
+}
+
+.vt-club-to {
+  color: #fff;
+}
+
+.vt-arrow {
+  color: var(--brand);
+  font-weight: 900;
+  font-size: 1.1rem;
+}
+
+.vt-club-text {
+  color: var(--text-dim);
+  font-weight: 500;
+}
+
+.vt-fee-badge {
+  font-family: var(--font-mono);
+  font-weight: 900;
+  font-size: 1.08rem;
+  color: var(--gold);
+  background: rgba(251, 191, 36, 0.08);
+  border: 1px solid rgba(251, 191, 36, 0.2);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+}
+
+@media (max-width: 680px) {
+  .visual-timeline-container::before {
+    display: none;
+  }
+  .visual-timeline-container {
+    padding-left: 0;
+  }
+  .vt-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 16px;
+  }
+  .vt-item::before {
+    display: none;
+  }
+  .vt-season-badge {
+    align-self: flex-start;
+  }
+  .vt-fee-badge {
+    align-self: flex-end;
+  }
+
+  .data-audit-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- Estilos de Retrato Real del Jugador en el Hero --- */
+.hero-player-watermark {
+  position: absolute;
+  right: 5%;
+  bottom: -10px;
+  height: 110%;
+  max-height: 290px;
+  width: auto;
+  object-fit: contain;
+  object-position: bottom right;
+  opacity: 0.16;
+  filter: grayscale(100%) contrast(1.15) brightness(0.6);
+  mix-blend-mode: screen;
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.4s var(--ease), filter 0.4s var(--ease), transform 0.4s var(--ease);
+}
+.profile-hero:hover .hero-player-watermark {
+  opacity: 0.35;
+  filter: grayscale(30%) contrast(1.2) brightness(0.95);
+  transform: translateY(-5px) scale(1.03);
+}
+
+.profile-hero-photo-wrap {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  border: 3px solid color-mix(in srgb, var(--hero-color, var(--brand)) 70%, #ffffff);
+  background: rgba(14, 20, 31, 0.7);
+  box-shadow: 
+    0 10px 25px rgba(0,0,0,0.55),
+    0 0 15px -3px color-mix(in srgb, var(--hero-color, var(--brand)) 50%, transparent);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+.profile-hero:hover .profile-hero-photo-wrap {
+  transform: scale(1.05);
+  box-shadow: 
+    0 12px 30px rgba(0,0,0,0.7),
+    0 0 20px color-mix(in srgb, var(--hero-color, var(--brand)) 70%, transparent);
+}
+.profile-hero-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* Avatar placeholder en el Hero de Perfil (cuando no hay foto de ESPN) */
+.profile-hero-placeholder-avatar {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid color-mix(in srgb, var(--hero-color, var(--brand)) 70%, #ffffff);
+  background: radial-gradient(circle, color-mix(in srgb, var(--hero-color, var(--brand)) 40%, transparent) 0%, rgba(255, 255, 255, 0.03) 100%);
+  box-shadow: 
+    0 10px 25px rgba(0,0,0,0.55),
+    0 0 15px -3px color-mix(in srgb, var(--hero-color, var(--brand)) 50%, transparent);
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+
+.profile-hero:hover .profile-hero-placeholder-avatar {
+  transform: scale(1.05);
+  box-shadow: 
+    0 12px 30px rgba(0,0,0,0.7),
+    0 0 20px color-mix(in srgb, var(--hero-color, var(--brand)) 70%, transparent);
+}
+
+.profile-placeholder-svg {
+  width: 80%;
+  height: 80%;
+  color: rgba(255, 255, 255, 0.22);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
+  transition: color 0.3s var(--ease);
+}
+
+.profile-hero:hover .profile-placeholder-svg {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.profile-placeholder-initials {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.65rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(8, 12, 20, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
+
+
+@media (max-width: 760px) {
+  .profile-hero {
+    padding: 30px;
+    margin-bottom: 24px;
+  }
+  .profile-hero h1 {
+    font-size: 2.3rem;
+  }
+  .hero-player-watermark {
+    max-height: 220px;
+    right: 2%;
+  }
+}
 @media (max-width: 620px) {
-  .profile-hero { padding: 20px; }
+  .profile-hero {
+    padding: 24px 20px;
+  }
+  .profile-hero-inner {
+    gap: 20px;
+  }
+}
+
+/* --- Agente Libre / Sin Club --- */
+.free-agent-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(100, 116, 139, 0.12);
+  border: 1px solid rgba(100, 116, 139, 0.25);
+  color: #94a3b8;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.free-agent-tag {
+  background: rgba(148, 163, 184, 0.1);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  color: #94a3b8;
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* --- Tabla de Trayectoria y Estadísticas (Goles) --- */
+.player-career-table th {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+}
+
+.player-career-table tbody tr {
+  transition: background-color 0.2s var(--ease);
+}
+
+.player-career-table tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.player-career-table .cell-club {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: #fff;
+  transition: color 0.2s var(--ease);
+}
+
+.player-career-table .cell-club:hover {
+  color: var(--brand);
+}
+
+@media (max-width: 600px) {
+  .player-career-table thead {
+    display: none;
+  }
+  .player-career-table tbody tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 12px;
+    padding: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .player-career-table tbody td {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0 !important;
+    border: none !important;
+    font-size: 0.85rem;
+    text-align: left !important;
+  }
+  .player-career-table tbody td::before {
+    content: attr(data-label);
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    font-weight: 700;
+  }
+  .player-career-table tbody td[data-label="Temporada"] {
+    grid-column: 1 / -1;
+    font-size: 1rem;
+    font-weight: 800;
+    border-bottom: 1px solid rgba(255,255,255,0.05) !important;
+    padding-bottom: 6px !important;
+  }
+  .player-career-table tbody td[data-label="Temporada"]::before {
+    display: none;
+  }
 }

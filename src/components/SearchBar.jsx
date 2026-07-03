@@ -35,7 +35,10 @@ export default function SearchBar({
         autoFocus={autoFocus}
         aria-label={placeholder}
       />
-      <button type="submit" className="btn btn-primary">Buscar</button>
+      <button type="submit" className="btn btn-primary" aria-label="Buscar">
+        <Icon name="search" size={16} />
+        <span>Buscar</span>
+      </button>
     </form>
   )
 }

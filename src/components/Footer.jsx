@@ -37,8 +37,8 @@ export default function Footer() {
       </div>
 
       <div className="container footer-bottom">
-        <span>© {year} {SITE.name}. Proyecto de demostración.</span>
-        <span className="muted">Hecho con React + Vite.</span>
+        <span>© {year} {SITE.name}. Datos revisados a 27/06/2026.</span>
+        <span className="muted">Análisis editorial con React + Vite.</span>
       </div>
     </footer>
   )

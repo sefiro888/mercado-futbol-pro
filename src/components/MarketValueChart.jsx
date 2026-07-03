@@ -3,7 +3,7 @@ import './MarketValueChart.css'
 
 // Gráfico de evolución del valor de mercado.
 // SVG puro (sin librerías) para mantener la web ligera. Es responsive vía viewBox.
-export default function MarketValueChart({ history = [] }) {
+export default function MarketValueChart({ history = [], clubColor }) {
   if (!history || history.length < 2) {
     return <p className="muted">Sin datos suficientes para el gráfico.</p>
   }
@@ -37,7 +37,7 @@ export default function MarketValueChart({ history = [] }) {
   const trend = last.value - first.value
 
   return (
-    <div className="mv-chart">
+    <div className="mv-chart" style={clubColor ? { '--brand': clubColor } : undefined}>
       <div className="mv-head">
         <div>
           <span className="mv-current num">{formatMoney(last.value)}</span>

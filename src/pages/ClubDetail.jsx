@@ -12,7 +12,7 @@ export default function ClubDetail() {
     if (club) {
       setPageSeo({
         title: club.name,
-        description: `${club.name} (${club.league}, ${club.country}): plantilla, valor de mercado, fichajes, salidas y rumores. Datos de demostración.`,
+        description: `${club.name} (${club.league}, ${club.country}): plantilla, valor de mercado, fichajes, salidas y rumores actualizados a 27/06/2026.`,
       })
     } else {
       setPageSeo({ title: 'Club no encontrado' })
@@ -23,7 +23,7 @@ export default function ClubDetail() {
     return (
       <div className="container section empty-state">
         <h1>Club no encontrado</h1>
-        <p>El club que buscas no existe en los datos de demostración.</p>
+        <p>El club que buscas no existe en la base de datos actual.</p>
         <Link className="btn btn-primary" to="/clubes">Volver a clubes</Link>
       </div>
     )

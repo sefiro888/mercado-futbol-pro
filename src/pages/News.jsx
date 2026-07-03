@@ -3,6 +3,7 @@ import NewsCard from '@/components/NewsCard.jsx'
 import FilterPanel from '@/components/FilterPanel.jsx'
 import Icon from '@/components/Icon.jsx'
 import { setPageSeo } from '@/lib/seo.js'
+import PremiumHeader from '@/components/PremiumHeader.jsx'
 import { NEWS_CATEGORY, RELIABILITY } from '@/lib/taxonomy.js'
 import { getAllNews } from '@/lib/data.js'
 import './Pages.css'
@@ -44,15 +45,14 @@ export default function News() {
 
   return (
     <>
-      <div className="container page-header">
-        <Icon name="newspaper" size={150} className="page-watermark" />
-        <h1>Noticias</h1>
-        <p>
-          Mostramos un <strong>resumen propio</strong> de cada noticia con su medio, fecha y
-          enlace a la fuente original. No reproducimos el contenido completo de los medios.
-        </p>
-        <p className="demo-banner"><Icon name="warning" size={16} /> Resúmenes propios sobre hechos reales; algunas noticias son ejemplos ilustrativos de mercado.</p>
-      </div>
+      <PremiumHeader
+        title="Noticias"
+        description="Mostramos un resumen propio de cada noticia con su medio, fecha y enlace a la fuente original. No reproducimos el contenido completo de los medios."
+        banner="Resúmenes propios sobre hechos reales; algunas noticias son ejemplos ilustrativos de mercado."
+        tag="NOTICIAS"
+        icon="newspaper"
+        theme="news"
+      />
 
       <div className="container section">
         <div className="list-layout">
@@ -67,7 +67,13 @@ export default function News() {
           <div>
             {filtered.length > 0 ? (
               <div className="grid grid-auto">
-                {filtered.map((n) => <NewsCard key={n.id} item={n} />)}
+                {filtered.map((n, i) => (
+                  <NewsCard
+                    key={n.id}
+                    item={n}
+                    featured={i === 0 && filters.q === '' && filters.category === '' && filters.reliability === ''}
+                  />
+                ))}
               </div>
             ) : (
               <div className="empty-state">No hay noticias que coincidan con los filtros.</div>

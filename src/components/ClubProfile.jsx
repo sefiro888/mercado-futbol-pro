@@ -15,6 +15,7 @@ import { PLAYER_STATUS } from '@/lib/taxonomy.js'
 import { lineOf, shortPosition, LINE_COLOR } from '@/lib/positions.js'
 import { formatMoney, formatHeight, formatDate } from '@/lib/format.js'
 import { clubLogoUrl } from '@/lib/logos.js'
+import { playerPhotoUrl } from '@/lib/photos.js'
 import {
   getPlayersByClub,
   getTransfersByClub,
@@ -31,6 +32,48 @@ function PosBadge({ position }) {
       <span className="pos-dot" style={{ background: LINE_COLOR[lineOf(position)] }} />
       {shortPosition(position)}
     </span>
+  )
+}
+
+function initials(name = '') {
+  return name
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0])
+    .join('')
+}
+
+function PlayerTableRow({ p }) {
+  const [imgError, setImgError] = useState(false)
+  const photoUrl = !imgError ? playerPhotoUrl(p) : null
+
+  return (
+    <tr>
+      <td data-label="Jugador">
+        <div className="cell-player">
+          {photoUrl ? (
+            <div className="cell-avatar-wrap">
+              <img className="cell-avatar" src={photoUrl} alt="" onError={() => setImgError(true)} />
+            </div>
+          ) : (
+            <div className="cell-avatar-placeholder">
+              {initials(p.name)}
+            </div>
+          )}
+          <Link className="cell-link" to={`/jugadores/${p.slug}`}>{p.name}</Link>
+        </div>
+      </td>
+      <td data-label="Dorsal" className="num">{p.shirtNumber ?? '—'}</td>
+      <td data-label="Posición"><PosBadge position={p.position} /></td>
+      <td data-label="Edad" className="num">{p.age}</td>
+      <td data-label="Nacionalidad"><Flag country={p.nationality} withName /></td>
+      <td data-label="Valor" className="num strong">{formatMoney(p.marketValue)}</td>
+      <td data-label="Contrato" className="nowrap">{p.contractUntil ? formatDate(p.contractUntil) : '—'}</td>
+      <td data-label="Pie">{p.dominantFoot}</td>
+      <td data-label="Altura" className="num">{formatHeight(p.height)}</td>
+      <td data-label="Estado"><StatusBadge map={PLAYER_STATUS} value={p.status} /></td>
+    </tr>
   )
 }
 
@@ -57,18 +100,7 @@ function SquadTable({ players }) {
         </thead>
         <tbody>
           {sorted.map((p) => (
-            <tr key={p.id}>
-              <td data-label="Jugador"><Link className="cell-link" to={`/jugadores/${p.slug}`}>{p.name}</Link></td>
-              <td data-label="Dorsal" className="num">{p.shirtNumber ?? '—'}</td>
-              <td data-label="Posición"><PosBadge position={p.position} /></td>
-              <td data-label="Edad" className="num">{p.age}</td>
-              <td data-label="Nacionalidad"><Flag country={p.nationality} withName /></td>
-              <td data-label="Valor" className="num strong">{formatMoney(p.marketValue)}</td>
-              <td data-label="Contrato" className="nowrap">{p.contractUntil ? formatDate(p.contractUntil) : '—'}</td>
-              <td data-label="Pie">{p.dominantFoot}</td>
-              <td data-label="Altura" className="num">{formatHeight(p.height)}</td>
-              <td data-label="Estado"><StatusBadge map={PLAYER_STATUS} value={p.status} /></td>
-            </tr>
+            <PlayerTableRow key={p.id} p={p} />
           ))}
         </tbody>
       </table>
@@ -117,7 +149,7 @@ export default function ClubProfile({ club }) {
 
       {/* Estadísticas clave */}
       <div className="grid grid-4">
-        <StatCard label="Valor de plantilla" value={formatMoney(club.squadValue)} icon="money" accent="#22c55e" />
+        <StatCard label="Valor de plantilla" value={formatMoney(club.squadValue)} icon="briefcase" accent="#22c55e" />
         <StatCard label="Edad media" value={club.averageAge} hint="años" icon="calendar" accent="#38bdf8" />
         <StatCard label="Jugadores" value={players.length} icon="jersey" accent="#a78bfa" />
         <StatCard label="Rumores activos" value={rumours.length} icon="flame" accent="#fbbf24" />

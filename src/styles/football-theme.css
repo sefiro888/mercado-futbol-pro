@@ -1,5 +1,5 @@
 /* ===========================================================================
-   ⚽ DECORACIÓN TEMÁTICA DE FÚTBOL
+   DECORACIÓN TEMÁTICA DE FÚTBOL
    Patrones de campo, texturas de balón, animaciones y acentos. Se importa
    después de index.css, así que puede extender/ajustar el sistema base.
    =========================================================================== */
@@ -134,6 +134,49 @@ body::after {
 @keyframes sweepLight {
   from { left: -60%; }
   to { left: 130%; }
+}
+
+/* ---------------------------------------------------------------------------
+   Glows para tarjetas según fiabilidad (Oficial, Alta, Media, Baja, Descartada)
+   --------------------------------------------------------------------------- */
+.card.rel-oficial {
+  border-color: rgba(34, 197, 94, 0.25);
+}
+.card.rel-oficial:hover {
+  border-color: rgba(34, 197, 94, 0.7);
+  box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.75), 0 0 25px -5px rgba(34, 197, 94, 0.45);
+}
+
+.card.rel-alta {
+  border-color: rgba(45, 212, 191, 0.25);
+}
+.card.rel-alta:hover {
+  border-color: rgba(45, 212, 191, 0.7);
+  box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.75), 0 0 25px -5px rgba(45, 212, 191, 0.4);
+}
+
+.card.rel-media {
+  border-color: rgba(59, 130, 246, 0.25);
+}
+.card.rel-media:hover {
+  border-color: rgba(59, 130, 246, 0.7);
+  box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.75), 0 0 25px -5px rgba(59, 130, 246, 0.35);
+}
+
+.card.rel-baja {
+  border-color: rgba(245, 197, 24, 0.22);
+}
+.card.rel-baja:hover {
+  border-color: rgba(245, 197, 24, 0.65);
+  box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.75), 0 0 25px -5px rgba(245, 197, 24, 0.35);
+}
+
+.card.rel-descartado {
+  border-color: rgba(239, 68, 68, 0.22);
+}
+.card.rel-descartado:hover {
+  border-color: rgba(239, 68, 68, 0.65);
+  box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.75), 0 0 25px -5px rgba(239, 68, 68, 0.35);
 }
 
 /* ---------------------------------------------------------------------------

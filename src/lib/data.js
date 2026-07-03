@@ -75,11 +75,9 @@ function buildFromTeams() {
         age,
         photo: p.photo ?? null,
         stats: p.stats || {},
+        seasonStats: p.seasonStats || [],
         transferHistory: p.transferHistory || [],
-        marketValueHistory:
-          p.marketValueHistory && p.marketValueHistory.length
-            ? p.marketValueHistory
-            : synthHistory(p.marketValue),
+        marketValueHistory: p.marketValueHistory || [],
       }
     })
 
@@ -333,6 +331,9 @@ export function getClubTopTransfers(clubId, limit = 10) {
 
 // Posición del jugador por valor dentro de su club: { rank, total, topValue }.
 export function getPlayerRankInClub(player) {
+  if (!player || !player.currentClubId) {
+    return { rank: 1, total: 1, topValue: player?.marketValue || 0 }
+  }
   const squad = getPlayersByClub(player.currentClubId).sort(
     (a, b) => (b.marketValue || 0) - (a.marketValue || 0),
   )
@@ -388,6 +389,128 @@ export function getMarketStats() {
     priciest,
     totalSquadValue: Math.round(totalSquadValue),
     transferCount: allTransfers.length,
+  }
+}
+
+// Resumen por club del mercado registrado: gasto, ingresos, balance y actividad.
+// Se usa en dashboards para detectar clubes compradores, vendedores y plantillas
+// que más se han movido sin duplicar cálculos en las páginas.
+export function getClubMarketBalances() {
+  return clubs()
+    .map((club) => {
+      const incoming = transfers().filter((t) => t.toClubId === club.id)
+      const outgoing = transfers().filter((t) => t.fromClubId === club.id)
+      const spent = incoming.reduce((sum, t) => sum + (t.transferFee || 0), 0)
+      const income = outgoing.reduce((sum, t) => sum + (t.transferFee || 0), 0)
+      const recordIn = incoming.reduce(
+        (best, t) => ((t.transferFee || 0) > (best?.transferFee || -1) ? t : best),
+        null,
+      )
+      const recordOut = outgoing.reduce(
+        (best, t) => ((t.transferFee || 0) > (best?.transferFee || -1) ? t : best),
+        null,
+      )
+      return {
+        club,
+        incoming,
+        outgoing,
+        spent,
+        income,
+        balance: income - spent,
+        activity: incoming.length + outgoing.length,
+        recordIn,
+        recordOut,
+      }
+    })
+    .sort((a, b) => b.activity - a.activity || b.spent - a.spent)
+}
+
+export function getMarketDashboard() {
+  const confirmed = transfers().filter((t) => t.status === 'confirmado')
+  const paid = confirmed.filter((t) => t.transferFee != null)
+  const balances = getClubMarketBalances()
+  const topSigning = paid.reduce(
+    (best, t) => ((t.transferFee || 0) > (best?.transferFee || -1) ? t : best),
+    null,
+  )
+  const topProfit = paid
+    .filter((t) => t.previousPurchaseFee != null)
+    .map((t) => ({ transfer: t, profit: (t.transferFee || 0) - t.previousPurchaseFee }))
+    .sort((a, b) => b.profit - a.profit)[0] || null
+  const freeDeals = paid.filter((t) => (t.transferFee || 0) === 0).length
+  const avgFee = paid.length
+    ? Math.round((paid.reduce((sum, t) => sum + (t.transferFee || 0), 0) / paid.length) * 10) / 10
+    : 0
+
+  return {
+    balances,
+    topSigning,
+    topProfit,
+    freeDeals,
+    avgFee,
+    busiestClub: balances[0] || null,
+    topSpenders: [...balances].sort((a, b) => b.spent - a.spent).slice(0, 6),
+    topSellers: [...balances].sort((a, b) => b.income - a.income).slice(0, 6),
+    bestBalances: [...balances].sort((a, b) => b.balance - a.balance).slice(0, 6),
+    worstBalances: [...balances].sort((a, b) => a.balance - b.balance).slice(0, 6),
+    latest: [...confirmed]
+      .sort((a, b) => new Date(b.transferDate) - new Date(a.transferDate))
+      .slice(0, 8),
+  }
+}
+
+// Auditoria agregada de plantillas: tamanos, edad, valor y actividad de mercado.
+// Alimenta las paginas de clubes/jugadores para que el estado de las plantillas
+// quede visible sin repetir logica en componentes.
+export function getSquadDashboard() {
+  const allPlayers = players()
+  const allClubs = clubs()
+  const ages = allPlayers.map((p) => p.age).filter((age) => age != null)
+  const clubRows = allClubs.map((club) => {
+    const squad = getPlayersByClub(club.id)
+    const squadAges = squad.map((p) => p.age).filter((age) => age != null)
+    const topPlayer = squad.reduce(
+      (best, p) => ((p.marketValue || 0) > (best?.marketValue || -1) ? p : best),
+      null,
+    )
+    const arrivals = transfers().filter((t) => t.toClubId === club.id).length
+    const departures = transfers().filter((t) => t.fromClubId === club.id).length
+
+    return {
+      club,
+      players: squad.length,
+      value: club.squadValue || 0,
+      averageAge: squadAges.length
+        ? round1(squadAges.reduce((sum, age) => sum + age, 0) / squadAges.length)
+        : null,
+      u21: squad.filter((p) => (p.age || 99) <= 21).length,
+      topPlayer,
+      arrivals,
+      departures,
+      activity: arrivals + departures,
+    }
+  })
+
+  const byValue = [...clubRows].sort((a, b) => b.value - a.value)
+  const byYouth = [...clubRows].sort((a, b) => (a.averageAge || 99) - (b.averageAge || 99))
+  const byDepth = [...clubRows].sort((a, b) => b.players - a.players || b.value - a.value)
+  const byActivity = [...clubRows].sort((a, b) => b.activity - a.activity || b.value - a.value)
+
+  return {
+    updatedAt: '2026-06-27',
+    totalPlayers: allPlayers.length,
+    totalClubs: allClubs.length,
+    totalValue: round1(allPlayers.reduce((sum, p) => sum + (p.marketValue || 0), 0)),
+    averageAge: ages.length ? round1(ages.reduce((sum, age) => sum + age, 0) / ages.length) : null,
+    u21: allPlayers.filter((p) => (p.age || 99) <= 21).length,
+    mostValuableClub: byValue[0] || null,
+    youngestClub: byYouth[0] || null,
+    deepestSquad: byDepth[0] || null,
+    mostActiveSquad: byActivity[0] || null,
+    mostValuableSquads: byValue.slice(0, 5),
+    youngestSquads: byYouth.slice(0, 5),
+    deepestSquads: byDepth.slice(0, 5),
+    activeSquads: byActivity.slice(0, 5),
   }
 }
 

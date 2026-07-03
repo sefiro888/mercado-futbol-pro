@@ -11,6 +11,7 @@ import Flag from '@/components/Flag.jsx'
 import Reveal from '@/components/Reveal.jsx'
 import CountStat from '@/components/CountStat.jsx'
 import Icon from '@/components/Icon.jsx'
+import DeadlineCountdown from '@/components/DeadlineCountdown.jsx'
 
 import { SITE } from '@/config/site.js'
 import { setPageSeo } from '@/lib/seo.js'
@@ -26,12 +27,14 @@ import {
   getPlayersByClub,
   getMostValuablePlayers,
   getMarketStats,
+  getMarketDashboard,
   getLeagueSummary,
   getPlayerById,
   getClubById,
   search,
 } from '@/lib/data.js'
 import { clubLogoUrl } from '@/lib/logos.js'
+import { playerPhotoUrl } from '@/lib/photos.js'
 import { enrichTransfer } from '@/lib/calculations.js'
 import { formatMoney } from '@/lib/format.js'
 import './Pages.css'
@@ -66,6 +69,12 @@ export default function Home() {
   const topValued = getMostValuablePlayers(8)
   const leagues = getLeagueSummary()
   const market = getMarketStats()
+  const marketDashboard = getMarketDashboard()
+  const topSpender = marketDashboard.topSpenders[0]
+  const bestBalance = marketDashboard.bestBalances[0]
+  const latestDeal = marketDashboard.latest[0]
+  const latestDealPlayer = latestDeal ? getPlayerById(latestDeal.playerId) : null
+  const latestDealClub = latestDeal ? getClubById(latestDeal.toClubId) : null
   const priciestPlayer = market.priciest ? getPlayerById(market.priciest.playerId) : null
   const priciestToClub = market.priciest ? getClubById(market.priciest.toClubId) : null
 
@@ -86,7 +95,7 @@ export default function Home() {
       <section className="home-hero container">
         <span className="live-badge">
           <span className="live-dot" aria-hidden="true" />
-          Mercado en vivo · Temporada {new Date().getFullYear()}
+          Mercado 2026/27 · Actualizado 27/06/2026
         </span>
         <h1 className="hero-title">
           Fichajes, rumores y <span className="text-shine">noticias de fútbol</span>, contrastados.
@@ -111,12 +120,33 @@ export default function Home() {
               {results.players.length > 0 && (
                 <>
                   <div className="sr-group-title">Jugadores</div>
-                  {results.players.slice(0, 4).map((p) => (
-                    <Link key={p.id} to={`/jugadores/${p.slug}`} className="sr-item" onClick={() => setQuery('')}>
-                      <Crest name={p.name} variant="avatar" size={28} />
-                      {p.name} <small>{p.position}</small>
-                    </Link>
-                  ))}
+                  {results.players.slice(0, 5).map((p) => {
+                    const photo = playerPhotoUrl(p)
+                    const pClub = getClubById(p.currentClubId)
+                    return (
+                      <Link key={p.id} to={`/jugadores/${p.slug}`} className="sr-item" onClick={() => setQuery('')}>
+                        {photo ? (
+                          <div className="sr-avatar-wrap" style={{ borderColor: pClub?.primaryColor || 'var(--brand)' }}>
+                            <img className="sr-avatar" src={photo} alt="" />
+                          </div>
+                        ) : (
+                          <Crest name={p.name} variant="avatar" size={28} color={pClub?.primaryColor} />
+                        )}
+                        <div className="sr-name-wrap">
+                          <span className="sr-pname">{p.name}</span>
+                          {pClub ? (
+                            <span className="sr-pclub">
+                              <Crest name={pClub.name} color={pClub.primaryColor} size={12} logoUrl={clubLogoUrl(pClub.id)} />
+                              {pClub.name}
+                            </span>
+                          ) : (
+                            <span className="sr-pclub dim">Agente libre</span>
+                          )}
+                        </div>
+                        <small className="sr-pos-label">{p.position}</small>
+                      </Link>
+                    )
+                  })}
                 </>
               )}
 
@@ -146,10 +176,36 @@ export default function Home() {
           )}
         </div>
 
+        <DeadlineCountdown />
+
         <div className="hero-stats">
           {stats.map((s, i) => (
             <CountStat key={s.l} value={s.v} label={s.l} delay={0.1 + i * 0.08} />
           ))}
+        </div>
+
+        <div className="hero-market-strip">
+          {topSpender && (
+            <Link to={`/clubes/${topSpender.club.slug}`} className="hms-item">
+              <span>Más inversión</span>
+              <strong>{topSpender.club.name}</strong>
+              <small>{formatMoney(topSpender.spent)}</small>
+            </Link>
+          )}
+          {bestBalance && (
+            <Link to={`/clubes/${bestBalance.club.slug}`} className="hms-item">
+              <span>Mejor balance</span>
+              <strong>{bestBalance.club.name}</strong>
+              <small>+{formatMoney(bestBalance.balance)}</small>
+            </Link>
+          )}
+          {latestDeal && (
+            <Link to={latestDealPlayer ? `/jugadores/${latestDealPlayer.slug}` : '/fichajes'} className="hms-item">
+              <span>Último movimiento</span>
+              <strong>{latestDealPlayer?.name || latestDeal.playerId}</strong>
+              <small>{latestDealClub?.name || latestDeal.toClubId}</small>
+            </Link>
+          )}
         </div>
       </section>
 
@@ -160,7 +216,7 @@ export default function Home() {
           <Link className="link-more" to="/noticias">Ver todas →</Link>
         </div>
         <Reveal stagger className="grid grid-3">
-          {latestNews.map((n) => <NewsCard key={n.id} item={n} />)}
+          {latestNews.map((n, i) => <NewsCard key={n.id} item={n} featured={i === 0} />)}
         </Reveal>
       </section>
 
@@ -171,7 +227,7 @@ export default function Home() {
         </div>
         <Reveal stagger className="market-stats">
           <div className="ms-card">
-            <Icon name="arrow-in" size={22} className="ms-ico" />
+            <Icon name="briefcase" size={22} className="ms-ico" />
             <div className="ms-value num">{formatMoney(market.totalSpend)}</div>
             <div className="ms-label">Invertido en fichajes</div>
           </div>
@@ -203,13 +259,47 @@ export default function Home() {
           <Link className="link-more" to="/fichajes">Tabla completa →</Link>
         </div>
         <Reveal stagger className="grid grid-4">
-          {featuredTransfers.map((t) => (
-            <Link key={t.id} to="/fichajes" className="card interactive stat-card">
-              <div className="stat-label">{t.status}</div>
-              <div className="stat-value num text-gradient">{formatMoney(t.transferFee)}</div>
-              <div className="stat-hint clamp-2">{t.diffText}</div>
-            </Link>
-          ))}
+          {featuredTransfers.map((t) => {
+            const p = getPlayerById(t.playerId)
+            const from = getClubById(t.fromClubId)
+            const to = getClubById(t.toClubId)
+            const photo = p ? playerPhotoUrl(p) : null
+            const clubColor = to?.primaryColor || 'var(--brand)'
+            return (
+              <Link 
+                key={t.id} 
+                to="/fichajes" 
+                className="card interactive featured-transfer-card"
+                style={{ '--club-c': clubColor }}
+              >
+                {photo && (
+                  <img className="ftc-player-bg" src={photo} alt="" aria-hidden="true" />
+                )}
+                
+                <div className="ftc-content">
+                  <div className="ftc-status">{t.status}</div>
+                  <h3 className="ftc-name">{p?.name || t.playerId}</h3>
+                  
+                  <div className="ftc-clubs">
+                    {from ? (
+                      <Crest name={from.name} color={from.primaryColor} size={18} logoUrl={clubLogoUrl(from.id)} />
+                    ) : (
+                      <span className="ftc-club-fallback">{t.fromClubName || '—'}</span>
+                    )}
+                    <span className="ftc-arrow">→</span>
+                    {to && (
+                      <Crest name={to.name} color={to.primaryColor} size={18} logoUrl={clubLogoUrl(to.id)} />
+                    )}
+                  </div>
+                  
+                  <div className="ftc-bottom">
+                    <div className="ftc-fee num">{t.transferFee === 0 ? 'Libre' : formatMoney(t.transferFee)}</div>
+                    <div className="ftc-hint" title={t.diffText}>{t.diffText}</div>
+                  </div>
+                </div>
+              </Link>
+            )
+          })}
         </Reveal>
       </section>
 

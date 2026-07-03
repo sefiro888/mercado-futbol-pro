@@ -4,14 +4,18 @@ import StatusBadge from './StatusBadge.jsx'
 import ReliabilityBadge from './ReliabilityBadge.jsx'
 import SourceBadge from './SourceBadge.jsx'
 import Icon from './Icon.jsx'
+import Crest from './Crest.jsx'
 import { RUMOUR_STATUS, OPERATION_TYPE, resolve } from '@/lib/taxonomy.js'
 import { formatDate } from '@/lib/format.js'
 import { getPlayerById, getClubById, getSources } from '@/lib/data.js'
+import { clubLogoUrl } from '@/lib/logos.js'
+import { playerPhotoUrl } from '@/lib/photos.js'
 import './RumourCard.css'
 
 // Tarjeta de rumor contrastado. Incluye botón para desplegar las fuentes.
 export default function RumourCard({ rumour }) {
   const [showSources, setShowSources] = useState(false)
+  const [imgError, setImgError] = useState(false)
 
   const player = getPlayerById(rumour.playerId)
   const current = getClubById(rumour.currentClubId)
@@ -22,8 +26,25 @@ export default function RumourCard({ rumour }) {
   // "Caliente": fiabilidad alta/oficial y operación todavía viva.
   const isHot = ['alta', 'oficial'].includes(rumour.reliability) && rumour.status !== 'descartado'
 
+  const photoUrl = player && !imgError ? playerPhotoUrl(player) : null
+  const clubColor = interested?.primaryColor || current?.primaryColor || '#a78bfa'
+
   return (
-    <article className={`card rumour-card ${isHot ? 'is-hot' : ''}`}>
+    <article 
+      className={`card interactive rumour-card rel-${rumour.reliability || 'neutral'} ${isHot ? 'is-hot' : ''}`}
+      style={{ '--club-c': clubColor }}
+    >
+      {/* Silueta o foto de fondo premium */}
+      {photoUrl && (
+        <img 
+          className="rumour-player-bg" 
+          src={photoUrl} 
+          alt="" 
+          aria-hidden="true" 
+          onError={() => setImgError(true)} 
+        />
+      )}
+
       <div className="rumour-top">
         <div className="rumour-badges">
           <StatusBadge map={RUMOUR_STATUS} value={rumour.status} />
@@ -47,9 +68,27 @@ export default function RumourCard({ rumour }) {
       </h3>
 
       <div className="rumour-route">
-        <span className="club-pill">{current?.name ?? '—'}</span>
+        {current ? (
+          <Link to={`/clubes/${current.slug}`} className="club-pill cell-link cell-club">
+            <Crest name={current.name} color={current.primaryColor} size={18} logoUrl={clubLogoUrl(current.id)} />
+            <span>{current.name}</span>
+          </Link>
+        ) : (
+          <span className="club-pill">{rumour.currentClubId || '—'}</span>
+        )}
+
         <span className="arrow" aria-hidden="true">{isRenewal ? '↻' : '→'}</span>
-        <span className="club-pill">{isRenewal ? 'Renovación' : interested?.name ?? '—'}</span>
+
+        {isRenewal ? (
+          <span className="club-pill renewal-pill">Renovación</span>
+        ) : interested ? (
+          <Link to={`/clubes/${interested.slug}`} className="club-pill cell-link cell-club">
+            <Crest name={interested.name} color={interested.primaryColor} size={18} logoUrl={clubLogoUrl(interested.id)} />
+            <span>{interested.name}</span>
+          </Link>
+        ) : (
+          <span className="club-pill">{rumour.interestedClubId || '—'}</span>
+        )}
       </div>
 
       <p className="rumour-summary muted">{rumour.summary}</p>

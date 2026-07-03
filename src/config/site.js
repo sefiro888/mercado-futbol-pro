@@ -21,7 +21,7 @@ export const SITE = {
   // Aviso visible sobre la naturaleza de los datos.
   demoNotice:
     'Datos reales de Premier League, LaLiga y Serie A. Valores de mercado y cifras son ' +
-    'estimaciones aproximadas (actualizadas a inicios de 2026), no datos en vivo.',
+    'estimaciones aproximadas (actualizadas a 27 de junio de 2026), no datos en vivo.',
 
   nav: [
     { to: '/', label: 'Inicio' },

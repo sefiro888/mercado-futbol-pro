@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Crest from './Crest.jsx'
 import StatusBadge from './StatusBadge.jsx'
@@ -6,6 +7,7 @@ import { PLAYER_STATUS } from '@/lib/taxonomy.js'
 import { formatMoney } from '@/lib/format.js'
 import { getClubById } from '@/lib/data.js'
 import { clubLogoUrl } from '@/lib/logos.js'
+import { playerPhotoUrl } from '@/lib/photos.js'
 import './Cards.css'
 
 // Calcula la tendencia reciente del valor (último vs. penúltimo registro).
@@ -18,20 +20,30 @@ function valueTrend(history = []) {
 export default function PlayerCard({ player }) {
   const club = getClubById(player.currentClubId)
   const trend = valueTrend(player.marketValueHistory)
+  const [imgError, setImgError] = useState(false)
+  const photoUrl = player && !imgError ? playerPhotoUrl(player) : null
 
   return (
     <Link to={`/jugadores/${player.slug}`} className="card interactive player-card">
       <div className="pc-head">
-        <Crest name={player.name} variant="avatar" size={48} color={club?.primaryColor} />
+        {photoUrl ? (
+          <div className="pc-avatar-wrap" style={{ borderColor: club?.primaryColor || 'var(--brand)' }}>
+            <img className="pc-avatar" src={photoUrl} alt="" onError={() => setImgError(true)} />
+          </div>
+        ) : (
+          <Crest name={player.name} variant="avatar" size={48} color={club?.primaryColor || 'var(--brand)'} />
+        )}
         <div>
           <h3>{player.name}</h3>
           <div className="pc-sub">
             {player.position}
-            {club && (
+            {club ? (
               <span className="pc-club">
                 <Crest name={club.name} color={club.primaryColor} size={16} logoUrl={clubLogoUrl(club.id)} />
                 {club.name}
               </span>
+            ) : (
+              <span className="pc-club free-agent-tag">Agente libre</span>
             )}
           </div>
         </div>

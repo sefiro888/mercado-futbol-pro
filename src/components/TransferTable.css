@@ -16,6 +16,57 @@
 .data th.ta-right, .data td.num { text-align: right; }
 .data td.num { font-family: var(--font-mono); }
 
+/* Fila de traspasos: fila alternada y hover premium teñido del club comprador */
+.data.transfers tbody tr {
+  transition: background-color 0.25s var(--ease);
+}
+.data.transfers tbody tr:hover {
+  background-color: color-mix(in srgb, var(--row-club-c) 6%, rgba(255, 255, 255, 0.02)) !important;
+}
+
+/* Celda Jugador con Avatar */
+.cell-player {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cell-avatar-wrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1.5px solid transparent;
+  overflow: hidden;
+  background: rgba(14, 20, 31, 0.7);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cell-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.cell-avatar-placeholder {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 0.7rem;
+  font-weight: 900;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
 /* ---------------------------------------------------------------------------
    Modo tarjeta en móvil: cada fila se apila y cada celda muestra su etiqueta.
    Cumple el requisito de "en móvil las tablas se convierten en tarjetas".
@@ -65,6 +116,9 @@
     font-weight: 700;
     padding-bottom: 6px;
     border-bottom: 1px solid var(--border);
+  }
+  .data.transfers tbody td[data-label="Jugador"]::before {
+    display: none;
   }
   .data.transfers tbody td[data-label="Fuentes"] { grid-column: 1 / -1; }
 }

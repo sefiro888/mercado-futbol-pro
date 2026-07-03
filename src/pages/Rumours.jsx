@@ -2,7 +2,9 @@ import { useEffect, useMemo, useState } from 'react'
 import RumourCard from '@/components/RumourCard.jsx'
 import FilterPanel from '@/components/FilterPanel.jsx'
 import Icon from '@/components/Icon.jsx'
+import StatCard from '@/components/StatCard.jsx'
 import { setPageSeo } from '@/lib/seo.js'
+import PremiumHeader from '@/components/PremiumHeader.jsx'
 import { RUMOUR_STATUS, RELIABILITY, OPERATION_TYPE } from '@/lib/taxonomy.js'
 import { getAllRumours, getPlayerById } from '@/lib/data.js'
 import './Pages.css'
@@ -22,6 +24,24 @@ export default function Rumours() {
   }, [])
 
   const allRumours = useMemo(() => getAllRumours(), [])
+
+  // Estadísticas y termómetro de rumores
+  const stats = useMemo(() => {
+    const total = allRumours.length
+    const hot = allRumours.filter(r => ['alta', 'oficial'].includes(r.reliability) && r.status !== 'descartado').length
+    const negotiation = allRumours.filter(r => ['negociacion', 'acuerdo-cercano'].includes(r.status)).length
+    const confirmed = allRumours.filter(r => r.status === 'confirmado').length
+    
+    // Temperatura de mercado (índice 0-100) basado en volumen de rumores calientes y negociaciones activas
+    const temp = total > 0 ? Math.min(100, Math.round(((hot * 1.5 + negotiation * 1.2 + confirmed * 2) / total) * 100)) : 0
+
+    return {
+      total,
+      hot,
+      negotiation,
+      temp
+    }
+  }, [allRumours])
 
   const filtered = useMemo(() => {
     const q = filters.q.trim().toLowerCase()
@@ -48,23 +68,59 @@ export default function Rumours() {
 
   return (
     <>
-      <div className="container page-header">
-        <Icon name="flame" size={150} className="page-watermark" />
-        <h1>Rumores contrastados</h1>
-        <p>
-          Cada rumor lleva una etiqueta de fiabilidad según sus fuentes. Pulsa «Ver fuentes»
-          en cualquier tarjeta para comprobar de dónde sale la información.
-        </p>
+      <PremiumHeader
+        title="Rumores contrastados"
+        description="Cada rumor lleva una etiqueta de fiabilidad según sus fuentes. Pulsa «Ver fuentes» en cualquier tarjeta para comprobar de dónde sale la información."
+        tag="RUMORES"
+        icon="flame"
+        theme="rumours"
+      />
+
+      <div className="container" style={{ marginTop: 24 }}>
+        <div className="grid grid-4">
+          <StatCard label="Total rumores" value={`${stats.total}`} hint="Operaciones en el radar" icon="newspaper" accent="#38bdf8" />
+          <StatCard label="Rumores calientes" value={`${stats.hot}`} hint="Fiabilidad alta/oficial" icon="flame" accent="#f59e0b" />
+          <StatCard label="En negociación" value={`${stats.negotiation}`} hint="Contactos avanzados" icon="handshake" accent="#a78bfa" />
+          <StatCard label="Termómetro de actividad" value={`${stats.temp}%`} hint="Índice de dinamismo" icon="ball" accent="#22c55e" />
+        </div>
       </div>
 
-      <div className="container">
-        <div className="reliability-guide">
-          {GUIDE.map((key) => (
-            <div key={key} className={`rg-item rg-${key}`}>
-              <h4>{RELIABILITY[key].label}</h4>
-              <p>{RELIABILITY[key].help}</p>
+      <div className="container" style={{ marginTop: 24 }}>
+        <div className="rumours-dashboard-layout">
+          <div className="reliability-guide-col">
+            <h3 className="section-title-sutil">Guía de fiabilidad</h3>
+            <div className="reliability-guide">
+              {GUIDE.map((key) => (
+                <div key={key} className={`rg-item rg-${key}`}>
+                  <h4>{RELIABILITY[key].label}</h4>
+                  <p>{RELIABILITY[key].help}</p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+
+          <div className="thermometer-card-col">
+            <div className="card thermometer-card" style={{ '--temp-c': stats.temp > 75 ? '#ef4444' : stats.temp > 50 ? '#f59e0b' : '#22c55e' }}>
+              <div className="tc-header">
+                <Icon name="flame" size={20} className="tc-flame-icon" />
+                <h3>Termómetro del Mercado</h3>
+              </div>
+              <div className="tc-body">
+                <div className="tc-value-display">
+                  <span className="tc-val">{stats.temp}°</span>
+                  <span className="tc-status-text">
+                    {stats.temp > 75 ? 'Mercado hirviendo' : stats.temp > 50 ? 'Mercado activo' : 'Mercado calmado'}
+                  </span>
+                </div>
+                <div className="tc-bar-wrap">
+                  <div className="tc-bar-fill" style={{ width: `${stats.temp}%` }} />
+                </div>
+                <p className="muted tc-desc">
+                  Calculado en tiempo real según el porcentaje de rumores calientes, acuerdos inminentes y fichajes oficiales recientes.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

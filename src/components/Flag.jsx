@@ -3,7 +3,7 @@ import { flagCode } from '@/lib/flags.js'
 import Icon from './Icon.jsx'
 
 // Bandera de país como imagen SVG (se ve igual en Windows, Mac, Android…).
-// Si la imagen no carga (sin red) o el país es desconocido, muestra un globo 🌍.
+// Si la imagen no carga (sin red) o el país es desconocido, muestra un icono.
 //
 // props: country, size (alto en px), withName (añade el nombre al lado).
 export default function Flag({ country, size = 15, withName = false }) {

@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  min-width: 0;
   background: var(--bg-input);
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
@@ -17,10 +18,18 @@
   background: transparent;
   padding: 8px 4px;
   flex: 1;
+  min-width: 0;
 }
 .searchbar .input:focus { outline: none; }
 
-.searchbar .btn { border-radius: var(--radius-pill); white-space: nowrap; }
+.searchbar .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
 
 .searchbar-lg {
   padding: 10px 10px 10px 22px;
@@ -28,5 +37,13 @@
 .searchbar-lg .input { font-size: 1.05rem; padding: 12px 4px; }
 
 @media (max-width: 520px) {
-  .searchbar .btn { padding: 8px 12px; }
+  .searchbar .btn {
+    width: 42px;
+    min-width: 42px;
+    padding: 8px;
+  }
+
+  .searchbar .btn span {
+    display: none;
+  }
 }

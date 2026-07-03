@@ -79,7 +79,7 @@
   "liverpool": {
     "signings": [
       { "name": "Florian Wirtz", "fee": 125, "year": 2025, "club": "Bayer Leverkusen" },
-      { "name": "Alexander Isak", "fee": 130, "year": 2025, "club": "Newcastle United" },
+      { "name": "Alexander Isak", "fee": 145, "year": 2025, "club": "Newcastle United" },
       { "name": "Virgil van Dijk", "fee": 84, "year": 2018, "club": "Southampton" },
       { "name": "Darwin Núñez", "fee": 75, "year": 2022, "club": "Benfica" },
       { "name": "Hugo Ekitike", "fee": 95, "year": 2025, "club": "Eintracht Frankfurt" },
@@ -157,7 +157,7 @@
       { "name": "Nick Woltemade", "fee": 85, "year": 2025, "club": "VfB Stuttgart" }
     ],
     "sales": [
-      { "name": "Alexander Isak", "fee": 130, "year": 2025, "club": "Liverpool" },
+      { "name": "Alexander Isak", "fee": 145, "year": 2025, "club": "Liverpool" },
       { "name": "Allan Saint-Maximin", "fee": 30, "year": 2023, "club": "Al-Ahli" }
     ]
   },

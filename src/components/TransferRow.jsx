@@ -1,11 +1,22 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import StatusBadge from './StatusBadge.jsx'
 import SourceBadge from './SourceBadge.jsx'
 import Flag from './Flag.jsx'
 import Crest from './Crest.jsx'
 import { clubLogoUrl } from '@/lib/logos.js'
+import { playerPhotoUrl } from '@/lib/photos.js'
 import { TRANSFER_STATUS } from '@/lib/taxonomy.js'
 import { formatMoney, formatDate, formatPercent } from '@/lib/format.js'
+
+function initials(name = '') {
+  return name
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0])
+    .join('')
+}
 
 // Celda con valor numérico coloreado según signo (+ verde / - rojo).
 function SignedMoney({ amount }) {
@@ -19,17 +30,30 @@ function SignedMoney({ amount }) {
 // en móvil (definido en TransferTable.css).
 export default function TransferRow({ row }) {
   const { player, fromClub, toClub } = row
+  const [imgError, setImgError] = useState(false)
+  const photoUrl = player && !imgError ? playerPhotoUrl(player) : null
 
   return (
-    <tr>
+    <tr style={{ '--row-club-c': toClub?.primaryColor || '#22c55e' }}>
       <td data-label="Jugador">
-        {player ? (
-          <Link to={`/jugadores/${player.slug}`} className="cell-link">
-            {player.name}
-          </Link>
-        ) : (
-          row.playerId
-        )}
+        <div className="cell-player">
+          {photoUrl ? (
+            <div className="cell-avatar-wrap" style={{ borderColor: toClub?.primaryColor || '#a78bfa' }}>
+              <img className="cell-avatar" src={photoUrl} alt="" onError={() => setImgError(true)} />
+            </div>
+          ) : (
+            <div className="cell-avatar-placeholder" style={{ background: `linear-gradient(135deg, ${toClub?.primaryColor || '#a78bfa'}, #080b11)` }}>
+              {initials(row.playerName)}
+            </div>
+          )}
+          {player ? (
+            <Link to={`/jugadores/${player.slug}`} className="cell-link">
+              {player.name}
+            </Link>
+          ) : (
+            row.playerId
+          )}
+        </div>
       </td>
       <td data-label="Edad" className="num">{player?.age ?? '—'}</td>
       <td data-label="Posición">{player?.position ?? '—'}</td>

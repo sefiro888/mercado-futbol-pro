@@ -14,6 +14,7 @@
   display: inline-flex;
   align-items: center;
   gap: 9px;
+  max-width: 100%;
   padding: 7px 16px;
   border-radius: var(--radius-pill);
   background: var(--grad-brand-soft);
@@ -25,6 +26,7 @@
   text-transform: uppercase;
   margin-bottom: 22px;
   animation: fadeInUp 0.6s var(--ease) both;
+  overflow-wrap: anywhere;
 }
 .live-dot {
   width: 8px;
@@ -35,10 +37,12 @@
 }
 
 .home-hero .hero-title {
-  max-width: 20ch;
+  max-width: min(20ch, 100%);
   margin: 0 auto 16px;
   font-size: clamp(2rem, 5.2vw, 3.4rem);
   line-height: 1.08;
+  overflow-wrap: break-word;
+  text-wrap: balance;
   animation: fadeInUp 0.6s var(--ease) 0.06s both;
 }
 .home-hero .hero-lead {
@@ -49,6 +53,7 @@
   animation: fadeInUp 0.6s var(--ease) 0.12s both;
 }
 .home-hero .hero-search {
+  width: min(640px, 100%);
   max-width: 640px;
   margin: 0 auto;
   position: relative;
@@ -65,10 +70,13 @@
   left: 0;
   right: 0;
   margin-top: 8px;
-  background: var(--bg-elevated);
+  background: rgba(18, 24, 38, 0.95);
+  backdrop-filter: blur(16px);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.8),
+    0 0 30px -10px rgba(34, 197, 94, 0.2);
   padding: 10px;
   text-align: left;
   max-height: 60vh;
@@ -77,20 +85,77 @@
 .search-results .sr-group-title {
   font-size: 0.7rem;
   text-transform: uppercase;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.08em;
   color: var(--text-dim);
-  font-weight: 700;
+  font-weight: 800;
   padding: 8px 10px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  margin-bottom: 4px;
 }
 .search-results .sr-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 10px;
+  gap: 12px;
+  padding: 8px 12px;
   border-radius: var(--radius-sm);
+  color: #fff;
+  transition: background-color 0.2s var(--ease);
 }
-.search-results .sr-item:hover { background: var(--bg-card-hover); }
-.search-results .sr-item small { color: var(--text-dim); margin-left: auto; }
+.search-results .sr-item:hover { 
+  background: rgba(255, 255, 255, 0.04); 
+}
+
+.sr-avatar-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid transparent;
+  overflow: hidden;
+  background: rgba(14, 20, 31, 0.7);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sr-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.sr-name-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.sr-pname {
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.sr-pclub {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.sr-pclub.dim {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.sr-pos-label {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-left: auto;
+  font-weight: 500;
+}
+
 .search-results .sr-empty { padding: 14px 10px; color: var(--text-muted); }
 
 .hero-stats {
@@ -120,6 +185,110 @@
   -webkit-text-fill-color: transparent;
 }
 .hero-stats .hs .l { font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.07em; margin-top: 2px; }
+
+.hero-market-strip {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 860px;
+  margin: 18px auto 0;
+  animation: fadeInUp 0.6s var(--ease) 0.28s both;
+}
+
+.hms-item {
+  min-width: 0;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  text-align: left;
+  transition: transform 0.2s var(--ease), border-color 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+
+.hms-item:hover {
+  transform: translateY(-3px);
+  border-color: rgba(34, 197, 94, 0.45);
+  background: rgba(34, 197, 94, 0.08);
+}
+
+.hms-item span,
+.hms-item small {
+  display: block;
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 800;
+}
+
+.hms-item strong {
+  display: block;
+  margin-top: 4px;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hms-item small {
+  margin-top: 2px;
+  color: var(--brand);
+  font-family: var(--font-mono);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+@media (max-width: 760px) {
+  .hero-market-strip {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .home-hero {
+    padding-top: 34px;
+  }
+
+  .live-badge {
+    justify-content: center;
+    white-space: normal;
+    line-height: 1.25;
+    padding: 7px 12px;
+  }
+
+  .home-hero .hero-title {
+    font-size: 2.05rem;
+  }
+
+  .home-hero .hero-lead {
+    font-size: 1rem;
+  }
+
+  .home-hero .hero-search .searchbar {
+    padding-left: 12px;
+  }
+
+  .home-hero .hero-search .btn {
+    min-width: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .hero-stats .hs {
+    min-width: 0;
+    padding: 14px 10px;
+  }
+
+  .hms-item {
+    padding: 12px;
+  }
+}
 
 /* --- El mercado en cifras --- */
 .market-stats {
@@ -265,11 +434,35 @@
   .list-layout { gap: 14px; }
 }
 
-/* --- Bloque "cómo clasificamos los rumores" --- */
+/* --- Dashboard de rumores: Guía + Termómetro --- */
+.rumours-dashboard-layout {
+  display: grid;
+  grid-template-columns: 1fr 340px;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.reliability-guide-col {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.section-title-sutil {
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  font-weight: 800;
+  margin: 0;
+}
+
 .reliability-guide {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  flex-grow: 1;
 }
 .reliability-guide .rg-item {
   background: var(--bg-card);
@@ -281,12 +474,317 @@
 }
 .reliability-guide .rg-item:hover { transform: translateY(-3px); background: var(--bg-card-hover); }
 .reliability-guide .rg-item h4 { margin: 0 0 6px; font-size: 0.95rem; }
-.reliability-guide .rg-item p { margin: 0; font-size: 0.86rem; color: var(--text-muted); }
+.reliability-guide .rg-item p { margin: 0; font-size: 0.86rem; color: var(--text-muted); line-height: 1.4; }
 .rg-oficial { border-left-color: var(--state-success-strong); }
 .rg-alta { border-left-color: var(--state-success); }
 .rg-media { border-left-color: var(--state-info); }
 .rg-baja { border-left-color: var(--state-warning); }
 .rg-descartado { border-left-color: var(--state-danger); }
+
+/* Ficha del Termómetro de Mercado */
+.thermometer-card {
+  padding: 22px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: 
+    radial-gradient(100% 100% at 100% 0%, color-mix(in srgb, var(--temp-c) 14%, transparent), transparent 75%),
+    linear-gradient(168deg, #121826 0%, #080b11 100%);
+  border: 1px solid color-mix(in srgb, var(--temp-c) 30%, var(--border));
+  box-shadow: 
+    0 12px 30px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.tc-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tc-header h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.tc-flame-icon {
+  color: var(--temp-c);
+  filter: drop-shadow(0 0 5px var(--temp-c));
+  animation: flamePulsing 1.8s ease-in-out infinite;
+}
+
+@keyframes flamePulsing {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.tc-body {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tc-value-display {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.tc-val {
+  font-family: var(--font-mono);
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+.tc-status-text {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--temp-c);
+}
+
+.tc-bar-wrap {
+  height: 12px;
+  background: rgba(8, 12, 20, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.tc-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--brand), var(--temp-c));
+  box-shadow: 0 0 10px var(--temp-c);
+  animation: growWidth 1.2s var(--ease) both;
+}
+
+.tc-desc {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .rumours-dashboard-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===========================================================================
+   💎 CABECERA PREMIUM DE MERCADO DE FICHAJES (Inspirada en Video Mockup)
+   =========================================================================== */
+.premium-market-header {
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: var(--radius);
+  margin-bottom: 28px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 32px;
+  min-height: 240px;
+  background: 
+    repeating-linear-gradient(45deg, transparent, transparent 39px, rgba(255, 255, 255, 0.012) 39px, rgba(255, 255, 255, 0.012) 40px),
+    repeating-linear-gradient(-45deg, transparent, transparent 39px, rgba(255, 255, 255, 0.012) 39px, rgba(255, 255, 255, 0.012) 40px),
+    radial-gradient(circle at 80% 20%, #152238 0%, #060913 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 
+    0 25px 60px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  animation: fadeInUp 0.5s var(--ease) both;
+}
+
+/* Balón de fútbol plateado flotando a la izquierda */
+.header-ball-wrap {
+  position: absolute;
+  left: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 35px rgba(255, 255, 255, 0.09));
+  pointer-events: none;
+  z-index: 1;
+  animation: floatBall 6s ease-in-out infinite;
+}
+
+@keyframes floatBall {
+  0%, 100% { transform: translateY(-50%) rotate(0deg); }
+  50% { transform: translateY(-53%) rotate(8deg); }
+}
+
+/* Contenedor del texto (evita solaparse con el balón) */
+.pmh-text-wrap {
+  position: relative;
+  z-index: 2;
+  padding-left: 120px;
+  max-width: 75ch;
+  text-align: left;
+}
+
+.pmh-text-wrap h1 {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-family: var(--font-display);
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+
+.pmh-text-wrap p {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 1.02rem;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* Banner de advertencia premium */
+.demo-banner-premium {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(251, 191, 36, 0.06);
+  border: 1px solid rgba(251, 191, 36, 0.15);
+  color: #fbbf24;
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 18px;
+  backdrop-filter: blur(4px);
+}
+
+/* Pila de cartas 3D */
+.header-card-stack {
+  position: relative;
+  width: 200px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  perspective: 1000px;
+}
+
+.hs-card {
+  position: absolute;
+  width: 170px;
+  height: 110px;
+  border-radius: 12px;
+  box-shadow: 
+    0 15px 35px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: transform 0.4s var(--ease), filter 0.4s var(--ease);
+}
+
+.hs-card-3 {
+  background: linear-gradient(135deg, #064e3b 0%, #022c22 100%);
+  transform: rotate(-10deg) translate(-14px, 6px) translateZ(-40px);
+  opacity: 0.55;
+  border: 1px solid rgba(16, 185, 129, 0.15);
+}
+
+.hs-card-2 {
+  background: linear-gradient(135deg, #065f46 0%, #044e37 100%);
+  transform: rotate(6deg) translate(8px, -4px) translateZ(-20px);
+  opacity: 0.8;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.hs-card-1 {
+  background: 
+    repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(255, 255, 255, 0.06) 8px, rgba(255, 255, 255, 0.06) 16px),
+    linear-gradient(135deg, #10b981 0%, #047857 100%);
+  transform: rotate(-3deg) translateZ(0);
+  border: 1.5px solid rgba(52, 211, 153, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  animation: floatCard 4s ease-in-out infinite alternate;
+}
+
+@keyframes floatCard {
+  from { transform: rotate(-3deg) translateY(0); }
+  to { transform: rotate(-1.5deg) translateY(-4px); }
+}
+
+.hs-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner de MERCADO cian */
+.hs-card-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, #22d3ee 0%, #0891b2 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #083344;
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  padding: 6px 14px;
+  border-radius: 4px;
+  box-shadow: 
+    0 4px 10px rgba(8, 145, 178, 0.4),
+    0 1px 0 rgba(255,255,255,0.25);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* Número vertical lateral */
+.hs-card-number {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.85);
+  transform: rotate(90deg);
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+
+/* Responsividad */
+@media (max-width: 820px) {
+  .premium-market-header {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    gap: 24px;
+  }
+  .pmh-text-wrap {
+    padding-left: 0;
+    margin-top: 100px;
+  }
+  .header-ball-wrap {
+    width: 160px;
+    height: 160px;
+    left: -40px;
+    top: 10px;
+    transform: none;
+    animation: none;
+  }
+  .header-card-stack {
+    margin: 10px auto 0;
+  }
+}
 
 /* --- Estado vacío genérico --- */
 .empty-state {
@@ -295,8 +793,125 @@
   color: var(--text-muted);
 }
 
+/* --- Selector resumido de ligas en Clubes --- */
+.league-switcher {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+
+.league-switch-card {
+  text-align: left;
+  padding: 14px 16px;
+  color: var(--text);
+  cursor: pointer;
+  transition: transform 0.2s var(--ease), border-color 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+
+.league-switch-card:hover,
+.league-switch-card.is-active {
+  transform: translateY(-3px);
+  border-color: var(--brand);
+  background: rgba(34, 197, 94, 0.09);
+}
+
+.league-switch-card strong {
+  display: block;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 0.98rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.league-switch-card span,
+.league-switch-card small {
+  display: block;
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.league-switch-card small {
+  color: var(--brand);
+  font-family: var(--font-mono);
+  font-weight: 900;
+}
+
+.squad-audit {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.squad-audit-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background:
+    radial-gradient(110% 120% at 100% 0%, color-mix(in srgb, var(--audit-c) 16%, transparent), transparent 64%),
+    var(--bg-card);
+  border-color: color-mix(in srgb, var(--audit-c) 28%, var(--border));
+}
+
+.sqa-icon {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border-radius: var(--radius-sm);
+  color: var(--audit-c);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sqa-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sqa-copy small,
+.sqa-copy em {
+  color: var(--text-dim);
+  font-size: 0.72rem;
+  font-style: normal;
+}
+
+.sqa-copy small {
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 800;
+}
+
+.sqa-copy strong {
+  color: #fff;
+  font-family: var(--font-display);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 980px) {
+  .squad-audit {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .squad-audit {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* --- Aviso de datos de demostración --- */
 .demo-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
   background: rgba(245, 197, 24, 0.08);
   border: 1px solid rgba(245, 197, 24, 0.25);
   color: #fde047;
@@ -304,4 +919,384 @@
   padding: 10px 14px;
   font-size: 0.84rem;
   margin: 16px 0 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.demo-banner .icon {
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+
+/* --- Centro de mando del mercado de fichajes --- */
+.market-command-center {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.market-spotlight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.market-spotlight {
+  min-height: 108px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  overflow: hidden;
+}
+
+.market-spotlight:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(70% 100% at 100% 0%, rgba(34, 197, 94, 0.14), transparent 72%),
+    linear-gradient(135deg, rgba(255,255,255,0.04), transparent 48%);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.market-spotlight.tone-gold:before {
+  background:
+    radial-gradient(70% 100% at 100% 0%, rgba(251, 191, 36, 0.18), transparent 72%),
+    linear-gradient(135deg, rgba(255,255,255,0.04), transparent 48%);
+}
+
+.market-spotlight.tone-info:before {
+  background:
+    radial-gradient(70% 100% at 100% 0%, rgba(56, 189, 248, 0.16), transparent 72%),
+    linear-gradient(135deg, rgba(255,255,255,0.04), transparent 48%);
+}
+
+.mk-icon,
+.mk-copy,
+.market-spotlight .crest {
+  position: relative;
+  z-index: 1;
+}
+
+.mk-icon {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.07);
+  color: var(--brand);
+}
+
+.tone-gold .mk-icon { color: var(--gold); }
+.tone-info .mk-icon { color: var(--state-info); }
+
+.mk-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 2px;
+}
+
+.mk-title {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  font-weight: 800;
+}
+
+.mk-copy strong {
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mk-copy small {
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.market-command-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.market-balance-card,
+.recent-deals-card {
+  padding: 18px;
+}
+
+.market-balance-card h3,
+.recent-deals-head h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1rem;
+}
+
+.market-balance-list,
+.recent-deals-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.market-balance-row,
+.recent-deal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.035);
+  transition: background-color 0.2s var(--ease), transform 0.2s var(--ease);
+  min-width: 0;
+}
+
+.market-balance-row:hover,
+.recent-deal:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateX(3px);
+}
+
+.mbr-main,
+.rd-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mbr-main strong,
+.rd-main strong {
+  color: #fff;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mbr-main small,
+.rd-main small,
+.recent-deals-head span {
+  color: var(--text-dim);
+  font-size: 0.74rem;
+}
+
+.mbr-value,
+.rd-fee {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-weight: 900;
+  color: var(--brand);
+  font-size: 0.86rem;
+  max-width: 48%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mbr-value.is-negative { color: var(--state-danger); }
+
+.recent-deals-card {
+  grid-column: span 3;
+}
+
+.recent-deals-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.recent-deals-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.rd-date {
+  flex: 0 0 82px;
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+}
+
+@media (max-width: 980px) {
+  .market-spotlight-grid,
+  .market-command-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-deals-card {
+    grid-column: auto;
+  }
+
+  .recent-deals-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  .market-spotlight {
+    grid-template-columns: auto 1fr;
+  }
+
+  .market-spotlight .crest {
+    display: none;
+  }
+
+  .recent-deal {
+    align-items: flex-start;
+  }
+
+  .rd-date {
+    flex-basis: 68px;
+  }
+
+  .mbr-value,
+  .rd-fee {
+    max-width: 42%;
+    font-size: 0.78rem;
+  }
+}
+
+/* --- Tarjeta de Fichaje Destacado Premium (`featured-transfer-card`) --- */
+.featured-transfer-card {
+  position: relative;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  isolation: isolate;
+  overflow: hidden;
+  background: 
+    radial-gradient(100% 100% at 0% 0%, color-mix(in srgb, var(--club-c) 12%, transparent), transparent 75%),
+    linear-gradient(168deg, #121826 0%, #080b11 100%);
+  border: 1px solid color-mix(in srgb, var(--club-c) 25%, var(--border));
+  box-shadow: 
+    0 8px 24px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  transition: 
+    transform 0.3s var(--ease), 
+    border-color 0.3s var(--ease), 
+    box-shadow 0.3s var(--ease);
+}
+
+.featured-transfer-card:hover {
+  transform: translateY(-6px);
+  border-color: color-mix(in srgb, var(--club-c) 80%, #fff 15%);
+  box-shadow: 
+    0 20px 40px -12px rgba(0, 0, 0, 0.8), 
+    0 0 25px -6px color-mix(in srgb, var(--club-c) 55%, transparent);
+}
+
+/* Silueta de jugador de fondo */
+.ftc-player-bg {
+  position: absolute;
+  right: -8px;
+  bottom: -12px;
+  height: 110%;
+  width: auto;
+  object-fit: contain;
+  object-position: bottom right;
+  opacity: 0.15;
+  filter: grayscale(100%) contrast(1.1) brightness(0.65);
+  mix-blend-mode: screen;
+  z-index: 0;
+  pointer-events: none;
+  transition: opacity 0.3s var(--ease), filter 0.3s var(--ease), transform 0.3s var(--ease);
+}
+
+.featured-transfer-card:hover .ftc-player-bg {
+  opacity: 0.38;
+  filter: grayscale(20%) contrast(1.25) brightness(0.95);
+  transform: scale(1.06) translateY(-4px);
+}
+
+.ftc-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+}
+
+.ftc-status {
+  align-self: flex-start;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.25);
+  color: #4ade80;
+}
+
+.ftc-name {
+  margin: 4px 0 0;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.ftc-clubs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ftc-club-fallback {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+.ftc-arrow {
+  color: var(--brand);
+  font-weight: 900;
+  font-size: 0.95rem;
+  text-shadow: 0 0 6px color-mix(in srgb, var(--brand) 40%, transparent);
+}
+
+.ftc-bottom {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.ftc-fee {
+  font-family: var(--font-mono);
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--gold);
+}
+
+.ftc-hint {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

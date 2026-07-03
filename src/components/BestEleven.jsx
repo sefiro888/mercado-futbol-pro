@@ -4,8 +4,74 @@ import Crest from './Crest.jsx'
 import { FORMATION_433, buildEleven, candidatesForSlot, lineOf, LINE_COLOR } from '@/lib/positions.js'
 import { clubLogoUrl } from '@/lib/logos.js'
 import { formatMoney } from '@/lib/format.js'
+import { playerPhotoUrl } from '@/lib/photos.js'
 import { getVotes, submitVote, getMyEleven, getVoteCount } from '@/lib/votes.js'
 import './BestEleven.css'
+
+function initials(name = '') {
+  return name
+    .split(' ')
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((w) => w[0])
+    .join('')
+}
+
+function PitchSlot({ slot, player, votes, mode, club, activeSlot, setActiveSlot }) {
+  const [imgError, setImgError] = useState(false)
+  const color = LINE_COLOR[slot.line]
+  const v = player ? votes[player.id] || 0 : 0
+  const photoUrl = player && !imgError ? playerPhotoUrl(player) : null
+
+  return (
+    <button
+      className={`pitch-slot ${activeSlot === slot.id ? 'is-active' : ''} ${mode === 'build' ? 'editable' : ''}`}
+      style={{ left: `${slot.x}%`, top: `${slot.y}%` }}
+      onClick={() => mode === 'build' && setActiveSlot(activeSlot === slot.id ? null : slot.id)}
+      disabled={mode !== 'build'}
+    >
+      <span className="ps-shirt" style={{ borderColor: color }}>
+        {player ? (
+          photoUrl ? (
+            <div className="ps-avatar-wrap">
+              <img className="ps-avatar" src={photoUrl} alt="" onError={() => setImgError(true)} />
+            </div>
+          ) : (
+            <div className="ps-avatar-placeholder">
+              {initials(player.name)}
+            </div>
+          )
+        ) : (
+          '+'
+        )}
+        {mode === 'voted' && v > 0 && <span className="ps-votes">{v}</span>}
+      </span>
+      <span className="ps-name">{player ? lastName(player.name) : slot.label}</span>
+    </button>
+  )
+}
+
+function CandidateRow({ p, club, activeSlot, pickPlayer }) {
+  const [imgError, setImgError] = useState(false)
+  const photoUrl = !imgError ? playerPhotoUrl(p) : null
+
+  return (
+    <button className="xi-cand" onClick={() => pickPlayer(activeSlot, p.id)}>
+      {photoUrl ? (
+        <div className="xi-cand-avatar-wrap">
+          <img className="xi-cand-avatar" src={photoUrl} alt="" onError={() => setImgError(true)} />
+        </div>
+      ) : (
+        <Crest name={p.name} color={club.primaryColor} size={26} variant="avatar" />
+      )}
+      <span className="xi-cand-name">{p.name}</span>
+      <span className="xi-cand-pos" style={{ color: LINE_COLOR[lineOf(p.position)] }}>
+        {p.position}
+      </span>
+      <span className="xi-cand-val num">{formatMoney(p.marketValue)}</span>
+    </button>
+  )
+}
 
 const lastName = (name = '') => name.split(' ').slice(-1)[0]
 
@@ -113,36 +179,36 @@ export default function BestEleven({ club, squad }) {
       </p>
 
       <div className="pitch" style={{ '--club-c': club.primaryColor }}>
+        {/* Líneas y áreas reglamentarias de fútbol de alto detalle */}
+        <div className="pitch-markings" aria-hidden="true">
+          <div className="penalty-area top">
+            <div className="goal-area"></div>
+            <div className="penalty-spot"></div>
+            <div className="penalty-arc"></div>
+          </div>
+          <div className="penalty-area bottom">
+            <div className="goal-area"></div>
+            <div className="penalty-spot"></div>
+            <div className="penalty-arc"></div>
+          </div>
+          <div className="center-spot"></div>
+        </div>
         {clubLogoUrl(club.id) && (
           <img className="pitch-logo" src={clubLogoUrl(club.id)} alt="" aria-hidden="true" loading="lazy" />
         )}
         {FORMATION_433.map((slot) => {
           const player = shownEleven[slot.id]
-          const color = LINE_COLOR[slot.line]
-          const v = player ? votes[player.id] || 0 : 0
           return (
-            <button
+            <PitchSlot
               key={slot.id}
-              className={`pitch-slot ${activeSlot === slot.id ? 'is-active' : ''} ${mode === 'build' ? 'editable' : ''}`}
-              style={{ left: `${slot.x}%`, top: `${slot.y}%` }}
-              onClick={() => mode === 'build' && setActiveSlot(activeSlot === slot.id ? null : slot.id)}
-              disabled={mode !== 'build'}
-            >
-              <span className="ps-shirt" style={{ borderColor: color }}>
-                {player ? (
-                  <Crest
-                    name={player.name}
-                    color={club.primaryColor}
-                    size={34}
-                    variant="avatar"
-                  />
-                ) : (
-                  '+'
-                )}
-                {mode === 'voted' && v > 0 && <span className="ps-votes">{v}</span>}
-              </span>
-              <span className="ps-name">{player ? lastName(player.name) : slot.label}</span>
-            </button>
+              slot={slot}
+              player={player}
+              votes={votes}
+              mode={mode}
+              club={club}
+              activeSlot={activeSlot}
+              setActiveSlot={setActiveSlot}
+            />
           )
         })}
       </div>
@@ -156,14 +222,13 @@ export default function BestEleven({ club, squad }) {
           </div>
           <div className="xi-candidates">
             {candidatesForSlot(activeSlotDef, squad).map((p) => (
-              <button key={p.id} className="xi-cand" onClick={() => pickPlayer(activeSlot, p.id)}>
-                <Crest name={p.name} color={club.primaryColor} size={26} variant="avatar" />
-                <span className="xi-cand-name">{p.name}</span>
-                <span className="xi-cand-pos" style={{ color: LINE_COLOR[lineOf(p.position)] }}>
-                  {p.position}
-                </span>
-                <span className="xi-cand-val num">{formatMoney(p.marketValue)}</span>
-              </button>
+              <CandidateRow
+                key={p.id}
+                p={p}
+                club={club}
+                activeSlot={activeSlot}
+                pickPlayer={pickPlayer}
+              />
             ))}
           </div>
         </div>
@@ -175,7 +240,7 @@ export default function BestEleven({ club, squad }) {
             <Crest name={club.name} color={club.primaryColor} size={18} logoUrl={clubLogoUrl(club.id)} />
             Votar mi once
           </button>
-          {justVoted && <span className="xi-voted-msg">¡Voto registrado! 🗳️</span>}
+          {justVoted && <span className="xi-voted-msg">Voto registrado</span>}
         </div>
       )}
 

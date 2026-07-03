@@ -13,7 +13,7 @@ export default function PlayerDetail() {
       const club = getClubById(player.currentClubId)
       setPageSeo({
         title: player.name,
-        description: `${player.name}: ${player.position}${club ? ` en ${club.name}` : ''}. Datos, valor de mercado, historial y rumores. Datos de demostración.`,
+        description: `${player.name}: ${player.position}${club ? ` en ${club.name}` : ''}. Datos, valor de mercado, historial y rumores actualizados a 27/06/2026.`,
       })
     } else {
       setPageSeo({ title: 'Jugador no encontrado' })
@@ -24,7 +24,7 @@ export default function PlayerDetail() {
     return (
       <div className="container section empty-state">
         <h1>Jugador no encontrado</h1>
-        <p>El jugador que buscas no existe en los datos de demostración.</p>
+        <p>El jugador que buscas no existe en la base de datos actual.</p>
         <Link className="btn btn-primary" to="/jugadores">Volver a jugadores</Link>
       </div>
     )

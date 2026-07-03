@@ -1,11 +1,22 @@
-.xi { display: flex; flex-direction: column; gap: 14px; }
+/* ===========================================================================
+   ONCE IDEAL Y CAMPO DE FÚTBOL
+   Estilo de alta gama con campos reglamentarios completos, efectos de reflector,
+   césped 3D y fichas de jugador premium.
+   =========================================================================== */
+
+.xi {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 /* --- Pestañas de modo --- */
 .xi-tabs {
   display: inline-flex;
-  gap: 4px;
+  gap: 6px;
   padding: 4px;
-  background: var(--bg-elevated);
+  background: rgba(18, 24, 38, 0.6);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   align-self: flex-start;
@@ -16,107 +27,253 @@
   border: none;
   background: transparent;
   color: var(--text-muted);
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.86rem;
-  padding: 8px 16px;
+  padding: 8px 18px;
   border-radius: var(--radius-pill);
-  transition: background 0.15s var(--ease), color 0.15s var(--ease);
+  transition: background 0.2s var(--ease), color 0.2s var(--ease), transform 0.1s var(--ease);
 }
-.xi-tabs button:hover { color: var(--text); }
-.xi-tabs button.active { background: var(--grad-brand); color: #052e16; }
+.xi-tabs button:hover {
+  color: var(--text);
+}
+.xi-tabs button:active {
+  transform: scale(0.95);
+}
+.xi-tabs button.active {
+  background: var(--grad-brand);
+  color: var(--brand-contrast);
+  box-shadow: 0 4px 12px -3px rgba(34, 197, 94, 0.45);
+}
 
-.xi-hint { margin: 0; font-size: 0.9rem; }
+.xi-hint {
+  margin: 0;
+  font-size: 0.9rem;
+  font-family: var(--font);
+}
 
 /* --- Campo de fútbol --- */
 .pitch {
   position: relative;
   width: 100%;
-  max-width: 460px;
-  margin: 4px auto;
+  max-width: 480px;
+  margin: 8px auto;
   aspect-ratio: 68 / 90;
-  border-radius: var(--radius);
+  border-radius: 24px;
   border: 2px solid rgba(255, 255, 255, 0.16);
   overflow: hidden;
+  
+  /* Césped 3D: Rayado de campo vertical + resplandor de iluminación de estadio */
   background:
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.05), transparent 80%),
+    radial-gradient(circle at 10% 10%, rgba(255,255,255,0.06), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(255,255,255,0.06), transparent 45%),
     repeating-linear-gradient(
       0deg,
-      #11502a 0,
-      #11502a 11.11%,
-      #0e4624 11.11%,
-      #0e4624 22.22%
+      #0e3e1f 0,
+      #0e3e1f 10%,
+      #0a3217 10%,
+      #0a3217 20%
     );
-  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.45), var(--shadow);
+    
+  box-shadow: 
+    inset 0 0 80px rgba(0, 0, 0, 0.65), 
+    inset 0 0 140px -30px var(--club-c, transparent), 
+    var(--shadow);
 }
-/* Escudo del club como marca de agua en el centro del campo */
+
+/* Escudo de marca de agua en el medio */
 .pitch-logo {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 42%;
+  width: 38%;
   transform: translate(-50%, -50%);
-  opacity: 0.12;
-  z-index: 0;
+  opacity: 0.10;
+  z-index: 1;
   pointer-events: none;
+  filter: grayscale(1) contrast(1.2);
 }
-.pitch-slot { z-index: 2; }
-/* Tinte sutil del color del club sobre el césped */
-.pitch { box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.45), inset 0 0 120px -40px var(--club-c, transparent), var(--shadow); }
 
+/* --- Marcaciones de campo reglamentarias en CSS --- */
+.pitch-markings {
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+  z-index: 0;
+}
 /* Línea de medio campo */
-.pitch::after {
+.pitch-markings::after {
   content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
-  border-top: 2px solid rgba(255, 255, 255, 0.18);
+  height: 2px;
+  background: rgba(255, 255, 255, 0.18);
 }
 /* Círculo central */
-.pitch::before {
-  content: '';
+.center-spot {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 26%;
+  width: 25%;
   aspect-ratio: 1;
   transform: translate(-50%, -50%);
   border: 2px solid rgba(255, 255, 255, 0.18);
   border-radius: 50%;
 }
+.center-spot::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: translate(-50%, -50%);
+}
 
-/* --- Fichas en el campo --- */
+/* Áreas de penalti (superior e inferior) */
+.penalty-area {
+  position: absolute;
+  left: 50%;
+  width: 58%;
+  height: 18%;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  transform: translateX(-50%);
+}
+.penalty-area.top {
+  top: -2px;
+  border-top: none;
+}
+.penalty-area.bottom {
+  bottom: -2px;
+  border-bottom: none;
+}
+
+/* Área chica o de meta */
+.goal-area {
+  position: absolute;
+  left: 50%;
+  width: 40%;
+  height: 35%;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  transform: translateX(-50%);
+}
+.penalty-area.top .goal-area {
+  top: -2px;
+  border-top: none;
+}
+.penalty-area.bottom .goal-area {
+  bottom: -2px;
+  border-bottom: none;
+}
+
+/* Punto de penalti */
+.penalty-spot {
+  position: absolute;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.35);
+  transform: translateX(-50%);
+}
+.penalty-area.top .penalty-spot {
+  bottom: 22%;
+}
+.penalty-area.bottom .penalty-spot {
+  top: 22%;
+}
+
+/* Media luna del área */
+.penalty-arc {
+  position: absolute;
+  left: 50%;
+  width: 44%;
+  aspect-ratio: 1.5;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+.penalty-area.top .penalty-arc {
+  bottom: -40%;
+  clip-path: inset(45% 0 0 0); /* Muestra sólo el arco inferior */
+}
+.penalty-area.bottom .penalty-arc {
+  top: -40%;
+  clip-path: inset(0 0 45% 0); /* Muestra sólo el arco superior */
+}
+
+/* --- Fichas de jugador --- */
 .pitch-slot {
   position: absolute;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
+  gap: 4px;
   background: none;
   border: none;
   padding: 0;
-  width: 76px;
+  width: 78px;
   cursor: default;
+  z-index: 2;
 }
-.pitch-slot.editable { cursor: pointer; }
+.pitch-slot.editable {
+  cursor: pointer;
+}
+
+/* Camiseta / Cromo redondo interactivo */
 .ps-shirt {
   position: relative;
   display: grid;
   place-items: center;
-  width: 44px;
-  height: 44px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
-  background: rgba(8, 12, 20, 0.55);
+  background: rgba(8, 12, 20, 0.75);
+  backdrop-filter: blur(4px);
   border: 2px solid var(--brand);
+  font-family: var(--font-display);
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  transition: transform 0.15s var(--ease), box-shadow 0.15s var(--ease);
+  box-shadow: 
+    0 4px 15px rgba(0, 0, 0, 0.6),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transition: 
+    transform 0.2s var(--ease), 
+    box-shadow 0.2s var(--ease), 
+    border-color 0.2s var(--ease);
 }
-.pitch-slot.editable:hover .ps-shirt { transform: scale(1.08); box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.35); }
-.pitch-slot.is-active .ps-shirt { box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.6); }
-.ps-shirt .avatar { width: 100% !important; height: 100% !important; border: none; }
+
+.pitch-slot.editable:hover .ps-shirt {
+  transform: scale(1.12);
+  border-color: #fff !important;
+  box-shadow: 
+    0 0 20px color-mix(in srgb, var(--pos-c) 80%, #fff),
+    0 6px 18px rgba(0, 0, 0, 0.7);
+}
+
+.pitch-slot.is-active .ps-shirt {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.8), 0 0 25px var(--brand);
+  border-color: #fff;
+  transform: scale(1.15);
+}
+
+.ps-shirt .avatar {
+  width: 100% !important;
+  height: 100% !important;
+  border: none;
+  border-radius: 50%;
+  font-size: 0.9rem !important;
+}
+
+/* Votos */
 .ps-votes {
   position: absolute;
   top: -6px;
@@ -126,44 +283,55 @@
   padding: 0 5px;
   border-radius: 999px;
   background: var(--grad-brand);
-  color: #052e16;
-  font-size: 0.7rem;
-  font-weight: 800;
+  color: var(--brand-contrast);
+  font-size: 0.68rem;
+  font-weight: 900;
   display: grid;
   place-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  z-index: 5;
 }
+
+/* Nombre del jugador en el campo */
 .ps-name {
+  font-family: var(--font-display);
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #fff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
-  background: rgba(8, 12, 20, 0.5);
-  padding: 1px 6px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.95);
+  background: rgba(11, 15, 23, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2px 8px;
   border-radius: var(--radius-pill);
-  max-width: 84px;
+  max-width: 86px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
 }
 
-/* --- Selector de candidatos --- */
+/* --- Selector de candidatos (Glassmorphism) --- */
 .xi-picker {
-  background: var(--bg-card);
+  background: rgba(21, 28, 44, 0.7);
+  backdrop-filter: blur(12px);
   border: 1px solid var(--border-strong);
   border-radius: var(--radius);
-  padding: 14px;
+  padding: 16px;
+  box-shadow: var(--shadow);
 }
 .xi-picker-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   font-size: 0.92rem;
+  font-family: var(--font-display);
+  font-weight: 700;
 }
 .xi-candidates {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
   max-height: 280px;
   overflow-y: auto;
 }
@@ -173,28 +341,143 @@
   gap: 10px;
   width: 100%;
   text-align: left;
-  background: var(--bg-elevated);
+  background: rgba(14, 20, 31, 0.5);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
-  padding: 8px 10px;
+  padding: 10px 12px;
   color: var(--text);
-  transition: border-color 0.15s var(--ease), transform 0.1s var(--ease);
+  transition: 
+    border-color 0.2s var(--ease), 
+    transform 0.12s var(--ease),
+    background 0.2s var(--ease);
 }
-.xi-cand:hover { border-color: var(--brand); }
-.xi-cand:active { transform: scale(0.99); }
-.xi-cand-name { font-weight: 600; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.xi-cand-pos { font-size: 0.74rem; font-weight: 700; flex-shrink: 0; }
-.xi-cand-val { font-weight: 800; flex-shrink: 0; min-width: 56px; text-align: right; }
+.xi-cand:hover {
+  border-color: var(--brand);
+  background: rgba(34, 197, 94, 0.08);
+}
+.xi-cand:active {
+  transform: scale(0.98);
+}
+.xi-cand-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.xi-cand-pos {
+  font-size: 0.72rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.xi-cand-val {
+  font-family: var(--font-mono);
+  font-weight: 800;
+  flex-shrink: 0;
+  min-width: 60px;
+  text-align: right;
+  color: var(--brand);
+}
 
 /* --- Barra de voto --- */
-.xi-vote-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.xi-vote-bar .btn { display: inline-flex; align-items: center; gap: 8px; }
-.xi-voted-msg { color: var(--brand); font-weight: 700; animation: fadeInUp 0.3s var(--ease); }
+.xi-vote-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+.xi-vote-bar .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.xi-voted-msg {
+  color: var(--brand);
+  font-weight: 800;
+  font-family: var(--font-display);
+  animation: fadeInUp 0.4s var(--ease);
+}
 
-.xi-foot { font-size: 0.78rem; margin: 0; }
+.xi-foot {
+  font-size: 0.78rem;
+  margin: 0;
+  color: var(--text-dim);
+}
 
 @media (max-width: 480px) {
-  .pitch-slot { width: 60px; }
-  .ps-shirt { width: 40px; height: 40px; }
-  .ps-name { font-size: 0.66rem; max-width: 70px; }
+  .pitch {
+    border-radius: 16px;
+  }
+  .pitch-slot {
+    width: 64px;
+  }
+  .ps-shirt {
+    width: 38px;
+    height: 38px;
+    font-size: 0.95rem;
+  }
+  .ps-name {
+    font-size: 0.64rem;
+    max-width: 68px;
+    padding: 1px 6px;
+  }
+  .penalty-area {
+    width: 64%;
+  }
+}
+
+/* --- Avatar del jugador en la ficha táctica --- */
+.ps-avatar-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(14, 20, 31, 0.7);
+}
+
+.ps-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.ps-avatar-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: rgba(14, 20, 31, 0.4);
+}
+
+/* --- Avatar de candidato en el selector lateral --- */
+.xi-cand-avatar-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(14, 20, 31, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+
+.xi-cand-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
 }

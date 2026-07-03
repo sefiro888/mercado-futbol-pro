@@ -108,6 +108,15 @@ const PATHS = {
       <path d="M14.6 9.6a3 3 0 1 0 0 4.8M8.2 11h4.2M8.2 13h4.2" />
     </>
   ),
+  // Maletín de negociaciones/fichajes (realista).
+  briefcase: (
+    <>
+      <rect x="3" y="7" width="18" height="13" rx="2" />
+      <path d="M16 7V4.5A1.5 1.5 0 0 0 14.5 3h-5A1.5 1.5 0 0 0 8 4.5V7" />
+      <rect x="11" y="12" width="2" height="2" rx="0.5" />
+      <path d="M3 12h8M13 12h8" />
+    </>
+  ),
   // Calendario (edad / contrato / fecha).
   calendar: (
     <>

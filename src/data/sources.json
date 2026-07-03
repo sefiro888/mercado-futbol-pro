@@ -61,5 +61,23 @@
     "country": "Internacional",
     "type": "base-de-datos",
     "reliabilityLevel": "media"
+  },
+  {
+    "id": "src-as",
+    "name": "Diario AS",
+    "domain": "as.com",
+    "url": "https://as.com/futbol/",
+    "country": "España",
+    "type": "medio-deportivo",
+    "reliabilityLevel": "alta"
+  },
+  {
+    "id": "src-wikipedia",
+    "name": "Wikipedia",
+    "domain": "wikipedia.org",
+    "url": "https://www.wikipedia.org/",
+    "country": "Internacional",
+    "type": "base-de-datos",
+    "reliabilityLevel": "media"
   }
 ]
