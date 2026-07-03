@@ -8,9 +8,16 @@
          Necesario porque GitHub Pages no resuelve rutas de SPA en el servidor. -->
     <script>
       (function () {
-        var m = window.location.pathname.match(/^(\/mercado-futbol-pro)?(\/.+)$/)
-        if (m && m[2] && m[2] !== '/' && !window.location.hash) {
-          window.location.replace((m[1] || '') + '/#' + m[2] + window.location.search)
+        // Solo actúa sobre enlaces antiguos con sub-ruta real, p. ej.
+        // /mercado-futbol-pro/fichajes -> /mercado-futbol-pro/#/fichajes
+        // Nunca toca la raíz (/mercado-futbol-pro/) para evitar bucles.
+        var base = '/mercado-futbol-pro/'
+        var path = window.location.pathname
+        if (path.indexOf(base) === 0 && !window.location.hash) {
+          var rest = path.slice(base.length)
+          if (rest) {
+            window.location.replace(base + '#/' + rest + window.location.search)
+          }
         }
       })()
     </script>
