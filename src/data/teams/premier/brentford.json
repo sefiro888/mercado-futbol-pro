@@ -1,0 +1,30 @@
+{
+  "club": {
+    "id": "brentford",
+    "name": "Brentford",
+    "slug": "brentford",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Londres",
+    "stadium": "Gtech Community Stadium",
+    "coach": "Keith Andrews",
+    "founded": 1889,
+    "primaryColor": "#E30613"
+  },
+  "players": [
+    { "id": "caoimhin-kelleher", "name": "Caoimhín Kelleher", "slug": "caoimhin-kelleher", "birthDate": "1998-11-23", "nationality": "Irlanda", "position": "Portero", "height": 188, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "michael-kayode", "name": "Michael Kayode", "slug": "michael-kayode", "birthDate": "2004-07-10", "nationality": "Italia", "position": "Lateral derecho", "height": 184, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2030-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "nathan-collins", "name": "Nathan Collins", "slug": "nathan-collins", "birthDate": "2001-04-30", "nationality": "Irlanda", "position": "Defensa central", "height": 193, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2028-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "ethan-pinnock", "name": "Ethan Pinnock", "slug": "ethan-pinnock", "birthDate": "1993-05-29", "nationality": "Jamaica", "position": "Defensa central", "height": 191, "dominantFoot": "Izquierdo", "marketValue": 10, "contractUntil": "2027-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "sepp-van-den-berg", "name": "Sepp van den Berg", "slug": "sepp-van-den-berg", "birthDate": "2001-12-20", "nationality": "Países Bajos", "position": "Defensa central", "height": 193, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 15, "status": "suplente" },
+    { "id": "rico-henry", "name": "Rico Henry", "slug": "rico-henry", "birthDate": "1997-07-08", "nationality": "Inglaterra", "position": "Lateral izquierdo", "height": 170, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2026-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "kristoffer-ajer", "name": "Kristoffer Ajer", "slug": "kristoffer-ajer", "birthDate": "1998-04-17", "nationality": "Noruega", "position": "Lateral derecho", "height": 198, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2027-06-30", "shirtNumber": 16, "status": "suplente" },
+    { "id": "vitaly-janelt", "name": "Vitaly Janelt", "slug": "vitaly-janelt", "birthDate": "1998-05-10", "nationality": "Alemania", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2027-06-30", "shirtNumber": 27, "status": "titular" },
+    { "id": "yegor-yarmoliuk", "name": "Yegor Yarmoliuk", "slug": "yegor-yarmoliuk", "birthDate": "2004-03-01", "nationality": "Ucrania", "position": "Mediocentro defensivo", "height": 184, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 28, "status": "titular" },
+    { "id": "mikkel-damsgaard", "name": "Mikkel Damsgaard", "slug": "mikkel-damsgaard", "birthDate": "2000-07-03", "nationality": "Dinamarca", "position": "Mediapunta", "height": 180, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2028-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "jordan-henderson", "name": "Jordan Henderson", "slug": "jordan-henderson", "birthDate": "1990-06-17", "nationality": "Inglaterra", "position": "Mediocentro", "height": 182, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2027-06-30", "shirtNumber": 8, "status": "suplente" },
+    { "id": "kevin-schade", "name": "Kevin Schade", "slug": "kevin-schade", "birthDate": "2001-11-27", "nationality": "Alemania", "position": "Extremo izquierdo", "height": 184, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "igor-thiago", "name": "Igor Thiago", "slug": "igor-thiago", "birthDate": "2001-06-26", "nationality": "Brasil", "position": "Delantero centro", "height": 188, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2029-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "dango-ouattara", "name": "Dango Ouattara", "slug": "dango-ouattara", "birthDate": "2002-02-11", "nationality": "Burkina Faso", "position": "Extremo derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2029-06-30", "shirtNumber": 11, "status": "titular" }
+  ]
+}

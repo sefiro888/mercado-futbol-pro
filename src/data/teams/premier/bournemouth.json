@@ -1,0 +1,29 @@
+{
+  "club": {
+    "id": "bournemouth",
+    "name": "AFC Bournemouth",
+    "slug": "bournemouth",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Bournemouth",
+    "stadium": "Vitality Stadium",
+    "coach": "Andoni Iraola",
+    "founded": 1899,
+    "primaryColor": "#DA291C"
+  },
+  "players": [
+    { "id": "dorde-petrovic", "name": "Đorđe Petrović", "slug": "dorde-petrovic", "birthDate": "1999-10-08", "nationality": "Serbia", "position": "Portero", "height": 194, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "julian-araujo", "name": "Julián Araujo", "slug": "julian-araujo", "birthDate": "2001-08-13", "nationality": "México", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "marcos-senesi", "name": "Marcos Senesi", "slug": "marcos-senesi", "birthDate": "1997-05-10", "nationality": "Argentina", "position": "Defensa central", "height": 185, "dominantFoot": "Izquierdo", "marketValue": 30, "contractUntil": "2029-06-30", "shirtNumber": 25, "status": "titular" },
+    { "id": "bafode-diakite", "name": "Bafodé Diakité", "slug": "bafode-diakite", "birthDate": "2001-01-06", "nationality": "Francia", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2030-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "adrien-truffert", "name": "Adrien Truffert", "slug": "adrien-truffert", "birthDate": "2001-11-20", "nationality": "Francia", "position": "Lateral izquierdo", "height": 176, "dominantFoot": "Izquierdo", "marketValue": 22, "contractUntil": "2030-06-30", "shirtNumber": 15, "status": "titular" },
+    { "id": "tyler-adams", "name": "Tyler Adams", "slug": "tyler-adams", "birthDate": "1999-02-14", "nationality": "Estados Unidos", "position": "Mediocentro defensivo", "height": 175, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "lewis-cook", "name": "Lewis Cook", "slug": "lewis-cook", "birthDate": "1997-02-03", "nationality": "Inglaterra", "position": "Mediocentro", "height": 176, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2027-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "alex-scott", "name": "Alex Scott", "slug": "alex-scott", "birthDate": "2003-08-21", "nationality": "Inglaterra", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2029-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "ryan-christie", "name": "Ryan Christie", "slug": "ryan-christie", "birthDate": "1995-02-22", "nationality": "Escocia", "position": "Mediapunta", "height": 178, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 10, "status": "suplente" },
+    { "id": "antoine-semenyo", "name": "Antoine Semenyo", "slug": "antoine-semenyo", "birthDate": "2000-01-07", "nationality": "Ghana", "position": "Extremo derecho", "height": 177, "dominantFoot": "Derecho", "marketValue": 50, "contractUntil": "2030-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "justin-kluivert", "name": "Justin Kluivert", "slug": "justin-kluivert", "birthDate": "1999-05-05", "nationality": "Países Bajos", "position": "Extremo izquierdo", "height": 171, "dominantFoot": "Derecho", "marketValue": 28, "contractUntil": "2028-06-30", "shirtNumber": 19, "status": "titular" },
+    { "id": "evanilson", "name": "Evanilson", "slug": "evanilson", "birthDate": "1999-10-06", "nationality": "Brasil", "position": "Delantero centro", "height": 181, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2029-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "eli-junior-kroupi", "name": "Eli Junior Kroupi", "slug": "eli-junior-kroupi", "birthDate": "2006-06-26", "nationality": "Francia", "position": "Delantero centro", "height": 180, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 30, "status": "suplente" }
+  ]
+}

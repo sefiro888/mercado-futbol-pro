@@ -1,0 +1,104 @@
+/* Especificidad .filter-panel.card para ganar a la regla global `.card`
+   (que es position: relative para el borde con gradiente). */
+.filter-panel.card {
+  position: sticky;
+  top: 84px;
+}
+.filter-panel {
+  padding: 18px;
+}
+
+/* Botón de despliegue: solo visible en móvil. */
+.filter-toggle {
+  display: none;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 15px 18px;
+  background: var(--bg-elevated);
+  border: 1.5px solid var(--brand);
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 1.02rem;
+  box-shadow: 0 6px 20px -10px rgba(34, 197, 94, 0.5), inset 0 0 0 100px rgba(34, 197, 94, 0.06);
+  transition: transform 0.1s var(--ease), box-shadow 0.2s var(--ease);
+}
+.filter-toggle:active { transform: scale(0.98); }
+.filter-panel.is-open .filter-toggle { box-shadow: 0 6px 20px -10px rgba(34, 197, 94, 0.5); }
+.filter-toggle-label { display: inline-flex; align-items: center; gap: 8px; }
+.filter-count-badge {
+  display: inline-grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--grad-brand);
+  color: #052e16;
+  font-size: 0.74rem;
+  font-weight: 800;
+}
+.filter-chevron { color: var(--text-muted); font-size: 0.7rem; }
+
+.filter-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 16px;
+  min-height: 30px;
+}
+.filter-head h3 { margin: 0; font-size: 1rem; }
+
+.filter-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.range-inputs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.range-inputs .input { width: 100%; }
+.range-sep { color: var(--text-dim); }
+
+.filter-count {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------------- Móvil: colapsable */
+@media (max-width: 900px) {
+  .filter-panel.card {
+    position: static;
+    top: auto;
+  }
+  .filter-panel { padding: 12px; }
+  .filter-toggle { display: flex; }
+
+  /* Por defecto, en móvil el cuerpo y el título están ocultos. */
+  .filter-head { display: none; }
+  .filter-body {
+    display: grid;
+    grid-template-rows: 0fr;
+    opacity: 0;
+    transition: grid-template-rows 0.3s var(--ease), opacity 0.25s var(--ease), margin-top 0.3s var(--ease);
+    margin-top: 0;
+  }
+  .filter-inner { overflow: hidden; min-height: 0; }
+
+  /* Al abrir, se despliega con animación. */
+  .filter-panel.is-open .filter-body {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    margin-top: 14px;
+  }
+}

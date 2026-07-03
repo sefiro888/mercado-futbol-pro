@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ru-rodrygo-arsenal",
+    "playerId": "rodrygo",
+    "currentClubId": "real-madrid",
+    "interestedClubId": "arsenal",
+    "operationType": "compra",
+    "status": "negociacion",
+    "reliability": "media",
+    "sources": ["src-marca", "src-sky-sports"],
+    "summary": "El extremo brasileño busca más minutos y el Arsenal sondea su situación. Rumor ilustrativo de mercado; resumen propio.",
+    "lastUpdated": "2026-06-18"
+  },
+  {
+    "id": "ru-gvardiol-madrid",
+    "playerId": "josko-gvardiol",
+    "currentClubId": "manchester-city",
+    "interestedClubId": "real-madrid",
+    "operationType": "compra",
+    "status": "contactos",
+    "reliability": "media",
+    "sources": ["src-marca"],
+    "summary": "El Real Madrid sigue de cerca al central croata para reforzar la zaga. Rumor ilustrativo de mercado; resumen propio.",
+    "lastUpdated": "2026-06-15"
+  },
+  {
+    "id": "ru-chiesa-napoli",
+    "playerId": "federico-chiesa",
+    "currentClubId": "liverpool",
+    "interestedClubId": "napoli",
+    "operationType": "compra",
+    "status": "rumor",
+    "reliability": "baja",
+    "sources": ["src-gazzetta"],
+    "summary": "Se especula con un regreso del italiano a la Serie A. Sin confirmación sólida. Rumor ilustrativo; resumen propio.",
+    "lastUpdated": "2026-06-12"
+  },
+  {
+    "id": "ru-frattesi-napoli",
+    "playerId": "davide-frattesi",
+    "currentClubId": "inter",
+    "interestedClubId": "napoli",
+    "operationType": "compra",
+    "status": "contactos",
+    "reliability": "media",
+    "sources": ["src-gazzetta"],
+    "summary": "El centrocampista pide más protagonismo y el Napoli pregunta por él. Rumor ilustrativo; resumen propio.",
+    "lastUpdated": "2026-06-16"
+  },
+  {
+    "id": "ru-leao-barcelona",
+    "playerId": "rafael-leao",
+    "currentClubId": "milan",
+    "interestedClubId": "barcelona",
+    "operationType": "compra",
+    "status": "rumor",
+    "reliability": "baja",
+    "sources": ["src-transfermarkt"],
+    "summary": "Rumor recurrente sobre el extremo portugués sin avances concretos. Rumor ilustrativo; resumen propio.",
+    "lastUpdated": "2026-06-10"
+  },
+  {
+    "id": "ru-saka-renovacion",
+    "playerId": "bukayo-saka",
+    "currentClubId": "arsenal",
+    "interestedClubId": "arsenal",
+    "operationType": "renovacion",
+    "status": "oferta-enviada",
+    "reliability": "alta",
+    "sources": ["src-fabrizio-romano", "src-bbc-sport"],
+    "summary": "El Arsenal trabaja en ampliar y mejorar el contrato de su estrella inglesa. Rumor ilustrativo; resumen propio.",
+    "lastUpdated": "2026-06-17"
+  },
+  {
+    "id": "ru-pedri-renovacion",
+    "playerId": "pedri",
+    "currentClubId": "barcelona",
+    "interestedClubId": "barcelona",
+    "operationType": "renovacion",
+    "status": "confirmado",
+    "reliability": "oficial",
+    "sources": ["src-club-oficial"],
+    "summary": "Renovación de largo recorrido del centrocampista canario. Ejemplo ilustrativo; resumen propio.",
+    "lastUpdated": "2026-06-14"
+  },
+  {
+    "id": "ru-rashford-permanente",
+    "playerId": "marcus-rashford",
+    "currentClubId": "barcelona",
+    "interestedClubId": "barcelona",
+    "operationType": "compra",
+    "status": "negociacion",
+    "reliability": "media",
+    "sources": ["src-fabrizio-romano"],
+    "summary": "El Barça negocia ejecutar la opción de compra tras la cesión. Rumor ilustrativo; resumen propio.",
+    "lastUpdated": "2026-06-19"
+  }
+]

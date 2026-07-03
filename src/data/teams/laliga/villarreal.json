@@ -1,0 +1,31 @@
+{
+  "club": {
+    "id": "villarreal",
+    "name": "Villarreal CF",
+    "slug": "villarreal",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Villarreal",
+    "stadium": "Estadio de la Cerámica",
+    "coach": "Marcelino García Toral",
+    "founded": 1923,
+    "primaryColor": "#E0A800"
+  },
+  "players": [
+    { "id": "luiz-junior", "name": "Luiz Júnior", "slug": "luiz-junior", "birthDate": "2001-01-19", "nationality": "Brasil", "position": "Portero", "height": 191, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 13, "status": "titular" },
+    { "id": "juan-foyth", "name": "Juan Foyth", "slug": "juan-foyth", "birthDate": "1998-01-12", "nationality": "Argentina", "position": "Lateral derecho", "height": 187, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2026-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "renato-veiga", "name": "Renato Veiga", "slug": "renato-veiga", "birthDate": "2003-07-29", "nationality": "Portugal", "position": "Defensa central", "height": 190, "dominantFoot": "Izquierdo", "marketValue": 22, "contractUntil": "2030-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "logan-costa", "name": "Logan Costa", "slug": "logan-costa", "birthDate": "2001-04-01", "nationality": "Cabo Verde", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 14, "contractUntil": "2029-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "sergi-cardona", "name": "Sergi Cardona", "slug": "sergi-cardona", "birthDate": "1999-07-08", "nationality": "España", "position": "Lateral izquierdo", "height": 178, "dominantFoot": "Izquierdo", "marketValue": 10, "contractUntil": "2029-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "kiko-femenia", "name": "Kiko Femenía", "slug": "kiko-femenia", "birthDate": "1991-02-02", "nationality": "España", "position": "Lateral derecho", "height": 173, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2026-06-30", "shirtNumber": 21, "status": "suplente" },
+    { "id": "dani-parejo", "name": "Dani Parejo", "slug": "dani-parejo", "birthDate": "1989-04-16", "nationality": "España", "position": "Mediocentro", "height": 182, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2026-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "santi-comesana", "name": "Santi Comesaña", "slug": "santi-comesana", "birthDate": "1996-10-05", "nationality": "España", "position": "Mediocentro", "height": 185, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "thomas-partey", "name": "Thomas Partey", "slug": "thomas-partey", "birthDate": "1993-06-13", "nationality": "Ghana", "position": "Mediocentro defensivo", "height": 185, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 22, "status": "suplente" },
+    { "id": "alberto-moleiro", "name": "Alberto Moleiro", "slug": "alberto-moleiro", "birthDate": "2003-09-21", "nationality": "España", "position": "Mediapunta", "height": 175, "dominantFoot": "Derecho", "marketValue": 20, "contractUntil": "2030-06-30", "shirtNumber": 16, "status": "titular" },
+    { "id": "ayoze-perez", "name": "Ayoze Pérez", "slug": "ayoze-perez", "birthDate": "1993-07-29", "nationality": "España", "position": "Mediapunta", "height": 178, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "tajon-buchanan", "name": "Tajon Buchanan", "slug": "tajon-buchanan", "birthDate": "1999-02-08", "nationality": "Canadá", "position": "Extremo derecho", "height": 182, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 17, "status": "suplente" },
+    { "id": "georges-mikautadze", "name": "Georges Mikautadze", "slug": "georges-mikautadze", "birthDate": "2000-10-31", "nationality": "Georgia", "position": "Delantero centro", "height": 186, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "gerard-moreno", "name": "Gerard Moreno", "slug": "gerard-moreno", "birthDate": "1992-04-07", "nationality": "España", "position": "Delantero centro", "height": 180, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 11, "status": "suplente" },
+    { "id": "nicolas-pepe", "name": "Nicolas Pépé", "slug": "nicolas-pepe", "birthDate": "1995-05-29", "nationality": "Costa de Marfil", "position": "Extremo izquierdo", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 19, "status": "suplente" }
+  ]
+}

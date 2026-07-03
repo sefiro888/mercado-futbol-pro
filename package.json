@@ -1,0 +1,23 @@
+{
+  "name": "mercado-futbol-pro",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Portal deportivo de noticias, fichajes y rumores contrastados (MVP con datos de demostración).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "seed": "node scripts/seed-supabase.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

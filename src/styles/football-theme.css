@@ -1,0 +1,150 @@
+/* ===========================================================================
+   ⚽ DECORACIÓN TEMÁTICA DE FÚTBOL
+   Patrones de campo, texturas de balón, animaciones y acentos. Se importa
+   después de index.css, así que puede extender/ajustar el sistema base.
+   =========================================================================== */
+
+:root {
+  /* Acentos extra para una paleta más rica y viva. */
+  --pitch-green: #0e4d28;
+  --pitch-green-2: #0b3d20;
+  --gold: #fbbf24;
+  --gold-soft: rgba(251, 191, 36, 0.14);
+  --grad-pitch: linear-gradient(135deg, #11502a, #0c3f21);
+  --grad-gold: linear-gradient(135deg, #fbbf24, #f59e0b);
+  --grad-night: linear-gradient(160deg, #121826 0%, #0b0f17 100%);
+}
+
+/* ---------------------------------------------------------------------------
+   Textura de panal (evoca el balón) muy sutil sobre el fondo global.
+   Se superpone al mesh animado de index.css sin competir con el contenido.
+   --------------------------------------------------------------------------- */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='100' viewBox='0 0 56 100'%3E%3Cg fill='none' stroke='%23223049' stroke-width='1' stroke-opacity='0.5'%3E%3Cpath d='M28 0l24 14v28L28 56 4 42V14z'/%3E%3Cpath d='M28 56l24 14v28L28 112 4 98V70z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 56px 100px;
+  mask-image: radial-gradient(circle at 50% 30%, #000 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(circle at 50% 30%, #000 0%, transparent 75%);
+}
+
+/* ---------------------------------------------------------------------------
+   Separador de campo: una línea con un balón que rueda. Uso: <div class="pitch-divider" />
+   --------------------------------------------------------------------------- */
+.pitch-divider {
+  position: relative;
+  height: 2px;
+  margin: 8px 0;
+  background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
+}
+.pitch-divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -7px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 35%, #fff 0%, #e5e7eb 30%, #9ca3af 75%);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+  animation: rollAcross 9s linear infinite;
+}
+@keyframes rollAcross {
+  0% { left: -2%; transform: rotate(0deg); }
+  100% { left: 100%; transform: rotate(720deg); }
+}
+
+/* ---------------------------------------------------------------------------
+   Animaciones decorativas reutilizables.
+   --------------------------------------------------------------------------- */
+@keyframes shimmerText {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+  50% { box-shadow: 0 0 24px -4px rgba(34, 197, 94, 0.45); }
+}
+@keyframes spinSlow { to { transform: rotate(360deg); } }
+
+/* Texto con degradado animado (titulares destacados). */
+.text-shine {
+  background: linear-gradient(90deg, var(--brand) 0%, #5eead4 25%, #38bdf8 50%, #5eead4 75%, var(--brand) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: shimmerText 6s linear infinite;
+}
+
+/* ---------------------------------------------------------------------------
+   Hero de club/jugador: escudo gigante de marca de agua + brillo de foco.
+   El hero ya es position:relative; estos elementos van detrás del contenido.
+   --------------------------------------------------------------------------- */
+.profile-hero { isolation: isolate; }
+.hero-watermark {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 230px;
+  height: 230px;
+  opacity: 0.08;
+  z-index: 0;
+  pointer-events: none;
+  filter: grayscale(0.2);
+  object-fit: contain;
+}
+.profile-hero-inner { position: relative; z-index: 1; }
+
+/* Foco de "reflector" en la esquina del hero. */
+.profile-hero::after {
+  background: var(--grad-brand);
+}
+
+/* ---------------------------------------------------------------------------
+   Badges/píldoras con un brillo más vivo al pasar el ratón.
+   --------------------------------------------------------------------------- */
+.chip, .badge { transition: transform 0.15s var(--ease), box-shadow 0.15s var(--ease), border-color 0.15s var(--ease); }
+
+/* Tarjetas: un brillo superior que recorre al hover (efecto "barrido de luz"). */
+.card.interactive { overflow: hidden; }
+.card.interactive::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.06), transparent);
+  transform: skewX(-18deg);
+  opacity: 0;
+  transition: opacity 0.2s var(--ease);
+  pointer-events: none;
+  z-index: 1;
+}
+.card.interactive:hover::before { opacity: 1; animation: sweepLight 0.9s var(--ease); }
+@keyframes sweepLight {
+  from { left: -60%; }
+  to { left: 130%; }
+}
+
+/* ---------------------------------------------------------------------------
+   Etiqueta decorativa de sección con icono de balón.
+   --------------------------------------------------------------------------- */
+.section-head h2 { position: relative; }
+
+/* --------------------------------------------------------------------------- Accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+  body::after { animation: none; }
+  .pitch-divider::before,
+  .text-shine,
+  .card.interactive:hover::before { animation: none; }
+}

@@ -1,0 +1,32 @@
+{
+  "club": {
+    "id": "athletic-club",
+    "name": "Athletic Club",
+    "slug": "athletic-club",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Bilbao",
+    "stadium": "San Mamés",
+    "coach": "Ernesto Valverde",
+    "founded": 1898,
+    "primaryColor": "#EE2523"
+  },
+  "players": [
+    { "id": "unai-simon", "name": "Unai Simón", "slug": "unai-simon", "birthDate": "1997-06-11", "nationality": "España", "position": "Portero", "height": 190, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "julen-agirrezabala", "name": "Julen Agirrezabala", "slug": "julen-agirrezabala", "birthDate": "2000-12-26", "nationality": "España", "position": "Portero", "height": 186, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 13, "status": "suplente" },
+    { "id": "andoni-gorosabel", "name": "Andoni Gorosabel", "slug": "andoni-gorosabel", "birthDate": "1996-08-04", "nationality": "España", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 7, "contractUntil": "2028-06-30", "shirtNumber": 18, "status": "titular" },
+    { "id": "dani-vivian", "name": "Dani Vivian", "slug": "dani-vivian", "birthDate": "1999-07-05", "nationality": "España", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2030-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "yeray-alvarez", "name": "Yeray Álvarez", "slug": "yeray-alvarez", "birthDate": "1995-01-24", "nationality": "España", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2027-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "aitor-paredes", "name": "Aitor Paredes", "slug": "aitor-paredes", "birthDate": "2000-04-29", "nationality": "España", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2029-06-30", "shirtNumber": 24, "status": "suplente" },
+    { "id": "yuri-berchiche", "name": "Yuri Berchiche", "slug": "yuri-berchiche", "birthDate": "1990-02-10", "nationality": "España", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 3, "contractUntil": "2026-06-30", "shirtNumber": 17, "status": "titular" },
+    { "id": "jesus-areso", "name": "Jesús Areso", "slug": "jesus-areso", "birthDate": "1999-06-02", "nationality": "España", "position": "Lateral derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2030-06-30", "shirtNumber": 15, "status": "suplente" },
+    { "id": "mikel-jauregizar", "name": "Mikel Jauregizar", "slug": "mikel-jauregizar", "birthDate": "2004-04-13", "nationality": "España", "position": "Mediocentro defensivo", "height": 180, "dominantFoot": "Derecho", "marketValue": 20, "contractUntil": "2029-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "benat-prados", "name": "Beñat Prados", "slug": "benat-prados", "birthDate": "2001-03-12", "nationality": "España", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "oihan-sancet", "name": "Oihan Sancet", "slug": "oihan-sancet", "birthDate": "2000-04-25", "nationality": "España", "position": "Mediapunta", "height": 187, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2029-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "alex-berenguer", "name": "Álex Berenguer", "slug": "alex-berenguer", "birthDate": "1995-07-04", "nationality": "España", "position": "Extremo izquierdo", "height": 176, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "suplente" },
+    { "id": "nico-williams", "name": "Nico Williams", "slug": "nico-williams", "birthDate": "2002-07-12", "nationality": "España", "position": "Extremo izquierdo", "height": 181, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2035-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "inaki-williams", "name": "Iñaki Williams", "slug": "inaki-williams", "birthDate": "1994-06-15", "nationality": "Ghana", "position": "Extremo derecho", "height": 186, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2028-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "gorka-guruzeta", "name": "Gorka Guruzeta", "slug": "gorka-guruzeta", "birthDate": "1996-09-12", "nationality": "España", "position": "Delantero centro", "height": 184, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2029-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "robert-navarro", "name": "Robert Navarro", "slug": "robert-navarro", "birthDate": "2002-03-12", "nationality": "España", "position": "Mediapunta", "height": 175, "dominantFoot": "Izquierdo", "marketValue": 8, "contractUntil": "2030-06-30", "shirtNumber": 20, "status": "suplente" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "club": {
+    "id": "barcelona",
+    "name": "FC Barcelona",
+    "slug": "barcelona",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Barcelona",
+    "stadium": "Spotify Camp Nou",
+    "coach": "Hansi Flick",
+    "founded": 1899,
+    "primaryColor": "#A50044"
+  },
+  "players": [
+    { "id": "joan-garcia", "name": "Joan García", "slug": "joan-garcia", "birthDate": "2001-05-04", "nationality": "España", "position": "Portero", "height": 190, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2031-06-30", "shirtNumber": 13, "status": "titular" },
+    { "id": "wojciech-szczesny", "name": "Wojciech Szczęsny", "slug": "wojciech-szczesny", "birthDate": "1990-04-18", "nationality": "Polonia", "position": "Portero", "height": 195, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2027-06-30", "shirtNumber": 25, "status": "suplente" },
+    { "id": "jules-kounde", "name": "Jules Koundé", "slug": "jules-kounde", "birthDate": "1998-11-12", "nationality": "Francia", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2030-06-30", "shirtNumber": 23, "status": "titular" },
+    { "id": "pau-cubarsi", "name": "Pau Cubarsí", "slug": "pau-cubarsi", "birthDate": "2007-01-22", "nationality": "España", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 80, "contractUntil": "2029-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "ronald-araujo", "name": "Ronald Araújo", "slug": "ronald-araujo", "birthDate": "1999-03-07", "nationality": "Uruguay", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 55, "contractUntil": "2031-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "inigo-martinez", "name": "Íñigo Martínez", "slug": "inigo-martinez", "birthDate": "1991-05-17", "nationality": "España", "position": "Defensa central", "height": 182, "dominantFoot": "Izquierdo", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "alejandro-balde", "name": "Alejandro Balde", "slug": "alejandro-balde", "birthDate": "2003-10-18", "nationality": "España", "position": "Lateral izquierdo", "height": 175, "dominantFoot": "Izquierdo", "marketValue": 60, "contractUntil": "2028-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "andreas-christensen", "name": "Andreas Christensen", "slug": "andreas-christensen", "birthDate": "1996-04-10", "nationality": "Dinamarca", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2026-06-30", "shirtNumber": 15, "status": "suplente" },
+    { "id": "frenkie-de-jong", "name": "Frenkie de Jong", "slug": "frenkie-de-jong", "birthDate": "1997-05-12", "nationality": "Países Bajos", "position": "Mediocentro", "height": 180, "dominantFoot": "Derecho", "marketValue": 50, "contractUntil": "2026-06-30", "shirtNumber": 21, "status": "titular" },
+    { "id": "pedri", "name": "Pedri", "slug": "pedri", "birthDate": "2002-11-25", "nationality": "España", "position": "Mediocentro", "height": 174, "dominantFoot": "Derecho", "marketValue": 140, "contractUntil": "2030-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "gavi", "name": "Gavi", "slug": "gavi", "birthDate": "2004-08-05", "nationality": "España", "position": "Mediocentro", "height": 173, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2030-06-30", "shirtNumber": 6, "status": "lesionado" },
+    { "id": "marc-casado", "name": "Marc Casadó", "slug": "marc-casado", "birthDate": "2003-09-14", "nationality": "España", "position": "Mediocentro defensivo", "height": 178, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2028-06-30", "shirtNumber": 17, "status": "titular" },
+    { "id": "fermin-lopez", "name": "Fermín López", "slug": "fermin-lopez", "birthDate": "2003-05-11", "nationality": "España", "position": "Mediapunta", "height": 179, "dominantFoot": "Derecho", "marketValue": 50, "contractUntil": "2029-06-30", "shirtNumber": 16, "status": "suplente" },
+    { "id": "dani-olmo", "name": "Dani Olmo", "slug": "dani-olmo", "birthDate": "1998-05-07", "nationality": "España", "position": "Mediapunta", "height": 179, "dominantFoot": "Derecho", "marketValue": 55, "contractUntil": "2030-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "raphinha", "name": "Raphinha", "slug": "raphinha", "birthDate": "1996-12-14", "nationality": "Brasil", "position": "Extremo izquierdo", "height": 176, "dominantFoot": "Izquierdo", "marketValue": 90, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "lamine-yamal", "name": "Lamine Yamal", "slug": "lamine-yamal", "birthDate": "2007-07-13", "nationality": "España", "position": "Extremo derecho", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 200, "contractUntil": "2031-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "robert-lewandowski", "name": "Robert Lewandowski", "slug": "robert-lewandowski", "birthDate": "1988-08-21", "nationality": "Polonia", "position": "Delantero centro", "height": 185, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2026-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "ferran-torres", "name": "Ferran Torres", "slug": "ferran-torres", "birthDate": "2000-02-29", "nationality": "España", "position": "Delantero centro", "height": 184, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "suplente" },
+    { "id": "marcus-rashford", "name": "Marcus Rashford", "slug": "marcus-rashford", "birthDate": "1997-10-31", "nationality": "Inglaterra", "position": "Extremo izquierdo", "height": 185, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2026-06-30", "shirtNumber": 14, "status": "titular" }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "club": {
+    "id": "celta-vigo",
+    "name": "RC Celta de Vigo",
+    "slug": "celta-vigo",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Vigo",
+    "stadium": "Abanca-Balaídos",
+    "coach": "Claudio Giráldez",
+    "founded": 1923,
+    "primaryColor": "#5A9BD4"
+  },
+  "players": [
+    { "id": "ionut-radu", "name": "Ionuț Radu", "slug": "ionut-radu", "birthDate": "1997-05-28", "nationality": "Rumanía", "position": "Portero", "height": 188, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2030-06-30", "shirtNumber": 13, "status": "titular" },
+    { "id": "vicente-guaita", "name": "Vicente Guaita", "slug": "vicente-guaita", "birthDate": "1987-01-18", "nationality": "España", "position": "Portero", "height": 190, "dominantFoot": "Derecho", "marketValue": 1, "contractUntil": "2026-06-30", "shirtNumber": 1, "status": "suplente" },
+    { "id": "oscar-mingueza", "name": "Óscar Mingueza", "slug": "oscar-mingueza", "birthDate": "1999-05-13", "nationality": "España", "position": "Lateral derecho", "height": 184, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2026-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "carl-starfelt", "name": "Carl Starfelt", "slug": "carl-starfelt", "birthDate": "1995-06-01", "nationality": "Suecia", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "carlos-dominguez", "name": "Carlos Domínguez", "slug": "carlos-dominguez", "birthDate": "2001-01-04", "nationality": "España", "position": "Defensa central", "height": 190, "dominantFoot": "Izquierdo", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "marcos-alonso-cel", "name": "Marcos Alonso", "slug": "marcos-alonso-cel", "birthDate": "1990-12-28", "nationality": "España", "position": "Lateral izquierdo", "height": 188, "dominantFoot": "Izquierdo", "marketValue": 2, "contractUntil": "2026-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "fran-beltran", "name": "Fran Beltrán", "slug": "fran-beltran", "birthDate": "1999-02-03", "nationality": "España", "position": "Mediocentro", "height": 169, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2026-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "luca-de-la-torre", "name": "Luca de la Torre", "slug": "luca-de-la-torre", "birthDate": "1998-05-23", "nationality": "Estados Unidos", "position": "Mediocentro", "height": 176, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "hugo-sotelo", "name": "Hugo Sotelo", "slug": "hugo-sotelo", "birthDate": "2004-01-09", "nationality": "España", "position": "Mediocentro defensivo", "height": 180, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2028-06-30", "shirtNumber": 4, "status": "suplente" },
+    { "id": "iago-aspas", "name": "Iago Aspas", "slug": "iago-aspas", "birthDate": "1987-08-01", "nationality": "España", "position": "Delantero centro", "height": 176, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2026-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "borja-iglesias", "name": "Borja Iglesias", "slug": "borja-iglesias", "birthDate": "1993-01-17", "nationality": "España", "position": "Delantero centro", "height": 187, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2028-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "williot-swedberg", "name": "Williot Swedberg", "slug": "williot-swedberg", "birthDate": "2004-08-03", "nationality": "Suecia", "position": "Extremo izquierdo", "height": 183, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 16, "status": "suplente" },
+    { "id": "bryan-zaragoza", "name": "Bryan Zaragoza", "slug": "bryan-zaragoza", "birthDate": "2001-09-09", "nationality": "España", "position": "Extremo izquierdo", "height": 167, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2026-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "pablo-duran", "name": "Pablo Durán", "slug": "pablo-duran", "birthDate": "2004-01-09", "nationality": "España", "position": "Delantero centro", "height": 180, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 19, "status": "suplente" }
+  ]
+}

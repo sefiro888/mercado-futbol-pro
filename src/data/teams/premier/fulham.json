@@ -1,0 +1,30 @@
+{
+  "club": {
+    "id": "fulham",
+    "name": "Fulham",
+    "slug": "fulham",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Londres",
+    "stadium": "Craven Cottage",
+    "coach": "Marco Silva",
+    "founded": 1879,
+    "primaryColor": "#1C1C1C"
+  },
+  "players": [
+    { "id": "bernd-leno", "name": "Bernd Leno", "slug": "bernd-leno", "birthDate": "1992-03-04", "nationality": "Alemania", "position": "Portero", "height": 190, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 17, "status": "titular" },
+    { "id": "kenny-tete", "name": "Kenny Tete", "slug": "kenny-tete", "birthDate": "1995-10-09", "nationality": "Países Bajos", "position": "Lateral derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "calvin-bassey", "name": "Calvin Bassey", "slug": "calvin-bassey", "birthDate": "1999-12-31", "nationality": "Nigeria", "position": "Defensa central", "height": 188, "dominantFoot": "Izquierdo", "marketValue": 28, "contractUntil": "2028-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "joachim-andersen", "name": "Joachim Andersen", "slug": "joachim-andersen", "birthDate": "1996-05-31", "nationality": "Dinamarca", "position": "Defensa central", "height": 192, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2029-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "antonee-robinson", "name": "Antonee Robinson", "slug": "antonee-robinson", "birthDate": "1997-08-08", "nationality": "Estados Unidos", "position": "Lateral izquierdo", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 30, "contractUntil": "2028-06-30", "shirtNumber": 33, "status": "titular" },
+    { "id": "issa-diop", "name": "Issa Diop", "slug": "issa-diop", "birthDate": "1997-01-09", "nationality": "Francia", "position": "Defensa central", "height": 194, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 31, "status": "suplente" },
+    { "id": "sasa-lukic", "name": "Saša Lukić", "slug": "sasa-lukic", "birthDate": "1996-08-13", "nationality": "Serbia", "position": "Mediocentro defensivo", "height": 183, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2027-06-30", "shirtNumber": 28, "status": "titular" },
+    { "id": "sander-berge", "name": "Sander Berge", "slug": "sander-berge", "birthDate": "1998-02-14", "nationality": "Noruega", "position": "Mediocentro", "height": 195, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2028-06-30", "shirtNumber": 16, "status": "titular" },
+    { "id": "emile-smith-rowe", "name": "Emile Smith Rowe", "slug": "emile-smith-rowe", "birthDate": "2000-07-28", "nationality": "Inglaterra", "position": "Mediapunta", "height": 182, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2029-06-30", "shirtNumber": 32, "status": "titular" },
+    { "id": "andreas-pereira", "name": "Andreas Pereira", "slug": "andreas-pereira", "birthDate": "1996-01-01", "nationality": "Brasil", "position": "Mediapunta", "height": 178, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2027-06-30", "shirtNumber": 6, "status": "suplente" },
+    { "id": "alex-iwobi", "name": "Alex Iwobi", "slug": "alex-iwobi", "birthDate": "1996-05-18", "nationality": "Nigeria", "position": "Extremo derecho", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 25, "contractUntil": "2028-06-30", "shirtNumber": 18, "status": "titular" },
+    { "id": "rodrigo-muniz", "name": "Rodrigo Muniz", "slug": "rodrigo-muniz", "birthDate": "2001-05-04", "nationality": "Brasil", "position": "Delantero centro", "height": 184, "dominantFoot": "Derecho", "marketValue": 28, "contractUntil": "2029-06-30", "shirtNumber": 19, "status": "titular" },
+    { "id": "raul-jimenez", "name": "Raúl Jiménez", "slug": "raul-jimenez", "birthDate": "1991-05-05", "nationality": "México", "position": "Delantero centro", "height": 190, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "suplente" },
+    { "id": "kevin-fulham", "name": "Kevin", "slug": "kevin-fulham", "birthDate": "2003-03-23", "nationality": "Brasil", "position": "Extremo derecho", "height": 172, "dominantFoot": "Izquierdo", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 30, "status": "titular" }
+  ]
+}

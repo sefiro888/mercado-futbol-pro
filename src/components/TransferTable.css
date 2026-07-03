@@ -1,0 +1,70 @@
+.tt-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.tt-toolbar .field-label { margin: 0; }
+.tt-toolbar .select { width: auto; min-width: 220px; }
+
+.transfers .cell-link { color: var(--text); font-weight: 600; }
+.transfers .cell-club { display: inline-flex; align-items: center; gap: 7px; }
+.transfers .cell-club .crest { flex-shrink: 0; }
+.transfers .cell-link:hover { color: var(--brand); text-decoration: underline; }
+.transfers td.strong { font-weight: 700; }
+.transfers .nowrap { white-space: nowrap; }
+.data th.ta-right, .data td.num { text-align: right; }
+.data td.num { font-family: var(--font-mono); }
+
+/* ---------------------------------------------------------------------------
+   Modo tarjeta en móvil: cada fila se apila y cada celda muestra su etiqueta.
+   Cumple el requisito de "en móvil las tablas se convierten en tarjetas".
+   --------------------------------------------------------------------------- */
+@media (max-width: 760px) {
+  .transfer-table .table-wrap {
+    overflow: visible;
+    border: none;
+    background: transparent;
+  }
+  .data.transfers { min-width: 0; }
+  .data.transfers thead { display: none; }
+
+  .data.transfers tbody tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 12px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin-bottom: 12px;
+  }
+  .data.transfers tbody tr:hover { background: var(--bg-card); }
+
+  .data.transfers tbody td {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 0;
+    border: none;
+    font-size: 0.86rem;
+    text-align: left !important;
+  }
+  .data.transfers tbody td::before {
+    content: attr(data-label);
+    font-size: 0.64rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-dim);
+    font-weight: 700;
+  }
+  /* El jugador ocupa toda la fila como cabecera de la tarjeta. */
+  .data.transfers tbody td[data-label="Jugador"] {
+    grid-column: 1 / -1;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  .data.transfers tbody td[data-label="Fuentes"] { grid-column: 1 / -1; }
+}

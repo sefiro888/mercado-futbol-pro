@@ -1,0 +1,29 @@
+{
+  "club": {
+    "id": "rayo-vallecano",
+    "name": "Rayo Vallecano",
+    "slug": "rayo-vallecano",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Madrid",
+    "stadium": "Estadio de Vallecas",
+    "coach": "Íñigo Pérez",
+    "founded": 1924,
+    "primaryColor": "#E53027"
+  },
+  "players": [
+    { "id": "augusto-batalla", "name": "Augusto Batalla", "slug": "augusto-batalla", "birthDate": "1996-04-19", "nationality": "Argentina", "position": "Portero", "height": 187, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2027-06-30", "shirtNumber": 13, "status": "titular" },
+    { "id": "andrei-ratiu", "name": "Andrei Rațiu", "slug": "andrei-ratiu", "birthDate": "1998-06-20", "nationality": "Rumanía", "position": "Lateral derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 16, "status": "titular" },
+    { "id": "florian-lejeune", "name": "Florian Lejeune", "slug": "florian-lejeune", "birthDate": "1991-05-20", "nationality": "Francia", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2026-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "abdul-mumin", "name": "Abdul Mumin", "slug": "abdul-mumin", "birthDate": "1998-06-06", "nationality": "Ghana", "position": "Defensa central", "height": 190, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "pep-chavarria", "name": "Pep Chavarría", "slug": "pep-chavarria", "birthDate": "1998-04-23", "nationality": "España", "position": "Lateral izquierdo", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 5, "contractUntil": "2027-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "oscar-valentin", "name": "Óscar Valentín", "slug": "oscar-valentin", "birthDate": "1994-08-15", "nationality": "España", "position": "Mediocentro defensivo", "height": 175, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2027-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "pathe-ciss", "name": "Pathé Ciss", "slug": "pathe-ciss", "birthDate": "1994-03-16", "nationality": "Senegal", "position": "Mediocentro", "height": 190, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 23, "status": "titular" },
+    { "id": "unai-lopez", "name": "Unai López", "slug": "unai-lopez", "birthDate": "1995-10-30", "nationality": "España", "position": "Mediocentro", "height": 173, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 8, "status": "suplente" },
+    { "id": "isi-palazon", "name": "Isi Palazón", "slug": "isi-palazon", "birthDate": "1994-12-27", "nationality": "España", "position": "Extremo derecho", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "jorge-de-frutos", "name": "Jorge de Frutos", "slug": "jorge-de-frutos", "birthDate": "1997-02-20", "nationality": "España", "position": "Extremo izquierdo", "height": 176, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "alvaro-garcia-rayo", "name": "Álvaro García", "slug": "alvaro-garcia-rayo", "birthDate": "1992-10-27", "nationality": "España", "position": "Extremo izquierdo", "height": 168, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 17, "status": "suplente" },
+    { "id": "sergio-camello", "name": "Sergio Camello", "slug": "sergio-camello", "birthDate": "2001-02-10", "nationality": "España", "position": "Delantero centro", "height": 178, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2029-06-30", "shirtNumber": 19, "status": "titular" },
+    { "id": "fran-perez-rayo", "name": "Fran Pérez", "slug": "fran-perez-rayo", "birthDate": "2002-09-11", "nationality": "España", "position": "Extremo derecho", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 6, "contractUntil": "2030-06-30", "shirtNumber": 21, "status": "suplente" }
+  ]
+}

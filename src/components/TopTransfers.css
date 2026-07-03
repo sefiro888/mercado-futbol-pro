@@ -1,0 +1,63 @@
+.tt-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+@media (max-width: 720px) {
+  .tt-grid { grid-template-columns: 1fr; }
+}
+
+.tt-col {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+.tt-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+}
+.tt-ico { display: inline-flex; }
+.tt-ico.hl-in { color: var(--brand); }
+.tt-ico.hl-out { color: var(--accent); }
+
+.tt-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.tt-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.tt-list li:last-child { border-bottom: none; }
+
+.tt-rank {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-muted);
+}
+.tt-rank.top3 { background: var(--grad-brand); color: #052e16; border-color: transparent; }
+
+.tt-main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.tt-name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tt-name a:hover { color: var(--brand); text-decoration: underline; }
+.tt-meta { font-size: 0.76rem; color: var(--text-dim); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.tt-fee { flex-shrink: 0; font-weight: 800; font-size: 0.95rem; }

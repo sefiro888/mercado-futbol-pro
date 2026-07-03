@@ -1,0 +1,33 @@
+{
+  "club": {
+    "id": "chelsea",
+    "name": "Chelsea",
+    "slug": "chelsea",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Londres",
+    "stadium": "Stamford Bridge",
+    "coach": "Enzo Maresca",
+    "founded": 1905,
+    "primaryColor": "#034694"
+  },
+  "players": [
+    { "id": "robert-sanchez", "name": "Robert Sánchez", "slug": "robert-sanchez", "birthDate": "1997-11-18", "nationality": "España", "position": "Portero", "height": 197, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2030-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "filip-jorgensen", "name": "Filip Jörgensen", "slug": "filip-jorgensen", "birthDate": "2002-04-07", "nationality": "Dinamarca", "position": "Portero", "height": 190, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 12, "status": "suplente" },
+    { "id": "reece-james", "name": "Reece James", "slug": "reece-james", "birthDate": "1999-12-08", "nationality": "Inglaterra", "position": "Lateral derecho", "height": 182, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2028-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "malo-gusto", "name": "Malo Gusto", "slug": "malo-gusto", "birthDate": "2003-05-19", "nationality": "Francia", "position": "Lateral derecho", "height": 179, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2030-06-30", "shirtNumber": 27, "status": "suplente" },
+    { "id": "levi-colwill", "name": "Levi Colwill", "slug": "levi-colwill", "birthDate": "2003-02-26", "nationality": "Inglaterra", "position": "Defensa central", "height": 187, "dominantFoot": "Izquierdo", "marketValue": 50, "contractUntil": "2029-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "wesley-fofana", "name": "Wesley Fofana", "slug": "wesley-fofana", "birthDate": "2000-12-17", "nationality": "Francia", "position": "Defensa central", "height": 186, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2029-06-30", "shirtNumber": 33, "status": "titular" },
+    { "id": "tosin-adarabioyo", "name": "Tosin Adarabioyo", "slug": "tosin-adarabioyo", "birthDate": "1997-09-24", "nationality": "Inglaterra", "position": "Defensa central", "height": 196, "dominantFoot": "Derecho", "marketValue": 28, "contractUntil": "2028-06-30", "shirtNumber": 4, "status": "suplente" },
+    { "id": "marc-cucurella", "name": "Marc Cucurella", "slug": "marc-cucurella", "birthDate": "1998-07-22", "nationality": "España", "position": "Lateral izquierdo", "height": 172, "dominantFoot": "Izquierdo", "marketValue": 55, "contractUntil": "2028-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "jorrel-hato", "name": "Jorrel Hato", "slug": "jorrel-hato", "birthDate": "2006-03-07", "nationality": "Países Bajos", "position": "Defensa central", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 40, "contractUntil": "2032-06-30", "shirtNumber": 2, "status": "suplente" },
+    { "id": "moises-caicedo", "name": "Moisés Caicedo", "slug": "moises-caicedo", "birthDate": "2001-11-02", "nationality": "Ecuador", "position": "Mediocentro defensivo", "height": 178, "dominantFoot": "Derecho", "marketValue": 90, "contractUntil": "2031-06-30", "shirtNumber": 25, "status": "titular" },
+    { "id": "enzo-fernandez", "name": "Enzo Fernández", "slug": "enzo-fernandez", "birthDate": "2001-01-17", "nationality": "Argentina", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 70, "contractUntil": "2032-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "cole-palmer", "name": "Cole Palmer", "slug": "cole-palmer", "birthDate": "2002-05-06", "nationality": "Inglaterra", "position": "Mediapunta", "height": 189, "dominantFoot": "Izquierdo", "marketValue": 130, "contractUntil": "2033-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "pedro-neto", "name": "Pedro Neto", "slug": "pedro-neto", "birthDate": "2000-03-19", "nationality": "Portugal", "position": "Extremo derecho", "height": 172, "dominantFoot": "Derecho", "marketValue": 50, "contractUntil": "2030-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "estevao", "name": "Estêvão", "slug": "estevao", "birthDate": "2007-04-24", "nationality": "Brasil", "position": "Extremo derecho", "height": 176, "dominantFoot": "Izquierdo", "marketValue": 60, "contractUntil": "2033-06-30", "shirtNumber": 41, "status": "titular" },
+    { "id": "joao-pedro", "name": "João Pedro", "slug": "joao-pedro", "birthDate": "2001-09-26", "nationality": "Brasil", "position": "Delantero centro", "height": 182, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2033-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "liam-delap", "name": "Liam Delap", "slug": "liam-delap", "birthDate": "2003-02-08", "nationality": "Inglaterra", "position": "Delantero centro", "height": 188, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2030-06-30", "shirtNumber": 9, "status": "suplente" },
+    { "id": "alejandro-garnacho", "name": "Alejandro Garnacho", "slug": "alejandro-garnacho", "birthDate": "2004-07-01", "nationality": "Argentina", "position": "Extremo izquierdo", "height": 180, "dominantFoot": "Derecho", "marketValue": 45, "contractUntil": "2030-06-30", "shirtNumber": 49, "status": "suplente" }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "src-club-oficial",
+    "name": "Comunicado oficial de club",
+    "domain": "—",
+    "url": "#",
+    "country": "Internacional",
+    "type": "comunicado-oficial",
+    "reliabilityLevel": "oficial"
+  },
+  {
+    "id": "src-fabrizio-romano",
+    "name": "Fabrizio Romano",
+    "domain": "fabrizioromano.com",
+    "url": "https://fabrizioromano.com",
+    "country": "Internacional",
+    "type": "especialista-fichajes",
+    "reliabilityLevel": "alta"
+  },
+  {
+    "id": "src-marca",
+    "name": "Marca",
+    "domain": "marca.com",
+    "url": "https://www.marca.com",
+    "country": "España",
+    "type": "medio-deportivo",
+    "reliabilityLevel": "alta"
+  },
+  {
+    "id": "src-bbc-sport",
+    "name": "BBC Sport",
+    "domain": "bbc.com",
+    "url": "https://www.bbc.com/sport/football",
+    "country": "Inglaterra",
+    "type": "medio-deportivo",
+    "reliabilityLevel": "alta"
+  },
+  {
+    "id": "src-sky-sports",
+    "name": "Sky Sports",
+    "domain": "skysports.com",
+    "url": "https://www.skysports.com/football",
+    "country": "Inglaterra",
+    "type": "medio-deportivo",
+    "reliabilityLevel": "media"
+  },
+  {
+    "id": "src-gazzetta",
+    "name": "La Gazzetta dello Sport",
+    "domain": "gazzetta.it",
+    "url": "https://www.gazzetta.it",
+    "country": "Italia",
+    "type": "medio-deportivo",
+    "reliabilityLevel": "media"
+  },
+  {
+    "id": "src-transfermarkt",
+    "name": "Transfermarkt",
+    "domain": "transfermarkt.es",
+    "url": "https://www.transfermarkt.es",
+    "country": "Internacional",
+    "type": "base-de-datos",
+    "reliabilityLevel": "media"
+  }
+]

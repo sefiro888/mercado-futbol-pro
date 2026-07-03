@@ -1,0 +1,30 @@
+{
+  "club": {
+    "id": "everton",
+    "name": "Everton",
+    "slug": "everton",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Liverpool",
+    "stadium": "Hill Dickinson Stadium",
+    "coach": "David Moyes",
+    "founded": 1878,
+    "primaryColor": "#003399"
+  },
+  "players": [
+    { "id": "jordan-pickford", "name": "Jordan Pickford", "slug": "jordan-pickford", "birthDate": "1994-03-07", "nationality": "Inglaterra", "position": "Portero", "height": 185, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2029-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "jake-obrien", "name": "Jake O'Brien", "slug": "jake-obrien", "birthDate": "2001-05-15", "nationality": "Irlanda", "position": "Lateral derecho", "height": 196, "dominantFoot": "Derecho", "marketValue": 20, "contractUntil": "2029-06-30", "shirtNumber": 15, "status": "titular" },
+    { "id": "james-tarkowski", "name": "James Tarkowski", "slug": "james-tarkowski", "birthDate": "1992-11-19", "nationality": "Inglaterra", "position": "Defensa central", "height": 185, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "jarrad-branthwaite", "name": "Jarrad Branthwaite", "slug": "jarrad-branthwaite", "birthDate": "2002-06-27", "nationality": "Inglaterra", "position": "Defensa central", "height": 195, "dominantFoot": "Izquierdo", "marketValue": 55, "contractUntil": "2029-06-30", "shirtNumber": 32, "status": "titular" },
+    { "id": "vitalii-mykolenko", "name": "Vitalii Mykolenko", "slug": "vitalii-mykolenko", "birthDate": "1999-05-29", "nationality": "Ucrania", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 18, "contractUntil": "2027-06-30", "shirtNumber": 19, "status": "titular" },
+    { "id": "idrissa-gueye", "name": "Idrissa Gueye", "slug": "idrissa-gueye", "birthDate": "1989-09-26", "nationality": "Senegal", "position": "Mediocentro defensivo", "height": 174, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2026-06-30", "shirtNumber": 27, "status": "titular" },
+    { "id": "james-garner", "name": "James Garner", "slug": "james-garner", "birthDate": "2001-03-13", "nationality": "Inglaterra", "position": "Mediocentro", "height": 180, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2029-06-30", "shirtNumber": 37, "status": "titular" },
+    { "id": "kiernan-dewsbury-hall", "name": "Kiernan Dewsbury-Hall", "slug": "kiernan-dewsbury-hall", "birthDate": "1998-11-06", "nationality": "Inglaterra", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "carlos-alcaraz", "name": "Carlos Alcaraz", "slug": "carlos-alcaraz", "birthDate": "2002-11-30", "nationality": "Argentina", "position": "Mediapunta", "height": 179, "dominantFoot": "Derecho", "marketValue": 20, "contractUntil": "2030-06-30", "shirtNumber": 20, "status": "suplente" },
+    { "id": "jack-grealish", "name": "Jack Grealish", "slug": "jack-grealish", "birthDate": "1995-09-10", "nationality": "Inglaterra", "position": "Extremo izquierdo", "height": 180, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2026-06-30", "shirtNumber": 18, "status": "titular" },
+    { "id": "iliman-ndiaye", "name": "Iliman Ndiaye", "slug": "iliman-ndiaye", "birthDate": "2000-03-06", "nationality": "Senegal", "position": "Extremo izquierdo", "height": 175, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2029-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "dwight-mcneil", "name": "Dwight McNeil", "slug": "dwight-mcneil", "birthDate": "1999-11-22", "nationality": "Inglaterra", "position": "Extremo izquierdo", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 22, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "suplente" },
+    { "id": "beto", "name": "Beto", "slug": "beto", "birthDate": "1998-01-31", "nationality": "Portugal", "position": "Delantero centro", "height": 194, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "thierno-barry", "name": "Thierno Barry", "slug": "thierno-barry", "birthDate": "2002-09-30", "nationality": "Francia", "position": "Delantero centro", "height": 195, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 9, "status": "suplente" }
+  ]
+}

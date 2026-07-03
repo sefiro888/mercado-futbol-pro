@@ -1,0 +1,307 @@
+/* Estilos compartidos por las páginas (hero de portada y cabeceras de listado). */
+
+/* --- Hero de la portada --- */
+.home-hero {
+  position: relative;
+  padding-top: 72px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.home-hero .eyebrow { justify-content: center; }
+
+/* Badge "en vivo" con punto pulsante */
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 16px;
+  border-radius: var(--radius-pill);
+  background: var(--grad-brand-soft);
+  border: 1px solid rgba(45, 212, 191, 0.3);
+  color: #a7f3d0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  animation: fadeInUp 0.6s var(--ease) both;
+}
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand);
+  animation: pulseDot 1.8s ease-in-out infinite;
+}
+
+.home-hero .hero-title {
+  max-width: 20ch;
+  margin: 0 auto 16px;
+  font-size: clamp(2rem, 5.2vw, 3.4rem);
+  line-height: 1.08;
+  animation: fadeInUp 0.6s var(--ease) 0.06s both;
+}
+.home-hero .hero-lead {
+  max-width: 60ch;
+  margin: 0 auto 28px;
+  color: var(--text-muted);
+  font-size: 1.12rem;
+  animation: fadeInUp 0.6s var(--ease) 0.12s both;
+}
+.home-hero .hero-search {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  animation: fadeInUp 0.6s var(--ease) 0.18s both;
+}
+.home-hero .hero-search .searchbar {
+  box-shadow: 0 20px 50px -24px rgba(34, 197, 94, 0.55);
+}
+
+/* Resultados en vivo del buscador de portada */
+.search-results {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  margin-top: 8px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 10px;
+  text-align: left;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+.search-results .sr-group-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-dim);
+  font-weight: 700;
+  padding: 8px 10px 4px;
+}
+.search-results .sr-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+}
+.search-results .sr-item:hover { background: var(--bg-card-hover); }
+.search-results .sr-item small { color: var(--text-dim); margin-left: auto; }
+.search-results .sr-empty { padding: 14px 10px; color: var(--text-muted); }
+
+.hero-stats {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 38px;
+}
+.hero-stats .hs {
+  text-align: center;
+  min-width: 108px;
+  padding: 16px 20px;
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  animation: fadeInUp 0.6s var(--ease) both;
+  transition: transform 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+.hero-stats .hs:hover { transform: translateY(-4px); border-color: var(--border-strong); }
+.hero-stats .hs .v {
+  font-size: 1.9rem;
+  font-weight: 800;
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-stats .hs .l { font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.07em; margin-top: 2px; }
+
+/* --- El mercado en cifras --- */
+.market-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+.ms-card {
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 18px;
+  text-align: center;
+  transition: transform 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+.ms-card:hover { transform: translateY(-4px); border-color: var(--border-strong); }
+.ms-card .ms-ico { color: var(--brand); margin-bottom: 8px; }
+.ms-card .ms-ico.ms-gold { color: var(--gold); }
+.ms-value {
+  font-size: 1.7rem;
+  font-weight: 800;
+  background: var(--grad-brand);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ms-label { font-size: 0.82rem; color: var(--text-muted); margin-top: 4px; }
+
+/* --- Tarjetas de liga --- */
+.league-card { padding: 18px; display: flex; flex-direction: column; gap: 14px; }
+.lc-head { display: flex; align-items: center; gap: 10px; }
+.lc-head h3 { margin: 0; font-size: 1.15rem; }
+.lc-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.lc-stats > div {
+  background: var(--bg-elevated);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  text-align: center;
+}
+.lc-stats .num { display: block; font-size: 1.25rem; font-weight: 800; color: var(--text); }
+.lc-stats small { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); }
+.lc-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.lc-top span { display: flex; flex-direction: column; flex: 1; min-width: 0; font-weight: 700; }
+.lc-top small { font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-dim); font-weight: 700; }
+.lc-top .lc-top-val { flex: 0 0 auto; color: var(--brand); font-weight: 800; align-self: center; }
+.lc-top:hover { color: var(--brand); }
+
+/* --- Jugadores más valiosos (lista ranking) --- */
+.topval-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.topval-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+}
+.topval-rank {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  font-weight: 800;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.topval-rank.top3 { background: var(--grad-gold); color: #3a2a00; border-color: transparent; }
+.topval-main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.topval-name { font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.topval-club { font-size: 0.78rem; color: var(--text-muted); }
+.topval-pos { font-size: 0.78rem; color: var(--text-dim); white-space: nowrap; }
+.topval-val { font-weight: 800; color: var(--brand); flex-shrink: 0; }
+
+@media (max-width: 760px) {
+  .market-stats { grid-template-columns: repeat(2, 1fr); }
+  .topval-list { grid-template-columns: 1fr; }
+  .topval-pos { display: none; }
+}
+
+/* --- Cabecera de páginas de listado --- */
+.page-header {
+  padding-top: 44px;
+  padding-bottom: 8px;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.5s var(--ease) both;
+}
+/* Icono temático grande de marca de agua a la derecha de la cabecera. */
+.page-watermark {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(-8deg);
+  color: var(--brand);
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: 0;
+}
+.page-header > * { position: relative; z-index: 1; }
+.page-header h1 {
+  margin-bottom: 8px;
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+}
+.page-header > h1::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: 14px;
+  border-radius: 999px;
+  background: var(--grad-brand);
+}
+.page-header p { color: var(--text-muted); max-width: 64ch; font-size: 1.05rem; }
+
+/* --- Layout listado con filtros laterales --- */
+.list-layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  /* En móvil, apilado simple con flex (a prueba de solapamientos). */
+  .list-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+@media (max-width: 620px) {
+  .page-header { padding-top: 24px; padding-bottom: 6px; }
+  .page-header p { font-size: 0.98rem; }
+  .list-layout { gap: 14px; }
+}
+
+/* --- Bloque "cómo clasificamos los rumores" --- */
+.reliability-guide {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+}
+.reliability-guide .rg-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  transition: transform 0.2s var(--ease), background 0.2s var(--ease);
+}
+.reliability-guide .rg-item:hover { transform: translateY(-3px); background: var(--bg-card-hover); }
+.reliability-guide .rg-item h4 { margin: 0 0 6px; font-size: 0.95rem; }
+.reliability-guide .rg-item p { margin: 0; font-size: 0.86rem; color: var(--text-muted); }
+.rg-oficial { border-left-color: var(--state-success-strong); }
+.rg-alta { border-left-color: var(--state-success); }
+.rg-media { border-left-color: var(--state-info); }
+.rg-baja { border-left-color: var(--state-warning); }
+.rg-descartado { border-left-color: var(--state-danger); }
+
+/* --- Estado vacío genérico --- */
+.empty-state {
+  text-align: center;
+  padding: 50px 20px;
+  color: var(--text-muted);
+}
+
+/* --- Aviso de datos de demostración --- */
+.demo-banner {
+  background: rgba(245, 197, 24, 0.08);
+  border: 1px solid rgba(245, 197, 24, 0.25);
+  color: #fde047;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.84rem;
+  margin: 16px 0 0;
+}

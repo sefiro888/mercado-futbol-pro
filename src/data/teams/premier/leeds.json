@@ -1,0 +1,29 @@
+{
+  "club": {
+    "id": "leeds",
+    "name": "Leeds United",
+    "slug": "leeds",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Leeds",
+    "stadium": "Elland Road",
+    "coach": "Daniel Farke",
+    "founded": 1919,
+    "primaryColor": "#1D428A"
+  },
+  "players": [
+    { "id": "illan-meslier", "name": "Illan Meslier", "slug": "illan-meslier", "birthDate": "2000-03-02", "nationality": "Francia", "position": "Portero", "height": 196, "dominantFoot": "Derecho", "marketValue": 14, "contractUntil": "2028-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "jayden-bogle", "name": "Jayden Bogle", "slug": "jayden-bogle", "birthDate": "2000-07-27", "nationality": "Inglaterra", "position": "Lateral derecho", "height": 179, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "pascal-struijk", "name": "Pascal Struijk", "slug": "pascal-struijk", "birthDate": "1999-08-11", "nationality": "Países Bajos", "position": "Defensa central", "height": 190, "dominantFoot": "Izquierdo", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 21, "status": "titular" },
+    { "id": "joe-rodon", "name": "Joe Rodon", "slug": "joe-rodon", "birthDate": "1997-10-22", "nationality": "Gales", "position": "Defensa central", "height": 193, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "gabriel-gudmundsson", "name": "Gabriel Gudmundsson", "slug": "gabriel-gudmundsson", "birthDate": "1999-04-29", "nationality": "Suecia", "position": "Lateral izquierdo", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "ethan-ampadu", "name": "Ethan Ampadu", "slug": "ethan-ampadu", "birthDate": "2000-09-14", "nationality": "Gales", "position": "Mediocentro defensivo", "height": 185, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2028-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "ao-tanaka", "name": "Ao Tanaka", "slug": "ao-tanaka", "birthDate": "1998-09-16", "nationality": "Japón", "position": "Mediocentro", "height": 180, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "anton-stach", "name": "Anton Stach", "slug": "anton-stach", "birthDate": "1998-11-15", "nationality": "Alemania", "position": "Mediocentro", "height": 194, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "brenden-aaronson", "name": "Brenden Aaronson", "slug": "brenden-aaronson", "birthDate": "2000-10-22", "nationality": "Estados Unidos", "position": "Mediapunta", "height": 178, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "suplente" },
+    { "id": "daniel-james", "name": "Daniel James", "slug": "daniel-james", "birthDate": "1997-11-10", "nationality": "Gales", "position": "Extremo derecho", "height": 170, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "willy-gnonto", "name": "Willy Gnonto", "slug": "willy-gnonto", "birthDate": "2003-11-05", "nationality": "Italia", "position": "Extremo izquierdo", "height": 170, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2028-06-30", "shirtNumber": 29, "status": "titular" },
+    { "id": "dominic-calvert-lewin", "name": "Dominic Calvert-Lewin", "slug": "dominic-calvert-lewin", "birthDate": "1997-03-16", "nationality": "Inglaterra", "position": "Delantero centro", "height": 187, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2027-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "lukas-nmecha", "name": "Lukas Nmecha", "slug": "lukas-nmecha", "birthDate": "1998-12-14", "nationality": "Alemania", "position": "Delantero centro", "height": 185, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 14, "status": "suplente" }
+  ]
+}

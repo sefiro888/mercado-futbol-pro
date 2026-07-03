@@ -1,0 +1,28 @@
+{
+  "club": {
+    "id": "alaves",
+    "name": "Deportivo Alavés",
+    "slug": "alaves",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Vitoria-Gasteiz",
+    "stadium": "Mendizorroza",
+    "coach": "Eduardo Coudet",
+    "founded": 1921,
+    "primaryColor": "#0761AF"
+  },
+  "players": [
+    { "id": "antonio-sivera", "name": "Antonio Sivera", "slug": "antonio-sivera", "birthDate": "1996-08-11", "nationality": "España", "position": "Portero", "height": 188, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "nahuel-tenaglia", "name": "Nahuel Tenaglia", "slug": "nahuel-tenaglia", "birthDate": "1996-01-28", "nationality": "Argentina", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2026-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "facundo-garces", "name": "Facundo Garcés", "slug": "facundo-garces", "birthDate": "2000-03-12", "nationality": "Argentina", "position": "Defensa central", "height": 186, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "jon-pacheco", "name": "Jon Pacheco", "slug": "jon-pacheco", "birthDate": "2001-01-08", "nationality": "España", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2029-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "victor-laguardia", "name": "Víctor Laguardia", "slug": "victor-laguardia", "birthDate": "1989-11-05", "nationality": "España", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 1, "contractUntil": "2026-06-30", "shirtNumber": 24, "status": "suplente" },
+    { "id": "manu-sanchez", "name": "Manu Sánchez", "slug": "manu-sanchez", "birthDate": "2000-08-24", "nationality": "España", "position": "Lateral izquierdo", "height": 174, "dominantFoot": "Izquierdo", "marketValue": 4, "contractUntil": "2028-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "antonio-blanco", "name": "Antonio Blanco", "slug": "antonio-blanco", "birthDate": "2000-07-23", "nationality": "España", "position": "Mediocentro defensivo", "height": 184, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "pablo-ibanez", "name": "Pablo Ibáñez", "slug": "pablo-ibanez", "birthDate": "2002-02-22", "nationality": "España", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "carles-alena", "name": "Carles Aleñá", "slug": "carles-alena", "birthDate": "1998-01-05", "nationality": "España", "position": "Mediapunta", "height": 178, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2027-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "carlos-vicente", "name": "Carlos Vicente", "slug": "carlos-vicente", "birthDate": "1999-06-01", "nationality": "España", "position": "Extremo derecho", "height": 177, "dominantFoot": "Izquierdo", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "toni-martinez", "name": "Toni Martínez", "slug": "toni-martinez", "birthDate": "1997-04-30", "nationality": "España", "position": "Delantero centro", "height": 185, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2027-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "lucas-boye", "name": "Lucas Boyé", "slug": "lucas-boye", "birthDate": "1996-02-28", "nationality": "Argentina", "position": "Delantero centro", "height": 185, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "suplente" }
+  ]
+}

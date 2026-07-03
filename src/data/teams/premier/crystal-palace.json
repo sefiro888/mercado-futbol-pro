@@ -1,0 +1,30 @@
+{
+  "club": {
+    "id": "crystal-palace",
+    "name": "Crystal Palace",
+    "slug": "crystal-palace",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Londres",
+    "stadium": "Selhurst Park",
+    "coach": "Oliver Glasner",
+    "founded": 1905,
+    "primaryColor": "#1B458F"
+  },
+  "players": [
+    { "id": "dean-henderson", "name": "Dean Henderson", "slug": "dean-henderson", "birthDate": "1997-03-12", "nationality": "Inglaterra", "position": "Portero", "height": 188, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2028-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "daniel-munoz", "name": "Daniel Muñoz", "slug": "daniel-munoz", "birthDate": "1996-05-26", "nationality": "Colombia", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2028-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "marc-guehi", "name": "Marc Guéhi", "slug": "marc-guehi", "birthDate": "2000-07-13", "nationality": "Inglaterra", "position": "Defensa central", "height": 182, "dominantFoot": "Derecho", "marketValue": 50, "contractUntil": "2026-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "maxence-lacroix", "name": "Maxence Lacroix", "slug": "maxence-lacroix", "birthDate": "2000-04-06", "nationality": "Francia", "position": "Defensa central", "height": 190, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2029-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "chris-richards", "name": "Chris Richards", "slug": "chris-richards", "birthDate": "2000-03-28", "nationality": "Estados Unidos", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2029-06-30", "shirtNumber": 26, "status": "suplente" },
+    { "id": "tyrick-mitchell", "name": "Tyrick Mitchell", "slug": "tyrick-mitchell", "birthDate": "1999-09-01", "nationality": "Inglaterra", "position": "Lateral izquierdo", "height": 175, "dominantFoot": "Izquierdo", "marketValue": 22, "contractUntil": "2027-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "adam-wharton", "name": "Adam Wharton", "slug": "adam-wharton", "birthDate": "2004-02-06", "nationality": "Inglaterra", "position": "Mediocentro", "height": 185, "dominantFoot": "Derecho", "marketValue": 45, "contractUntil": "2029-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "jefferson-lerma", "name": "Jefferson Lerma", "slug": "jefferson-lerma", "birthDate": "1994-10-25", "nationality": "Colombia", "position": "Mediocentro defensivo", "height": 179, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2027-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "daichi-kamada", "name": "Daichi Kamada", "slug": "daichi-kamada", "birthDate": "1996-08-05", "nationality": "Japón", "position": "Mediapunta", "height": 184, "dominantFoot": "Derecho", "marketValue": 14, "contractUntil": "2027-06-30", "shirtNumber": 18, "status": "titular" },
+    { "id": "cheick-doucoure", "name": "Cheick Doucouré", "slug": "cheick-doucoure", "birthDate": "2000-01-08", "nationality": "Malí", "position": "Mediocentro defensivo", "height": 180, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2027-06-30", "shirtNumber": 28, "status": "suplente" },
+    { "id": "ismaila-sarr", "name": "Ismaïla Sarr", "slug": "ismaila-sarr", "birthDate": "1998-02-25", "nationality": "Senegal", "position": "Extremo derecho", "height": 185, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "yeremy-pino", "name": "Yeremy Pino", "slug": "yeremy-pino", "birthDate": "2002-10-20", "nationality": "España", "position": "Extremo izquierdo", "height": 172, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "jean-philippe-mateta", "name": "Jean-Philippe Mateta", "slug": "jean-philippe-mateta", "birthDate": "1997-06-28", "nationality": "Francia", "position": "Delantero centro", "height": 192, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2027-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "eddie-nketiah", "name": "Eddie Nketiah", "slug": "eddie-nketiah", "birthDate": "1999-05-30", "nationality": "Inglaterra", "position": "Delantero centro", "height": 175, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 9, "status": "suplente" }
+  ]
+}

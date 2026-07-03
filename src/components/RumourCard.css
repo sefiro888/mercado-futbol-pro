@@ -1,0 +1,56 @@
+.rumour-card {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s var(--ease), border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+.rumour-card:hover { transform: translateY(-4px); border-color: var(--border-strong); }
+.rumour-card:active { transform: translateY(-1px) scale(0.99); }
+
+/* Rumor caliente: borde cálido y resplandor sutil. */
+.rumour-card.is-hot {
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.18), 0 14px 36px -20px rgba(245, 158, 11, 0.45);
+}
+.rumour-card.is-hot:hover {
+  border-color: rgba(245, 158, 11, 0.7);
+  box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.3), 0 18px 44px -18px rgba(245, 158, 11, 0.6);
+}
+
+.rumour-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.rumour-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.rumour-date { font-size: 0.78rem; }
+
+.rumour-title { margin: 0; font-size: 1.15rem; }
+.rumour-title a:hover { color: var(--brand); }
+
+.rumour-route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.club-pill {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+.rumour-route .arrow { color: var(--brand); font-size: 1.2rem; font-weight: 800; }
+
+.rumour-summary { margin: 0; font-size: 0.9rem; }
+
+.rumour-foot { display: flex; gap: 8px; }
+.rumour-sources {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}

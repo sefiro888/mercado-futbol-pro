@@ -1,0 +1,28 @@
+{
+  "club": {
+    "id": "elche",
+    "name": "Elche CF",
+    "slug": "elche",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Elche",
+    "stadium": "Martínez Valero",
+    "coach": "Eder Sarabia",
+    "founded": 1923,
+    "primaryColor": "#00913F"
+  },
+  "players": [
+    { "id": "inaki-pena", "name": "Iñaki Peña", "slug": "inaki-pena", "birthDate": "1999-03-02", "nationality": "España", "position": "Portero", "height": 184, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "alvaro-nunez", "name": "Álvaro Núñez", "slug": "alvaro-nunez", "birthDate": "1999-08-09", "nationality": "España", "position": "Lateral derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2028-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "pedro-bigas", "name": "Pedro Bigas", "slug": "pedro-bigas", "birthDate": "1990-05-15", "nationality": "España", "position": "Defensa central", "height": 181, "dominantFoot": "Izquierdo", "marketValue": 1, "contractUntil": "2026-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "victor-chust", "name": "Víctor Chust", "slug": "victor-chust", "birthDate": "2000-03-05", "nationality": "España", "position": "Defensa central", "height": 184, "dominantFoot": "Izquierdo", "marketValue": 5, "contractUntil": "2028-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "leo-petrot", "name": "Léo Pétrot", "slug": "leo-petrot", "birthDate": "1997-09-08", "nationality": "Francia", "position": "Lateral izquierdo", "height": 178, "dominantFoot": "Izquierdo", "marketValue": 3, "contractUntil": "2027-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "marc-aguado", "name": "Marc Aguado", "slug": "marc-aguado", "birthDate": "1997-04-22", "nationality": "España", "position": "Mediocentro defensivo", "height": 184, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2027-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "federico-redondo", "name": "Federico Redondo", "slug": "federico-redondo", "birthDate": "2003-03-15", "nationality": "Argentina", "position": "Mediocentro", "height": 185, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "rodrigo-mendoza", "name": "Rodrigo Mendoza", "slug": "rodrigo-mendoza", "birthDate": "2005-01-26", "nationality": "España", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2027-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "josan", "name": "Josan", "slug": "josan", "birthDate": "1989-12-03", "nationality": "España", "position": "Extremo derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 1, "contractUntil": "2026-06-30", "shirtNumber": 11, "status": "suplente" },
+    { "id": "german-valera", "name": "Germán Valera", "slug": "german-valera", "birthDate": "2002-01-09", "nationality": "España", "position": "Extremo izquierdo", "height": 178, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "rafa-mir", "name": "Rafa Mir", "slug": "rafa-mir", "birthDate": "1997-06-18", "nationality": "España", "position": "Delantero centro", "height": 190, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "andre-silva-elc", "name": "André Silva", "slug": "andre-silva-elc", "birthDate": "1995-11-06", "nationality": "Portugal", "position": "Delantero centro", "height": 185, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 19, "status": "suplente" }
+  ]
+}

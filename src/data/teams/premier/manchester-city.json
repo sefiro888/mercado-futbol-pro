@@ -1,0 +1,36 @@
+{
+  "club": {
+    "id": "manchester-city",
+    "name": "Manchester City",
+    "slug": "manchester-city",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Mánchester",
+    "stadium": "Etihad Stadium",
+    "coach": "Pep Guardiola",
+    "founded": 1880,
+    "primaryColor": "#6CABDD"
+  },
+  "players": [
+    { "id": "ederson", "name": "Ederson", "slug": "ederson", "birthDate": "1993-08-17", "nationality": "Brasil", "position": "Portero", "height": 188, "dominantFoot": "Izquierdo", "marketValue": 22, "contractUntil": "2026-06-30", "shirtNumber": 31, "status": "titular" },
+    { "id": "james-trafford", "name": "James Trafford", "slug": "james-trafford", "birthDate": "2002-10-10", "nationality": "Inglaterra", "position": "Portero", "height": 196, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2030-06-30", "shirtNumber": 1, "status": "suplente" },
+    { "id": "ruben-dias", "name": "Rúben Dias", "slug": "ruben-dias", "birthDate": "1997-05-14", "nationality": "Portugal", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2029-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "josko-gvardiol", "name": "Joško Gvardiol", "slug": "josko-gvardiol", "birthDate": "2002-01-23", "nationality": "Croacia", "position": "Defensa central", "height": 185, "dominantFoot": "Izquierdo", "marketValue": 75, "contractUntil": "2029-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "john-stones", "name": "John Stones", "slug": "john-stones", "birthDate": "1994-05-28", "nationality": "Inglaterra", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2027-06-30", "shirtNumber": 5, "status": "suplente" },
+    { "id": "nathan-ake", "name": "Nathan Aké", "slug": "nathan-ake", "birthDate": "1995-02-18", "nationality": "Países Bajos", "position": "Defensa central", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 28, "contractUntil": "2027-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "manuel-akanji", "name": "Manuel Akanji", "slug": "manuel-akanji", "birthDate": "1995-07-19", "nationality": "Suiza", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 28, "contractUntil": "2027-06-30", "shirtNumber": 25, "status": "suplente" },
+    { "id": "abdukodir-khusanov", "name": "Abdukodir Khusanov", "slug": "abdukodir-khusanov", "birthDate": "2004-02-29", "nationality": "Uzbekistán", "position": "Defensa central", "height": 186, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2030-06-30", "shirtNumber": 32, "status": "titular" },
+    { "id": "rico-lewis", "name": "Rico Lewis", "slug": "rico-lewis", "birthDate": "2004-11-21", "nationality": "Inglaterra", "position": "Lateral derecho", "height": 169, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2028-06-30", "shirtNumber": 82, "status": "titular" },
+    { "id": "matheus-nunes", "name": "Matheus Nunes", "slug": "matheus-nunes", "birthDate": "1998-08-27", "nationality": "Portugal", "position": "Lateral derecho", "height": 183, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2028-06-30", "shirtNumber": 27, "status": "suplente" },
+    { "id": "rodri", "name": "Rodri", "slug": "rodri", "birthDate": "1996-06-22", "nationality": "España", "position": "Mediocentro defensivo", "height": 191, "dominantFoot": "Derecho", "marketValue": 110, "contractUntil": "2027-06-30", "shirtNumber": 16, "status": "titular" },
+    { "id": "tijjani-reijnders", "name": "Tijjani Reijnders", "slug": "tijjani-reijnders", "birthDate": "1998-07-29", "nationality": "Países Bajos", "position": "Mediocentro", "height": 185, "dominantFoot": "Derecho", "marketValue": 70, "contractUntil": "2030-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "mateo-kovacic", "name": "Mateo Kovačić", "slug": "mateo-kovacic", "birthDate": "1994-05-06", "nationality": "Croacia", "position": "Mediocentro", "height": 177, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2027-06-30", "shirtNumber": 8, "status": "suplente" },
+    { "id": "bernardo-silva", "name": "Bernardo Silva", "slug": "bernardo-silva", "birthDate": "1994-08-10", "nationality": "Portugal", "position": "Mediapunta", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 40, "contractUntil": "2026-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "phil-foden", "name": "Phil Foden", "slug": "phil-foden", "birthDate": "2000-05-28", "nationality": "Inglaterra", "position": "Mediapunta", "height": 171, "dominantFoot": "Izquierdo", "marketValue": 110, "contractUntil": "2027-06-30", "shirtNumber": 47, "status": "titular" },
+    { "id": "rayan-cherki", "name": "Rayan Cherki", "slug": "rayan-cherki", "birthDate": "2003-08-17", "nationality": "Francia", "position": "Mediapunta", "height": 176, "dominantFoot": "Derecho", "marketValue": 50, "contractUntil": "2030-06-30", "shirtNumber": 10, "status": "suplente" },
+    { "id": "erling-haaland", "name": "Erling Haaland", "slug": "erling-haaland", "birthDate": "2000-07-21", "nationality": "Noruega", "position": "Delantero centro", "height": 195, "dominantFoot": "Izquierdo", "marketValue": 180, "contractUntil": "2034-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "savinho", "name": "Savinho", "slug": "savinho", "birthDate": "2004-04-10", "nationality": "Brasil", "position": "Extremo derecho", "height": 176, "dominantFoot": "Izquierdo", "marketValue": 60, "contractUntil": "2029-06-30", "shirtNumber": 26, "status": "titular" },
+    { "id": "jeremy-doku", "name": "Jérémy Doku", "slug": "jeremy-doku", "birthDate": "2002-05-27", "nationality": "Bélgica", "position": "Extremo izquierdo", "height": 171, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "omar-marmoush", "name": "Omar Marmoush", "slug": "omar-marmoush", "birthDate": "1999-02-07", "nationality": "Egipto", "position": "Delantero centro", "height": 183, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2029-06-30", "shirtNumber": 7, "status": "suplente" }
+  ]
+}

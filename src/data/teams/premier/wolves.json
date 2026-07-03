@@ -1,0 +1,30 @@
+{
+  "club": {
+    "id": "wolves",
+    "name": "Wolverhampton Wanderers",
+    "slug": "wolves",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Wolverhampton",
+    "stadium": "Molineux",
+    "coach": "Vítor Pereira",
+    "founded": 1877,
+    "primaryColor": "#D88A00"
+  },
+  "players": [
+    { "id": "jose-sa", "name": "José Sá", "slug": "jose-sa", "birthDate": "1993-01-17", "nationality": "Portugal", "position": "Portero", "height": 192, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2027-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "toti-gomes", "name": "Toti Gomes", "slug": "toti-gomes", "birthDate": "1999-01-16", "nationality": "Portugal", "position": "Defensa central", "height": 185, "dominantFoot": "Izquierdo", "marketValue": 20, "contractUntil": "2028-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "emmanuel-agbadou", "name": "Emmanuel Agbadou", "slug": "emmanuel-agbadou", "birthDate": "1997-06-09", "nationality": "Costa de Marfil", "position": "Defensa central", "height": 190, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 15, "status": "titular" },
+    { "id": "ladislav-krejci", "name": "Ladislav Krejčí", "slug": "ladislav-krejci", "birthDate": "1999-04-20", "nationality": "República Checa", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "santiago-bueno", "name": "Santiago Bueno", "slug": "santiago-bueno", "birthDate": "1999-11-09", "nationality": "Uruguay", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2028-06-30", "shirtNumber": 23, "status": "suplente" },
+    { "id": "hugo-bueno", "name": "Hugo Bueno", "slug": "hugo-bueno", "birthDate": "2002-09-18", "nationality": "España", "position": "Lateral izquierdo", "height": 178, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "joao-gomes", "name": "João Gomes", "slug": "joao-gomes", "birthDate": "2001-02-12", "nationality": "Brasil", "position": "Mediocentro defensivo", "height": 176, "dominantFoot": "Derecho", "marketValue": 40, "contractUntil": "2029-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "andre-wolves", "name": "André", "slug": "andre-wolves", "birthDate": "2001-07-16", "nationality": "Brasil", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2029-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "jean-ricner-bellegarde", "name": "Jean-Ricner Bellegarde", "slug": "jean-ricner-bellegarde", "birthDate": "1998-04-23", "nationality": "Francia", "position": "Mediapunta", "height": 182, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "jhon-arias", "name": "Jhon Arias", "slug": "jhon-arias", "birthDate": "1997-09-21", "nationality": "Colombia", "position": "Extremo derecho", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 20, "contractUntil": "2030-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "rodrigo-gomes", "name": "Rodrigo Gomes", "slug": "rodrigo-gomes", "birthDate": "2003-07-02", "nationality": "Portugal", "position": "Extremo derecho", "height": 175, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2029-06-30", "shirtNumber": 17, "status": "suplente" },
+    { "id": "jorgen-strand-larsen", "name": "Jørgen Strand Larsen", "slug": "jorgen-strand-larsen", "birthDate": "2000-02-06", "nationality": "Noruega", "position": "Delantero centro", "height": 193, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2029-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "hwang-hee-chan", "name": "Hwang Hee-chan", "slug": "hwang-hee-chan", "birthDate": "1996-01-26", "nationality": "Corea del Sur", "position": "Extremo izquierdo", "height": 177, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "suplente" },
+    { "id": "tolu-arokodare", "name": "Tolu Arokodare", "slug": "tolu-arokodare", "birthDate": "2000-09-05", "nationality": "Nigeria", "position": "Delantero centro", "height": 196, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 19, "status": "suplente" }
+  ]
+}

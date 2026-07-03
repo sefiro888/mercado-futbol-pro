@@ -1,0 +1,32 @@
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 6px 6px 6px 16px;
+  transition: border-color 0.15s ease;
+}
+.searchbar:focus-within { border-color: var(--brand); }
+
+.searchbar .search-icon { font-size: 1rem; opacity: 0.8; }
+
+.searchbar .input {
+  border: none;
+  background: transparent;
+  padding: 8px 4px;
+  flex: 1;
+}
+.searchbar .input:focus { outline: none; }
+
+.searchbar .btn { border-radius: var(--radius-pill); white-space: nowrap; }
+
+.searchbar-lg {
+  padding: 10px 10px 10px 22px;
+}
+.searchbar-lg .input { font-size: 1.05rem; padding: 12px 4px; }
+
+@media (max-width: 520px) {
+  .searchbar .btn { padding: 8px 12px; }
+}

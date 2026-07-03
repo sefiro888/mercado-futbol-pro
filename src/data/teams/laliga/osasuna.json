@@ -1,0 +1,28 @@
+{
+  "club": {
+    "id": "osasuna",
+    "name": "CA Osasuna",
+    "slug": "osasuna",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Pamplona",
+    "stadium": "El Sadar",
+    "coach": "Alessio Lisci",
+    "founded": 1920,
+    "primaryColor": "#D91A21"
+  },
+  "players": [
+    { "id": "sergio-herrera", "name": "Sergio Herrera", "slug": "sergio-herrera", "birthDate": "1993-06-05", "nationality": "España", "position": "Portero", "height": 192, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2027-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "ruben-pena", "name": "Rubén Peña", "slug": "ruben-pena", "birthDate": "1991-07-18", "nationality": "España", "position": "Lateral derecho", "height": 174, "dominantFoot": "Derecho", "marketValue": 2, "contractUntil": "2026-06-30", "shirtNumber": 18, "status": "titular" },
+    { "id": "alejandro-catena", "name": "Alejandro Catena", "slug": "alejandro-catena", "birthDate": "1994-10-28", "nationality": "España", "position": "Defensa central", "height": 191, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2027-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "enzo-boyomo", "name": "Enzo Boyomo", "slug": "enzo-boyomo", "birthDate": "2001-01-23", "nationality": "Camerún", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "juan-cruz", "name": "Juan Cruz", "slug": "juan-cruz", "birthDate": "1992-03-11", "nationality": "España", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 3, "contractUntil": "2026-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "abel-bretones", "name": "Abel Bretones", "slug": "abel-bretones", "birthDate": "2000-12-23", "nationality": "España", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 4, "contractUntil": "2028-06-30", "shirtNumber": 24, "status": "suplente" },
+    { "id": "lucas-torro", "name": "Lucas Torró", "slug": "lucas-torro", "birthDate": "1994-07-19", "nationality": "España", "position": "Mediocentro defensivo", "height": 188, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2026-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "jon-moncayola", "name": "Jon Moncayola", "slug": "jon-moncayola", "birthDate": "1998-05-13", "nationality": "España", "position": "Mediocentro", "height": 183, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "aimar-oroz", "name": "Aimar Oroz", "slug": "aimar-oroz", "birthDate": "2001-11-27", "nationality": "España", "position": "Mediapunta", "height": 177, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "moi-gomez", "name": "Moi Gómez", "slug": "moi-gomez", "birthDate": "1994-06-23", "nationality": "España", "position": "Mediocentro", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 4, "contractUntil": "2027-06-30", "shirtNumber": 21, "status": "suplente" },
+    { "id": "ruben-garcia", "name": "Rubén García", "slug": "ruben-garcia", "birthDate": "1993-07-14", "nationality": "España", "position": "Extremo izquierdo", "height": 172, "dominantFoot": "Izquierdo", "marketValue": 4, "contractUntil": "2026-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "ante-budimir", "name": "Ante Budimir", "slug": "ante-budimir", "birthDate": "1991-07-22", "nationality": "Croacia", "position": "Delantero centro", "height": 190, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 17, "status": "titular" }
+  ]
+}

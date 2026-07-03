@@ -1,0 +1,34 @@
+{
+  "club": {
+    "id": "atletico-madrid",
+    "name": "Atlético de Madrid",
+    "slug": "atletico-madrid",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Madrid",
+    "stadium": "Riyadh Air Metropolitano",
+    "coach": "Diego Simeone",
+    "founded": 1903,
+    "primaryColor": "#CB3524"
+  },
+  "players": [
+    { "id": "jan-oblak", "name": "Jan Oblak", "slug": "jan-oblak", "birthDate": "1993-01-07", "nationality": "Eslovenia", "position": "Portero", "height": 188, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 13, "status": "titular" },
+    { "id": "juan-musso", "name": "Juan Musso", "slug": "juan-musso", "birthDate": "1994-05-06", "nationality": "Argentina", "position": "Portero", "height": 191, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 1, "status": "suplente" },
+    { "id": "nahuel-molina", "name": "Nahuel Molina", "slug": "nahuel-molina", "birthDate": "1998-04-06", "nationality": "Argentina", "position": "Lateral derecho", "height": 175, "dominantFoot": "Derecho", "marketValue": 28, "contractUntil": "2027-06-30", "shirtNumber": 16, "status": "titular" },
+    { "id": "jose-maria-gimenez", "name": "José María Giménez", "slug": "jose-maria-gimenez", "birthDate": "1995-01-20", "nationality": "Uruguay", "position": "Defensa central", "height": 185, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2027-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "robin-le-normand", "name": "Robin Le Normand", "slug": "robin-le-normand", "birthDate": "1996-11-11", "nationality": "España", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2029-06-30", "shirtNumber": 24, "status": "titular" },
+    { "id": "clement-lenglet", "name": "Clément Lenglet", "slug": "clement-lenglet", "birthDate": "1995-06-17", "nationality": "Francia", "position": "Defensa central", "height": 186, "dominantFoot": "Izquierdo", "marketValue": 8, "contractUntil": "2028-06-30", "shirtNumber": 23, "status": "suplente" },
+    { "id": "reinildo-mandava", "name": "Reinildo Mandava", "slug": "reinildo-mandava", "birthDate": "1994-01-21", "nationality": "Mozambique", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 10, "contractUntil": "2026-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "matteo-ruggeri", "name": "Matteo Ruggeri", "slug": "matteo-ruggeri", "birthDate": "2002-07-11", "nationality": "Italia", "position": "Lateral izquierdo", "height": 186, "dominantFoot": "Izquierdo", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 3, "status": "suplente" },
+    { "id": "koke", "name": "Koke", "slug": "koke", "birthDate": "1992-01-08", "nationality": "España", "position": "Mediocentro", "height": 176, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "pablo-barrios", "name": "Pablo Barrios", "slug": "pablo-barrios", "birthDate": "2003-06-15", "nationality": "España", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 45, "contractUntil": "2030-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "conor-gallagher", "name": "Conor Gallagher", "slug": "conor-gallagher", "birthDate": "2000-02-06", "nationality": "Inglaterra", "position": "Mediocentro", "height": 182, "dominantFoot": "Derecho", "marketValue": 38, "contractUntil": "2029-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "marcos-llorente", "name": "Marcos Llorente", "slug": "marcos-llorente", "birthDate": "1995-01-30", "nationality": "España", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2027-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "johnny-cardoso", "name": "Johnny Cardoso", "slug": "johnny-cardoso", "birthDate": "2001-09-20", "nationality": "Estados Unidos", "position": "Mediocentro defensivo", "height": 184, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2030-06-30", "shirtNumber": 5, "status": "suplente" },
+    { "id": "giuliano-simeone", "name": "Giuliano Simeone", "slug": "giuliano-simeone", "birthDate": "2002-12-18", "nationality": "Argentina", "position": "Extremo derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2029-06-30", "shirtNumber": 17, "status": "titular" },
+    { "id": "antoine-griezmann", "name": "Antoine Griezmann", "slug": "antoine-griezmann", "birthDate": "1991-03-21", "nationality": "Francia", "position": "Mediapunta", "height": 176, "dominantFoot": "Izquierdo", "marketValue": 22, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "julian-alvarez", "name": "Julián Álvarez", "slug": "julian-alvarez", "birthDate": "2000-01-31", "nationality": "Argentina", "position": "Delantero centro", "height": 170, "dominantFoot": "Derecho", "marketValue": 90, "contractUntil": "2030-06-30", "shirtNumber": 19, "status": "titular" },
+    { "id": "alexander-sorloth", "name": "Alexander Sørloth", "slug": "alexander-sorloth", "birthDate": "1995-12-05", "nationality": "Noruega", "position": "Delantero centro", "height": 195, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2028-06-30", "shirtNumber": 9, "status": "suplente" },
+    { "id": "giacomo-raspadori", "name": "Giacomo Raspadori", "slug": "giacomo-raspadori", "birthDate": "2000-02-18", "nationality": "Italia", "position": "Delantero centro", "height": 172, "dominantFoot": "Derecho", "marketValue": 28, "contractUntil": "2030-06-30", "shirtNumber": 11, "status": "suplente" }
+  ]
+}

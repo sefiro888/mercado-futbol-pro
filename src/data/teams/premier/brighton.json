@@ -1,0 +1,29 @@
+{
+  "club": {
+    "id": "brighton",
+    "name": "Brighton & Hove Albion",
+    "slug": "brighton",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Brighton",
+    "stadium": "Amex Stadium",
+    "coach": "Fabian Hürzeler",
+    "founded": 1901,
+    "primaryColor": "#0057B8"
+  },
+  "players": [
+    { "id": "bart-verbruggen", "name": "Bart Verbruggen", "slug": "bart-verbruggen", "birthDate": "2002-08-18", "nationality": "Países Bajos", "position": "Portero", "height": 193, "dominantFoot": "Izquierdo", "marketValue": 30, "contractUntil": "2028-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "joel-veltman", "name": "Joël Veltman", "slug": "joel-veltman", "birthDate": "1992-01-15", "nationality": "Países Bajos", "position": "Lateral derecho", "height": 184, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 34, "status": "titular" },
+    { "id": "jan-paul-van-hecke", "name": "Jan Paul van Hecke", "slug": "jan-paul-van-hecke", "birthDate": "2000-06-08", "nationality": "Países Bajos", "position": "Defensa central", "height": 187, "dominantFoot": "Derecho", "marketValue": 30, "contractUntil": "2029-06-30", "shirtNumber": 29, "status": "titular" },
+    { "id": "lewis-dunk", "name": "Lewis Dunk", "slug": "lewis-dunk", "birthDate": "1991-11-21", "nationality": "Inglaterra", "position": "Defensa central", "height": 192, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2026-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "ferdi-kadioglu", "name": "Ferdi Kadıoğlu", "slug": "ferdi-kadioglu", "birthDate": "1999-10-07", "nationality": "Turquía", "position": "Lateral izquierdo", "height": 178, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2029-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "maxim-de-cuyper", "name": "Maxim De Cuyper", "slug": "maxim-de-cuyper", "birthDate": "2000-12-22", "nationality": "Bélgica", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 3, "status": "suplente" },
+    { "id": "carlos-baleba", "name": "Carlos Baleba", "slug": "carlos-baleba", "birthDate": "2004-01-03", "nationality": "Camerún", "position": "Mediocentro defensivo", "height": 180, "dominantFoot": "Derecho", "marketValue": 60, "contractUntil": "2028-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "mats-wieffer", "name": "Mats Wieffer", "slug": "mats-wieffer", "birthDate": "2000-11-16", "nationality": "Países Bajos", "position": "Mediocentro", "height": 187, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2029-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "james-milner", "name": "James Milner", "slug": "james-milner", "birthDate": "1986-01-04", "nationality": "Inglaterra", "position": "Mediocentro", "height": 175, "dominantFoot": "Derecho", "marketValue": 1, "contractUntil": "2026-06-30", "shirtNumber": 6, "status": "suplente" },
+    { "id": "kaoru-mitoma", "name": "Kaoru Mitoma", "slug": "kaoru-mitoma", "birthDate": "1997-05-20", "nationality": "Japón", "position": "Extremo izquierdo", "height": 178, "dominantFoot": "Derecho", "marketValue": 45, "contractUntil": "2028-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "yankuba-minteh", "name": "Yankuba Minteh", "slug": "yankuba-minteh", "birthDate": "2004-07-22", "nationality": "Gambia", "position": "Extremo derecho", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 40, "contractUntil": "2029-06-30", "shirtNumber": 17, "status": "titular" },
+    { "id": "georginio-rutter", "name": "Georginio Rutter", "slug": "georginio-rutter", "birthDate": "2002-04-20", "nationality": "Francia", "position": "Mediapunta", "height": 182, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2029-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "danny-welbeck", "name": "Danny Welbeck", "slug": "danny-welbeck", "birthDate": "1990-11-26", "nationality": "Inglaterra", "position": "Delantero centro", "height": 185, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2026-06-30", "shirtNumber": 18, "status": "titular" }
+  ]
+}

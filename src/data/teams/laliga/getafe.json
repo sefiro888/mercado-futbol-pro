@@ -1,0 +1,28 @@
+{
+  "club": {
+    "id": "getafe",
+    "name": "Getafe CF",
+    "slug": "getafe",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Getafe",
+    "stadium": "Coliseum",
+    "coach": "José Bordalás",
+    "founded": 1983,
+    "primaryColor": "#005999"
+  },
+  "players": [
+    { "id": "david-soria", "name": "David Soria", "slug": "david-soria", "birthDate": "1993-01-04", "nationality": "España", "position": "Portero", "height": 192, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2027-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "juan-iglesias", "name": "Juan Iglesias", "slug": "juan-iglesias", "birthDate": "1998-07-09", "nationality": "España", "position": "Lateral derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "domingos-duarte", "name": "Domingos Duarte", "slug": "domingos-duarte", "birthDate": "1995-03-10", "nationality": "Portugal", "position": "Defensa central", "height": 190, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2027-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "djene", "name": "Djené", "slug": "djene", "birthDate": "1991-12-31", "nationality": "Togo", "position": "Defensa central", "height": 178, "dominantFoot": "Derecho", "marketValue": 2, "contractUntil": "2026-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "diego-rico", "name": "Diego Rico", "slug": "diego-rico", "birthDate": "1993-09-23", "nationality": "España", "position": "Lateral izquierdo", "height": 183, "dominantFoot": "Izquierdo", "marketValue": 2, "contractUntil": "2026-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "abdel-abqar", "name": "Abdel Abqar", "slug": "abdel-abqar", "birthDate": "2000-01-01", "nationality": "Marruecos", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2028-06-30", "shirtNumber": 24, "status": "suplente" },
+    { "id": "luis-milla", "name": "Luis Milla", "slug": "luis-milla", "birthDate": "1994-10-07", "nationality": "España", "position": "Mediocentro", "height": 174, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "mauro-arambarri", "name": "Mauro Arambarri", "slug": "mauro-arambarri", "birthDate": "1995-09-30", "nationality": "Uruguay", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2026-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "carles-perez", "name": "Carles Pérez", "slug": "carles-perez", "birthDate": "1998-02-16", "nationality": "España", "position": "Extremo derecho", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 4, "contractUntil": "2027-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "borja-mayoral", "name": "Borja Mayoral", "slug": "borja-mayoral", "birthDate": "1997-04-05", "nationality": "España", "position": "Delantero centro", "height": 182, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2028-06-30", "shirtNumber": 19, "status": "titular" },
+    { "id": "christantus-uche", "name": "Christantus Uche", "slug": "christantus-uche", "birthDate": "2003-09-06", "nationality": "Nigeria", "position": "Mediapunta", "height": 189, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "yellu-santiago", "name": "Yellu Santiago", "slug": "yellu-santiago", "birthDate": "2002-06-30", "nationality": "España", "position": "Delantero centro", "height": 178, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2027-06-30", "shirtNumber": 17, "status": "suplente" }
+  ]
+}

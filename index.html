@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Tipografía moderna. Si no hay red, el CSS recurre a fuentes del sistema. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SEO base. El <title> y la descripción se actualizan por página vía src/lib/seo.js -->
+    <title>Mercado Fútbol Pro · Noticias, fichajes y rumores contrastados</title>
+    <meta
+      name="description"
+      content="Portal deportivo de análisis: noticias de fútbol, fichajes confirmados y rumores contrastados con fuentes reales. Tablas de traspasos con análisis económico."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b0f17" />
+
+    <!-- Open Graph básico -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Mercado Fútbol Pro" />
+    <meta property="og:title" content="Mercado Fútbol Pro · Noticias, fichajes y rumores contrastados" />
+    <meta
+      property="og:description"
+      content="Noticias de fútbol, fichajes confirmados y rumores contrastados con fuentes reales."
+    />
+    <meta property="og:locale" content="es_ES" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mercado Fútbol Pro" />
+    <meta
+      name="twitter:description"
+      content="Noticias de fútbol, fichajes y rumores contrastados con fuentes reales."
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "club": {
+    "id": "real-betis",
+    "name": "Real Betis",
+    "slug": "real-betis",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "Sevilla",
+    "stadium": "Benito Villamarín",
+    "coach": "Manuel Pellegrini",
+    "founded": 1907,
+    "primaryColor": "#00954C"
+  },
+  "players": [
+    { "id": "pau-lopez", "name": "Pau López", "slug": "pau-lopez", "birthDate": "1994-12-13", "nationality": "España", "position": "Portero", "height": 189, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 13, "status": "titular" },
+    { "id": "alvaro-valles", "name": "Álvaro Valles", "slug": "alvaro-valles", "birthDate": "1997-06-03", "nationality": "España", "position": "Portero", "height": 190, "dominantFoot": "Derecho", "marketValue": 7, "contractUntil": "2030-06-30", "shirtNumber": 1, "status": "suplente" },
+    { "id": "hector-bellerin", "name": "Héctor Bellerín", "slug": "hector-bellerin", "birthDate": "1995-03-19", "nationality": "España", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 5, "contractUntil": "2026-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "marc-bartra", "name": "Marc Bartra", "slug": "marc-bartra", "birthDate": "1991-01-15", "nationality": "España", "position": "Defensa central", "height": 184, "dominantFoot": "Derecho", "marketValue": 3, "contractUntil": "2026-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "natan", "name": "Natan", "slug": "natan", "birthDate": "2001-02-13", "nationality": "Brasil", "position": "Defensa central", "height": 185, "dominantFoot": "Izquierdo", "marketValue": 15, "contractUntil": "2030-06-30", "shirtNumber": 6, "status": "titular" },
+    { "id": "diego-llorente", "name": "Diego Llorente", "slug": "diego-llorente", "birthDate": "1993-08-16", "nationality": "España", "position": "Defensa central", "height": 186, "dominantFoot": "Derecho", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 23, "status": "suplente" },
+    { "id": "romain-perraud", "name": "Romain Perraud", "slug": "romain-perraud", "birthDate": "1997-09-22", "nationality": "Francia", "position": "Lateral izquierdo", "height": 175, "dominantFoot": "Izquierdo", "marketValue": 7, "contractUntil": "2028-06-30", "shirtNumber": 33, "status": "titular" },
+    { "id": "sergi-altimira", "name": "Sergi Altimira", "slug": "sergi-altimira", "birthDate": "2001-08-09", "nationality": "España", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "marc-roca", "name": "Marc Roca", "slug": "marc-roca", "birthDate": "1996-11-26", "nationality": "España", "position": "Mediocentro defensivo", "height": 184, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2029-06-30", "shirtNumber": 21, "status": "titular" },
+    { "id": "giovani-lo-celso", "name": "Giovani Lo Celso", "slug": "giovani-lo-celso", "birthDate": "1996-04-09", "nationality": "Argentina", "position": "Mediapunta", "height": 177, "dominantFoot": "Izquierdo", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 20, "status": "titular" },
+    { "id": "isco", "name": "Isco", "slug": "isco", "birthDate": "1992-04-21", "nationality": "España", "position": "Mediapunta", "height": 176, "dominantFoot": "Derecho", "marketValue": 8, "contractUntil": "2027-06-30", "shirtNumber": 22, "status": "titular" },
+    { "id": "pablo-fornals", "name": "Pablo Fornals", "slug": "pablo-fornals", "birthDate": "1996-02-22", "nationality": "España", "position": "Mediocentro", "height": 178, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2028-06-30", "shirtNumber": 8, "status": "suplente" },
+    { "id": "antony", "name": "Antony", "slug": "antony", "birthDate": "2000-02-24", "nationality": "Brasil", "position": "Extremo derecho", "height": 174, "dominantFoot": "Izquierdo", "marketValue": 30, "contractUntil": "2030-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "abde-ezzalzouli", "name": "Abde Ezzalzouli", "slug": "abde-ezzalzouli", "birthDate": "2001-12-17", "nationality": "Marruecos", "position": "Extremo izquierdo", "height": 178, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 11, "status": "titular" },
+    { "id": "cucho-hernandez", "name": "Cucho Hernández", "slug": "cucho-hernandez", "birthDate": "1999-04-30", "nationality": "Colombia", "position": "Delantero centro", "height": 178, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "nelson-deossa", "name": "Nelson Deossa", "slug": "nelson-deossa", "birthDate": "2000-05-11", "nationality": "Colombia", "position": "Mediocentro", "height": 180, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2030-06-30", "shirtNumber": 4, "status": "suplente" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "club": {
+    "id": "real-sociedad",
+    "name": "Real Sociedad",
+    "slug": "real-sociedad",
+    "country": "España",
+    "league": "LaLiga",
+    "city": "San Sebastián",
+    "stadium": "Reale Arena",
+    "coach": "Sergio Francisco",
+    "founded": 1909,
+    "primaryColor": "#0067B1"
+  },
+  "players": [
+    { "id": "alex-remiro", "name": "Álex Remiro", "slug": "alex-remiro", "birthDate": "1995-03-24", "nationality": "España", "position": "Portero", "height": 192, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2027-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "hamari-traore", "name": "Hamari Traoré", "slug": "hamari-traore", "birthDate": "1992-01-27", "nationality": "Malí", "position": "Lateral derecho", "height": 175, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2026-06-30", "shirtNumber": 12, "status": "titular" },
+    { "id": "igor-zubeldia", "name": "Igor Zubeldia", "slug": "igor-zubeldia", "birthDate": "1997-03-30", "nationality": "España", "position": "Defensa central", "height": 181, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2027-06-30", "shirtNumber": 15, "status": "titular" },
+    { "id": "nayef-aguerd", "name": "Nayef Aguerd", "slug": "nayef-aguerd", "birthDate": "1996-03-30", "nationality": "Marruecos", "position": "Defensa central", "height": 188, "dominantFoot": "Izquierdo", "marketValue": 15, "contractUntil": "2026-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "aritz-elustondo", "name": "Aritz Elustondo", "slug": "aritz-elustondo", "birthDate": "1994-03-28", "nationality": "España", "position": "Defensa central", "height": 181, "dominantFoot": "Derecho", "marketValue": 4, "contractUntil": "2026-06-30", "shirtNumber": 6, "status": "suplente" },
+    { "id": "aihen-munoz", "name": "Aihen Muñoz", "slug": "aihen-munoz", "birthDate": "1997-08-16", "nationality": "España", "position": "Lateral izquierdo", "height": 180, "dominantFoot": "Izquierdo", "marketValue": 6, "contractUntil": "2027-06-30", "shirtNumber": 18, "status": "titular" },
+    { "id": "sergio-gomez", "name": "Sergio Gómez", "slug": "sergio-gomez", "birthDate": "2000-09-04", "nationality": "España", "position": "Lateral izquierdo", "height": 168, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 16, "status": "suplente" },
+    { "id": "brais-mendez", "name": "Brais Méndez", "slug": "brais-mendez", "birthDate": "1997-01-07", "nationality": "España", "position": "Mediocentro", "height": 184, "dominantFoot": "Derecho", "marketValue": 22, "contractUntil": "2028-06-30", "shirtNumber": 8, "status": "titular" },
+    { "id": "benat-turrientes", "name": "Beñat Turrientes", "slug": "benat-turrientes", "birthDate": "2002-01-31", "nationality": "España", "position": "Mediocentro defensivo", "height": 180, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2029-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "luka-sucic", "name": "Luka Sučić", "slug": "luka-sucic", "birthDate": "2002-09-08", "nationality": "Croacia", "position": "Mediocentro", "height": 185, "dominantFoot": "Izquierdo", "marketValue": 18, "contractUntil": "2028-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "takefusa-kubo", "name": "Takefusa Kubo", "slug": "takefusa-kubo", "birthDate": "2001-06-04", "nationality": "Japón", "position": "Extremo derecho", "height": 173, "dominantFoot": "Izquierdo", "marketValue": 55, "contractUntil": "2029-06-30", "shirtNumber": 14, "status": "titular" },
+    { "id": "mikel-oyarzabal", "name": "Mikel Oyarzabal", "slug": "mikel-oyarzabal", "birthDate": "1997-04-21", "nationality": "España", "position": "Delantero centro", "height": 181, "dominantFoot": "Derecho", "marketValue": 35, "contractUntil": "2028-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "ander-barrenetxea", "name": "Ander Barrenetxea", "slug": "ander-barrenetxea", "birthDate": "2001-12-27", "nationality": "España", "position": "Extremo izquierdo", "height": 173, "dominantFoot": "Derecho", "marketValue": 20, "contractUntil": "2028-06-30", "shirtNumber": 7, "status": "titular" },
+    { "id": "orri-oskarsson", "name": "Orri Óskarsson", "slug": "orri-oskarsson", "birthDate": "2004-08-29", "nationality": "Islandia", "position": "Delantero centro", "height": 188, "dominantFoot": "Derecho", "marketValue": 20, "contractUntil": "2029-06-30", "shirtNumber": 9, "status": "suplente" },
+    { "id": "carlos-soler", "name": "Carlos Soler", "slug": "carlos-soler", "birthDate": "1997-01-02", "nationality": "España", "position": "Mediocentro", "height": 180, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2026-06-30", "shirtNumber": 21, "status": "suplente" },
+    { "id": "jon-aramburu", "name": "Jon Aramburu", "slug": "jon-aramburu", "birthDate": "2002-04-15", "nationality": "Venezuela", "position": "Lateral derecho", "height": 178, "dominantFoot": "Derecho", "marketValue": 10, "contractUntil": "2028-06-30", "shirtNumber": 24, "status": "suplente" }
+  ]
+}

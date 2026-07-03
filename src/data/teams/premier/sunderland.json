@@ -1,0 +1,29 @@
+{
+  "club": {
+    "id": "sunderland",
+    "name": "Sunderland",
+    "slug": "sunderland",
+    "country": "Inglaterra",
+    "league": "Premier League",
+    "city": "Sunderland",
+    "stadium": "Stadium of Light",
+    "coach": "Régis Le Bris",
+    "founded": 1879,
+    "primaryColor": "#EB172B"
+  },
+  "players": [
+    { "id": "robin-roefs", "name": "Robin Roefs", "slug": "robin-roefs", "birthDate": "2003-02-10", "nationality": "Países Bajos", "position": "Portero", "height": 191, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 1, "status": "titular" },
+    { "id": "trai-hume", "name": "Trai Hume", "slug": "trai-hume", "birthDate": "2002-04-07", "nationality": "Irlanda del Norte", "position": "Lateral derecho", "height": 180, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2029-06-30", "shirtNumber": 2, "status": "titular" },
+    { "id": "dan-ballard", "name": "Dan Ballard", "slug": "dan-ballard", "birthDate": "1999-09-22", "nationality": "Irlanda del Norte", "position": "Defensa central", "height": 188, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2029-06-30", "shirtNumber": 5, "status": "titular" },
+    { "id": "omar-alderete", "name": "Omar Alderete", "slug": "omar-alderete", "birthDate": "1996-12-26", "nationality": "Paraguay", "position": "Defensa central", "height": 187, "dominantFoot": "Izquierdo", "marketValue": 10, "contractUntil": "2029-06-30", "shirtNumber": 4, "status": "titular" },
+    { "id": "reinildo-sunderland", "name": "Nordi Mukiele", "slug": "nordi-mukiele", "birthDate": "1997-11-01", "nationality": "Francia", "position": "Lateral izquierdo", "height": 187, "dominantFoot": "Derecho", "marketValue": 12, "contractUntil": "2026-06-30", "shirtNumber": 3, "status": "titular" },
+    { "id": "granit-xhaka", "name": "Granit Xhaka", "slug": "granit-xhaka", "birthDate": "1992-09-27", "nationality": "Suiza", "position": "Mediocentro", "height": 185, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2028-06-30", "shirtNumber": 34, "status": "titular" },
+    { "id": "habib-diarra", "name": "Habib Diarra", "slug": "habib-diarra", "birthDate": "2004-01-03", "nationality": "Senegal", "position": "Mediocentro", "height": 182, "dominantFoot": "Derecho", "marketValue": 25, "contractUntil": "2030-06-30", "shirtNumber": 17, "status": "titular" },
+    { "id": "noah-sadiki", "name": "Noah Sadiki", "slug": "noah-sadiki", "birthDate": "2005-02-07", "nationality": "Bélgica", "position": "Mediocentro defensivo", "height": 178, "dominantFoot": "Derecho", "marketValue": 15, "contractUntil": "2030-06-30", "shirtNumber": 28, "status": "titular" },
+    { "id": "enzo-le-fee", "name": "Enzo Le Fée", "slug": "enzo-le-fee", "birthDate": "2000-02-03", "nationality": "Francia", "position": "Mediapunta", "height": 168, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2030-06-30", "shirtNumber": 10, "status": "titular" },
+    { "id": "chris-rigg", "name": "Chris Rigg", "slug": "chris-rigg", "birthDate": "2007-06-01", "nationality": "Inglaterra", "position": "Mediocentro", "height": 180, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 7, "status": "suplente" },
+    { "id": "wilson-isidor", "name": "Wilson Isidor", "slug": "wilson-isidor", "birthDate": "2000-08-27", "nationality": "Francia", "position": "Delantero centro", "height": 187, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2029-06-30", "shirtNumber": 9, "status": "titular" },
+    { "id": "brian-brobbey", "name": "Brian Brobbey", "slug": "brian-brobbey", "birthDate": "2002-02-01", "nationality": "Países Bajos", "position": "Delantero centro", "height": 180, "dominantFoot": "Derecho", "marketValue": 18, "contractUntil": "2026-06-30", "shirtNumber": 11, "status": "suplente" },
+    { "id": "chemsdine-talbi", "name": "Chemsdine Talbi", "slug": "chemsdine-talbi", "birthDate": "2005-03-31", "nationality": "Bélgica", "position": "Extremo derecho", "height": 182, "dominantFoot": "Izquierdo", "marketValue": 12, "contractUntil": "2030-06-30", "shirtNumber": 20, "status": "titular" }
+  ]
+}

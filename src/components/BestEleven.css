@@ -1,0 +1,200 @@
+.xi { display: flex; flex-direction: column; gap: 14px; }
+
+/* --- Pestañas de modo --- */
+.xi-tabs {
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  align-self: flex-start;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.xi-tabs button {
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font-weight: 700;
+  font-size: 0.86rem;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  transition: background 0.15s var(--ease), color 0.15s var(--ease);
+}
+.xi-tabs button:hover { color: var(--text); }
+.xi-tabs button.active { background: var(--grad-brand); color: #052e16; }
+
+.xi-hint { margin: 0; font-size: 0.9rem; }
+
+/* --- Campo de fútbol --- */
+.pitch {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  margin: 4px auto;
+  aspect-ratio: 68 / 90;
+  border-radius: var(--radius);
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      #11502a 0,
+      #11502a 11.11%,
+      #0e4624 11.11%,
+      #0e4624 22.22%
+    );
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.45), var(--shadow);
+}
+/* Escudo del club como marca de agua en el centro del campo */
+.pitch-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 42%;
+  transform: translate(-50%, -50%);
+  opacity: 0.12;
+  z-index: 0;
+  pointer-events: none;
+}
+.pitch-slot { z-index: 2; }
+/* Tinte sutil del color del club sobre el césped */
+.pitch { box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.45), inset 0 0 120px -40px var(--club-c, transparent), var(--shadow); }
+
+/* Línea de medio campo */
+.pitch::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  border-top: 2px solid rgba(255, 255, 255, 0.18);
+}
+/* Círculo central */
+.pitch::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 26%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+}
+
+/* --- Fichas en el campo --- */
+.pitch-slot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  padding: 0;
+  width: 76px;
+  cursor: default;
+}
+.pitch-slot.editable { cursor: pointer; }
+.ps-shirt {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(8, 12, 20, 0.55);
+  border: 2px solid var(--brand);
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.15s var(--ease), box-shadow 0.15s var(--ease);
+}
+.pitch-slot.editable:hover .ps-shirt { transform: scale(1.08); box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.35); }
+.pitch-slot.is-active .ps-shirt { box-shadow: 0 0 0 4px rgba(34, 197, 94, 0.6); }
+.ps-shirt .avatar { width: 100% !important; height: 100% !important; border: none; }
+.ps-votes {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--grad-brand);
+  color: #052e16;
+  font-size: 0.7rem;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+}
+.ps-name {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  background: rgba(8, 12, 20, 0.5);
+  padding: 1px 6px;
+  border-radius: var(--radius-pill);
+  max-width: 84px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* --- Selector de candidatos --- */
+.xi-picker {
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  padding: 14px;
+}
+.xi-picker-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 0.92rem;
+}
+.xi-candidates {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.xi-cand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  color: var(--text);
+  transition: border-color 0.15s var(--ease), transform 0.1s var(--ease);
+}
+.xi-cand:hover { border-color: var(--brand); }
+.xi-cand:active { transform: scale(0.99); }
+.xi-cand-name { font-weight: 600; flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.xi-cand-pos { font-size: 0.74rem; font-weight: 700; flex-shrink: 0; }
+.xi-cand-val { font-weight: 800; flex-shrink: 0; min-width: 56px; text-align: right; }
+
+/* --- Barra de voto --- */
+.xi-vote-bar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.xi-vote-bar .btn { display: inline-flex; align-items: center; gap: 8px; }
+.xi-voted-msg { color: var(--brand); font-weight: 700; animation: fadeInUp 0.3s var(--ease); }
+
+.xi-foot { font-size: 0.78rem; margin: 0; }
+
+@media (max-width: 480px) {
+  .pitch-slot { width: 60px; }
+  .ps-shirt { width: 40px; height: 40px; }
+  .ps-name { font-size: 0.66rem; max-width: 70px; }
+}
