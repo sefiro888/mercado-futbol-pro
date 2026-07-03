@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 // Configuración mínima de Vite + React.
 // El alias "@" apunta a /src para imports limpios y fáciles de mantener.
 export default defineConfig({
+  base: '/mercado-futbol-pro/',
   plugins: [react()],
   resolve: {
     alias: {
