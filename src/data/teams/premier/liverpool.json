@@ -49,7 +49,18 @@
       "marketValue": 35,
       "contractUntil": "2030-06-30",
       "shirtNumber": 25,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "valencia",
+          "toClubId": "liverpool"
+        }
+      ]
     },
     {
       "id": "virgil-van-dijk",
@@ -334,7 +345,18 @@
       "marketValue": 65,
       "contractUntil": "2028-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-01-01",
+          "fee": 42,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "liverpool"
+        }
+      ]
     },
     {
       "id": "alexander-isak",

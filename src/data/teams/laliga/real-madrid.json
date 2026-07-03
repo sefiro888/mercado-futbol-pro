@@ -162,7 +162,18 @@
       "marketValue": 18,
       "contractUntil": "2029-06-30",
       "shirtNumber": 20,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-06-16",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "rayo-vallecano",
+          "toClubId": "real-madrid"
+        }
+      ]
     },
     {
       "id": "jude-bellingham",
@@ -274,7 +285,18 @@
       "marketValue": 18,
       "contractUntil": "2027-06-30",
       "shirtNumber": 19,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2017-07-14",
+          "fee": 16.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "real-madrid"
+        }
+      ]
     },
     {
       "id": "arda-guler",
@@ -409,7 +431,18 @@
       "marketValue": 45,
       "contractUntil": "2027-06-30",
       "shirtNumber": 21,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2019-01-06",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "real-madrid"
+        }
+      ]
     },
     {
       "id": "endrick",
@@ -423,7 +456,18 @@
       "marketValue": 40,
       "contractUntil": "2030-06-30",
       "shirtNumber": 16,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Palmeiras",
+          "toClubId": "real-madrid"
+        }
+      ]
     },
     {
       "id": "ibrahima-konate",
@@ -437,7 +481,18 @@
       "marketValue": 55,
       "contractUntil": "2030-06-30",
       "shirtNumber": 24,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 40,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Leipzig",
+          "toClubId": "liverpool"
+        }
+      ]
     },
     {
       "id": "marc-cucurella",

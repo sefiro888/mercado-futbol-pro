@@ -80,7 +80,27 @@
       "marketValue": 4,
       "contractUntil": "2026-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-08-09",
+          "fee": 30.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "everton"
+        },
+        {
+          "date": "2024-07-25",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Fiorentina",
+          "toClubId": "cagliari"
+        }
+      ]
     },
     {
       "id": "sebastiano-luperto",
@@ -150,7 +170,18 @@
       "marketValue": 8,
       "contractUntil": "2028-06-30",
       "shirtNumber": 90,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-31",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "napoli",
+          "toClubId": "cagliari"
+        }
+      ]
     },
     {
       "id": "matteo-prati",
@@ -178,7 +209,18 @@
       "marketValue": 10,
       "contractUntil": "2029-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-08",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "cagliari"
+        }
+      ]
     },
     {
       "id": "andrea-belotti",

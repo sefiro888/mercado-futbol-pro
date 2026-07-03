@@ -38,7 +38,18 @@
       "marketValue": 18,
       "contractUntil": "2030-06-30",
       "shirtNumber": 25,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-05",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "torino",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "giovanni-di-lorenzo",
@@ -66,7 +77,18 @@
       "marketValue": 18,
       "contractUntil": "2027-06-30",
       "shirtNumber": 13,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-07-01",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "verona",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "alessandro-buongiorno",
@@ -80,7 +102,18 @@
       "marketValue": 40,
       "contractUntil": "2029-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-24",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "torino",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "sam-beukema",
@@ -94,7 +127,18 @@
       "marketValue": 28,
       "contractUntil": "2030-06-30",
       "shirtNumber": 33,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-17",
+          "fee": 31,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "bologna",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "leonardo-spinazzola",
@@ -122,7 +166,18 @@
       "marketValue": 32,
       "contractUntil": "2028-06-30",
       "shirtNumber": 68,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-15",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "celta-vigo",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "frank-anguissa",
@@ -136,7 +191,18 @@
       "marketValue": 30,
       "contractUntil": "2027-06-30",
       "shirtNumber": 99,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-05-12",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Fulham",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "scott-mctominay",
@@ -209,7 +275,18 @@
       "marketValue": 28,
       "contractUntil": "2028-06-30",
       "shirtNumber": 6,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-08-30",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brighton",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "eljif-elmas",
@@ -305,7 +382,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 19,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-24",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "udinese",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "david-neres",
@@ -319,7 +407,18 @@
       "marketValue": 30,
       "contractUntil": "2028-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-28",
+          "fee": 28,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Benfica",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "noa-lang",
@@ -333,7 +432,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 30,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-10",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "napoli"
+        }
+      ]
     },
     {
       "id": "matteo-politano",

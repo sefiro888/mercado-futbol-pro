@@ -52,7 +52,18 @@
       "marketValue": 25,
       "contractUntil": "2028-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-09",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "verona",
+          "toClubId": "atalanta"
+        }
+      ]
     },
     {
       "id": "berat-djimsiti",
@@ -80,7 +91,18 @@
       "marketValue": 20,
       "contractUntil": "2029-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "atalanta"
+        }
+      ]
     },
     {
       "id": "raoul-bellanova",
@@ -150,7 +172,18 @@
       "marketValue": 15,
       "contractUntil": "2027-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-06-24",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "atalanta"
+        }
+      ]
     },
     {
       "id": "lazar-samardzic",
@@ -220,7 +253,27 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 17,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-02",
+          "fee": 32,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Club Brujas",
+          "toClubId": "milan"
+        },
+        {
+          "date": "2024-06-13",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "milan",
+          "toClubId": "atalanta"
+        }
+      ]
     },
     {
       "id": "kamaldeen-sulemana",
@@ -248,7 +301,27 @@
       "marketValue": 25,
       "contractUntil": "2027-06-30",
       "shirtNumber": 90,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-26",
+          "fee": 36,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sassuolo",
+          "toClubId": "west-ham"
+        },
+        {
+          "date": "2023-08-01",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "west-ham",
+          "toClubId": "atalanta"
+        }
+      ]
     },
     {
       "id": "nikola-krstovic",
@@ -262,7 +335,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-14",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lecce",
+          "toClubId": "atalanta"
+        }
+      ]
     }
   ]
 }

@@ -94,7 +94,18 @@
       "marketValue": 30,
       "contractUntil": "2029-06-30",
       "shirtNumber": 33,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-31",
+          "fee": 82,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leicester City",
+          "toClubId": "chelsea"
+        }
+      ]
     },
     {
       "id": "tosin-adarabioyo",
@@ -220,7 +231,18 @@
       "marketValue": 50,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-11",
+          "fee": 60,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "wolves",
+          "toClubId": "chelsea"
+        }
+      ]
     },
     {
       "id": "estevao",
@@ -234,7 +256,18 @@
       "marketValue": 60,
       "contractUntil": "2033-06-30",
       "shirtNumber": 41,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 34,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Palmeiras",
+          "toClubId": "chelsea"
+        }
+      ]
     },
     {
       "id": "joao-pedro",
@@ -282,7 +315,18 @@
       "marketValue": 40,
       "contractUntil": "2030-06-30",
       "shirtNumber": 9,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-06-04",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "ipswich",
+          "toClubId": "chelsea"
+        }
+      ]
     },
     {
       "id": "geovany-quenda",

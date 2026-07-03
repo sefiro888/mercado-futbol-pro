@@ -24,7 +24,18 @@
       "marketValue": 20,
       "contractUntil": "2029-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-12",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Urawa Red Diamonds",
+          "toClubId": "parma"
+        }
+      ]
     },
     {
       "id": "edoardo-corvi",
@@ -108,7 +119,18 @@
       "marketValue": 15,
       "contractUntil": "2028-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-15",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "parma"
+        }
+      ]
     },
     {
       "id": "mandela-keita",

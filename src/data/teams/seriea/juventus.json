@@ -24,7 +24,18 @@
       "marketValue": 20,
       "contractUntil": "2029-06-30",
       "shirtNumber": 29,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-04",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Monza",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "mattia-perin",
@@ -52,7 +63,18 @@
       "marketValue": 50,
       "contractUntil": "2029-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-20",
+          "fee": 41,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "torino",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "federico-gatti",
@@ -164,7 +186,18 @@
       "marketValue": 25,
       "contractUntil": "2028-06-30",
       "shirtNumber": 5,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-18",
+          "fee": 37,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sassuolo",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "khephren-thuram",
@@ -178,7 +211,27 @@
       "marketValue": 45,
       "contractUntil": "2029-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "AS Mónaco",
+          "toClubName": "OGC Niza"
+        },
+        {
+          "date": "2024-07-12",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "OGC Niza",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "teun-koopmeiners",
@@ -192,7 +245,18 @@
       "marketValue": 35,
       "contractUntil": "2029-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-14",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atalanta",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "weston-mckennie",
@@ -234,7 +298,18 @@
       "marketValue": 30,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-08",
+          "fee": 32,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Porto",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "edon-zhegrova",
@@ -262,7 +337,18 @@
       "marketValue": 50,
       "contractUntil": "2030-06-30",
       "shirtNumber": 30,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Lille",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "dusan-vlahovic",
@@ -276,7 +362,18 @@
       "marketValue": 35,
       "contractUntil": "2026-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-01-28",
+          "fee": 80,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "fiorentina",
+          "toClubId": "juventus"
+        }
+      ]
     },
     {
       "id": "lois-openda",
@@ -290,7 +387,18 @@
       "marketValue": 40,
       "contractUntil": "2030-06-30",
       "shirtNumber": 17,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-09-01",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Leipzig",
+          "toClubId": "juventus"
+        }
+      ]
     }
   ]
 }

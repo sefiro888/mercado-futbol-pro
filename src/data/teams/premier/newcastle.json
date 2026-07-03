@@ -24,7 +24,18 @@
       "marketValue": 12,
       "contractUntil": "2026-06-30",
       "shirtNumber": 22,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-06-23",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "burnley",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "tino-livramento",
@@ -52,7 +63,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-06-28",
+          "fee": 37,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Lille",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "fabian-schar",
@@ -108,7 +130,18 @@
       "marketValue": 35,
       "contractUntil": "2029-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-06-20",
+          "fee": 33,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "bruno-guimaraes",
@@ -147,7 +180,18 @@
       "marketValue": 40,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-23",
+          "fee": 44,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "TSG Hoffenheim",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "joe-willock",
@@ -175,7 +219,18 @@
       "marketValue": 30,
       "contractUntil": "2030-06-30",
       "shirtNumber": 41,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-25",
+          "fee": 46,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "aston-villa",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "harvey-barnes",
@@ -189,7 +244,18 @@
       "marketValue": 35,
       "contractUntil": "2028-06-30",
       "shirtNumber": 11,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-07-24",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leicester City",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "nick-woltemade",
@@ -253,7 +319,18 @@
       "marketValue": 35,
       "contractUntil": "2030-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-18",
+          "fee": 61,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "nottingham-forest",
+          "toClubId": "newcastle"
+        }
+      ]
     },
     {
       "id": "koni-de-winter",
@@ -267,7 +344,18 @@
       "marketValue": 20,
       "contractUntil": "2030-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-01",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "genoa",
+          "toClubId": "milan"
+        }
+      ]
     }
   ]
 }

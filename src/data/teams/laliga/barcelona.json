@@ -24,7 +24,18 @@
       "marketValue": 30,
       "contractUntil": "2031-06-30",
       "shirtNumber": 13,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-25",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "espanyol",
+          "toClubId": "barcelona"
+        }
+      ]
     },
     {
       "id": "wojciech-szczesny",
@@ -237,7 +248,27 @@
       "marketValue": 55,
       "contractUntil": "2030-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-25",
+          "fee": 29,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Dinamo Zagreb",
+          "toClubName": "RB Leipzig"
+        },
+        {
+          "date": "2024-08-09",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Leipzig",
+          "toClubId": "barcelona"
+        }
+      ]
     },
     {
       "id": "raphinha",
@@ -323,7 +354,27 @@
       "marketValue": 40,
       "contractUntil": "2027-06-30",
       "shirtNumber": 7,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2020-08-04",
+          "fee": 23,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "valencia",
+          "toClubId": "manchester-city"
+        },
+        {
+          "date": "2022-01-03",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "barcelona"
+        }
+      ]
     },
     {
       "id": "marcus-rashford",

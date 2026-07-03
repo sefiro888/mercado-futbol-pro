@@ -52,7 +52,18 @@
       "marketValue": 28,
       "contractUntil": "2028-06-30",
       "shirtNumber": 28,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-30",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Bayern de Múnich",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "alessandro-bastoni",
@@ -66,7 +77,18 @@
       "marketValue": 65,
       "contractUntil": "2028-06-30",
       "shirtNumber": 95,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-08-31",
+          "fee": 31,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Atalanta",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "francesco-acerbi",
@@ -94,7 +116,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 31,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-08-01",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Aarhus GF",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "federico-dimarco",
@@ -136,7 +169,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 2,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-14",
+          "fee": 13,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "matteo-darmian",
@@ -164,7 +208,18 @@
       "marketValue": 80,
       "contractUntil": "2029-06-30",
       "shirtNumber": 23,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-12",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "cagliari",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "hakan-calhanoglu",
@@ -212,7 +267,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 16,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 27,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sassuolo",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "petar-sucic",
@@ -226,7 +292,18 @@
       "marketValue": 30,
       "contractUntil": "2030-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-11",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Dinamo Zagreb",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "henrikh-mkhitaryan",
@@ -304,7 +381,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 14,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-05",
+          "fee": 23,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "parma",
+          "toClubId": "inter"
+        }
+      ]
     },
     {
       "id": "francesco-pio-esposito",

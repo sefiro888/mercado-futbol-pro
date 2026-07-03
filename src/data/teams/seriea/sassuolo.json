@@ -24,7 +24,27 @@
       "marketValue": 7,
       "contractUntil": "2028-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-25",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Burnley",
+          "toClubId": "ipswich"
+        },
+        {
+          "date": "2025-07-30",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "ipswich",
+          "toClubId": "sassuolo"
+        }
+      ]
     },
     {
       "id": "stefano-turati",
@@ -108,7 +128,27 @@
       "marketValue": 10,
       "contractUntil": "2029-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-01-31",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "CF Montréal",
+          "toClubName": "Watford"
+        },
+        {
+          "date": "2025-08-11",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Marsella",
+          "toClubId": "sassuolo"
+        }
+      ]
     },
     {
       "id": "daniel-boloca",
@@ -150,7 +190,36 @@
       "marketValue": 1.5,
       "contractUntil": "2026-06-30",
       "shirtNumber": 21,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2014-01-15",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Benfica",
+          "toClubId": "chelsea"
+        },
+        {
+          "date": "2017-07-31",
+          "fee": 44.7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2025-07-19",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "sassuolo"
+        }
+      ]
     },
     {
       "id": "domenico-berardi",
@@ -164,7 +233,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-08-30",
+          "fee": 4.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "sassuolo"
+        }
+      ]
     },
     {
       "id": "armand-lauriente",

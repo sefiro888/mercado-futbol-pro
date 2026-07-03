@@ -122,7 +122,27 @@
       "marketValue": 14,
       "contractUntil": "2030-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-06-29",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Empoli",
+          "toClubId": "inter"
+        },
+        {
+          "date": "2025-08-28",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "torino"
+        }
+      ]
     },
     {
       "id": "cesare-casadei",
@@ -136,7 +156,27 @@
       "marketValue": 18,
       "contractUntil": "2029-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-26",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "chelsea"
+        },
+        {
+          "date": "2025-02-01",
+          "fee": 13,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "torino"
+        }
+      ]
     },
     {
       "id": "tino-anjorin",
@@ -164,7 +204,27 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-31",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "CSKA Moscú",
+          "toClubId": "west-ham"
+        },
+        {
+          "date": "2024-07-01",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "west-ham",
+          "toClubId": "torino"
+        }
+      ]
     },
     {
       "id": "zakaria-aboukhlal",
@@ -192,7 +252,18 @@
       "marketValue": 14,
       "contractUntil": "2027-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-04",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Southampton",
+          "toClubId": "torino"
+        }
+      ]
     },
     {
       "id": "giovanni-simeone",
@@ -206,7 +277,27 @@
       "marketValue": 10,
       "contractUntil": "2028-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-18",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "verona",
+          "toClubId": "napoli"
+        },
+        {
+          "date": "2025-08-07",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "napoli",
+          "toClubId": "torino"
+        }
+      ]
     },
     {
       "id": "duvan-zapata",

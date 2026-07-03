@@ -80,7 +80,18 @@
       "marketValue": 15,
       "contractUntil": "2030-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 2.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "como"
+        }
+      ]
     },
     {
       "id": "marc-oliver-kempf",
@@ -122,7 +133,27 @@
       "marketValue": 15,
       "contractUntil": "2029-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-01-24",
+          "fee": 9.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Vélez Sarsfield",
+          "toClubId": "manchester-city"
+        },
+        {
+          "date": "2025-07-11",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "como"
+        }
+      ]
     },
     {
       "id": "lucas-da-cunha",
@@ -164,7 +195,18 @@
       "marketValue": 60,
       "contractUntil": "2030-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-24",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "como"
+        }
+      ]
     },
     {
       "id": "jesus-rodriguez",
@@ -178,7 +220,18 @@
       "marketValue": 22,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-21",
+          "fee": 22.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "como"
+        }
+      ]
     },
     {
       "id": "assane-diao",
@@ -192,7 +245,18 @@
       "marketValue": 25,
       "contractUntil": "2029-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-13",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "como"
+        }
+      ]
     },
     {
       "id": "anastasios-douvikas",

@@ -49,7 +49,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 23,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-01",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Sporting CP",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "cristian-romero",
@@ -63,7 +74,18 @@
       "marketValue": 55,
       "contractUntil": "2029-06-30",
       "shirtNumber": 17,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-30",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Atalanta",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "micky-van-de-ven",
@@ -77,7 +99,18 @@
       "marketValue": 60,
       "contractUntil": "2029-06-30",
       "shirtNumber": 37,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-08",
+          "fee": 40,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfL Wolfsburgo",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "kevin-danso",
@@ -175,7 +208,18 @@
       "marketValue": 45,
       "contractUntil": "2028-06-30",
       "shirtNumber": 10,
-      "status": "lesionado"
+      "status": "lesionado",
+      "transferHistory": [
+        {
+          "date": "2023-06-28",
+          "fee": 46,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leicester City",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "mohammed-kudus",
@@ -223,7 +267,18 @@
       "marketValue": 60,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-31",
+          "fee": 60,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Leipzig",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "dejan-kulusevski",
@@ -251,7 +306,18 @@
       "marketValue": 40,
       "contractUntil": "2029-06-30",
       "shirtNumber": 22,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-09-01",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "nottingham-forest",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "dominic-solanke",
@@ -290,7 +356,27 @@
       "marketValue": 25,
       "contractUntil": "2027-06-30",
       "shirtNumber": 9,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2018-07-24",
+          "fee": 40,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Watford",
+          "toClubId": "everton"
+        },
+        {
+          "date": "2022-07-01",
+          "fee": 60,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "everton",
+          "toClubId": "tottenham"
+        }
+      ]
     },
     {
       "id": "andy-robertson",

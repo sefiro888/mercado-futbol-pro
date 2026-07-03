@@ -178,7 +178,27 @@
       "marketValue": 2,
       "contractUntil": "2026-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2012-05-18",
+          "fee": 1,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Fleetwood Town",
+          "toClubName": "Leicester City"
+        },
+        {
+          "date": "2025-09-03",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Leicester City",
+          "toClubId": "cremonese"
+        }
+      ]
     },
     {
       "id": "federico-bonazzoli",

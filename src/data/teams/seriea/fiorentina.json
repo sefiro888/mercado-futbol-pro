@@ -24,7 +24,27 @@
       "marketValue": 3,
       "contractUntil": "2027-06-30",
       "shirtNumber": 43,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2011-06-29",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atletico-madrid",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2024-08-12",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Agente libre",
+          "toClubId": "fiorentina"
+        }
+      ]
     },
     {
       "id": "tommaso-martinelli",
@@ -192,7 +212,18 @@
       "marketValue": 20,
       "contractUntil": "2029-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-17",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "genoa",
+          "toClubId": "fiorentina"
+        }
+      ]
     },
     {
       "id": "moise-kean",
@@ -206,7 +237,36 @@
       "marketValue": 40,
       "contractUntil": "2029-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-04",
+          "fee": 27.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "everton"
+        },
+        {
+          "date": "2021-09-01",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "everton",
+          "toClubId": "juventus"
+        },
+        {
+          "date": "2024-07-11",
+          "fee": 13,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "fiorentina"
+        }
+      ]
     },
     {
       "id": "roberto-piccoli",

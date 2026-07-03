@@ -24,7 +24,18 @@
       "marketValue": 22,
       "contractUntil": "2028-06-30",
       "shirtNumber": 24,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-20",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "altay-bayindir",
@@ -52,7 +63,18 @@
       "marketValue": 25,
       "contractUntil": "2028-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-17",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Bayern de Múnich",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "leny-yoro",
@@ -80,7 +102,27 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-18",
+          "fee": 85.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Ajax",
+          "toClubName": "Juventus"
+        },
+        {
+          "date": "2024-08-13",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Bayern de Múnich",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "luke-shaw",
@@ -94,7 +136,18 @@
       "marketValue": 18,
       "contractUntil": "2027-06-30",
       "shirtNumber": 23,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2014-06-27",
+          "fee": 38,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Southampton",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "diogo-dalot",
@@ -108,7 +161,18 @@
       "marketValue": 30,
       "contractUntil": "2028-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-06-28",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Porto",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "patrick-dorgu",
@@ -136,7 +200,18 @@
       "marketValue": 35,
       "contractUntil": "2029-06-30",
       "shirtNumber": 25,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-30",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "París Saint-Germain",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "casemiro",
@@ -150,7 +225,27 @@
       "marketValue": 10,
       "contractUntil": "2026-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-07-01",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "São Paulo",
+          "toClubId": "real-madrid"
+        },
+        {
+          "date": "2022-08-22",
+          "fee": 70,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "bruno-fernandes",
@@ -189,7 +284,18 @@
       "marketValue": 25,
       "contractUntil": "2028-06-30",
       "shirtNumber": 7,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-07-05",
+          "fee": 64,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "bryan-mbeumo",
@@ -253,7 +359,18 @@
       "marketValue": 45,
       "contractUntil": "2030-06-30",
       "shirtNumber": 16,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-01-07",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Atalanta",
+          "toClubId": "manchester-united"
+        }
+      ]
     },
     {
       "id": "benjamin-sesko",

@@ -136,7 +136,18 @@
       "marketValue": 22,
       "contractUntil": "2028-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-25",
+          "fee": 3.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Aberdeen",
+          "toClubId": "bologna"
+        }
+      ]
     },
     {
       "id": "giovanni-fabbian",
@@ -178,7 +189,27 @@
       "marketValue": 15,
       "contractUntil": "2029-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-30",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Norwich City",
+          "toClubName": "Olympique de Marsella"
+        },
+        {
+          "date": "2025-08-20",
+          "fee": 19.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Marsella",
+          "toClubId": "bologna"
+        }
+      ]
     },
     {
       "id": "nicolo-cambiaghi",
@@ -220,7 +251,18 @@
       "marketValue": 25,
       "contractUntil": "2029-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-25",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Vélez Sarsfield",
+          "toClubId": "bologna"
+        }
+      ]
     },
     {
       "id": "ciro-immobile",
@@ -234,7 +276,36 @@
       "marketValue": 3,
       "contractUntil": "2026-06-30",
       "shirtNumber": 17,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2016-07-27",
+          "fee": 9.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sevilla",
+          "toClubId": "lazio"
+        },
+        {
+          "date": "2024-07-12",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lazio",
+          "toClubName": "Besiktas"
+        },
+        {
+          "date": "2025-07-31",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Besiktas",
+          "toClubId": "bologna"
+        }
+      ]
     }
   ]
 }

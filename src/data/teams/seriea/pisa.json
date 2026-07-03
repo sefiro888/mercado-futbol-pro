@@ -80,7 +80,27 @@
       "marketValue": 1,
       "contractUntil": "2026-06-30",
       "shirtNumber": 2,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2013-07-04",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "napoli"
+        },
+        {
+          "date": "2025-07-22",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "villarreal",
+          "toClubId": "pisa"
+        }
+      ]
     },
     {
       "id": "antonio-caracciolo",
@@ -150,7 +170,27 @@
       "marketValue": 7,
       "contractUntil": "2028-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-01-31",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Young Boys",
+          "toClubId": "bologna"
+        },
+        {
+          "date": "2025-07-15",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "bologna",
+          "toClubId": "pisa"
+        }
+      ]
     },
     {
       "id": "matteo-tramoni",
@@ -178,7 +218,27 @@
       "marketValue": 1.5,
       "contractUntil": "2026-06-30",
       "shirtNumber": 16,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2015-02-02",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "fiorentina",
+          "toClubId": "chelsea"
+        },
+        {
+          "date": "2025-08-20",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Agente libre",
+          "toClubId": "pisa"
+        }
+      ]
     },
     {
       "id": "mbala-nzola",

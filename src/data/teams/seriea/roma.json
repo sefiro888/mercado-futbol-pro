@@ -24,7 +24,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 99,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Benfica",
+          "toClubId": "roma"
+        }
+      ]
     },
     {
       "id": "gianluca-mancini",
@@ -38,7 +49,18 @@
       "marketValue": 20,
       "contractUntil": "2027-06-30",
       "shirtNumber": 23,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-17",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atalanta",
+          "toClubId": "roma"
+        }
+      ]
     },
     {
       "id": "evan-ndicka",
@@ -52,7 +74,18 @@
       "marketValue": 30,
       "contractUntil": "2028-06-30",
       "shirtNumber": 5,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Eintracht Fráncfort",
+          "toClubId": "roma"
+        }
+      ]
     },
     {
       "id": "mario-hermoso",
@@ -122,7 +155,18 @@
       "marketValue": 12,
       "contractUntil": "2027-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-06-08",
+          "fee": 26,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atalanta",
+          "toClubId": "roma"
+        }
+      ]
     },
     {
       "id": "manu-kone",
@@ -192,7 +236,18 @@
       "marketValue": 35,
       "contractUntil": "2029-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-29",
+          "fee": 26,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "roma"
+        }
+      ]
     },
     {
       "id": "stephan-el-shaarawy",
@@ -220,7 +275,27 @@
       "marketValue": 15,
       "contractUntil": "2026-06-30",
       "shirtNumber": 21,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2015-07-01",
+          "fee": 40,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Palermo",
+          "toClubId": "juventus"
+        },
+        {
+          "date": "2022-07-20",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "roma"
+        }
+      ]
     },
     {
       "id": "artem-dovbyk",
@@ -234,7 +309,18 @@
       "marketValue": 30,
       "contractUntil": "2029-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "girona",
+          "toClubId": "roma"
+        }
+      ]
     }
   ]
 }

@@ -133,7 +133,18 @@
       "marketValue": 40,
       "contractUntil": "2030-06-30",
       "shirtNumber": 32,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-24",
+          "fee": 40,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RC Lens",
+          "toClubId": "manchester-city"
+        }
+      ]
     },
     {
       "id": "rico-lewis",
@@ -161,7 +172,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 27,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-09-01",
+          "fee": 62,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "wolves",
+          "toClubId": "manchester-city"
+        }
+      ]
     },
     {
       "id": "rodri",
@@ -343,7 +365,18 @@
       "marketValue": 60,
       "contractUntil": "2029-06-30",
       "shirtNumber": 26,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-18",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Troyes",
+          "toClubId": "manchester-city"
+        }
+      ]
     },
     {
       "id": "jeremy-doku",
@@ -357,7 +390,18 @@
       "marketValue": 60,
       "contractUntil": "2028-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-24",
+          "fee": 60,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Rennais",
+          "toClubId": "manchester-city"
+        }
+      ]
     },
     {
       "id": "omar-marmoush",
@@ -371,7 +415,18 @@
       "marketValue": 60,
       "contractUntil": "2029-06-30",
       "shirtNumber": 7,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-01-23",
+          "fee": 75,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Eintracht Fráncfort",
+          "toClubId": "manchester-city"
+        }
+      ]
     },
     {
       "id": "renato-veiga",
@@ -399,7 +454,18 @@
       "marketValue": 65,
       "contractUntil": "2031-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-02-01",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Middlesbrough",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "elliot-anderson",

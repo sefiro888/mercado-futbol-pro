@@ -24,7 +24,18 @@
       "marketValue": 25,
       "contractUntil": "2029-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-09-16",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "matty-cash",
@@ -38,7 +49,18 @@
       "marketValue": 18,
       "contractUntil": "2027-06-30",
       "shirtNumber": 2,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-09-03",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "nottingham-forest",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "ezri-konsa",
@@ -108,7 +130,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 22,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-07-12",
+          "fee": 44,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "boubacar-kamara",
@@ -164,7 +197,18 @@
       "marketValue": 50,
       "contractUntil": "2029-06-30",
       "shirtNumber": 24,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-07-27",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "everton",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "ollie-watkins",
@@ -178,7 +222,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-09-09",
+          "fee": 33,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brentford",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "donyell-malen",
@@ -192,7 +247,18 @@
       "marketValue": 22,
       "contractUntil": "2030-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-09",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Borussia Dortmund",
+          "toClubId": "aston-villa"
+        }
+      ]
     },
     {
       "id": "evann-guessand",
@@ -206,7 +272,18 @@
       "marketValue": 25,
       "contractUntil": "2030-06-30",
       "shirtNumber": 9,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-07",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "OGC Niza",
+          "toClubId": "aston-villa"
+        }
+      ]
     }
   ]
 }
