@@ -193,20 +193,6 @@
       "contractUntil": "2029-06-30",
       "shirtNumber": 11,
       "status": "titular"
-    },
-    {
-      "id": "alvaro-morata",
-      "name": "Álvaro Morata",
-      "slug": "alvaro-morata",
-      "birthDate": "1992-10-23",
-      "nationality": "España",
-      "position": "Delantero centro",
-      "height": 190,
-      "dominantFoot": "Derecho",
-      "marketValue": 8,
-      "contractUntil": "2028-06-30",
-      "shirtNumber": 9,
-      "status": "titular"
     }
   ]
 }

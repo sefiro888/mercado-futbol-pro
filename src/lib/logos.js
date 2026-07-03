@@ -59,6 +59,22 @@ const TEAM_IDS = {
   milan: 489,
   napoli: 492,
   juventus: 496,
+  roma: 497,
+  lazio: 487,
+  atalanta: 499,
+  fiorentina: 502,
+  bologna: 500,
+  torino: 503,
+  udinese: 494,
+  genoa: 495,
+  como: 895,
+  cagliari: 490,
+  parma: 523,
+  lecce: 867,
+  verona: 504,
+  pisa: 801,
+  cremonese: 520,
+  sassuolo: 488,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */

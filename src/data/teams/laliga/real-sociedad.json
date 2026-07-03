@@ -207,20 +207,6 @@
       "contractUntil": "2028-06-30",
       "shirtNumber": 24,
       "status": "suplente"
-    },
-    {
-      "id": "khephren-thuram",
-      "name": "Khéphren Thuram",
-      "slug": "khephren-thuram",
-      "birthDate": "2001-03-26",
-      "nationality": "Francia",
-      "position": "Mediocentro",
-      "height": 192,
-      "dominantFoot": "Derecho",
-      "marketValue": 30,
-      "contractUntil": "2030-06-30",
-      "shirtNumber": 8,
-      "status": "titular"
     }
   ]
 }
