@@ -270,6 +270,19 @@
             "src-transfermarkt"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "club": "Manchester United",
+          "appearances": 37,
+          "goals": 8,
+          "assists": 10,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {
@@ -320,6 +333,19 @@
             "src-club-oficial"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "club": "Brentford",
+          "appearances": 38,
+          "goals": 20,
+          "assists": 7,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {
@@ -343,6 +369,19 @@
           "fee": 74,
           "sources": [
             "src-club-oficial"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "club": "Wolves",
+          "appearances": 33,
+          "goals": 15,
+          "assists": 6,
+          "sources": [
+            "src-transfermarkt"
           ]
         }
       ]

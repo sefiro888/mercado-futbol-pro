@@ -1,5 +1,115 @@
 [
   {
+    "id": "nw-tonali-spurs-record",
+    "title": "El Tottenham rompe su hucha: Tonali llega por 107 M€, récord del club",
+    "slug": "tonali-tottenham-record-107-millones",
+    "summary": "El italiano deja el Newcastle tras una operación de 92,5 M£ fijos más variables y se convierte en el fichaje más caro de la historia de los Spurs. De Zerbi suma cinco caras nuevas en una semana. Resumen propio.",
+    "sourceName": "Sky Sports",
+    "sourceUrl": "https://www.skysports.com/football",
+    "publishedAt": "2026-07-02",
+    "category": "fichaje",
+    "relatedPlayerIds": [
+      "sandro-tonali",
+      "mateus-fernandes",
+      "jan-paul-van-hecke"
+    ],
+    "relatedClubIds": [
+      "tottenham",
+      "newcastle"
+    ],
+    "reliability": "oficial"
+  },
+  {
+    "id": "nw-gordon-barcelona",
+    "title": "Anthony Gordon ya es del Barça: 70 M€ más variables al Newcastle",
+    "slug": "anthony-gordon-barcelona-70-millones",
+    "summary": "El extremo inglés firma cinco temporadas y aterriza en el ataque de Flick tras marcar 17 goles en la 2025/26. La operación incluye hasta 10 M€ en bonus por objetivos. Resumen propio.",
+    "sourceName": "Comunicado oficial de club",
+    "sourceUrl": "https://www.fcbarcelona.es/",
+    "publishedAt": "2026-06-28",
+    "category": "fichaje",
+    "relatedPlayerIds": [
+      "anthony-gordon"
+    ],
+    "relatedClubIds": [
+      "barcelona",
+      "newcastle"
+    ],
+    "reliability": "oficial"
+  },
+  {
+    "id": "nw-bernardo-madrid-libre",
+    "title": "Bernardo Silva firma por el Real Madrid: la ganga del verano",
+    "slug": "bernardo-silva-real-madrid-libre",
+    "summary": "El portugués llega libre tras nueve temporadas y seis Premier con el City, y firma dos años. Barça y Atleti también lo tantearon. Resumen propio.",
+    "sourceName": "Marca",
+    "sourceUrl": "https://www.marca.com/",
+    "publishedAt": "2026-07-03",
+    "category": "fichaje",
+    "relatedPlayerIds": [
+      "bernardo-silva"
+    ],
+    "relatedClubIds": [
+      "real-madrid",
+      "manchester-city"
+    ],
+    "reliability": "oficial"
+  },
+  {
+    "id": "nw-anderson-city-record",
+    "title": "116 M£ por Elliot Anderson: el traspaso británico más caro de la historia",
+    "slug": "elliot-anderson-city-record-britanico",
+    "summary": "El City gana la puja por el mediocentro inglés del Forest y pulveriza el récord entre clubes británicos. Nottingham ingresa más de 130 M€ por un canterano del Newcastle. Resumen propio.",
+    "sourceName": "BBC Sport",
+    "sourceUrl": "https://www.bbc.com/sport/football",
+    "publishedAt": "2026-06-30",
+    "category": "fichaje",
+    "relatedPlayerIds": [
+      "elliot-anderson"
+    ],
+    "relatedClubIds": [
+      "manchester-city",
+      "nottingham-forest"
+    ],
+    "reliability": "oficial"
+  },
+  {
+    "id": "nw-allegri-napoli",
+    "title": "Allegri, nuevo entrenador del Nápoles: oficial",
+    "slug": "allegri-nuevo-entrenador-napoli",
+    "summary": "El técnico toscano toma el banquillo azzurro para defender el scudetto. Su primera petición: cerrar la compra definitiva de Højlund, ya ejecutada por 44 M€. Resumen propio.",
+    "sourceName": "La Gazzetta dello Sport",
+    "sourceUrl": "https://www.gazzetta.it/",
+    "publishedAt": "2026-07-03",
+    "category": "club",
+    "relatedPlayerIds": [
+      "rasmus-hojlund"
+    ],
+    "relatedClubIds": [
+      "napoli"
+    ],
+    "reliability": "oficial"
+  },
+  {
+    "id": "nw-alvarez-pulso",
+    "title": "150 M€ rechazados: el pulso Madrid-Atleti por Julián Álvarez incendia el mercado",
+    "slug": "julian-alvarez-madrid-atletico-150-millones",
+    "summary": "El Atlético rechaza la oferta oficial del Madrid por la Araña y remite a la cláusula. El Barça sigue de reojo. El culebrón del verano no ha hecho más que empezar. Resumen propio.",
+    "sourceName": "Diario AS",
+    "sourceUrl": "https://as.com/futbol/",
+    "publishedAt": "2026-07-04",
+    "category": "rumor",
+    "relatedPlayerIds": [
+      "julian-alvarez"
+    ],
+    "relatedClubIds": [
+      "real-madrid",
+      "atletico-madrid",
+      "barcelona"
+    ],
+    "reliability": "alta"
+  },
+  {
     "id": "nw-mercado-2026-dashboard",
     "title": "El mercado 2026/27 se ordena alrededor de Real Madrid, Chelsea y Tottenham",
     "slug": "mercado-2026-dashboard-real-madrid-chelsea-tottenham",
@@ -8,8 +118,17 @@
     "sourceUrl": "https://as.com/futbol/",
     "publishedAt": "2026-06-27",
     "category": "analisis",
-    "relatedPlayerIds": ["bernardo-silva", "ibrahima-konate", "geovany-quenda", "andy-robertson"],
-    "relatedClubIds": ["real-madrid", "chelsea", "tottenham"],
+    "relatedPlayerIds": [
+      "bernardo-silva",
+      "ibrahima-konate",
+      "geovany-quenda",
+      "andy-robertson"
+    ],
+    "relatedClubIds": [
+      "real-madrid",
+      "chelsea",
+      "tottenham"
+    ],
     "reliability": "alta",
     "image": null
   },
@@ -22,8 +141,14 @@
     "sourceUrl": "https://www.marca.com",
     "publishedAt": "2026-06-27",
     "category": "fichaje",
-    "relatedPlayerIds": ["ibrahima-konate", "marc-cucurella", "bernardo-silva"],
-    "relatedClubIds": ["real-madrid"],
+    "relatedPlayerIds": [
+      "ibrahima-konate",
+      "marc-cucurella",
+      "bernardo-silva"
+    ],
+    "relatedClubIds": [
+      "real-madrid"
+    ],
     "reliability": "alta",
     "image": null
   },
@@ -36,8 +161,13 @@
     "sourceUrl": "https://as.com/futbol/",
     "publishedAt": "2026-06-26",
     "category": "fichaje",
-    "relatedPlayerIds": ["anthony-gordon"],
-    "relatedClubIds": ["barcelona", "newcastle"],
+    "relatedPlayerIds": [
+      "anthony-gordon"
+    ],
+    "relatedClubIds": [
+      "barcelona",
+      "newcastle"
+    ],
     "reliability": "alta",
     "image": null
   },
@@ -50,8 +180,16 @@
     "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
     "publishedAt": "2026-06-25",
     "category": "analisis",
-    "relatedPlayerIds": ["haji-wright", "joe-gelhardt", "omari-hutchinson"],
-    "relatedClubIds": ["coventry", "hull-city", "ipswich"],
+    "relatedPlayerIds": [
+      "haji-wright",
+      "joe-gelhardt",
+      "omari-hutchinson"
+    ],
+    "relatedClubIds": [
+      "coventry",
+      "hull-city",
+      "ipswich"
+    ],
     "reliability": "media",
     "image": null
   },
@@ -64,8 +202,13 @@
     "sourceUrl": "https://www.marca.com",
     "publishedAt": "2026-06-18",
     "category": "rumor",
-    "relatedPlayerIds": ["rodrygo"],
-    "relatedClubIds": ["real-madrid", "arsenal"],
+    "relatedPlayerIds": [
+      "rodrygo"
+    ],
+    "relatedClubIds": [
+      "real-madrid",
+      "arsenal"
+    ],
     "reliability": "media",
     "image": null
   },
@@ -78,8 +221,12 @@
     "sourceUrl": "https://www.bbc.com/sport/football",
     "publishedAt": "2026-06-17",
     "category": "renovacion",
-    "relatedPlayerIds": ["bukayo-saka"],
-    "relatedClubIds": ["arsenal"],
+    "relatedPlayerIds": [
+      "bukayo-saka"
+    ],
+    "relatedClubIds": [
+      "arsenal"
+    ],
     "reliability": "alta",
     "image": null
   },
@@ -92,8 +239,13 @@
     "sourceUrl": "https://www.transfermarkt.es",
     "publishedAt": "2026-06-16",
     "category": "analisis",
-    "relatedPlayerIds": ["florian-wirtz", "hugo-ekitike"],
-    "relatedClubIds": ["liverpool"],
+    "relatedPlayerIds": [
+      "florian-wirtz",
+      "hugo-ekitike"
+    ],
+    "relatedClubIds": [
+      "liverpool"
+    ],
     "reliability": "media",
     "image": null
   },
@@ -106,8 +258,12 @@
     "sourceUrl": "#",
     "publishedAt": "2025-09-01",
     "category": "fichaje",
-    "relatedPlayerIds": ["alexander-isak"],
-    "relatedClubIds": ["liverpool"],
+    "relatedPlayerIds": [
+      "alexander-isak"
+    ],
+    "relatedClubIds": [
+      "liverpool"
+    ],
     "reliability": "oficial",
     "image": null
   },
@@ -120,8 +276,12 @@
     "sourceUrl": "#",
     "publishedAt": "2025-06-20",
     "category": "fichaje",
-    "relatedPlayerIds": ["florian-wirtz"],
-    "relatedClubIds": ["liverpool"],
+    "relatedPlayerIds": [
+      "florian-wirtz"
+    ],
+    "relatedClubIds": [
+      "liverpool"
+    ],
     "reliability": "oficial",
     "image": null
   },
@@ -134,8 +294,13 @@
     "sourceUrl": "https://www.gazzetta.it",
     "publishedAt": "2025-07-14",
     "category": "fichaje",
-    "relatedPlayerIds": ["luka-modric"],
-    "relatedClubIds": ["milan", "real-madrid"],
+    "relatedPlayerIds": [
+      "luka-modric"
+    ],
+    "relatedClubIds": [
+      "milan",
+      "real-madrid"
+    ],
     "reliability": "oficial",
     "image": null
   },
@@ -148,8 +313,13 @@
     "sourceUrl": "https://www.gazzetta.it",
     "publishedAt": "2025-07-02",
     "category": "fichaje",
-    "relatedPlayerIds": ["kevin-de-bruyne"],
-    "relatedClubIds": ["napoli", "manchester-city"],
+    "relatedPlayerIds": [
+      "kevin-de-bruyne"
+    ],
+    "relatedClubIds": [
+      "napoli",
+      "manchester-city"
+    ],
     "reliability": "oficial",
     "image": null
   },
@@ -162,8 +332,12 @@
     "sourceUrl": "https://fabrizioromano.com",
     "publishedAt": "2025-07-26",
     "category": "fichaje",
-    "relatedPlayerIds": ["viktor-gyokeres"],
-    "relatedClubIds": ["arsenal"],
+    "relatedPlayerIds": [
+      "viktor-gyokeres"
+    ],
+    "relatedClubIds": [
+      "arsenal"
+    ],
     "reliability": "alta",
     "image": null
   },
@@ -176,8 +350,13 @@
     "sourceUrl": "https://www.marca.com",
     "publishedAt": "2025-06-10",
     "category": "fichaje",
-    "relatedPlayerIds": ["trent-alexander-arnold"],
-    "relatedClubIds": ["real-madrid", "liverpool"],
+    "relatedPlayerIds": [
+      "trent-alexander-arnold"
+    ],
+    "relatedClubIds": [
+      "real-madrid",
+      "liverpool"
+    ],
     "reliability": "oficial",
     "image": null
   }

@@ -1,5 +1,34 @@
 [
   {
+    "id": "ru26-alvarez-barcelona",
+    "playerId": "julian-alvarez",
+    "currentClubId": "atletico-madrid",
+    "interestedClubId": "barcelona",
+    "operationType": "compra",
+    "status": "contactos",
+    "reliability": "media",
+    "sources": [
+      "src-sky-sports"
+    ],
+    "summary": "El Barça mantiene su interés en la Araña pese a la irrupción del Madrid. La operación exigiría una venta gorda antes. Resumen propio.",
+    "lastUpdated": "2026-07-04"
+  },
+  {
+    "id": "ru26-nicopaz-madrid",
+    "playerId": "nico-paz",
+    "currentClubId": "como",
+    "interestedClubId": "real-madrid",
+    "operationType": "compra",
+    "status": "acuerdo-cercano",
+    "reliability": "alta",
+    "sources": [
+      "src-marca",
+      "src-fabrizio-romano"
+    ],
+    "summary": "El Madrid comunica al Como que quiere ejercer la recompra de Nico Paz por 60 M€. El Como tiene de plazo hasta el lunes. Resumen propio.",
+    "lastUpdated": "2026-07-04"
+  },
+  {
     "id": "ru26-guler-chelsea",
     "playerId": "arda-guler",
     "currentClubId": "real-madrid",
@@ -26,8 +55,8 @@
       "src-marca",
       "src-as"
     ],
-    "summary": "El Real Madrid ha presentado una oferta oficial de 150 M€ por la Araña. Operación bomba entre vecinos que el Atleti rechaza de inicio. Resumen propio.",
-    "lastUpdated": "2026-07-01"
+    "summary": "El Atleti RECHAZÓ la oferta oficial de 150 M€ del Madrid y remite a la cláusula. El pulso del verano sigue vivo. Resumen propio.",
+    "lastUpdated": "2026-07-04"
   },
   {
     "id": "ru26-enzo-madrid",

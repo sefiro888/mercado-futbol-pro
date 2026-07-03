@@ -305,6 +305,19 @@
             "src-club-oficial"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "club": "Brentford",
+          "appearances": 35,
+          "goals": 19,
+          "assists": 4,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {

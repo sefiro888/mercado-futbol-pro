@@ -207,6 +207,19 @@
             "src-club-oficial"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "LaLiga",
+          "club": "Real Madrid",
+          "appearances": 34,
+          "goals": 9,
+          "assists": 6,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {
@@ -388,6 +401,19 @@
           "fromClubName": "Flamengo",
           "toClubId": "real-madrid",
           "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "LaLiga",
+          "club": "Real Madrid",
+          "appearances": 30,
+          "goals": 11,
+          "assists": 7,
           "sources": [
             "src-transfermarkt"
           ]

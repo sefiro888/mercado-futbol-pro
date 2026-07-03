@@ -302,6 +302,19 @@
             "src-club-oficial"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "LaLiga",
+          "club": "FC Barcelona",
+          "appearances": 36,
+          "goals": 18,
+          "assists": 9,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {

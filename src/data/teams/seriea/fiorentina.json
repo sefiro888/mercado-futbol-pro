@@ -266,6 +266,19 @@
           "fromClubId": "juventus",
           "toClubId": "fiorentina"
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Serie A",
+          "club": "Fiorentina",
+          "appearances": 32,
+          "goals": 19,
+          "assists": 3,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {

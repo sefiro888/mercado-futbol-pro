@@ -275,6 +275,19 @@
             "src-club-oficial"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Bundesliga",
+          "club": "Bayer Leverkusen",
+          "appearances": 31,
+          "goals": 10,
+          "assists": 12,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {
@@ -397,6 +410,19 @@
           "fee": 145,
           "sources": [
             "src-club-oficial"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "club": "Newcastle United",
+          "appearances": 34,
+          "goals": 23,
+          "assists": 6,
+          "sources": [
+            "src-transfermarkt"
           ]
         }
       ]

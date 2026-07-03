@@ -486,6 +486,19 @@
             "src-club-oficial"
           ]
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Liga Portugal",
+          "club": "Sporting CP",
+          "appearances": 33,
+          "goals": 39,
+          "assists": 8,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {

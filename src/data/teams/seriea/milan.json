@@ -336,6 +336,19 @@
           "fromClubId": "chelsea",
           "toClubId": "milan"
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Serie A",
+          "club": "AC Milan",
+          "appearances": 34,
+          "goals": 11,
+          "assists": 8,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {

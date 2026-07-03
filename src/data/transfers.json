@@ -1,5 +1,21 @@
 [
   {
+    "id": "tr26-bernardo-madrid",
+    "playerId": "bernardo-silva",
+    "fromClubId": "manchester-city",
+    "toClubId": "real-madrid",
+    "transferFee": 0,
+    "marketValueAtTransfer": 35,
+    "previousPurchaseFee": 50,
+    "transferDate": "2026-07-03",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-marca"
+    ],
+    "notes": "El portugués llega libre tras 9 temporadas en el City y firma 2 años. Barça y Atleti también lo pretendían."
+  },
+  {
     "id": "tr26-gordon-barcelona",
     "playerId": "anthony-gordon",
     "fromClubId": "newcastle",
@@ -504,22 +520,6 @@
       "src-wikipedia"
     ],
     "notes": "Regreso simbólico de Sergio Canales al Racing en su vuelta a Primera. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-bernardo-madrid",
-    "playerId": "bernardo-silva",
-    "fromClubId": "manchester-city",
-    "toClubId": "real-madrid",
-    "transferFee": 0,
-    "marketValueAtTransfer": 35,
-    "previousPurchaseFee": 2026,
-    "transferDate": "2025-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Libre tras acabar contrato con el Manchester City. Alta publicada para el Real Madrid 2026/27. Actualizado a 27/06/2026."
   },
   {
     "id": "tr-konate-madrid-2026",

@@ -233,6 +233,19 @@
           "fromClubId": "brentford",
           "toClubId": "aston-villa"
         }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "club": "Aston Villa",
+          "appearances": 37,
+          "goals": 16,
+          "assists": 8,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
       ]
     },
     {

@@ -2,212 +2,1370 @@
   "_comment": "Récords históricos de fichajes (entrantes) y ventas (salientes) por club. Cifras reales aproximadas en M€. Para clubes sin entrada aquí, la web deriva el top de los traspasos registrados en transfers.json.",
   "real-madrid": {
     "signings": [
-      { "name": "Eden Hazard", "fee": 115, "year": 2019, "club": "Chelsea" },
-      { "name": "Jude Bellingham", "fee": 103, "year": 2023, "club": "Borussia Dortmund" },
-      { "name": "Gareth Bale", "fee": 101, "year": 2013, "club": "Tottenham" },
-      { "name": "Cristiano Ronaldo", "fee": 94, "year": 2009, "club": "Manchester United" },
-      { "name": "Aurélien Tchouaméni", "fee": 80, "year": 2022, "club": "AS Mónaco" },
-      { "name": "James Rodríguez", "fee": 75, "year": 2014, "club": "AS Mónaco" },
-      { "name": "Kaká", "fee": 65, "year": 2009, "club": "AC Milan" },
-      { "name": "Endrick", "fee": 47, "year": 2024, "club": "Palmeiras" },
-      { "name": "Rodrygo", "fee": 45, "year": 2019, "club": "Santos" },
-      { "name": "Vinícius Júnior", "fee": 45, "year": 2018, "club": "Flamengo" }
+      {
+        "name": "Eden Hazard",
+        "fee": 115,
+        "year": 2019,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Jude Bellingham",
+        "fee": 103,
+        "year": 2023,
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Gareth Bale",
+        "fee": 101,
+        "year": 2013,
+        "club": "Tottenham"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "fee": 94,
+        "year": 2009,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "fee": 80,
+        "year": 2022,
+        "club": "AS Mónaco"
+      },
+      {
+        "name": "James Rodríguez",
+        "fee": 75,
+        "year": 2014,
+        "club": "AS Mónaco"
+      },
+      {
+        "name": "Kaká",
+        "fee": 65,
+        "year": 2009,
+        "club": "AC Milan"
+      },
+      {
+        "name": "Endrick",
+        "fee": 47,
+        "year": 2024,
+        "club": "Palmeiras"
+      },
+      {
+        "name": "Rodrygo",
+        "fee": 45,
+        "year": 2019,
+        "club": "Santos"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "fee": 45,
+        "year": 2018,
+        "club": "Flamengo"
+      }
     ],
     "sales": [
-      { "name": "Cristiano Ronaldo", "fee": 117, "year": 2018, "club": "Juventus" },
-      { "name": "Ángel Di María", "fee": 75, "year": 2014, "club": "Manchester United" },
-      { "name": "Casemiro", "fee": 70, "year": 2022, "club": "Manchester United" },
-      { "name": "Álvaro Morata", "fee": 66, "year": 2017, "club": "Chelsea" },
-      { "name": "Mesut Özil", "fee": 50, "year": 2013, "club": "Arsenal" },
-      { "name": "Raphaël Varane", "fee": 40, "year": 2021, "club": "Manchester United" },
-      { "name": "Achraf Hakimi", "fee": 40, "year": 2020, "club": "Inter de Milán" }
+      {
+        "name": "Cristiano Ronaldo",
+        "fee": 117,
+        "year": 2018,
+        "club": "Juventus"
+      },
+      {
+        "name": "Ángel Di María",
+        "fee": 75,
+        "year": 2014,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Casemiro",
+        "fee": 70,
+        "year": 2022,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Álvaro Morata",
+        "fee": 66,
+        "year": 2017,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Mesut Özil",
+        "fee": 50,
+        "year": 2013,
+        "club": "Arsenal"
+      },
+      {
+        "name": "Raphaël Varane",
+        "fee": 40,
+        "year": 2021,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "fee": 40,
+        "year": 2020,
+        "club": "Inter de Milán"
+      }
     ]
   },
   "barcelona": {
     "signings": [
-      { "name": "Ousmane Dembélé", "fee": 140, "year": 2017, "club": "Borussia Dortmund" },
-      { "name": "Philippe Coutinho", "fee": 135, "year": 2018, "club": "Liverpool" },
-      { "name": "Antoine Griezmann", "fee": 120, "year": 2019, "club": "Atlético de Madrid" },
-      { "name": "Neymar", "fee": 88, "year": 2013, "club": "Santos" },
-      { "name": "Frenkie de Jong", "fee": 86, "year": 2019, "club": "Ajax" },
-      { "name": "Luis Suárez", "fee": 82, "year": 2014, "club": "Liverpool" },
-      { "name": "Miralem Pjanić", "fee": 60, "year": 2020, "club": "Juventus" },
-      { "name": "Raphinha", "fee": 58, "year": 2022, "club": "Leeds United" },
-      { "name": "Ferran Torres", "fee": 55, "year": 2022, "club": "Manchester City" }
+      {
+        "name": "Ousmane Dembélé",
+        "fee": 140,
+        "year": 2017,
+        "club": "Borussia Dortmund"
+      },
+      {
+        "name": "Philippe Coutinho",
+        "fee": 135,
+        "year": 2018,
+        "club": "Liverpool"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "fee": 120,
+        "year": 2019,
+        "club": "Atlético de Madrid"
+      },
+      {
+        "name": "Neymar",
+        "fee": 88,
+        "year": 2013,
+        "club": "Santos"
+      },
+      {
+        "name": "Frenkie de Jong",
+        "fee": 86,
+        "year": 2019,
+        "club": "Ajax"
+      },
+      {
+        "name": "Luis Suárez",
+        "fee": 82,
+        "year": 2014,
+        "club": "Liverpool"
+      },
+      {
+        "name": "Miralem Pjanić",
+        "fee": 60,
+        "year": 2020,
+        "club": "Juventus"
+      },
+      {
+        "name": "Raphinha",
+        "fee": 58,
+        "year": 2022,
+        "club": "Leeds United"
+      },
+      {
+        "name": "Ferran Torres",
+        "fee": 55,
+        "year": 2022,
+        "club": "Manchester City"
+      }
     ],
     "sales": [
-      { "name": "Neymar", "fee": 222, "year": 2017, "club": "Paris Saint-Germain" },
-      { "name": "Arthur", "fee": 72, "year": 2020, "club": "Juventus" },
-      { "name": "Luís Figo", "fee": 60, "year": 2000, "club": "Real Madrid" },
-      { "name": "Cesc Fàbregas", "fee": 33, "year": 2014, "club": "Chelsea" },
-      { "name": "Yerry Mina", "fee": 30, "year": 2018, "club": "Everton" }
+      {
+        "name": "Neymar",
+        "fee": 222,
+        "year": 2017,
+        "club": "Paris Saint-Germain"
+      },
+      {
+        "name": "Arthur",
+        "fee": 72,
+        "year": 2020,
+        "club": "Juventus"
+      },
+      {
+        "name": "Luís Figo",
+        "fee": 60,
+        "year": 2000,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Cesc Fàbregas",
+        "fee": 33,
+        "year": 2014,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Yerry Mina",
+        "fee": 30,
+        "year": 2018,
+        "club": "Everton"
+      }
     ]
   },
   "atletico-madrid": {
     "signings": [
-      { "name": "João Félix", "fee": 127, "year": 2019, "club": "Benfica" },
-      { "name": "Julián Álvarez", "fee": 75, "year": 2024, "club": "Manchester City" },
-      { "name": "Thomas Lemar", "fee": 70, "year": 2018, "club": "AS Mónaco" },
-      { "name": "Rodrigo De Paul", "fee": 35, "year": 2021, "club": "Udinese" },
-      { "name": "Álvaro Morata", "fee": 56, "year": 2019, "club": "Chelsea" },
-      { "name": "Diego Costa", "fee": 55, "year": 2018, "club": "Chelsea" }
+      {
+        "name": "João Félix",
+        "fee": 127,
+        "year": 2019,
+        "club": "Benfica"
+      },
+      {
+        "name": "Julián Álvarez",
+        "fee": 75,
+        "year": 2024,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Thomas Lemar",
+        "fee": 70,
+        "year": 2018,
+        "club": "AS Mónaco"
+      },
+      {
+        "name": "Rodrigo De Paul",
+        "fee": 35,
+        "year": 2021,
+        "club": "Udinese"
+      },
+      {
+        "name": "Álvaro Morata",
+        "fee": 56,
+        "year": 2019,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Diego Costa",
+        "fee": 55,
+        "year": 2018,
+        "club": "Chelsea"
+      }
     ],
     "sales": [
-      { "name": "Antoine Griezmann", "fee": 120, "year": 2019, "club": "FC Barcelona" },
-      { "name": "Rodri", "fee": 70, "year": 2019, "club": "Manchester City" },
-      { "name": "Lucas Hernández", "fee": 80, "year": 2019, "club": "Bayern de Múnich" },
-      { "name": "Radamel Falcao", "fee": 60, "year": 2013, "club": "AS Mónaco" }
+      {
+        "name": "Antoine Griezmann",
+        "fee": 120,
+        "year": 2019,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Rodri",
+        "fee": 70,
+        "year": 2019,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Lucas Hernández",
+        "fee": 80,
+        "year": 2019,
+        "club": "Bayern de Múnich"
+      },
+      {
+        "name": "Radamel Falcao",
+        "fee": 60,
+        "year": 2013,
+        "club": "AS Mónaco"
+      }
     ]
   },
   "manchester-city": {
     "signings": [
-      { "name": "Jack Grealish", "fee": 117, "year": 2021, "club": "Aston Villa" },
-      { "name": "Rúben Dias", "fee": 68, "year": 2020, "club": "Benfica" },
-      { "name": "Joško Gvardiol", "fee": 90, "year": 2023, "club": "RB Leipzig" },
-      { "name": "Rodri", "fee": 70, "year": 2019, "club": "Atlético de Madrid" },
-      { "name": "Kevin De Bruyne", "fee": 76, "year": 2015, "club": "VfL Wolfsburg" },
-      { "name": "Riyad Mahrez", "fee": 68, "year": 2018, "club": "Leicester City" },
-      { "name": "Erling Haaland", "fee": 60, "year": 2022, "club": "Borussia Dortmund" }
+      {
+        "name": "Jack Grealish",
+        "fee": 117,
+        "year": 2021,
+        "club": "Aston Villa"
+      },
+      {
+        "name": "Rúben Dias",
+        "fee": 68,
+        "year": 2020,
+        "club": "Benfica"
+      },
+      {
+        "name": "Joško Gvardiol",
+        "fee": 90,
+        "year": 2023,
+        "club": "RB Leipzig"
+      },
+      {
+        "name": "Rodri",
+        "fee": 70,
+        "year": 2019,
+        "club": "Atlético de Madrid"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "fee": 76,
+        "year": 2015,
+        "club": "VfL Wolfsburg"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "fee": 68,
+        "year": 2018,
+        "club": "Leicester City"
+      },
+      {
+        "name": "Erling Haaland",
+        "fee": 60,
+        "year": 2022,
+        "club": "Borussia Dortmund"
+      }
     ],
     "sales": [
-      { "name": "Cole Palmer", "fee": 47, "year": 2023, "club": "Chelsea" },
-      { "name": "Leroy Sané", "fee": 49, "year": 2020, "club": "Bayern de Múnich" },
-      { "name": "Gabriel Jesus", "fee": 52, "year": 2022, "club": "Arsenal" },
-      { "name": "Raheem Sterling", "fee": 56, "year": 2022, "club": "Chelsea" }
+      {
+        "name": "Cole Palmer",
+        "fee": 47,
+        "year": 2023,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Leroy Sané",
+        "fee": 49,
+        "year": 2020,
+        "club": "Bayern de Múnich"
+      },
+      {
+        "name": "Gabriel Jesus",
+        "fee": 52,
+        "year": 2022,
+        "club": "Arsenal"
+      },
+      {
+        "name": "Raheem Sterling",
+        "fee": 56,
+        "year": 2022,
+        "club": "Chelsea"
+      }
     ]
   },
   "liverpool": {
     "signings": [
-      { "name": "Florian Wirtz", "fee": 125, "year": 2025, "club": "Bayer Leverkusen" },
-      { "name": "Alexander Isak", "fee": 145, "year": 2025, "club": "Newcastle United" },
-      { "name": "Virgil van Dijk", "fee": 84, "year": 2018, "club": "Southampton" },
-      { "name": "Darwin Núñez", "fee": 75, "year": 2022, "club": "Benfica" },
-      { "name": "Hugo Ekitike", "fee": 95, "year": 2025, "club": "Eintracht Frankfurt" },
-      { "name": "Alisson", "fee": 62, "year": 2018, "club": "AS Roma" }
+      {
+        "name": "Florian Wirtz",
+        "fee": 125,
+        "year": 2025,
+        "club": "Bayer Leverkusen"
+      },
+      {
+        "name": "Alexander Isak",
+        "fee": 145,
+        "year": 2025,
+        "club": "Newcastle United"
+      },
+      {
+        "name": "Virgil van Dijk",
+        "fee": 84,
+        "year": 2018,
+        "club": "Southampton"
+      },
+      {
+        "name": "Darwin Núñez",
+        "fee": 75,
+        "year": 2022,
+        "club": "Benfica"
+      },
+      {
+        "name": "Hugo Ekitike",
+        "fee": 95,
+        "year": 2025,
+        "club": "Eintracht Frankfurt"
+      },
+      {
+        "name": "Alisson",
+        "fee": 62,
+        "year": 2018,
+        "club": "AS Roma"
+      }
     ],
     "sales": [
-      { "name": "Philippe Coutinho", "fee": 135, "year": 2018, "club": "FC Barcelona" },
-      { "name": "Luis Suárez", "fee": 82, "year": 2014, "club": "FC Barcelona" },
-      { "name": "Jarrod Bowen", "fee": 0, "year": 2020, "club": "—" }
+      {
+        "name": "Philippe Coutinho",
+        "fee": 135,
+        "year": 2018,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Luis Suárez",
+        "fee": 82,
+        "year": 2014,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Jarrod Bowen",
+        "fee": 0,
+        "year": 2020,
+        "club": "—"
+      }
     ]
   },
   "arsenal": {
     "signings": [
-      { "name": "Declan Rice", "fee": 116, "year": 2023, "club": "West Ham United" },
-      { "name": "Nicolas Pépé", "fee": 80, "year": 2019, "club": "Lille" },
-      { "name": "Kai Havertz", "fee": 75, "year": 2023, "club": "Chelsea" },
-      { "name": "Viktor Gyökeres", "fee": 65, "year": 2025, "club": "Sporting CP" },
-      { "name": "Martín Zubimendi", "fee": 70, "year": 2025, "club": "Real Sociedad" },
-      { "name": "Pierre-Emerick Aubameyang", "fee": 64, "year": 2018, "club": "Borussia Dortmund" }
+      {
+        "name": "Declan Rice",
+        "fee": 116,
+        "year": 2023,
+        "club": "West Ham United"
+      },
+      {
+        "name": "Nicolas Pépé",
+        "fee": 80,
+        "year": 2019,
+        "club": "Lille"
+      },
+      {
+        "name": "Kai Havertz",
+        "fee": 75,
+        "year": 2023,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "fee": 65,
+        "year": 2025,
+        "club": "Sporting CP"
+      },
+      {
+        "name": "Martín Zubimendi",
+        "fee": 70,
+        "year": 2025,
+        "club": "Real Sociedad"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "fee": 64,
+        "year": 2018,
+        "club": "Borussia Dortmund"
+      }
     ],
     "sales": [
-      { "name": "Emiliano Martínez", "fee": 20, "year": 2020, "club": "Aston Villa" },
-      { "name": "Alex Oxlade-Chamberlain", "fee": 40, "year": 2017, "club": "Liverpool" },
-      { "name": "Robin van Persie", "fee": 27, "year": 2012, "club": "Manchester United" }
+      {
+        "name": "Emiliano Martínez",
+        "fee": 20,
+        "year": 2020,
+        "club": "Aston Villa"
+      },
+      {
+        "name": "Alex Oxlade-Chamberlain",
+        "fee": 40,
+        "year": 2017,
+        "club": "Liverpool"
+      },
+      {
+        "name": "Robin van Persie",
+        "fee": 27,
+        "year": 2012,
+        "club": "Manchester United"
+      }
     ]
   },
   "manchester-united": {
     "signings": [
-      { "name": "Paul Pogba", "fee": 105, "year": 2016, "club": "Juventus" },
-      { "name": "Antony", "fee": 95, "year": 2022, "club": "Ajax" },
-      { "name": "Harry Maguire", "fee": 87, "year": 2019, "club": "Leicester City" },
-      { "name": "Romelu Lukaku", "fee": 85, "year": 2017, "club": "Everton" },
-      { "name": "Rasmus Højlund", "fee": 75, "year": 2023, "club": "Atalanta" },
-      { "name": "Jadon Sancho", "fee": 85, "year": 2021, "club": "Borussia Dortmund" }
+      {
+        "name": "Paul Pogba",
+        "fee": 105,
+        "year": 2016,
+        "club": "Juventus"
+      },
+      {
+        "name": "Antony",
+        "fee": 95,
+        "year": 2022,
+        "club": "Ajax"
+      },
+      {
+        "name": "Harry Maguire",
+        "fee": 87,
+        "year": 2019,
+        "club": "Leicester City"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "fee": 85,
+        "year": 2017,
+        "club": "Everton"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "fee": 75,
+        "year": 2023,
+        "club": "Atalanta"
+      },
+      {
+        "name": "Jadon Sancho",
+        "fee": 85,
+        "year": 2021,
+        "club": "Borussia Dortmund"
+      }
     ],
     "sales": [
-      { "name": "Cristiano Ronaldo", "fee": 94, "year": 2009, "club": "Real Madrid" },
-      { "name": "Ángel Di María", "fee": 63, "year": 2015, "club": "Paris Saint-Germain" },
-      { "name": "Romelu Lukaku", "fee": 74, "year": 2019, "club": "Inter de Milán" }
+      {
+        "name": "Cristiano Ronaldo",
+        "fee": 94,
+        "year": 2009,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Ángel Di María",
+        "fee": 63,
+        "year": 2015,
+        "club": "Paris Saint-Germain"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "fee": 74,
+        "year": 2019,
+        "club": "Inter de Milán"
+      }
     ]
   },
   "chelsea": {
     "signings": [
-      { "name": "Enzo Fernández", "fee": 121, "year": 2023, "club": "Benfica" },
-      { "name": "Moisés Caicedo", "fee": 116, "year": 2023, "club": "Brighton" },
-      { "name": "Romelu Lukaku", "fee": 113, "year": 2021, "club": "Inter de Milán" },
-      { "name": "Kepa Arrizabalaga", "fee": 80, "year": 2018, "club": "Athletic Club" },
-      { "name": "Mykhailo Mudryk", "fee": 70, "year": 2023, "club": "Shakhtar Donetsk" },
-      { "name": "Kai Havertz", "fee": 80, "year": 2020, "club": "Bayer Leverkusen" }
+      {
+        "name": "Enzo Fernández",
+        "fee": 121,
+        "year": 2023,
+        "club": "Benfica"
+      },
+      {
+        "name": "Moisés Caicedo",
+        "fee": 116,
+        "year": 2023,
+        "club": "Brighton"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "fee": 113,
+        "year": 2021,
+        "club": "Inter de Milán"
+      },
+      {
+        "name": "Kepa Arrizabalaga",
+        "fee": 80,
+        "year": 2018,
+        "club": "Athletic Club"
+      },
+      {
+        "name": "Mykhailo Mudryk",
+        "fee": 70,
+        "year": 2023,
+        "club": "Shakhtar Donetsk"
+      },
+      {
+        "name": "Kai Havertz",
+        "fee": 80,
+        "year": 2020,
+        "club": "Bayer Leverkusen"
+      }
     ],
     "sales": [
-      { "name": "Eden Hazard", "fee": 115, "year": 2019, "club": "Real Madrid" },
-      { "name": "Kai Havertz", "fee": 75, "year": 2023, "club": "Arsenal" },
-      { "name": "Mason Mount", "fee": 64, "year": 2023, "club": "Manchester United" }
+      {
+        "name": "Eden Hazard",
+        "fee": 115,
+        "year": 2019,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Kai Havertz",
+        "fee": 75,
+        "year": 2023,
+        "club": "Arsenal"
+      },
+      {
+        "name": "Mason Mount",
+        "fee": 64,
+        "year": 2023,
+        "club": "Manchester United"
+      }
     ]
   },
   "tottenham": {
     "signings": [
-      { "name": "Tanguy Ndombele", "fee": 60, "year": 2019, "club": "Olympique de Lyon" },
-      { "name": "Dominic Solanke", "fee": 64, "year": 2024, "club": "Bournemouth" },
-      { "name": "Richarlison", "fee": 58, "year": 2022, "club": "Everton" },
-      { "name": "Cristian Romero", "fee": 50, "year": 2022, "club": "Atalanta" }
+      {
+        "name": "Tanguy Ndombele",
+        "fee": 60,
+        "year": 2019,
+        "club": "Olympique de Lyon"
+      },
+      {
+        "name": "Dominic Solanke",
+        "fee": 64,
+        "year": 2024,
+        "club": "Bournemouth"
+      },
+      {
+        "name": "Richarlison",
+        "fee": 58,
+        "year": 2022,
+        "club": "Everton"
+      },
+      {
+        "name": "Cristian Romero",
+        "fee": 50,
+        "year": 2022,
+        "club": "Atalanta"
+      }
     ],
     "sales": [
-      { "name": "Gareth Bale", "fee": 101, "year": 2013, "club": "Real Madrid" },
-      { "name": "Harry Kane", "fee": 100, "year": 2023, "club": "Bayern de Múnich" },
-      { "name": "Kyle Walker", "fee": 51, "year": 2017, "club": "Manchester City" }
+      {
+        "name": "Gareth Bale",
+        "fee": 101,
+        "year": 2013,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Harry Kane",
+        "fee": 100,
+        "year": 2023,
+        "club": "Bayern de Múnich"
+      },
+      {
+        "name": "Kyle Walker",
+        "fee": 51,
+        "year": 2017,
+        "club": "Manchester City"
+      }
     ]
   },
   "newcastle": {
     "signings": [
-      { "name": "Alexander Isak", "fee": 70, "year": 2022, "club": "Real Sociedad" },
-      { "name": "Sandro Tonali", "fee": 64, "year": 2023, "club": "AC Milan" },
-      { "name": "Anthony Gordon", "fee": 45, "year": 2023, "club": "Everton" },
-      { "name": "Nick Woltemade", "fee": 85, "year": 2025, "club": "VfB Stuttgart" }
+      {
+        "name": "Alexander Isak",
+        "fee": 70,
+        "year": 2022,
+        "club": "Real Sociedad"
+      },
+      {
+        "name": "Sandro Tonali",
+        "fee": 64,
+        "year": 2023,
+        "club": "AC Milan"
+      },
+      {
+        "name": "Anthony Gordon",
+        "fee": 45,
+        "year": 2023,
+        "club": "Everton"
+      },
+      {
+        "name": "Nick Woltemade",
+        "fee": 85,
+        "year": 2025,
+        "club": "VfB Stuttgart"
+      }
     ],
     "sales": [
-      { "name": "Alexander Isak", "fee": 145, "year": 2025, "club": "Liverpool" },
-      { "name": "Allan Saint-Maximin", "fee": 30, "year": 2023, "club": "Al-Ahli" }
+      {
+        "name": "Alexander Isak",
+        "fee": 145,
+        "year": 2025,
+        "club": "Liverpool"
+      },
+      {
+        "name": "Allan Saint-Maximin",
+        "fee": 30,
+        "year": 2023,
+        "club": "Al-Ahli"
+      }
     ]
   },
   "juventus": {
     "signings": [
-      { "name": "Gonzalo Higuaín", "fee": 90, "year": 2016, "club": "Napoli" },
-      { "name": "Cristiano Ronaldo", "fee": 117, "year": 2018, "club": "Real Madrid" },
-      { "name": "Matthijs de Ligt", "fee": 85, "year": 2019, "club": "Ajax" },
-      { "name": "Dušan Vlahović", "fee": 81, "year": 2022, "club": "Fiorentina" }
+      {
+        "name": "Gonzalo Higuaín",
+        "fee": 90,
+        "year": 2016,
+        "club": "Napoli"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "fee": 117,
+        "year": 2018,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "fee": 85,
+        "year": 2019,
+        "club": "Ajax"
+      },
+      {
+        "name": "Dušan Vlahović",
+        "fee": 81,
+        "year": 2022,
+        "club": "Fiorentina"
+      }
     ],
     "sales": [
-      { "name": "Paul Pogba", "fee": 105, "year": 2016, "club": "Manchester United" },
-      { "name": "Zinedine Zidane", "fee": 77, "year": 2001, "club": "Real Madrid" },
-      { "name": "Matthijs de Ligt", "fee": 67, "year": 2022, "club": "Bayern de Múnich" }
+      {
+        "name": "Paul Pogba",
+        "fee": 105,
+        "year": 2016,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Zinedine Zidane",
+        "fee": 77,
+        "year": 2001,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "fee": 67,
+        "year": 2022,
+        "club": "Bayern de Múnich"
+      }
     ]
   },
   "inter": {
     "signings": [
-      { "name": "Romelu Lukaku", "fee": 74, "year": 2019, "club": "Manchester United" },
-      { "name": "Achraf Hakimi", "fee": 40, "year": 2020, "club": "Real Madrid" },
-      { "name": "Hakan Çalhanoğlu", "fee": 0, "year": 2021, "club": "AC Milan" }
+      {
+        "name": "Romelu Lukaku",
+        "fee": 74,
+        "year": 2019,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "fee": 40,
+        "year": 2020,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "fee": 0,
+        "year": 2021,
+        "club": "AC Milan"
+      }
     ],
     "sales": [
-      { "name": "Romelu Lukaku", "fee": 113, "year": 2021, "club": "Chelsea" },
-      { "name": "Achraf Hakimi", "fee": 60, "year": 2021, "club": "Paris Saint-Germain" },
-      { "name": "André Onana", "fee": 50, "year": 2023, "club": "Manchester United" }
+      {
+        "name": "Romelu Lukaku",
+        "fee": 113,
+        "year": 2021,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "fee": 60,
+        "year": 2021,
+        "club": "Paris Saint-Germain"
+      },
+      {
+        "name": "André Onana",
+        "fee": 50,
+        "year": 2023,
+        "club": "Manchester United"
+      }
     ]
   },
   "milan": {
     "signings": [
-      { "name": "Álvaro Morata", "fee": 35, "year": 2024, "club": "Atlético de Madrid" },
-      { "name": "Tijjani Reijnders", "fee": 20, "year": 2023, "club": "AZ Alkmaar" },
-      { "name": "Rafael Leão", "fee": 28, "year": 2019, "club": "Lille" }
+      {
+        "name": "Álvaro Morata",
+        "fee": 35,
+        "year": 2024,
+        "club": "Atlético de Madrid"
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "fee": 20,
+        "year": 2023,
+        "club": "AZ Alkmaar"
+      },
+      {
+        "name": "Rafael Leão",
+        "fee": 28,
+        "year": 2019,
+        "club": "Lille"
+      }
     ],
     "sales": [
-      { "name": "Tijjani Reijnders", "fee": 55, "year": 2025, "club": "Manchester City" },
-      { "name": "Sandro Tonali", "fee": 64, "year": 2023, "club": "Newcastle United" },
-      { "name": "Gianluigi Donnarumma", "fee": 0, "year": 2021, "club": "Paris Saint-Germain" }
+      {
+        "name": "Tijjani Reijnders",
+        "fee": 55,
+        "year": 2025,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Sandro Tonali",
+        "fee": 64,
+        "year": 2023,
+        "club": "Newcastle United"
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "fee": 0,
+        "year": 2021,
+        "club": "Paris Saint-Germain"
+      }
     ]
   },
   "napoli": {
     "signings": [
-      { "name": "Victor Osimhen", "fee": 70, "year": 2020, "club": "Lille" },
-      { "name": "Romelu Lukaku", "fee": 30, "year": 2024, "club": "Chelsea" },
-      { "name": "Kevin De Bruyne", "fee": 0, "year": 2025, "club": "Manchester City" }
+      {
+        "name": "Victor Osimhen",
+        "fee": 70,
+        "year": 2020,
+        "club": "Lille"
+      },
+      {
+        "name": "Romelu Lukaku",
+        "fee": 30,
+        "year": 2024,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "fee": 0,
+        "year": 2025,
+        "club": "Manchester City"
+      }
     ],
     "sales": [
-      { "name": "Khvicha Kvaratskhelia", "fee": 70, "year": 2025, "club": "Paris Saint-Germain" },
-      { "name": "Gonzalo Higuaín", "fee": 90, "year": 2016, "club": "Juventus" },
-      { "name": "Edinson Cavani", "fee": 64, "year": 2013, "club": "Paris Saint-Germain" }
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "fee": 70,
+        "year": 2025,
+        "club": "Paris Saint-Germain"
+      },
+      {
+        "name": "Gonzalo Higuaín",
+        "fee": 90,
+        "year": 2016,
+        "club": "Juventus"
+      },
+      {
+        "name": "Edinson Cavani",
+        "fee": 64,
+        "year": 2013,
+        "club": "Paris Saint-Germain"
+      }
+    ]
+  },
+  "real-betis": {
+    "signings": [
+      {
+        "name": "Nabil Fekir",
+        "fee": 20,
+        "year": 2019,
+        "club": "Olympique de Lyon"
+      },
+      {
+        "name": "Antony",
+        "fee": 25,
+        "year": 2025,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Denílson",
+        "fee": 21.5,
+        "year": 1998,
+        "club": "São Paulo"
+      },
+      {
+        "name": "Borja Iglesias",
+        "fee": 28,
+        "year": 2019,
+        "club": "Espanyol"
+      },
+      {
+        "name": "William Carvalho",
+        "fee": 16,
+        "year": 2018,
+        "club": "Sporting CP"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Fabián Ruiz",
+        "fee": 30,
+        "year": 2018,
+        "club": "Napoli"
+      },
+      {
+        "name": "Junior Firpo",
+        "fee": 18,
+        "year": 2019,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Dani Ceballos",
+        "fee": 16.5,
+        "year": 2017,
+        "club": "Real Madrid"
+      },
+      {
+        "name": "Marc Bartra",
+        "fee": 10.5,
+        "year": 2019,
+        "club": "Trabzonspor"
+      },
+      {
+        "name": "Denílson",
+        "fee": 32,
+        "year": 2000,
+        "club": "Flamengo (cesión récord)"
+      }
+    ]
+  },
+  "villarreal": {
+    "signings": [
+      {
+        "name": "Georges Mikautadze",
+        "fee": 31,
+        "year": 2025,
+        "club": "Olympique de Lyon"
+      },
+      {
+        "name": "Denis Suárez",
+        "fee": 25,
+        "year": 2019,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Renato Veiga",
+        "fee": 24.5,
+        "year": 2025,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Gerard Moreno",
+        "fee": 20,
+        "year": 2018,
+        "club": "Espanyol"
+      },
+      {
+        "name": "Paco Alcácer",
+        "fee": 23,
+        "year": 2020,
+        "club": "Borussia Dortmund"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Renato Veiga",
+        "fee": 55,
+        "year": 2026,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Álex Baena",
+        "fee": 42,
+        "year": 2025,
+        "club": "Atlético de Madrid"
+      },
+      {
+        "name": "Nicolas Jackson",
+        "fee": 37,
+        "year": 2023,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Pau Torres",
+        "fee": 33,
+        "year": 2023,
+        "club": "Aston Villa"
+      },
+      {
+        "name": "Rodri",
+        "fee": 25,
+        "year": 2018,
+        "club": "Atlético de Madrid"
+      }
+    ]
+  },
+  "real-sociedad": {
+    "signings": [
+      {
+        "name": "Umar Sadiq",
+        "fee": 20,
+        "year": 2022,
+        "club": "UD Almería"
+      },
+      {
+        "name": "Orri Óskarsson",
+        "fee": 20,
+        "year": 2024,
+        "club": "FC Copenhague"
+      },
+      {
+        "name": "Mikel Merino",
+        "fee": 12,
+        "year": 2018,
+        "club": "Newcastle United"
+      },
+      {
+        "name": "Brais Méndez",
+        "fee": 14,
+        "year": 2022,
+        "club": "Celta de Vigo"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "fee": 6.5,
+        "year": 2022,
+        "club": "Real Madrid"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Antoine Griezmann",
+        "fee": 30,
+        "year": 2014,
+        "club": "Atlético de Madrid"
+      },
+      {
+        "name": "Alexander Isak",
+        "fee": 70,
+        "year": 2022,
+        "club": "Newcastle United"
+      },
+      {
+        "name": "Martín Zubimendi",
+        "fee": 70,
+        "year": 2025,
+        "club": "Arsenal"
+      },
+      {
+        "name": "Takefusa Kubo",
+        "fee": 50,
+        "year": 2026,
+        "club": "Arsenal"
+      },
+      {
+        "name": "Robin Le Normand",
+        "fee": 34.5,
+        "year": 2024,
+        "club": "Atlético de Madrid"
+      }
+    ]
+  },
+  "athletic-club": {
+    "signings": [
+      {
+        "name": "Iñigo Martínez",
+        "fee": 32,
+        "year": 2018,
+        "club": "Real Sociedad"
+      },
+      {
+        "name": "Kepa Arrizabalaga",
+        "fee": 0,
+        "year": 2018,
+        "club": "Cantera (Lezama)"
+      },
+      {
+        "name": "Aymeric Laporte",
+        "fee": 10,
+        "year": 2025,
+        "club": "Al-Nassr"
+      },
+      {
+        "name": "Álex Berenguer",
+        "fee": 12,
+        "year": 2020,
+        "club": "Torino"
+      },
+      {
+        "name": "Gorka Guruzeta",
+        "fee": 4,
+        "year": 2023,
+        "club": "Amorebieta"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Kepa Arrizabalaga",
+        "fee": 80,
+        "year": 2018,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Aymeric Laporte",
+        "fee": 65,
+        "year": 2018,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Javi Martínez",
+        "fee": 40,
+        "year": 2012,
+        "club": "Bayern de Múnich"
+      },
+      {
+        "name": "Ander Herrera",
+        "fee": 36,
+        "year": 2014,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Fernando Llorente",
+        "fee": 0,
+        "year": 2013,
+        "club": "Juventus (libre)"
+      }
+    ]
+  },
+  "sevilla": {
+    "signings": [
+      {
+        "name": "Jules Koundé",
+        "fee": 25,
+        "year": 2019,
+        "club": "Girondins Burdeos"
+      },
+      {
+        "name": "Lucas Ocampos",
+        "fee": 15,
+        "year": 2019,
+        "club": "Olympique de Marsella"
+      },
+      {
+        "name": "Tanguy Nianzou",
+        "fee": 16,
+        "year": 2022,
+        "club": "Bayern de Múnich"
+      },
+      {
+        "name": "Luuk de Jong",
+        "fee": 12.5,
+        "year": 2019,
+        "club": "PSV Eindhoven"
+      },
+      {
+        "name": "Éver Banega",
+        "fee": 9,
+        "year": 2014,
+        "club": "Valencia"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Jules Koundé",
+        "fee": 50,
+        "year": 2022,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Ivan Rakitić",
+        "fee": 18,
+        "year": 2014,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Dani Alves",
+        "fee": 35.5,
+        "year": 2008,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "Diego Carlos",
+        "fee": 31,
+        "year": 2022,
+        "club": "Aston Villa"
+      },
+      {
+        "name": "Bryan Gil",
+        "fee": 25,
+        "year": 2021,
+        "club": "Tottenham"
+      }
+    ]
+  },
+  "valencia": {
+    "signings": [
+      {
+        "name": "Gonçalo Guedes",
+        "fee": 40,
+        "year": 2018,
+        "club": "París Saint-Germain"
+      },
+      {
+        "name": "Geoffrey Kondogbia",
+        "fee": 25,
+        "year": 2018,
+        "club": "Inter de Milán"
+      },
+      {
+        "name": "Rodrigo Moreno",
+        "fee": 30,
+        "year": 2015,
+        "club": "Benfica"
+      },
+      {
+        "name": "Maxi Gómez",
+        "fee": 14.5,
+        "year": 2019,
+        "club": "Celta de Vigo"
+      },
+      {
+        "name": "Sadiq Umar",
+        "fee": 0,
+        "year": 2023,
+        "club": "Real Sociedad (cesión)"
+      }
+    ],
+    "sales": [
+      {
+        "name": "David Villa",
+        "fee": 40,
+        "year": 2010,
+        "club": "FC Barcelona"
+      },
+      {
+        "name": "David Silva",
+        "fee": 28.5,
+        "year": 2010,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Juan Mata",
+        "fee": 28,
+        "year": 2011,
+        "club": "Chelsea"
+      },
+      {
+        "name": "Ferran Torres",
+        "fee": 23,
+        "year": 2020,
+        "club": "Manchester City"
+      },
+      {
+        "name": "Gonçalo Guedes",
+        "fee": 32.5,
+        "year": 2022,
+        "club": "Wolves"
+      }
+    ]
+  },
+  "roma": {
+    "signings": [
+      {
+        "name": "Gabriel Batistuta",
+        "fee": 36.2,
+        "year": 2000,
+        "club": "Fiorentina"
+      },
+      {
+        "name": "Artem Dovbyk",
+        "fee": 30.5,
+        "year": 2024,
+        "club": "Girona"
+      },
+      {
+        "name": "Patrik Schick",
+        "fee": 42,
+        "year": 2017,
+        "club": "Sampdoria"
+      },
+      {
+        "name": "Matías Soulé",
+        "fee": 25.6,
+        "year": 2024,
+        "club": "Juventus"
+      },
+      {
+        "name": "Tammy Abraham",
+        "fee": 40,
+        "year": 2021,
+        "club": "Chelsea"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Mohamed Salah",
+        "fee": 42,
+        "year": 2017,
+        "club": "Liverpool"
+      },
+      {
+        "name": "Alisson",
+        "fee": 62.5,
+        "year": 2018,
+        "club": "Liverpool"
+      },
+      {
+        "name": "Marquinhos",
+        "fee": 31.4,
+        "year": 2013,
+        "club": "París Saint-Germain"
+      },
+      {
+        "name": "Miralem Pjanić",
+        "fee": 32,
+        "year": 2016,
+        "club": "Juventus"
+      },
+      {
+        "name": "Nicolò Zaniolo",
+        "fee": 16.5,
+        "year": 2023,
+        "club": "Galatasaray"
+      }
+    ]
+  },
+  "atalanta": {
+    "signings": [
+      {
+        "name": "Charles De Ketelaere",
+        "fee": 22,
+        "year": 2024,
+        "club": "AC Milan"
+      },
+      {
+        "name": "Gianluca Scamacca",
+        "fee": 25,
+        "year": 2023,
+        "club": "West Ham"
+      },
+      {
+        "name": "Nikola Krstović",
+        "fee": 25,
+        "year": 2025,
+        "club": "Lecce"
+      },
+      {
+        "name": "El Bilal Touré",
+        "fee": 28,
+        "year": 2023,
+        "club": "Almería"
+      },
+      {
+        "name": "Odilon Kossounou",
+        "fee": 20,
+        "year": 2025,
+        "club": "Bayer Leverkusen"
+      }
+    ],
+    "sales": [
+      {
+        "name": "Rasmus Højlund",
+        "fee": 75,
+        "year": 2023,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Cristian Romero",
+        "fee": 50,
+        "year": 2022,
+        "club": "Tottenham"
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "fee": 35,
+        "year": 2020,
+        "club": "Juventus"
+      },
+      {
+        "name": "Amad Diallo",
+        "fee": 21,
+        "year": 2021,
+        "club": "Manchester United"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "fee": 55,
+        "year": 2024,
+        "club": "Juventus"
+      }
     ]
   }
 }
