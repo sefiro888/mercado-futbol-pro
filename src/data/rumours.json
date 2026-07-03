@@ -1,5 +1,77 @@
 [
   {
+    "id": "ru26-guler-chelsea",
+    "playerId": "arda-guler",
+    "currentClubId": "real-madrid",
+    "interestedClubId": "chelsea",
+    "operationType": "compra",
+    "status": "negociacion",
+    "reliability": "alta",
+    "sources": [
+      "src-sky-sports",
+      "src-fabrizio-romano"
+    ],
+    "summary": "El Chelsea de Xabi Alonso prepara una oferta cercana a los 120 M€ por el turco. El Madrid no quiere venderle, pero la cifra hace dudar. Resumen propio.",
+    "lastUpdated": "2026-07-02"
+  },
+  {
+    "id": "ru26-alvarez-madrid",
+    "playerId": "julian-alvarez",
+    "currentClubId": "atletico-madrid",
+    "interestedClubId": "real-madrid",
+    "operationType": "compra",
+    "status": "negociacion",
+    "reliability": "alta",
+    "sources": [
+      "src-marca",
+      "src-as"
+    ],
+    "summary": "El Real Madrid ha presentado una oferta oficial de 150 M€ por la Araña. Operación bomba entre vecinos que el Atleti rechaza de inicio. Resumen propio.",
+    "lastUpdated": "2026-07-01"
+  },
+  {
+    "id": "ru26-enzo-madrid",
+    "playerId": "enzo-fernandez",
+    "currentClubId": "chelsea",
+    "interestedClubId": "real-madrid",
+    "operationType": "compra",
+    "status": "contactos",
+    "reliability": "media",
+    "sources": [
+      "src-as"
+    ],
+    "summary": "El Madrid tantea al argentino: se habla de una operación de 100-120 M€ si sale algún mediocentro. Resumen propio.",
+    "lastUpdated": "2026-06-30"
+  },
+  {
+    "id": "ru26-pedri-madrid",
+    "playerId": "pedri",
+    "currentClubId": "barcelona",
+    "interestedClubId": "real-madrid",
+    "operationType": "compra",
+    "status": "rumor",
+    "reliability": "baja",
+    "sources": [
+      "src-as"
+    ],
+    "summary": "Rumor sorpresa: el Madrid estaría dispuesto a preparar una oferta por Pedri. En el Barça lo consideran intransferible. Resumen propio.",
+    "lastUpdated": "2026-07-02"
+  },
+  {
+    "id": "ru26-rogers-arsenal",
+    "playerId": "morgan-rogers",
+    "currentClubId": "aston-villa",
+    "interestedClubId": "arsenal",
+    "operationType": "compra",
+    "status": "contactos",
+    "reliability": "media",
+    "sources": [
+      "src-sky-sports"
+    ],
+    "summary": "El Arsenal quiere al atacante del Villa para dar el salto definitivo. El precio rondaría los 80 M€. Resumen propio.",
+    "lastUpdated": "2026-07-01"
+  },
+  {
     "id": "ru-rodrygo-arsenal",
     "playerId": "rodrygo",
     "currentClubId": "real-madrid",
@@ -7,7 +79,10 @@
     "operationType": "compra",
     "status": "negociacion",
     "reliability": "media",
-    "sources": ["src-marca", "src-sky-sports"],
+    "sources": [
+      "src-marca",
+      "src-sky-sports"
+    ],
     "summary": "El extremo brasileño busca más minutos y el Arsenal sondea su situación. Rumor ilustrativo de mercado; resumen propio.",
     "lastUpdated": "2026-06-18"
   },
@@ -19,7 +94,9 @@
     "operationType": "compra",
     "status": "contactos",
     "reliability": "media",
-    "sources": ["src-marca"],
+    "sources": [
+      "src-marca"
+    ],
     "summary": "El Real Madrid sigue de cerca al central croata para reforzar la zaga. Rumor ilustrativo de mercado; resumen propio.",
     "lastUpdated": "2026-06-15"
   },
@@ -31,7 +108,9 @@
     "operationType": "compra",
     "status": "rumor",
     "reliability": "baja",
-    "sources": ["src-gazzetta"],
+    "sources": [
+      "src-gazzetta"
+    ],
     "summary": "Se especula con un regreso del italiano a la Serie A. Sin confirmación sólida. Rumor ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-12"
   },
@@ -43,7 +122,9 @@
     "operationType": "compra",
     "status": "contactos",
     "reliability": "media",
-    "sources": ["src-gazzetta"],
+    "sources": [
+      "src-gazzetta"
+    ],
     "summary": "El centrocampista pide más protagonismo y el Napoli pregunta por él. Rumor ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-16"
   },
@@ -55,7 +136,9 @@
     "operationType": "compra",
     "status": "rumor",
     "reliability": "baja",
-    "sources": ["src-transfermarkt"],
+    "sources": [
+      "src-transfermarkt"
+    ],
     "summary": "Rumor recurrente sobre el extremo portugués sin avances concretos. Rumor ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-10"
   },
@@ -67,7 +150,10 @@
     "operationType": "renovacion",
     "status": "oferta-enviada",
     "reliability": "alta",
-    "sources": ["src-fabrizio-romano", "src-bbc-sport"],
+    "sources": [
+      "src-fabrizio-romano",
+      "src-bbc-sport"
+    ],
     "summary": "El Arsenal trabaja en ampliar y mejorar el contrato de su estrella inglesa. Rumor ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-17"
   },
@@ -79,7 +165,9 @@
     "operationType": "renovacion",
     "status": "confirmado",
     "reliability": "oficial",
-    "sources": ["src-club-oficial"],
+    "sources": [
+      "src-club-oficial"
+    ],
     "summary": "Renovación de largo recorrido del centrocampista canario. Ejemplo ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-14"
   },
@@ -91,7 +179,9 @@
     "operationType": "compra",
     "status": "negociacion",
     "reliability": "media",
-    "sources": ["src-fabrizio-romano"],
+    "sources": [
+      "src-fabrizio-romano"
+    ],
     "summary": "El Barça negocia ejecutar la opción de compra tras la cesión. Rumor ilustrativo; resumen propio.",
     "lastUpdated": "2026-06-19"
   }

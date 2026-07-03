@@ -153,20 +153,6 @@
       "status": "titular"
     },
     {
-      "id": "mateus-fernandes",
-      "name": "Mateus Fernandes",
-      "slug": "mateus-fernandes",
-      "birthDate": "2004-07-10",
-      "nationality": "Portugal",
-      "position": "Mediocentro",
-      "height": 180,
-      "dominantFoot": "Derecho",
-      "marketValue": 20,
-      "contractUntil": "2030-06-30",
-      "shirtNumber": 18,
-      "status": "suplente"
-    },
-    {
       "id": "jarrod-bowen",
       "name": "Jarrod Bowen",
       "slug": "jarrod-bowen",

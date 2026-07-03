@@ -97,20 +97,6 @@
       "status": "suplente"
     },
     {
-      "id": "elliot-anderson",
-      "name": "Elliot Anderson",
-      "slug": "elliot-anderson",
-      "birthDate": "2002-11-06",
-      "nationality": "Inglaterra",
-      "position": "Mediocentro",
-      "height": 180,
-      "dominantFoot": "Derecho",
-      "marketValue": 40,
-      "contractUntil": "2029-06-30",
-      "shirtNumber": 8,
-      "status": "titular"
-    },
-    {
       "id": "ibrahim-sangare",
       "name": "Ibrahim Sangaré",
       "slug": "ibrahim-sangare",

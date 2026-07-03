@@ -24,7 +24,18 @@
       "marketValue": 18,
       "contractUntil": "2028-06-30",
       "shirtNumber": 13,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2014-07-16",
+          "fromClubName": "Benfica",
+          "toClubId": "atletico-madrid",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "juan-musso",
@@ -220,7 +231,27 @@
       "marketValue": 90,
       "contractUntil": "2030-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fromClubName": "River Plate",
+          "toClubId": "manchester-city",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2024-08-12",
+          "fromClubId": "manchester-city",
+          "toClubId": "atletico-madrid",
+          "fee": 75,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "alexander-sorloth",
@@ -248,7 +279,39 @@
       "marketValue": 8,
       "contractUntil": "2027-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2014-07-01",
+          "fromClubName": "Borussia Dortmund",
+          "toClubName": "Bayern de Múnich",
+          "fee": 0,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2022-07-19",
+          "fromClubName": "Bayern de Múnich",
+          "toClubId": "barcelona",
+          "fee": 45,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "LaLiga",
+          "clubId": "barcelona",
+          "appearances": 34,
+          "goals": 27,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "tyrick-mitchell",

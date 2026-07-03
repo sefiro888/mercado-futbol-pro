@@ -136,7 +136,18 @@
       "marketValue": 90,
       "contractUntil": "2031-06-30",
       "shirtNumber": 25,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-14",
+          "fromClubId": "brighton",
+          "toClubId": "chelsea",
+          "fee": 116,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "enzo-fernandez",
@@ -150,7 +161,27 @@
       "marketValue": 70,
       "contractUntil": "2032-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-14",
+          "fromClubName": "River Plate",
+          "toClubName": "Benfica",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2023-01-31",
+          "fromClubName": "Benfica",
+          "toClubId": "chelsea",
+          "fee": 121,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "cole-palmer",
@@ -164,7 +195,18 @@
       "marketValue": 130,
       "contractUntil": "2033-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-09-01",
+          "fromClubId": "manchester-city",
+          "toClubId": "chelsea",
+          "fee": 47,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "pedro-neto",
@@ -206,7 +248,27 @@
       "marketValue": 60,
       "contractUntil": "2033-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-06-29",
+          "fromClubName": "Watford",
+          "toClubId": "brighton",
+          "fee": 32,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-07-02",
+          "fromClubId": "brighton",
+          "toClubId": "chelsea",
+          "fee": 63,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "liam-delap",

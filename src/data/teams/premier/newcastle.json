@@ -122,21 +122,18 @@
       "marketValue": 80,
       "contractUntil": "2028-06-30",
       "shirtNumber": 39,
-      "status": "titular"
-    },
-    {
-      "id": "sandro-tonali",
-      "name": "Sandro Tonali",
-      "slug": "sandro-tonali",
-      "birthDate": "2000-05-08",
-      "nationality": "Italia",
-      "position": "Mediocentro",
-      "height": 181,
-      "dominantFoot": "Derecho",
-      "marketValue": 60,
-      "contractUntil": "2029-06-30",
-      "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-01-30",
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "newcastle",
+          "fee": 42,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "joelinton",
@@ -206,7 +203,18 @@
       "marketValue": 50,
       "contractUntil": "2031-06-30",
       "shirtNumber": 27,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-30",
+          "fromClubName": "VfB Stuttgart",
+          "toClubId": "newcastle",
+          "fee": 85,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "yoane-wissa",
@@ -220,7 +228,18 @@
       "marketValue": 35,
       "contractUntil": "2029-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-09-01",
+          "fromClubId": "brentford",
+          "toClubId": "newcastle",
+          "fee": 57,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "anthony-elanga",

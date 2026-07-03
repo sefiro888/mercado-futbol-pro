@@ -24,7 +24,18 @@
       "marketValue": 22,
       "contractUntil": "2027-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-07-19",
+          "fromClubName": "AS Roma",
+          "toClubId": "liverpool",
+          "fee": 62.5,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "giorgi-mamardashvili",
@@ -52,7 +63,18 @@
       "marketValue": 25,
       "contractUntil": "2027-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-01-01",
+          "fromClubName": "Southampton",
+          "toClubId": "liverpool",
+          "fee": 85,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "jeremie-frimpong",
@@ -66,7 +88,18 @@
       "marketValue": 50,
       "contractUntil": "2030-06-30",
       "shirtNumber": 30,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-02",
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "liverpool",
+          "fee": 40,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "conor-bradley",
@@ -94,7 +127,27 @@
       "marketValue": 40,
       "contractUntil": "2030-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fromClubName": "AZ Alkmaar",
+          "toClubId": "bournemouth",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-06-26",
+          "fromClubId": "bournemouth",
+          "toClubId": "liverpool",
+          "fee": 47,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "joe-gomez",
@@ -136,7 +189,18 @@
       "marketValue": 80,
       "contractUntil": "2028-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-06-08",
+          "fromClubId": "brighton",
+          "toClubId": "liverpool",
+          "fee": 42,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "dominik-szoboszlai",
@@ -150,7 +214,18 @@
       "marketValue": 75,
       "contractUntil": "2028-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-02",
+          "fromClubName": "RB Leipzig",
+          "toClubId": "liverpool",
+          "fee": 70,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "curtis-jones",
@@ -178,7 +253,18 @@
       "marketValue": 130,
       "contractUntil": "2030-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-20",
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "liverpool",
+          "fee": 125,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "mohamed-salah",
@@ -192,7 +278,49 @@
       "marketValue": 50,
       "contractUntil": "2027-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2014-01-26",
+          "fromClubName": "FC Basilea",
+          "toClubId": "chelsea",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2016-08-03",
+          "fromClubId": "chelsea",
+          "toClubName": "AS Roma",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2017-07-01",
+          "fromClubName": "AS Roma",
+          "toClubId": "liverpool",
+          "fee": 42,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "clubId": "liverpool",
+          "appearances": 38,
+          "goals": 29,
+          "assists": 18,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "cody-gakpo",
@@ -220,7 +348,36 @@
       "marketValue": 120,
       "contractUntil": "2031-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-05",
+          "fromClubName": "Borussia Dortmund",
+          "toClubId": "real-sociedad",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2022-08-26",
+          "fromClubId": "real-sociedad",
+          "toClubId": "newcastle",
+          "fee": 70,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-09-01",
+          "fromClubId": "newcastle",
+          "toClubId": "liverpool",
+          "fee": 145,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "hugo-ekitike",
@@ -234,7 +391,27 @@
       "marketValue": 70,
       "contractUntil": "2031-06-30",
       "shirtNumber": 22,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fromClubName": "París Saint-Germain",
+          "toClubName": "Eintracht Fráncfort",
+          "fee": 16.5,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-07-23",
+          "fromClubName": "Eintracht Fráncfort",
+          "toClubId": "liverpool",
+          "fee": 90,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "federico-chiesa",

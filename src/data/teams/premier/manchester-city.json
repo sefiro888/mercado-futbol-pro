@@ -66,7 +66,18 @@
       "marketValue": 75,
       "contractUntil": "2029-06-30",
       "shirtNumber": 24,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-05",
+          "fromClubName": "RB Leipzig",
+          "toClubId": "manchester-city",
+          "fee": 90,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "john-stones",
@@ -164,7 +175,18 @@
       "marketValue": 110,
       "contractUntil": "2027-06-30",
       "shirtNumber": 16,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-04",
+          "fromClubId": "atletico-madrid",
+          "toClubId": "manchester-city",
+          "fee": 70,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "tijjani-reijnders",
@@ -178,7 +200,27 @@
       "marketValue": 70,
       "contractUntil": "2030-06-30",
       "shirtNumber": 4,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-01",
+          "fromClubName": "AZ Alkmaar",
+          "toClubId": "milan",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-06-18",
+          "fromClubId": "milan",
+          "toClubId": "manchester-city",
+          "fee": 55,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "mateo-kovacic",
@@ -220,7 +262,18 @@
       "marketValue": 50,
       "contractUntil": "2030-06-30",
       "shirtNumber": 10,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-06-19",
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "manchester-city",
+          "fee": 36,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "erling-haaland",
@@ -234,7 +287,49 @@
       "marketValue": 180,
       "contractUntil": "2034-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-01",
+          "fromClubName": "RB Salzburgo",
+          "toClubName": "Borussia Dortmund",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2022-07-01",
+          "fromClubName": "Borussia Dortmund",
+          "toClubId": "manchester-city",
+          "fee": 60,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2025/26",
+          "competition": "Todas",
+          "clubId": "manchester-city",
+          "goals": 56,
+          "assists": 11,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "season": "2024/25",
+          "competition": "Premier League",
+          "clubId": "manchester-city",
+          "appearances": 31,
+          "goals": 22,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "savinho",
@@ -305,6 +400,40 @@
       "contractUntil": "2031-06-30",
       "shirtNumber": 19,
       "status": "titular"
+    },
+    {
+      "id": "elliot-anderson",
+      "name": "Elliot Anderson",
+      "slug": "elliot-anderson",
+      "birthDate": "2002-11-06",
+      "nationality": "Inglaterra",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 40,
+      "contractUntil": "2032-06-30",
+      "shirtNumber": null,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fromClubId": "newcastle",
+          "toClubId": "nottingham-forest",
+          "fee": 41,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-06-30",
+          "fromClubId": "nottingham-forest",
+          "toClubId": "manchester-city",
+          "fee": 133,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -24,7 +24,18 @@
       "marketValue": 28,
       "contractUntil": "2029-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fromClubName": "Empoli",
+          "toClubId": "tottenham",
+          "fee": 19,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "pedro-porro",
@@ -178,7 +189,27 @@
       "marketValue": 55,
       "contractUntil": "2030-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-27",
+          "fromClubName": "Ajax",
+          "toClubId": "west-ham",
+          "fee": 43,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-07-10",
+          "fromClubId": "west-ham",
+          "toClubId": "tottenham",
+          "fee": 65,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "xavi-simons",
@@ -234,7 +265,18 @@
       "marketValue": 45,
       "contractUntil": "2029-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-10",
+          "fromClubId": "bournemouth",
+          "toClubId": "tottenham",
+          "fee": 64,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "richarlison",
@@ -262,7 +304,27 @@
       "marketValue": 16,
       "contractUntil": "2028-06-30",
       "shirtNumber": 3,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-07-21",
+          "fromClubName": "Hull City",
+          "toClubId": "liverpool",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "fromClubId": "liverpool",
+          "toClubId": "tottenham",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "marcos-senesi",
@@ -276,7 +338,27 @@
       "marketValue": 22,
       "contractUntil": "2030-06-30",
       "shirtNumber": 5,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-08",
+          "fromClubName": "Feyenoord",
+          "toClubId": "bournemouth",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "fromClubId": "bournemouth",
+          "toClubId": "tottenham",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "jan-paul-van-hecke",
@@ -290,7 +372,27 @@
       "marketValue": 28,
       "contractUntil": "2030-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-09-01",
+          "fromClubName": "NAC Breda",
+          "toClubId": "brighton",
+          "fee": 2.5,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-06-20",
+          "fromClubId": "brighton",
+          "toClubId": "tottenham",
+          "fee": 60,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "martin-dubravka",
@@ -304,7 +406,36 @@
       "marketValue": 1.5,
       "contractUntil": "2027-06-30",
       "shirtNumber": 13,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2018-07-01",
+          "fromClubName": "Sparta de Praga",
+          "toClubId": "newcastle",
+          "fee": 4.5,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-07-15",
+          "fromClubId": "newcastle",
+          "toClubId": "burnley",
+          "fee": 0,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "fromClubId": "burnley",
+          "toClubId": "tottenham",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "marco-asensio",
@@ -319,6 +450,92 @@
       "contractUntil": "2029-06-30",
       "shirtNumber": 14,
       "status": "titular"
+    },
+    {
+      "id": "sandro-tonali",
+      "name": "Sandro Tonali",
+      "slug": "sandro-tonali",
+      "birthDate": "2000-05-08",
+      "nationality": "Italia",
+      "position": "Mediocentro",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 60,
+      "contractUntil": "2031-06-30",
+      "shirtNumber": null,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fromClubName": "Brescia",
+          "toClubId": "milan",
+          "fee": 23,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2023-07-03",
+          "fromClubId": "milan",
+          "toClubId": "newcastle",
+          "fee": 64,
+          "sources": [
+            "src-club-oficial"
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "fromClubId": "newcastle",
+          "toClubId": "tottenham",
+          "fee": 107,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mateus-fernandes",
+      "name": "Mateus Fernandes",
+      "slug": "mateus-fernandes",
+      "birthDate": "2004-07-10",
+      "nationality": "Portugal",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2032-06-30",
+      "shirtNumber": 18,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-07-25",
+          "fromClubName": "Sporting CP",
+          "toClubName": "Southampton",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-08-15",
+          "fromClubName": "Southampton",
+          "toClubId": "west-ham",
+          "fee": 46,
+          "sources": [
+            "src-club-oficial"
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "fromClubId": "west-ham",
+          "toClubId": "tottenham",
+          "fee": 100,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     }
   ]
 }

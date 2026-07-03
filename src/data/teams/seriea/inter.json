@@ -178,7 +178,27 @@
       "marketValue": 40,
       "contractUntil": "2027-06-30",
       "shirtNumber": 20,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-07-03",
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "milan",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2021-07-01",
+          "fromClubId": "milan",
+          "toClubId": "inter",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "davide-frattesi",
@@ -234,7 +254,18 @@
       "marketValue": 100,
       "contractUntil": "2029-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-07-04",
+          "fromClubName": "Racing Club",
+          "toClubId": "inter",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "marcus-thuram",
@@ -248,7 +279,18 @@
       "marketValue": 75,
       "contractUntil": "2028-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-06",
+          "fromClubName": "Borussia Mönchengladbach",
+          "toClubId": "inter",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "ange-yoan-bonny",
@@ -291,6 +333,40 @@
       "contractUntil": "2030-06-30",
       "shirtNumber": 18,
       "status": "suplente"
+    },
+    {
+      "id": "ivan-provedel",
+      "name": "Ivan Provedel",
+      "slug": "ivan-provedel",
+      "birthDate": "1994-03-17",
+      "nationality": "Italia",
+      "position": "Portero",
+      "height": 192,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": null,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2022-08-05",
+          "fromClubName": "Spezia",
+          "toClubName": "Lazio",
+          "fee": 2.5,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-07-02",
+          "fromClubName": "Lazio",
+          "toClubId": "inter",
+          "fee": 3,
+          "sources": [
+            "src-gazzetta"
+          ]
+        }
+      ]
     }
   ]
 }

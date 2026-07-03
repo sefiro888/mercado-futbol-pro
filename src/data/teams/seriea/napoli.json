@@ -7,7 +7,7 @@
     "league": "Serie A",
     "city": "Nápoles",
     "stadium": "Diego Armando Maradona",
-    "coach": "Antonio Conte",
+    "coach": "Massimiliano Allegri",
     "founded": 1926,
     "primaryColor": "#199BD7"
   },
@@ -150,7 +150,18 @@
       "marketValue": 45,
       "contractUntil": "2028-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-30",
+          "fromClubId": "manchester-united",
+          "toClubId": "napoli",
+          "fee": 30,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "kevin-de-bruyne",
@@ -164,7 +175,27 @@
       "marketValue": 25,
       "contractUntil": "2027-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2015-08-30",
+          "fromClubName": "VfL Wolfsburgo",
+          "toClubId": "manchester-city",
+          "fee": 76,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-06-12",
+          "fromClubId": "manchester-city",
+          "toClubId": "napoli",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "billy-gilmour",
@@ -206,7 +237,27 @@
       "marketValue": 20,
       "contractUntil": "2027-06-30",
       "shirtNumber": 9,
-      "status": "lesionado"
+      "status": "lesionado",
+      "transferHistory": [
+        {
+          "date": "2021-08-12",
+          "fromClubId": "inter",
+          "toClubId": "chelsea",
+          "fee": 113,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2024-08-29",
+          "fromClubId": "chelsea",
+          "toClubId": "napoli",
+          "fee": 30,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "rasmus-hojlund",
@@ -220,7 +271,27 @@
       "marketValue": 35,
       "contractUntil": "2031-06-30",
       "shirtNumber": 70,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-05",
+          "fromClubName": "Atalanta",
+          "toClubId": "manchester-united",
+          "fee": 75,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-07-01",
+          "fromClubId": "manchester-united",
+          "toClubId": "napoli",
+          "fee": 44,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "lorenzo-lucca",

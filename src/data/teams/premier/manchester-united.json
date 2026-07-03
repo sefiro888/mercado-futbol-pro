@@ -164,7 +164,18 @@
       "marketValue": 50,
       "contractUntil": "2027-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-30",
+          "fromClubName": "Sporting CP",
+          "toClubId": "manchester-united",
+          "fee": 55,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "mason-mount",
@@ -192,7 +203,18 @@
       "marketValue": 60,
       "contractUntil": "2030-06-30",
       "shirtNumber": 19,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-21",
+          "fromClubId": "brentford",
+          "toClubId": "manchester-united",
+          "fee": 75,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "matheus-cunha",
@@ -206,7 +228,18 @@
       "marketValue": 55,
       "contractUntil": "2030-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-12",
+          "fromClubId": "wolves",
+          "toClubId": "manchester-united",
+          "fee": 74,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "amad-diallo",
@@ -234,7 +267,18 @@
       "marketValue": 65,
       "contractUntil": "2030-06-30",
       "shirtNumber": 30,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-09",
+          "fromClubName": "RB Leipzig",
+          "toClubId": "manchester-united",
+          "fee": 76.5,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "adam-wharton",

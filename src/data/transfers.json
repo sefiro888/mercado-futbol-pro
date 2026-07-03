@@ -1,5 +1,243 @@
 [
   {
+    "id": "tr26-gordon-barcelona",
+    "playerId": "anthony-gordon",
+    "fromClubId": "newcastle",
+    "toClubId": "barcelona",
+    "transferFee": 70,
+    "marketValueAtTransfer": 65,
+    "previousPurchaseFee": 45,
+    "transferDate": "2026-06-28",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-sky-sports"
+    ],
+    "notes": "70 M€ fijos + 10 M€ en variables. El extremo inglés firma 5 temporadas con el Barça de Flick."
+  },
+  {
+    "id": "tr26-cucurella-madrid",
+    "playerId": "marc-cucurella",
+    "fromClubId": "chelsea",
+    "toClubId": "real-madrid",
+    "transferFee": 60,
+    "marketValueAtTransfer": 45,
+    "previousPurchaseFee": 65,
+    "transferDate": "2026-06-25",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-marca"
+    ],
+    "notes": "El lateral español firma hasta 2032 y refuerza el carril zurdo blanco."
+  },
+  {
+    "id": "tr26-tonali-tottenham",
+    "playerId": "sandro-tonali",
+    "fromClubId": "newcastle",
+    "toClubId": "tottenham",
+    "transferFee": 107,
+    "marketValueAtTransfer": 90,
+    "previousPurchaseFee": 64,
+    "transferDate": "2026-07-02",
+    "status": "confirmado",
+    "sources": [
+      "src-sky-sports",
+      "src-fabrizio-romano"
+    ],
+    "notes": "Traspaso récord del Tottenham: 92,5 M£ fijos + 7,5 M£ en variables. Segunda mayor venta del Newcastle tras Isak."
+  },
+  {
+    "id": "tr26-vanhecke-tottenham",
+    "playerId": "jan-paul-van-hecke",
+    "fromClubId": "brighton",
+    "toClubId": "tottenham",
+    "transferFee": 60,
+    "marketValueAtTransfer": 50,
+    "previousPurchaseFee": 3,
+    "transferDate": "2026-06-20",
+    "status": "confirmado",
+    "sources": [
+      "src-sky-sports"
+    ],
+    "notes": "52 M£. El central neerlandés se reencuentra con De Zerbi, su técnico en el Brighton."
+  },
+  {
+    "id": "tr26-robertson-tottenham",
+    "playerId": "andy-robertson",
+    "fromClubId": "liverpool",
+    "toClubId": "tottenham",
+    "transferFee": 0,
+    "marketValueAtTransfer": 10,
+    "previousPurchaseFee": 9,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "Llega libre tras acabar contrato después de 9 temporadas en Anfield."
+  },
+  {
+    "id": "tr26-senesi-tottenham",
+    "playerId": "marcos-senesi",
+    "fromClubId": "bournemouth",
+    "toClubId": "tottenham",
+    "transferFee": 0,
+    "marketValueAtTransfer": 28,
+    "previousPurchaseFee": 15,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "El central argentino firma libre tras expirar su contrato con el Bournemouth."
+  },
+  {
+    "id": "tr26-dubravka-tottenham",
+    "playerId": "martin-dubravka",
+    "fromClubId": "burnley",
+    "toClubId": "tottenham",
+    "transferFee": 0,
+    "marketValueAtTransfer": 2,
+    "previousPurchaseFee": 0,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "Portero veterano para competir con Vicario. Llega libre."
+  },
+  {
+    "id": "tr26-mateus-tottenham",
+    "playerId": "mateus-fernandes",
+    "fromClubId": "west-ham",
+    "toClubId": "tottenham",
+    "transferFee": 100,
+    "marketValueAtTransfer": 75,
+    "previousPurchaseFee": 46,
+    "transferDate": "2026-07-02",
+    "status": "confirmado",
+    "sources": [
+      "src-sky-sports",
+      "src-fabrizio-romano"
+    ],
+    "notes": "Operación conjunta con Tonali: unos 215 M€ en total por los dos mediocentros."
+  },
+  {
+    "id": "tr26-hincapie-arsenal",
+    "playerId": "piero-hincapie",
+    "fromClubId": null,
+    "fromClubName": "Bayer Leverkusen",
+    "toClubId": "arsenal",
+    "transferFee": 50,
+    "marketValueAtTransfer": 55,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-06-16",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "La cesión se convierte en compra obligatoria al cumplirse las condiciones pactadas."
+  },
+  {
+    "id": "tr26-anderson-city",
+    "playerId": "elliot-anderson",
+    "fromClubId": "nottingham-forest",
+    "toClubId": "manchester-city",
+    "transferFee": 133,
+    "marketValueAtTransfer": 85,
+    "previousPurchaseFee": 41,
+    "transferDate": "2026-06-30",
+    "status": "confirmado",
+    "sources": [
+      "src-bbc-sport",
+      "src-sky-sports"
+    ],
+    "notes": "116 M£: fichaje más caro de la historia entre clubes británicos."
+  },
+  {
+    "id": "tr26-munoz-liverpool",
+    "playerId": "victor-munoz",
+    "fromClubId": "osasuna",
+    "toClubId": "liverpool",
+    "transferFee": 40,
+    "marketValueAtTransfer": 30,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-06-27",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-marca"
+    ],
+    "notes": "El Real Madrid se lleva el 50% por la cláusula de reventa del canterano."
+  },
+  {
+    "id": "tr26-jacquet-liverpool",
+    "playerId": "jeremy-jacquet",
+    "fromClubId": null,
+    "fromClubName": "Stade Rennais",
+    "toClubId": "liverpool",
+    "transferFee": 64,
+    "marketValueAtTransfer": 40,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-06-24",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-sky-sports"
+    ],
+    "notes": "Central francés sub-21 de gran proyección, 55 M£."
+  },
+  {
+    "id": "tr26-ramos-milan",
+    "playerId": "goncalo-ramos",
+    "fromClubId": null,
+    "fromClubName": "París Saint-Germain",
+    "toClubId": "milan",
+    "transferFee": 50,
+    "marketValueAtTransfer": 50,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-gazzetta"
+    ],
+    "notes": "El delantero portugués firma hasta 2031 y llega para liderar el ataque rossonero."
+  },
+  {
+    "id": "tr26-hojlund-napoli",
+    "playerId": "rasmus-hojlund",
+    "fromClubId": "manchester-united",
+    "toClubId": "napoli",
+    "transferFee": 44,
+    "marketValueAtTransfer": 45,
+    "previousPurchaseFee": 75,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-gazzetta"
+    ],
+    "notes": "Se cumple la obligación de compra pactada en la cesión de 2025 (6 M€ + 44 M€)."
+  },
+  {
+    "id": "tr26-provedel-inter",
+    "playerId": "ivan-provedel",
+    "fromClubId": null,
+    "fromClubName": "Lazio",
+    "toClubId": "inter",
+    "transferFee": 3,
+    "marketValueAtTransfer": 6,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-07-02",
+    "status": "confirmado",
+    "sources": [
+      "src-gazzetta"
+    ],
+    "notes": "Portero experimentado para cubrir la salida de la portería nerazzurra."
+  },
+  {
     "id": "tr-trent-madrid",
     "playerId": "trent-alexander-arnold",
     "fromClubId": "liverpool",
@@ -7,13 +245,13 @@
     "transferFee": 10,
     "marketValueAtTransfer": 70,
     "previousPurchaseFee": null,
-    "transferDate": "2026-06-10",
+    "transferDate": "2025-06-10",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-marca"
     ],
-    "notes": "Pequeño coste por adelantar su salida antes de acabar contrato. Operación real 2025."
+    "notes": "Pequeño coste por adelantar su salida antes de acabar contrato. Mercado de verano 2025."
   },
   {
     "id": "tr-zubimendi-arsenal",
@@ -24,13 +262,13 @@
     "transferFee": 70,
     "marketValueAtTransfer": 70,
     "previousPurchaseFee": null,
-    "transferDate": "2026-06-12",
+    "transferDate": "2025-06-12",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-marca"
     ],
-    "notes": "Pago de cláusula por un canterano de la Real. Operación real 2025."
+    "notes": "Pago de cláusula por un canterano de la Real. Mercado de verano 2025."
   },
   {
     "id": "tr-reijnders-city",
@@ -40,13 +278,13 @@
     "transferFee": 55,
     "marketValueAtTransfer": 70,
     "previousPurchaseFee": 20,
-    "transferDate": "2026-06-18",
+    "transferDate": "2025-06-18",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-gazzetta"
     ],
-    "notes": "El Milan obtiene una notable plusvalía. Operación real 2025."
+    "notes": "El Milan obtiene una notable plusvalía. Mercado de verano 2025."
   },
   {
     "id": "tr-cherki-city",
@@ -57,13 +295,13 @@
     "transferFee": 36,
     "marketValueAtTransfer": 50,
     "previousPurchaseFee": null,
-    "transferDate": "2026-06-19",
+    "transferDate": "2025-06-19",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-fabrizio-romano"
     ],
-    "notes": "Talento francés formado en Lyon. Operación real 2025."
+    "notes": "Talento francés formado en Lyon. Mercado de verano 2025."
   },
   {
     "id": "tr-wirtz-liverpool",
@@ -74,14 +312,14 @@
     "transferFee": 125,
     "marketValueAtTransfer": 140,
     "previousPurchaseFee": null,
-    "transferDate": "2026-06-20",
+    "transferDate": "2025-06-20",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-fabrizio-romano",
       "src-bbc-sport"
     ],
-    "notes": "Récord de traspaso del fútbol inglés. Operación real del mercado 2025."
+    "notes": "Récord de traspaso del fútbol inglés. Mercado de verano 2025."
   },
   {
     "id": "tr-joangarcia-barcelona",
@@ -92,13 +330,13 @@
     "transferFee": 25,
     "marketValueAtTransfer": 25,
     "previousPurchaseFee": null,
-    "transferDate": "2026-06-25",
+    "transferDate": "2025-06-25",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-marca"
     ],
-    "notes": "Pago de cláusula al eterno rival ciudadano. Operación real 2025."
+    "notes": "Pago de cláusula al eterno rival ciudadano. Mercado de verano 2025."
   },
   {
     "id": "tr-debruyne-napoli",
@@ -108,13 +346,13 @@
     "transferFee": 0,
     "marketValueAtTransfer": 25,
     "previousPurchaseFee": 76,
-    "transferDate": "2026-07-02",
+    "transferDate": "2025-07-02",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-gazzetta"
     ],
-    "notes": "Llega libre tras una década en el City. Operación real 2025."
+    "notes": "Llega libre tras una década en el City. Mercado de verano 2025."
   },
   {
     "id": "tr-modric-milan",
@@ -124,13 +362,13 @@
     "transferFee": 0,
     "marketValueAtTransfer": 8,
     "previousPurchaseFee": 35,
-    "transferDate": "2026-07-14",
+    "transferDate": "2025-07-14",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-gazzetta"
     ],
-    "notes": "El croata firma libre por el Milan tras 13 años en el Madrid. Operación real 2025."
+    "notes": "El croata firma libre por el Milan tras 13 años en el Madrid. Mercado de verano 2025."
   },
   {
     "id": "tr-ekitike-liverpool",
@@ -141,13 +379,13 @@
     "transferFee": 95,
     "marketValueAtTransfer": 70,
     "previousPurchaseFee": 16.5,
-    "transferDate": "2026-07-23",
+    "transferDate": "2025-07-23",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-bbc-sport"
     ],
-    "notes": "Gran plusvalía para el Eintracht. Operación real del mercado 2025."
+    "notes": "Gran plusvalía para el Eintracht. Mercado de verano 2025."
   },
   {
     "id": "tr-rashford-barcelona",
@@ -158,13 +396,13 @@
     "transferFee": 0,
     "marketValueAtTransfer": 40,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-23",
+    "transferDate": "2025-07-23",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-fabrizio-romano"
     ],
-    "notes": "Cesión con opción de compra desde el Manchester United. Operación real 2025."
+    "notes": "Cesión con opción de compra desde el Manchester United. Mercado de verano 2025."
   },
   {
     "id": "tr-gyokeres-arsenal",
@@ -175,13 +413,13 @@
     "transferFee": 65,
     "marketValueAtTransfer": 75,
     "previousPurchaseFee": 20,
-    "transferDate": "2026-07-26",
+    "transferDate": "2025-07-26",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-fabrizio-romano"
     ],
-    "notes": "El delantero sueco refuerza el ataque del Arsenal. Operación real 2025."
+    "notes": "El delantero sueco refuerza el ataque del Arsenal. Mercado de verano 2025."
   },
   {
     "id": "tr-raspadori-atletico",
@@ -191,13 +429,13 @@
     "transferFee": 22,
     "marketValueAtTransfer": 25,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-29",
+    "transferDate": "2025-07-29",
     "status": "confirmado",
     "sources": [
       "src-club-oficial",
       "src-marca"
     ],
-    "notes": "El italiano busca minutos en el Atlético. Operación real 2025."
+    "notes": "El italiano busca minutos en el Atlético. Mercado de verano 2025."
   },
   {
     "id": "tr-eze-arsenal",
@@ -214,7 +452,7 @@
       "src-club-oficial",
       "src-sky-sports"
     ],
-    "notes": "El mediapunta inglés se une al Arsenal. Operación real 2025."
+    "notes": "El mediapunta inglés se une al Arsenal. Mercado de verano 2025."
   },
   {
     "id": "tr-isak-liverpool",
@@ -231,7 +469,7 @@
       "src-club-oficial",
       "src-fabrizio-romano"
     ],
-    "notes": "Cerrado en el último día de mercado. Operación real del mercado 2025."
+    "notes": "Cerrado en el último día de mercado. Mercado de verano 2025."
   },
   {
     "id": "tr-hojlund-napoli",
@@ -248,7 +486,7 @@
       "src-club-oficial",
       "src-gazzetta"
     ],
-    "notes": "Cesión con opción de compra desde el Manchester United. Operación real 2025."
+    "notes": "Cesión con opción de compra desde el Manchester United. Mercado de verano 2025."
   },
   {
     "id": "tr-canales-racing",
@@ -259,7 +497,7 @@
     "transferFee": 0,
     "marketValueAtTransfer": 6,
     "previousPurchaseFee": null,
-    "transferDate": "2026-06-22",
+    "transferDate": "2025-06-22",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -275,7 +513,7 @@
     "transferFee": 0,
     "marketValueAtTransfer": 35,
     "previousPurchaseFee": 2026,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -291,45 +529,13 @@
     "transferFee": 0,
     "marketValueAtTransfer": 55,
     "previousPurchaseFee": 0,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
       "src-wikipedia"
     ],
     "notes": "Salida a coste cero al terminar contrato con Liverpool. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-cucurella-madrid",
-    "playerId": "marc-cucurella",
-    "fromClubId": "chelsea",
-    "toClubId": "real-madrid",
-    "transferFee": 55,
-    "marketValueAtTransfer": 55,
-    "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Refuerzo para el lateral izquierdo del Real Madrid. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-gordon-barcelona",
-    "playerId": "anthony-gordon",
-    "fromClubId": "newcastle",
-    "toClubId": "barcelona",
-    "transferFee": 80,
-    "marketValueAtTransfer": 60,
-    "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Operación de gran impacto para el ataque del Barcelona. Actualizado a 27/06/2026."
   },
   {
     "id": "tr-lewandowski-atletico",
@@ -339,7 +545,7 @@
     "transferFee": 0,
     "marketValueAtTransfer": 8,
     "previousPurchaseFee": 45,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -355,7 +561,7 @@
     "transferFee": 0,
     "marketValueAtTransfer": 25,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -371,7 +577,7 @@
     "transferFee": 31,
     "marketValueAtTransfer": 25,
     "previousPurchaseFee": 22,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -387,7 +593,7 @@
     "transferFee": 50,
     "marketValueAtTransfer": 45,
     "previousPurchaseFee": 6.5,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -403,7 +609,7 @@
     "transferFee": 12,
     "marketValueAtTransfer": 22,
     "previousPurchaseFee": 11,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -419,94 +625,13 @@
     "transferFee": 55,
     "marketValueAtTransfer": 22,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
       "src-wikipedia"
     ],
     "notes": "El City incorpora un central zurdo procedente del Villarreal. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-jeremy-jacquet-liverpool",
-    "playerId": "jeremy-jacquet",
-    "fromClubId": null,
-    "fromClubName": "Stade Rennais",
-    "toClubId": "liverpool",
-    "transferFee": 48,
-    "marketValueAtTransfer": 15,
-    "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Liverpool refuerza el eje defensivo. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-victor-munoz-liverpool",
-    "playerId": "victor-munoz",
-    "fromClubId": "osasuna",
-    "toClubId": "liverpool",
-    "transferFee": 34.5,
-    "marketValueAtTransfer": 28,
-    "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Incorporación ofensiva desde Osasuna. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-robertson-tottenham",
-    "playerId": "andy-robertson",
-    "fromClubId": "liverpool",
-    "toClubId": "tottenham",
-    "transferFee": 10,
-    "marketValueAtTransfer": 16,
-    "previousPurchaseFee": 9,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Tottenham suma experiencia en el lateral izquierdo. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-senesi-tottenham",
-    "playerId": "marcos-senesi",
-    "fromClubId": "bournemouth",
-    "toClubId": "tottenham",
-    "transferFee": 28,
-    "marketValueAtTransfer": 22,
-    "previousPurchaseFee": 15,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Central zurdo para el nuevo Tottenham de De Zerbi. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-vanhecke-tottenham",
-    "playerId": "jan-paul-van-hecke",
-    "fromClubId": "brighton",
-    "toClubId": "tottenham",
-    "transferFee": 32,
-    "marketValueAtTransfer": 28,
-    "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Refuerzo defensivo procedente del Brighton. Actualizado a 27/06/2026."
   },
   {
     "id": "tr-geovany-quenda-chelsea",
@@ -517,7 +642,7 @@
     "transferFee": 50,
     "marketValueAtTransfer": 45,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -534,7 +659,7 @@
     "transferFee": 25,
     "marketValueAtTransfer": 25,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -551,7 +676,7 @@
     "transferFee": 10,
     "marketValueAtTransfer": 12,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -567,7 +692,7 @@
     "transferFee": 0,
     "marketValueAtTransfer": 45,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -583,7 +708,7 @@
     "transferFee": 75,
     "marketValueAtTransfer": 65,
     "previousPurchaseFee": 9.4,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -599,7 +724,7 @@
     "transferFee": 60,
     "marketValueAtTransfer": 50,
     "previousPurchaseFee": 21,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -615,7 +740,7 @@
     "transferFee": 55,
     "marketValueAtTransfer": 35,
     "previousPurchaseFee": 17.5,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -631,7 +756,7 @@
     "transferFee": 22,
     "marketValueAtTransfer": 20,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -647,7 +772,7 @@
     "transferFee": 8,
     "marketValueAtTransfer": 8,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",
@@ -663,7 +788,7 @@
     "transferFee": 0,
     "marketValueAtTransfer": 8,
     "previousPurchaseFee": null,
-    "transferDate": "2026-07-01",
+    "transferDate": "2025-07-01",
     "status": "confirmado",
     "sources": [
       "src-as",

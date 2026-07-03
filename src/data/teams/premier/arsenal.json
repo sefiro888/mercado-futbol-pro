@@ -52,7 +52,18 @@
       "marketValue": 80,
       "contractUntil": "2030-06-30",
       "shirtNumber": 2,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-25",
+          "fromClubName": "Saint-Étienne",
+          "toClubId": "arsenal",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "gabriel-magalhaes",
@@ -136,7 +147,27 @@
       "marketValue": 45,
       "contractUntil": "2030-06-30",
       "shirtNumber": 3,
-      "status": "suplente"
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2021-08-30",
+          "fromClubName": "Talleres",
+          "toClubName": "Bayer Leverkusen",
+          "fee": 6.4,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-06-16",
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "arsenal",
+          "fee": 50,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "declan-rice",
@@ -150,7 +181,18 @@
       "marketValue": 120,
       "contractUntil": "2028-06-30",
       "shirtNumber": 41,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-15",
+          "fromClubId": "west-ham",
+          "toClubId": "arsenal",
+          "fee": 116,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "martin-zubimendi",
@@ -164,7 +206,18 @@
       "marketValue": 70,
       "contractUntil": "2030-06-30",
       "shirtNumber": 36,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-06",
+          "fromClubId": "real-sociedad",
+          "toClubId": "arsenal",
+          "fee": 70,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "martin-odegaard",
@@ -178,7 +231,18 @@
       "marketValue": 80,
       "contractUntil": "2028-06-30",
       "shirtNumber": 8,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-20",
+          "fromClubId": "real-madrid",
+          "toClubId": "arsenal",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "mikel-merino",
@@ -234,7 +298,27 @@
       "marketValue": 65,
       "contractUntil": "2030-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-08-28",
+          "fromClubName": "Queens Park Rangers",
+          "toClubId": "crystal-palace",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-08-23",
+          "fromClubId": "crystal-palace",
+          "toClubId": "arsenal",
+          "fee": 69,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "noni-madueke",
@@ -262,7 +346,27 @@
       "marketValue": 55,
       "contractUntil": "2028-06-30",
       "shirtNumber": 29,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-09-04",
+          "fromClubName": "Bayer Leverkusen",
+          "toClubId": "chelsea",
+          "fee": 80,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2023-06-28",
+          "fromClubId": "chelsea",
+          "toClubId": "arsenal",
+          "fee": 75,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "viktor-gyokeres",
@@ -276,7 +380,27 @@
       "marketValue": 75,
       "contractUntil": "2030-06-30",
       "shirtNumber": 14,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-04",
+          "fromClubName": "Coventry City",
+          "toClubName": "Sporting CP",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2025-07-26",
+          "fromClubName": "Sporting CP",
+          "toClubId": "arsenal",
+          "fee": 65,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "takefusa-kubo",

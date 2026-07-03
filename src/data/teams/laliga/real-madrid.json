@@ -24,7 +24,27 @@
       "marketValue": 25,
       "contractUntil": "2026-06-30",
       "shirtNumber": 1,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2011-07-01",
+          "fromClubName": "Racing Genk",
+          "toClubId": "chelsea",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2018-08-08",
+          "fromClubId": "chelsea",
+          "toClubId": "real-madrid",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "andriy-lunin",
@@ -80,7 +100,27 @@
       "marketValue": 22,
       "contractUntil": "2026-06-30",
       "shirtNumber": 22,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-07-09",
+          "fromClubName": "AS Roma",
+          "toClubId": "chelsea",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2022-07-01",
+          "fromClubId": "chelsea",
+          "toClubId": "real-madrid",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "raul-asencio",
@@ -136,7 +176,27 @@
       "marketValue": 180,
       "contractUntil": "2029-06-30",
       "shirtNumber": 5,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-07-20",
+          "fromClubName": "Birmingham City",
+          "toClubName": "Borussia Dortmund",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2023-07-01",
+          "fromClubName": "Borussia Dortmund",
+          "toClubId": "real-madrid",
+          "fee": 103,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "federico-valverde",
@@ -164,7 +224,18 @@
       "marketValue": 80,
       "contractUntil": "2028-06-30",
       "shirtNumber": 14,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fromClubName": "AS Mónaco",
+          "toClubId": "real-madrid",
+          "fee": 80,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "eduardo-camavinga",
@@ -178,7 +249,18 @@
       "marketValue": 90,
       "contractUntil": "2029-06-30",
       "shirtNumber": 6,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-31",
+          "fromClubName": "Stade Rennais",
+          "toClubId": "real-madrid",
+          "fee": 31,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "dani-ceballos",
@@ -220,7 +302,50 @@
       "marketValue": 180,
       "contractUntil": "2029-06-30",
       "shirtNumber": 9,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-07-01",
+          "fromClubName": "AS Mónaco",
+          "toClubName": "París Saint-Germain",
+          "fee": 180,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2024-07-01",
+          "fromClubName": "París Saint-Germain",
+          "toClubId": "real-madrid",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ],
+      "seasonStats": [
+        {
+          "season": "2025/26",
+          "competition": "LaLiga",
+          "clubId": "real-madrid",
+          "appearances": 24,
+          "goals": 29,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "season": "2024/25",
+          "competition": "LaLiga",
+          "clubId": "real-madrid",
+          "appearances": 34,
+          "goals": 31,
+          "assists": 3,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "vinicius-junior",
@@ -234,7 +359,18 @@
       "marketValue": 170,
       "contractUntil": "2027-06-30",
       "shirtNumber": 7,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2018-07-12",
+          "fromClubName": "Flamengo",
+          "toClubId": "real-madrid",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "rodrygo",
@@ -248,7 +384,18 @@
       "marketValue": 90,
       "contractUntil": "2028-06-30",
       "shirtNumber": 11,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-01",
+          "fromClubName": "Santos FC",
+          "toClubId": "real-madrid",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     },
     {
       "id": "brahim-diaz",
@@ -304,7 +451,36 @@
       "marketValue": 55,
       "contractUntil": "2030-06-30",
       "shirtNumber": 18,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-31",
+          "fromClubId": "getafe",
+          "toClubId": "brighton",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2022-08-05",
+          "fromClubId": "brighton",
+          "toClubId": "chelsea",
+          "fee": 65,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        },
+        {
+          "date": "2026-06-25",
+          "fromClubId": "chelsea",
+          "toClubId": "real-madrid",
+          "fee": 60,
+          "sources": [
+            "src-club-oficial"
+          ]
+        }
+      ]
     },
     {
       "id": "bernardo-silva",
@@ -318,7 +494,18 @@
       "marketValue": 40,
       "contractUntil": "2028-06-30",
       "shirtNumber": 10,
-      "status": "titular"
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-07-01",
+          "fromClubName": "AS Mónaco",
+          "toClubId": "manchester-city",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ]
+        }
+      ]
     }
   ]
 }
