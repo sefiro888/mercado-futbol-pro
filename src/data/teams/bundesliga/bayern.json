@@ -1,0 +1,367 @@
+{
+  "club": {
+    "id": "bayern",
+    "name": "Bayern de Múnich",
+    "slug": "bayern",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Múnich",
+    "stadium": "Allianz Arena",
+    "coach": "Vincent Kompany",
+    "founded": 1900,
+    "primaryColor": "#DC052D"
+  },
+  "players": [
+    {
+      "id": "manuel-neuer",
+      "name": "Manuel Neuer",
+      "slug": "manuel-neuer",
+      "birthDate": "1986-03-27",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 193,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2011-07-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Schalke 04",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "jonas-urbig",
+      "name": "Jonas Urbig",
+      "slug": "jonas-urbig",
+      "birthDate": "2003-08-27",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 26,
+      "status": "suplente"
+    },
+    {
+      "id": "joshua-kimmich",
+      "name": "Joshua Kimmich",
+      "slug": "joshua-kimmich",
+      "birthDate": "1995-02-08",
+      "nationality": "Alemania",
+      "position": "Mediocentro defensivo",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 45,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2015-07-01",
+          "fee": 8.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Leipzig",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "alphonso-davies",
+      "name": "Alphonso Davies",
+      "slug": "alphonso-davies",
+      "birthDate": "2000-11-02",
+      "nationality": "Canadá",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 45,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 19,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-01-01",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Vancouver Whitecaps",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "dayot-upamecano",
+      "name": "Dayot Upamecano",
+      "slug": "dayot-upamecano",
+      "birthDate": "1998-10-27",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 50,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 42.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "leipzig",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "kim-min-jae",
+      "name": "Kim Min-jae",
+      "slug": "kim-min-jae",
+      "birthDate": "1996-11-15",
+      "nationality": "Corea del Sur",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-18",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "napoli",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "jonathan-tah",
+      "name": "Jonathan Tah",
+      "slug": "jonathan-tah",
+      "birthDate": "1996-02-11",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 195,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 4,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "leverkusen",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "konrad-laimer",
+      "name": "Konrad Laimer",
+      "slug": "konrad-laimer",
+      "birthDate": "1997-05-27",
+      "nationality": "Austria",
+      "position": "Lateral derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 22,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 27,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "leipzig",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "aleksandar-pavlovic",
+      "name": "Aleksandar Pavlović",
+      "slug": "aleksandar-pavlovic",
+      "birthDate": "2004-05-03",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 188,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 45,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 45,
+      "status": "titular"
+    },
+    {
+      "id": "leon-goretzka",
+      "name": "Leon Goretzka",
+      "slug": "leon-goretzka",
+      "birthDate": "1995-02-06",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2018-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Schalke 04",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "jamal-musiala",
+      "name": "Jamal Musiala",
+      "slug": "jamal-musiala",
+      "birthDate": "2003-02-26",
+      "nationality": "Alemania",
+      "position": "Mediapunta",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 130,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "michael-olise",
+      "name": "Michael Olise",
+      "slug": "michael-olise",
+      "birthDate": "2001-12-12",
+      "nationality": "Francia",
+      "position": "Extremo derecho",
+      "height": 185,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 110,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 17,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-08",
+          "fee": 53,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "crystal-palace",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "luis-diaz",
+      "name": "Luis Díaz",
+      "slug": "luis-diaz",
+      "birthDate": "1997-01-13",
+      "nationality": "Colombia",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 70,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 14,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-01-30",
+          "fee": 45,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Porto",
+          "toClubId": "liverpool"
+        },
+        {
+          "date": "2025-08-02",
+          "fee": 70,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "liverpool",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "serge-gnabry",
+      "name": "Serge Gnabry",
+      "slug": "serge-gnabry",
+      "birthDate": "1995-07-14",
+      "nationality": "Alemania",
+      "position": "Extremo derecho",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 7,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2017-07-01",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "bayern"
+        }
+      ]
+    },
+    {
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "slug": "harry-kane",
+      "birthDate": "1993-07-28",
+      "nationality": "Inglaterra",
+      "position": "Delantero centro",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 75,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-12",
+          "fee": 95,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "tottenham",
+          "toClubId": "bayern"
+        }
+      ]
+    }
+  ]
+}

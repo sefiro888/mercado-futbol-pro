@@ -1,0 +1,297 @@
+{
+  "club": {
+    "id": "leipzig",
+    "name": "RB Leipzig",
+    "slug": "leipzig",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Leipzig",
+    "stadium": "Red Bull Arena",
+    "coach": "Ole Werner",
+    "founded": 1909,
+    "primaryColor": "#DA0A32"
+  },
+  "players": [
+    {
+      "id": "peter-gulacsi",
+      "name": "Péter Gulácsi",
+      "slug": "peter-gulacsi",
+      "birthDate": "1990-05-06",
+      "nationality": "Hungría",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "maarten-vandevoordt",
+      "name": "Maarten Vandevoordt",
+      "slug": "maarten-vandevoordt",
+      "birthDate": "2002-02-26",
+      "nationality": "Bélgica",
+      "position": "Portero",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 12,
+      "status": "suplente"
+    },
+    {
+      "id": "willi-orban",
+      "name": "Willi Orbán",
+      "slug": "willi-orban",
+      "birthDate": "1992-11-03",
+      "nationality": "Hungría",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "castello-lukeba",
+      "name": "Castello Lukeba",
+      "slug": "castello-lukeba",
+      "birthDate": "2002-12-17",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 184,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 35,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 23,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "david-raum",
+      "name": "David Raum",
+      "slug": "david-raum",
+      "birthDate": "1998-04-22",
+      "nationality": "Alemania",
+      "position": "Lateral izquierdo",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 22,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-08-05",
+          "fee": 26,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "TSG Hoffenheim",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "ridle-baku",
+      "name": "Ridle Baku",
+      "slug": "ridle-baku",
+      "birthDate": "1998-04-08",
+      "nationality": "Alemania",
+      "position": "Lateral derecho",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-20",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfL Wolfsburgo",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-henrichs",
+      "name": "Benjamin Henrichs",
+      "slug": "benjamin-henrichs",
+      "birthDate": "1997-02-23",
+      "nationality": "Alemania",
+      "position": "Lateral derecho",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 39,
+      "status": "suplente"
+    },
+    {
+      "id": "nicolas-seiwald",
+      "name": "Nicolas Seiwald",
+      "slug": "nicolas-seiwald",
+      "birthDate": "2001-05-04",
+      "nationality": "Austria",
+      "position": "Mediocentro defensivo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 13,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Salzburgo",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "assan-ouedraogo",
+      "name": "Assan Ouédraogo",
+      "slug": "assan-ouedraogo",
+      "birthDate": "2006-05-09",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Schalke 04",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "christoph-baumgartner",
+      "name": "Christoph Baumgartner",
+      "slug": "christoph-baumgartner",
+      "birthDate": "1999-08-01",
+      "nationality": "Austria",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 22,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-11",
+          "fee": 24,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "TSG Hoffenheim",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "antonio-nusa",
+      "name": "Antonio Nusa",
+      "slug": "antonio-nusa",
+      "birthDate": "2005-04-17",
+      "nationality": "Noruega",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-26",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Club Brujas",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "johan-bakayoko",
+      "name": "Johan Bakayoko",
+      "slug": "johan-bakayoko",
+      "birthDate": "2003-04-20",
+      "nationality": "Bélgica",
+      "position": "Extremo derecho",
+      "height": 179,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 20,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-18",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "leipzig"
+        }
+      ]
+    },
+    {
+      "id": "romulo",
+      "name": "Rômulo",
+      "slug": "romulo",
+      "birthDate": "2002-02-19",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-26",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Göztepe",
+          "toClubId": "leipzig"
+        }
+      ]
+    }
+  ]
+}

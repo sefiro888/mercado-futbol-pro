@@ -75,6 +75,13 @@ const TEAM_IDS = {
   pisa: 801,
   cremonese: 520,
   sassuolo: 488,
+  // Bundesliga
+  bayern: 157,
+  dortmund: 165,
+  leverkusen: 168,
+  leipzig: 173,
+  frankfurt: 169,
+  stuttgart: 172,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */

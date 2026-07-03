@@ -1,0 +1,333 @@
+{
+  "club": {
+    "id": "frankfurt",
+    "name": "Eintracht Fráncfort",
+    "slug": "frankfurt",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Fráncfort",
+    "stadium": "Deutsche Bank Park",
+    "coach": "Dino Toppmöller",
+    "founded": 1899,
+    "primaryColor": "#E1000F"
+  },
+  "players": [
+    {
+      "id": "kaua-santos",
+      "name": "Kauã Santos",
+      "slug": "kaua-santos",
+      "birthDate": "2003-03-06",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 196,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 33,
+      "status": "titular"
+    },
+    {
+      "id": "michael-zetterer",
+      "name": "Michael Zetterer",
+      "slug": "michael-zetterer",
+      "birthDate": "1995-07-12",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 30,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-14",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Werder Bremen",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "robin-koch",
+      "name": "Robin Koch",
+      "slug": "robin-koch",
+      "birthDate": "1996-07-17",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 4,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Leeds United",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "arthur-theate",
+      "name": "Arthur Theate",
+      "slug": "arthur-theate",
+      "birthDate": "2000-05-25",
+      "nationality": "Bélgica",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-29",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Rennais",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "rasmus-kristensen",
+      "name": "Rasmus Kristensen",
+      "slug": "rasmus-kristensen",
+      "birthDate": "1997-07-11",
+      "nationality": "Dinamarca",
+      "position": "Lateral derecho",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-15",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leeds United",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "nathaniel-brown",
+      "name": "Nathaniel Brown",
+      "slug": "nathaniel-brown",
+      "birthDate": "2003-06-16",
+      "nationality": "Alemania",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 24,
+      "status": "titular"
+    },
+    {
+      "id": "ellyes-skhiri",
+      "name": "Ellyes Skhiri",
+      "slug": "ellyes-skhiri",
+      "birthDate": "1995-05-10",
+      "nationality": "Túnez",
+      "position": "Mediocentro defensivo",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 15,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "1. FC Colonia",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "hugo-larsson",
+      "name": "Hugo Larsson",
+      "slug": "hugo-larsson",
+      "birthDate": "2004-06-27",
+      "nationality": "Suecia",
+      "position": "Mediocentro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 16,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Malmö FF",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "mario-gotze",
+      "name": "Mario Götze",
+      "slug": "mario-gotze",
+      "birthDate": "1992-06-03",
+      "nationality": "Alemania",
+      "position": "Mediapunta",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 27,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "can-uzun",
+      "name": "Can Uzun",
+      "slug": "can-uzun",
+      "birthDate": "2005-11-11",
+      "nationality": "Turquía",
+      "position": "Mediapunta",
+      "height": 186,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "1. FC Núremberg",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "jean-matteo-bahoya",
+      "name": "Jean-Mattéo Bahoya",
+      "slug": "jean-matteo-bahoya",
+      "birthDate": "2005-05-07",
+      "nationality": "Francia",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 21,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-30",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Angers",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "ansgar-knauff",
+      "name": "Ansgar Knauff",
+      "slug": "ansgar-knauff",
+      "birthDate": "2002-01-10",
+      "nationality": "Alemania",
+      "position": "Extremo derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 14,
+      "status": "suplente"
+    },
+    {
+      "id": "jonathan-burkardt",
+      "name": "Jonathan Burkardt",
+      "slug": "jonathan-burkardt",
+      "birthDate": "2000-07-11",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Mainz 05",
+          "toClubId": "frankfurt"
+        }
+      ]
+    },
+    {
+      "id": "elye-wahi",
+      "name": "Elye Wahi",
+      "slug": "elye-wahi",
+      "birthDate": "2003-01-02",
+      "nationality": "Francia",
+      "position": "Delantero centro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 19,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-01-27",
+          "fee": 26,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Marsella",
+          "toClubId": "frankfurt"
+        }
+      ]
+    }
+  ]
+}

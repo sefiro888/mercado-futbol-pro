@@ -1,0 +1,337 @@
+{
+  "club": {
+    "id": "leverkusen",
+    "name": "Bayer Leverkusen",
+    "slug": "leverkusen",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Leverkusen",
+    "stadium": "BayArena",
+    "coach": "Kasper Hjulmand",
+    "founded": 1904,
+    "primaryColor": "#E32221"
+  },
+  "players": [
+    {
+      "id": "mark-flekken",
+      "name": "Mark Flekken",
+      "slug": "mark-flekken",
+      "birthDate": "1993-06-13",
+      "nationality": "Países Bajos",
+      "position": "Portero",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 13,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "SC Friburgo",
+          "toClubId": "brentford"
+        },
+        {
+          "date": "2025-06-25",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brentford",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "robert-andrich",
+      "name": "Robert Andrich",
+      "slug": "robert-andrich",
+      "birthDate": "1994-09-22",
+      "nationality": "Alemania",
+      "position": "Mediocentro defensivo",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "edmond-tapsoba",
+      "name": "Edmond Tapsoba",
+      "slug": "edmond-tapsoba",
+      "birthDate": "1999-02-02",
+      "nationality": "Burkina Faso",
+      "position": "Defensa central",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 12,
+      "status": "titular"
+    },
+    {
+      "id": "jarell-quansah",
+      "name": "Jarell Quansah",
+      "slug": "jarell-quansah",
+      "birthDate": "2003-01-29",
+      "nationality": "Inglaterra",
+      "position": "Defensa central",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 4,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-30",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "liverpool",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "alejandro-grimaldo",
+      "name": "Alejandro Grimaldo",
+      "slug": "alejandro-grimaldo",
+      "birthDate": "1995-09-20",
+      "nationality": "España",
+      "position": "Lateral izquierdo",
+      "height": 171,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 35,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 20,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Benfica",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "exequiel-palacios",
+      "name": "Exequiel Palacios",
+      "slug": "exequiel-palacios",
+      "birthDate": "1998-10-05",
+      "nationality": "Argentina",
+      "position": "Mediocentro",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 40,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 25,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-01-01",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "River Plate",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "aleix-garcia",
+      "name": "Aleix García",
+      "slug": "aleix-garcia",
+      "birthDate": "1997-06-28",
+      "nationality": "España",
+      "position": "Mediocentro",
+      "height": 173,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 24,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-05",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "girona",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "malik-tillman",
+      "name": "Malik Tillman",
+      "slug": "malik-tillman",
+      "birthDate": "2002-05-28",
+      "nationality": "Estados Unidos",
+      "position": "Mediapunta",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-04",
+          "fee": 35,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "ibrahim-maza",
+      "name": "Ibrahim Maza",
+      "slug": "ibrahim-maza",
+      "birthDate": "2005-11-28",
+      "nationality": "Argelia",
+      "position": "Mediapunta",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 7,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Hertha Berlín",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "claudio-echeverri",
+      "name": "Claudio Echeverri",
+      "slug": "claudio-echeverri",
+      "birthDate": "2006-01-02",
+      "nationality": "Argentina",
+      "position": "Mediapunta",
+      "height": 173,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 25,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 30,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-01-10",
+          "fee": 18.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "River Plate",
+          "toClubId": "manchester-city"
+        },
+        {
+          "date": "2025-08-30",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "patrik-schick",
+      "name": "Patrik Schick",
+      "slug": "patrik-schick",
+      "birthDate": "1996-01-24",
+      "nationality": "Chequia",
+      "position": "Delantero centro",
+      "height": 191,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 30,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 14,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-09-08",
+          "fee": 26.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "roma",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "lucas-vazquez",
+      "name": "Lucas Vázquez",
+      "slug": "lucas-vazquez",
+      "birthDate": "1991-07-01",
+      "nationality": "España",
+      "position": "Lateral derecho",
+      "height": 173,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 17,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-06",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "nathan-tella",
+      "name": "Nathan Tella",
+      "slug": "nathan-tella",
+      "birthDate": "1999-07-05",
+      "nationality": "Nigeria",
+      "position": "Extremo izquierdo",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 19,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-18",
+          "fee": 23,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Southampton",
+          "toClubId": "leverkusen"
+        }
+      ]
+    }
+  ]
+}

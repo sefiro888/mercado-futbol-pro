@@ -1,0 +1,380 @@
+{
+  "club": {
+    "id": "dortmund",
+    "name": "Borussia Dortmund",
+    "slug": "dortmund",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Dortmund",
+    "stadium": "Signal Iduna Park",
+    "coach": "Niko Kovač",
+    "founded": 1909,
+    "primaryColor": "#FDE100"
+  },
+  "players": [
+    {
+      "id": "gregor-kobel",
+      "name": "Gregor Kobel",
+      "slug": "gregor-kobel",
+      "birthDate": "1997-12-06",
+      "nationality": "Suiza",
+      "position": "Portero",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "stuttgart",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "nico-schlotterbeck",
+      "name": "Nico Schlotterbeck",
+      "slug": "nico-schlotterbeck",
+      "birthDate": "1999-12-01",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 191,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 40,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "SC Friburgo",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "waldemar-anton",
+      "name": "Waldemar Anton",
+      "slug": "waldemar-anton",
+      "birthDate": "1996-07-20",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 22.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "stuttgart",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "niklas-sule",
+      "name": "Niklas Süle",
+      "slug": "niklas-sule",
+      "birthDate": "1995-09-03",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 195,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 25,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "bayern",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "yan-couto",
+      "name": "Yan Couto",
+      "slug": "yan-couto",
+      "birthDate": "2002-06-03",
+      "nationality": "Brasil",
+      "position": "Lateral derecho",
+      "height": 168,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-16",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "daniel-svensson",
+      "name": "Daniel Svensson",
+      "slug": "daniel-svensson",
+      "birthDate": "2002-02-26",
+      "nationality": "Suecia",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 23,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-31",
+          "fee": 6.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Nordsjaelland",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "julian-ryerson",
+      "name": "Julian Ryerson",
+      "slug": "julian-ryerson",
+      "birthDate": "1997-11-17",
+      "nationality": "Noruega",
+      "position": "Lateral derecho",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 26,
+      "status": "suplente"
+    },
+    {
+      "id": "marcel-sabitzer",
+      "name": "Marcel Sabitzer",
+      "slug": "marcel-sabitzer",
+      "birthDate": "1994-03-17",
+      "nationality": "Austria",
+      "position": "Mediocentro",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 20,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-08-05",
+          "fee": 19,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "bayern",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "felix-nmecha",
+      "name": "Felix Nmecha",
+      "slug": "felix-nmecha",
+      "birthDate": "2000-10-10",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfL Wolfsburgo",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "jobe-bellingham",
+      "name": "Jobe Bellingham",
+      "slug": "jobe-bellingham",
+      "birthDate": "2005-09-23",
+      "nationality": "Inglaterra",
+      "position": "Mediocentro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-10",
+          "fee": 30.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sunderland",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "pascal-gro",
+      "name": "Pascal Groß",
+      "slug": "pascal-gro",
+      "birthDate": "1991-06-15",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 7,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 13,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-08-20",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brighton",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "julian-brandt",
+      "name": "Julian Brandt",
+      "slug": "julian-brandt",
+      "birthDate": "1996-05-02",
+      "nationality": "Alemania",
+      "position": "Mediapunta",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2019-07-01",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "leverkusen",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "karim-adeyemi",
+      "name": "Karim Adeyemi",
+      "slug": "karim-adeyemi",
+      "birthDate": "2002-01-18",
+      "nationality": "Alemania",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 45,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 27,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RB Salzburgo",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "maximilian-beier",
+      "name": "Maximilian Beier",
+      "slug": "maximilian-beier",
+      "birthDate": "2002-10-17",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 14,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-30",
+          "fee": 28.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "TSG Hoffenheim",
+          "toClubId": "dortmund"
+        }
+      ]
+    },
+    {
+      "id": "serhou-guirassy",
+      "name": "Serhou Guirassy",
+      "slug": "serhou-guirassy",
+      "birthDate": "1996-03-12",
+      "nationality": "Guinea",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 45,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-11",
+          "fee": 17.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "stuttgart",
+          "toClubId": "dortmund"
+        }
+      ]
+    }
+  ]
+}

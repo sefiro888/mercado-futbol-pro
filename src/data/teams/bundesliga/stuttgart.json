@@ -1,0 +1,314 @@
+{
+  "club": {
+    "id": "stuttgart",
+    "name": "VfB Stuttgart",
+    "slug": "stuttgart",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Stuttgart",
+    "stadium": "MHPArena",
+    "coach": "Sebastian Hoeneß",
+    "founded": 1893,
+    "primaryColor": "#E30613"
+  },
+  "players": [
+    {
+      "id": "alexander-nubel",
+      "name": "Alexander Nübel",
+      "slug": "alexander-nubel",
+      "birthDate": "1996-09-30",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 193,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 33,
+      "status": "titular"
+    },
+    {
+      "id": "fabian-bredlow",
+      "name": "Fabian Bredlow",
+      "slug": "fabian-bredlow",
+      "birthDate": "1995-03-02",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 12,
+      "status": "suplente"
+    },
+    {
+      "id": "jeff-chabot",
+      "name": "Jeff Chabot",
+      "slug": "jeff-chabot",
+      "birthDate": "1998-02-12",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 195,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 24,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-25",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "1. FC Colonia",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "luca-jaquez",
+      "name": "Luca Jaquez",
+      "slug": "luca-jaquez",
+      "birthDate": "2003-06-04",
+      "nationality": "Suiza",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 44,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-30",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Lucerna",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "dan-axel-zagadou",
+      "name": "Dan-Axel Zagadou",
+      "slug": "dan-axel-zagadou",
+      "birthDate": "1999-06-03",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 196,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 5,
+      "status": "suplente"
+    },
+    {
+      "id": "josha-vagnoman",
+      "name": "Josha Vagnoman",
+      "slug": "josha-vagnoman",
+      "birthDate": "2000-12-11",
+      "nationality": "Alemania",
+      "position": "Lateral derecho",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 22,
+      "status": "titular"
+    },
+    {
+      "id": "maximilian-mittelstadt",
+      "name": "Maximilian Mittelstädt",
+      "slug": "maximilian-mittelstadt",
+      "birthDate": "1997-03-18",
+      "nationality": "Alemania",
+      "position": "Lateral izquierdo",
+      "height": 181,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 20,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 3.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Hertha Berlín",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "angelo-stiller",
+      "name": "Angelo Stiller",
+      "slug": "angelo-stiller",
+      "birthDate": "2001-04-04",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 40,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-10",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "TSG Hoffenheim",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "atakan-karazor",
+      "name": "Atakan Karazor",
+      "slug": "atakan-karazor",
+      "birthDate": "1996-10-13",
+      "nationality": "Alemania",
+      "position": "Mediocentro defensivo",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 16,
+      "status": "titular"
+    },
+    {
+      "id": "chema-andres",
+      "name": "Chema Andrés",
+      "slug": "chema-andres",
+      "birthDate": "2005-05-12",
+      "nationality": "España",
+      "position": "Mediocentro defensivo",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 20,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "chris-fuhrich",
+      "name": "Chris Führich",
+      "slug": "chris-fuhrich",
+      "birthDate": "1998-01-09",
+      "nationality": "Alemania",
+      "position": "Extremo izquierdo",
+      "height": 179,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 27,
+      "status": "suplente"
+    },
+    {
+      "id": "jamie-leweling",
+      "name": "Jamie Leweling",
+      "slug": "jamie-leweling",
+      "birthDate": "2001-02-26",
+      "nationality": "Alemania",
+      "position": "Extremo derecho",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 18,
+      "status": "titular"
+    },
+    {
+      "id": "deniz-undav",
+      "name": "Deniz Undav",
+      "slug": "deniz-undav",
+      "birthDate": "1996-07-19",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 179,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 26,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-19",
+          "fee": 26.7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brighton",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "ermedin-demirovic",
+      "name": "Ermedin Demirović",
+      "slug": "ermedin-demirovic",
+      "birthDate": "1998-03-25",
+      "nationality": "Bosnia y Herzegovina",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 22,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-07",
+          "fee": 21,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Augsburgo",
+          "toClubId": "stuttgart"
+        }
+      ]
+    },
+    {
+      "id": "tiago-tomas",
+      "name": "Tiago Tomás",
+      "slug": "tiago-tomas",
+      "birthDate": "2002-06-16",
+      "nationality": "Portugal",
+      "position": "Delantero centro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 19,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-30",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfL Wolfsburgo",
+          "toClubId": "stuttgart"
+        }
+      ]
+    }
+  ]
+}

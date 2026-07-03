@@ -1,5 +1,66 @@
 [
   {
+    "id": "tr25-luisdiaz-bayern",
+    "playerId": "luis-diaz",
+    "fromClubId": "liverpool",
+    "toClubId": "bayern",
+    "transferFee": 70,
+    "marketValueAtTransfer": 75,
+    "previousPurchaseFee": 45,
+    "transferDate": "2025-08-02",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial",
+      "src-fabrizio-romano"
+    ],
+    "notes": "El colombiano deja Anfield tras tres temporadas y media. Mercado de verano 2025."
+  },
+  {
+    "id": "tr25-jobe-dortmund",
+    "playerId": "jobe-bellingham",
+    "fromClubId": "sunderland",
+    "toClubId": "dortmund",
+    "transferFee": 30.5,
+    "marketValueAtTransfer": 25,
+    "previousPurchaseFee": 2,
+    "transferDate": "2025-06-10",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "Sigue los pasos de su hermano Jude en el Westfalenstadion. Mercado de verano 2025."
+  },
+  {
+    "id": "tr25-quansah-leverkusen",
+    "playerId": "jarell-quansah",
+    "fromClubId": "liverpool",
+    "toClubId": "leverkusen",
+    "transferFee": 35,
+    "marketValueAtTransfer": 28,
+    "previousPurchaseFee": null,
+    "transferDate": "2025-06-30",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "El canterano red, vendido con cláusula de recompra. Mercado de verano 2025."
+  },
+  {
+    "id": "tr25-tah-bayern",
+    "playerId": "jonathan-tah",
+    "fromClubId": "leverkusen",
+    "toClubId": "bayern",
+    "transferFee": 0,
+    "marketValueAtTransfer": 30,
+    "previousPurchaseFee": null,
+    "transferDate": "2025-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-club-oficial"
+    ],
+    "notes": "El central llega libre al campeón tras acabar contrato. Mercado de verano 2025."
+  },
+  {
     "id": "tr26-bernardo-madrid",
     "playerId": "bernardo-silva",
     "fromClubId": "manchester-city",
