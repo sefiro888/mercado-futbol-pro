@@ -685,20 +685,21 @@
     "notes": "Apuesta joven brasileña para la banda izquierda. Actualizado a 27/06/2026."
   },
   {
-    "id": "tr-garnacho-valencia",
+    "id": "tr-garnacho-chelsea",
     "playerId": "alejandro-garnacho",
-    "fromClubId": "chelsea",
-    "toClubId": "valencia",
-    "transferFee": 0,
+    "fromClubId": null,
+    "toClubId": "chelsea",
+    "transferFee": 46,
     "marketValueAtTransfer": 45,
     "previousPurchaseFee": null,
-    "transferDate": "2025-07-01",
+    "transferDate": "2025-08-24",
     "status": "confirmado",
     "sources": [
-      "src-as",
-      "src-wikipedia"
+      "src-club-oficial",
+      "src-bbc-sport"
     ],
-    "notes": "Cesión ofensiva al Valencia. Actualizado a 27/06/2026."
+    "notes": "El extremo argentino ficha por 40 M libras tras perder protagonismo con Amorim. Fichaje real 2025.",
+    "fromClubName": "Manchester United"
   },
   {
     "id": "tr-morgan-rogers-city",

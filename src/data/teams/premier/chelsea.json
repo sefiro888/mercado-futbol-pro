@@ -325,6 +325,32 @@
       "contractUntil": "2033-06-30",
       "shirtNumber": 29,
       "status": "cantera"
+    },
+    {
+      "id": "alejandro-garnacho",
+      "name": "Alejandro Garnacho",
+      "slug": "alejandro-garnacho",
+      "birthDate": "2004-07-01",
+      "nationality": "Argentina",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 45,
+      "contractUntil": "2032-06-30",
+      "shirtNumber": null,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-24",
+          "fromClubName": "Manchester United",
+          "toClubId": "chelsea",
+          "fee": 46,
+          "sources": [
+            "src-club-oficial",
+            "src-bbc-sport"
+          ]
+        }
+      ]
     }
   ]
 }

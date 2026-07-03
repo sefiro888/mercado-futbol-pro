@@ -6,6 +6,7 @@ import Icon from '@/components/Icon.jsx'
 import StatCard from '@/components/StatCard.jsx'
 import Crest from '@/components/Crest.jsx'
 import PremiumHeader from '@/components/PremiumHeader.jsx'
+import EconomicReport from '@/components/EconomicReport.jsx'
 import { setPageSeo } from '@/lib/seo.js'
 import { TRANSFER_STATUS } from '@/lib/taxonomy.js'
 import { formatDate, formatMoney } from '@/lib/format.js'
@@ -19,6 +20,9 @@ import {
   getPositions,
   getNationalities,
   getMarketDashboard,
+  getOverpaidSignings,
+  getBargainSignings,
+  getSellingDependencyClubs,
 } from '@/lib/data.js'
 import './Pages.css'
 
@@ -141,6 +145,9 @@ export default function Transfers() {
 
   const allTransfers = useMemo(() => getAllTransfers(), [])
   const dashboard = useMemo(() => getMarketDashboard(), [])
+  const overpaid = useMemo(() => getOverpaidSignings(6), [])
+  const bargains = useMemo(() => getBargainSignings(6), [])
+  const dependency = useMemo(() => getSellingDependencyClubs(6), [])
 
   // Estadísticas globales del mercado de traspasos
   const stats = useMemo(() => {
@@ -263,6 +270,10 @@ export default function Transfers() {
           <BalanceList title="Mejor balance neto" items={dashboard.bestBalances} metric="balance" />
           <RecentDeals deals={dashboard.latest} />
         </div>
+      </section>
+
+      <section className="container section">
+        <EconomicReport overpaid={overpaid} bargains={bargains} dependency={dependency} />
       </section>
 
       <div className="container section">

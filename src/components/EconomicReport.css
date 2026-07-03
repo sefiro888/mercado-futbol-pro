@@ -1,0 +1,19 @@
+.economic-report { padding: 20px 22px 22px; }
+.er-head h2 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0 0 6px;
+  font-size: 1.2rem;
+}
+.er-head p { margin: 0 0 16px; max-width: 780px; }
+
+.er-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+@media (max-width: 980px) {
+  .er-grid-3 { grid-template-columns: 1fr; }
+}
+
+.er-diff.bad { color: var(--danger, #f87171); }
+.er-diff.good { color: var(--brand); }
+.er-ratio { color: var(--gold); }
+.er-empty { color: var(--text-dim); font-size: 0.85rem; padding: 10px 0; border: none !important; }

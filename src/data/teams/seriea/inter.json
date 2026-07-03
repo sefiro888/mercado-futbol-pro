@@ -321,20 +321,6 @@
       "status": "cantera"
     },
     {
-      "id": "giacomo-raspadori",
-      "name": "Giacomo Raspadori",
-      "slug": "giacomo-raspadori",
-      "birthDate": "2000-02-18",
-      "nationality": "Italia",
-      "position": "Delantero centro",
-      "height": 172,
-      "dominantFoot": "Derecho",
-      "marketValue": 25,
-      "contractUntil": "2030-06-30",
-      "shirtNumber": 18,
-      "status": "suplente"
-    },
-    {
       "id": "ivan-provedel",
       "name": "Ivan Provedel",
       "slug": "ivan-provedel",

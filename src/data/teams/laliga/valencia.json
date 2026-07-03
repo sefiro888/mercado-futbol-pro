@@ -207,20 +207,6 @@
       "contractUntil": "2026-06-30",
       "shirtNumber": 7,
       "status": "suplente"
-    },
-    {
-      "id": "alejandro-garnacho",
-      "name": "Alejandro Garnacho",
-      "slug": "alejandro-garnacho",
-      "birthDate": "2004-07-01",
-      "nationality": "Argentina",
-      "position": "Extremo izquierdo",
-      "height": 180,
-      "dominantFoot": "Derecho",
-      "marketValue": 45,
-      "contractUntil": "2027-06-30",
-      "shirtNumber": 17,
-      "status": "titular"
     }
   ]
 }

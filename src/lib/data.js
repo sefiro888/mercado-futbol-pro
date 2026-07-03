@@ -459,6 +459,39 @@ export function getMarketDashboard() {
   }
 }
 
+// Informe de gestion economica: fichajes sobre/bajo valor de mercado y clubes
+// que dependen de la venta de jugadores para cuadrar sus cuentas. Todo se
+// calcula sobre transferFee/marketValueAtTransfer ya presentes en cada
+// traspaso, sin inventar datos nuevos.
+export function getOverpaidSignings(limit = 8) {
+  return transfers()
+    .filter((t) => t.transferFee != null && t.marketValueAtTransfer != null && t.status === 'confirmado')
+    .map((t) => ({ transfer: t, diff: t.transferFee - t.marketValueAtTransfer }))
+    .filter((row) => row.diff > 0)
+    .sort((a, b) => b.diff - a.diff)
+    .slice(0, limit)
+}
+
+export function getBargainSignings(limit = 8) {
+  return transfers()
+    .filter((t) => t.transferFee != null && t.marketValueAtTransfer != null && t.status === 'confirmado')
+    .map((t) => ({ transfer: t, diff: t.marketValueAtTransfer - t.transferFee }))
+    .filter((row) => row.diff > 0)
+    .sort((a, b) => b.diff - a.diff)
+    .slice(0, limit)
+}
+
+// Clubes cuyo balance de mercado depende en gran medida de vender: se mide
+// como el % del valor total de la plantilla que representa lo ingresado por
+// traspasos. Un ratio alto sugiere un modelo de negocio basado en la cantera.
+export function getSellingDependencyClubs(limit = 8) {
+  return getClubMarketBalances()
+    .filter((row) => row.income > 0 && row.club.squadValue > 0)
+    .map((row) => ({ ...row, dependencyRatio: row.income / row.club.squadValue }))
+    .sort((a, b) => b.dependencyRatio - a.dependencyRatio)
+    .slice(0, limit)
+}
+
 // Auditoria agregada de plantillas: tamanos, edad, valor y actividad de mercado.
 // Alimenta las paginas de clubes/jugadores para que el estado de las plantillas
 // quede visible sin repetir logica en componentes.
