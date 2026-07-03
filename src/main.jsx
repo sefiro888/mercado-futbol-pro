@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+// HashRouter: en GitHub Pages no hay servidor que resuelva rutas internas,
+// así que las rutas van tras "#" (p. ej. /#/fichajes). Con esto, F5, enlaces
+// directos y compartir funcionan siempre sin errores 404.
+import { HashRouter } from 'react-router-dom'
 import App from './App.jsx'
 import { initData } from '@/lib/data'
 import './styles/index.css'
@@ -9,9 +12,9 @@ import './styles/football-theme.css'
 function renderApp() {
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </React.StrictMode>,
   )
 }

@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compatibilidad con enlaces antiguos sin "#": /fichajes -> /#/fichajes.
+         Necesario porque GitHub Pages no resuelve rutas de SPA en el servidor. -->
+    <script>
+      (function () {
+        var m = window.location.pathname.match(/^(\/mercado-futbol-pro)?(\/.+)$/)
+        if (m && m[2] && m[2] !== '/' && !window.location.hash) {
+          window.location.replace((m[1] || '') + '/#' + m[2] + window.location.search)
+        }
+      })()
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <!-- Tipografía moderna. Si no hay red, el CSS recurre a fuentes del sistema. -->
