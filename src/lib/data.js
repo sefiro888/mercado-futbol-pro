@@ -18,6 +18,7 @@ import rumoursSeed from '@/data/rumours.json'
 import newsSeed from '@/data/news.json'
 import sourcesSeed from '@/data/sources.json'
 import recordsData from '@/data/records.json'
+import marketValuesData from '@/data/market-values.json'
 import { getSupabaseClient, isSupabaseConfigured } from '@/lib/supabase'
 
 // ---------------------------------------------------------------------------
@@ -42,17 +43,6 @@ function calcAge(birthDate) {
   return age
 }
 
-// Historial de valor de mercado sintético (estimación) si el jugador no trae uno,
-// para que el gráfico de evolución tenga algo coherente que mostrar.
-function synthHistory(value) {
-  if (!value || value <= 0) return []
-  const factors = [0.55, 0.7, 0.85, 0.95, 1]
-  const dates = ['2024-01', '2024-07', '2025-01', '2025-07', '2026-01']
-  return factors.map((f, i) => ({
-    date: dates[i],
-    value: Math.round(value * f * 10) / 10,
-  }))
-}
 
 const round1 = (n) => Math.round(n * 10) / 10
 
@@ -77,7 +67,7 @@ function buildFromTeams() {
         stats: p.stats || {},
         seasonStats: p.seasonStats || [],
         transferHistory: p.transferHistory || [],
-        marketValueHistory: p.marketValueHistory || [],
+        marketValueHistory: marketValuesData[p.slug] || p.marketValueHistory || [],
       }
     })
 
