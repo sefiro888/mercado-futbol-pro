@@ -33,6 +33,7 @@ export const SITE = {
     { to: '/mercado-vivo', label: 'Mercado en vivo' },
     { to: '/once-ideal', label: 'Once ideal' },
     { to: '/rankings', label: 'Rankings' },
+    { to: '/quiz', label: 'Quiz' },
     { to: '/comparador', label: 'Comparador' },
     { to: '/simulador', label: 'Simulador' },
   ],
