@@ -1,0 +1,280 @@
+/* =============================================
+   GlobalSearch — Modal de búsqueda global
+   ============================================= */
+
+.gs-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: clamp(3rem, 10vh, 8rem);
+  animation: gsOverlayIn 0.12s ease;
+}
+
+@keyframes gsOverlayIn {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+
+.gs-panel {
+  width: min(680px, calc(100vw - 2rem));
+  background: var(--bg-card);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+  overflow: hidden;
+  animation: gsPanelIn 0.15s cubic-bezier(0.4,0,0.2,1);
+}
+
+@keyframes gsPanelIn {
+  from { opacity: 0; transform: translateY(-10px) scale(0.98) }
+  to   { opacity: 1; transform: translateY(0) scale(1) }
+}
+
+/* Formulario de búsqueda */
+.gs-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.gs-search-icon {
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.gs-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  font-family: inherit;
+}
+
+.gs-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+.gs-clear {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+
+.gs-clear:hover { color: var(--text-primary); }
+
+.gs-esc {
+  font-size: 0.65rem;
+  padding: 0.2rem 0.45rem;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 5px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-family: inherit;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+/* Dropdown de resultados */
+.gs-drop {
+  max-height: min(520px, 65vh);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.gs-group {
+  padding: 0.5rem 0;
+}
+
+.gs-group + .gs-group {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.gs-group-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  color: var(--text-secondary);
+  padding: 0.5rem 1rem 0.25rem;
+}
+
+.gs-result {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 0.55rem 1rem;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.12s;
+  font-family: inherit;
+}
+
+.gs-result:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+/* Avatar */
+.gs-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.07);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.gs-avatar-club {
+  border-radius: 8px;
+  padding: 4px;
+  background: rgba(255,255,255,0.05);
+}
+
+.gs-avatar-news {
+  border-radius: 8px;
+  color: var(--text-secondary);
+}
+
+.gs-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gs-avatar-initials {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+/* Info del resultado */
+.gs-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.gs-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gs-name-sm {
+  font-size: 0.82rem;
+}
+
+.gs-sub {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gs-value {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* "Ver todos" */
+.gs-more {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  color: var(--accent, #818cf8);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 0.12s;
+}
+
+.gs-more:hover { background: rgba(255,255,255,0.04); }
+
+/* Sin resultados */
+.gs-empty {
+  padding: 2.5rem 1rem;
+  text-align: center;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.gs-empty p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.gs-empty strong {
+  color: var(--text-primary);
+}
+
+.gs-empty-hint {
+  font-size: 0.75rem !important;
+  opacity: 0.7;
+}
+
+/* Ayuda inicial */
+.gs-hints {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 1.25rem;
+  flex-wrap: wrap;
+}
+
+.gs-hint-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+.gs-hint-item span {
+  font-size: 0.85rem;
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 5px;
+  padding: 0.1rem 0.35rem;
+  min-width: 22px;
+  text-align: center;
+}
