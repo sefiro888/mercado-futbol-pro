@@ -1,0 +1,129 @@
+{
+  "club": {
+    "id": "gremio",
+    "name": "Grêmio",
+    "slug": "gremio",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Porto Alegre",
+    "stadium": "Arena do Grêmio",
+    "coach": "Mano Menezes",
+    "founded": 1903,
+    "primaryColor": "#0D80BF"
+  },
+  "players": [
+    {
+      "id": "tiago-volpi",
+      "name": "Tiago Volpi",
+      "slug": "tiago-volpi",
+      "birthDate": "1990-12-08",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "walter-kannemann",
+      "name": "Walter Kannemann",
+      "slug": "walter-kannemann",
+      "birthDate": "1991-03-14",
+      "nationality": "Argentina",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "mathias-villasanti",
+      "name": "Mathías Villasanti",
+      "slug": "mathias-villasanti",
+      "birthDate": "1997-01-24",
+      "nationality": "Paraguay",
+      "position": "Mediocentro defensivo",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 20,
+      "status": "titular"
+    },
+    {
+      "id": "edenilson",
+      "name": "Edenilson",
+      "slug": "edenilson",
+      "birthDate": "1989-12-18",
+      "nationality": "Brasil",
+      "position": "Mediocentro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "suplente"
+    },
+    {
+      "id": "cristian-olivera",
+      "name": "Cristian Olivera",
+      "slug": "cristian-olivera",
+      "birthDate": "2002-01-24",
+      "nationality": "Uruguay",
+      "position": "Extremo izquierdo",
+      "height": 173,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "martin-braithwaite",
+      "name": "Martin Braithwaite",
+      "slug": "martin-braithwaite",
+      "birthDate": "1991-06-05",
+      "nationality": "Dinamarca",
+      "position": "Delantero centro",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 22,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-02-20",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "CD Leganés",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2022-09-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "espanyol"
+        },
+        {
+          "date": "2024-07-26",
+          "fee": 2.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "espanyol",
+          "toClubId": "gremio"
+        }
+      ]
+    }
+  ]
+}

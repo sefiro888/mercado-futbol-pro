@@ -1,0 +1,149 @@
+{
+  "club": {
+    "id": "santos",
+    "name": "Santos FC",
+    "slug": "santos",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Santos",
+    "stadium": "Vila Belmiro",
+    "coach": "Juan Pablo Vojvoda",
+    "founded": 1912,
+    "primaryColor": "#454545"
+  },
+  "players": [
+    {
+      "id": "gabriel-brazao",
+      "name": "Gabriel Brazão",
+      "slug": "gabriel-brazao",
+      "birthDate": "2000-10-05",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 192,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "tomas-rincon",
+      "name": "Tomás Rincón",
+      "slug": "tomas-rincon",
+      "birthDate": "1988-01-13",
+      "nationality": "Venezuela",
+      "position": "Mediocentro defensivo",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 1,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 5,
+      "status": "suplente"
+    },
+    {
+      "id": "neymar",
+      "name": "Neymar",
+      "slug": "neymar",
+      "birthDate": "1992-02-05",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-06-03",
+          "fee": 88,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "santos",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2017-08-03",
+          "fee": 222,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "psg"
+        },
+        {
+          "date": "2023-08-15",
+          "fee": 90,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "psg",
+          "toClubName": "Al-Hilal"
+        },
+        {
+          "date": "2025-01-31",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Al-Hilal",
+          "toClubId": "santos"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-rollheiser",
+      "name": "Benjamín Rollheiser",
+      "slug": "benjamin-rollheiser",
+      "birthDate": "2000-11-01",
+      "nationality": "Argentina",
+      "position": "Mediapunta",
+      "height": 176,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-20",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "benfica",
+          "toClubId": "santos"
+        }
+      ]
+    },
+    {
+      "id": "guilherme",
+      "name": "Guilherme",
+      "slug": "guilherme",
+      "birthDate": "1995-04-05",
+      "nationality": "Brasil",
+      "position": "Extremo izquierdo",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "tiquinho-soares",
+      "name": "Tiquinho Soares",
+      "slug": "tiquinho-soares",
+      "birthDate": "1991-01-17",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    }
+  ]
+}

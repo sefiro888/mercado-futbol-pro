@@ -1,0 +1,154 @@
+{
+  "club": {
+    "id": "sao-paulo",
+    "name": "São Paulo FC",
+    "slug": "sao-paulo",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "São Paulo",
+    "stadium": "MorumBIS",
+    "coach": "Hernán Crespo",
+    "founded": 1930,
+    "primaryColor": "#C8102E"
+  },
+  "players": [
+    {
+      "id": "rafael",
+      "name": "Rafael",
+      "slug": "rafael",
+      "birthDate": "1989-06-30",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 23,
+      "status": "titular"
+    },
+    {
+      "id": "robert-arboleda",
+      "name": "Robert Arboleda",
+      "slug": "robert-arboleda",
+      "birthDate": "1991-10-22",
+      "nationality": "Ecuador",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "alan-franco",
+      "name": "Alan Franco",
+      "slug": "alan-franco",
+      "birthDate": "1996-08-21",
+      "nationality": "Ecuador",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "damian-bobadilla",
+      "name": "Damián Bobadilla",
+      "slug": "damian-bobadilla",
+      "birthDate": "2001-06-05",
+      "nationality": "Paraguay",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 15,
+      "status": "titular"
+    },
+    {
+      "id": "oscar",
+      "name": "Oscar",
+      "slug": "oscar",
+      "birthDate": "1991-09-04",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 179,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-01-01",
+          "fee": 60,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubName": "Shanghai Port"
+        },
+        {
+          "date": "2025-01-02",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Shanghai Port",
+          "toClubId": "sao-paulo"
+        }
+      ]
+    },
+    {
+      "id": "lucas-moura",
+      "name": "Lucas Moura",
+      "slug": "lucas-moura",
+      "birthDate": "1992-08-13",
+      "nationality": "Brasil",
+      "position": "Extremo derecho",
+      "height": 172,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-01-01",
+          "fee": 40,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sao-paulo",
+          "toClubId": "psg"
+        },
+        {
+          "date": "2018-01-31",
+          "fee": 28,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "psg",
+          "toClubId": "tottenham"
+        }
+      ]
+    },
+    {
+      "id": "luciano",
+      "name": "Luciano",
+      "slug": "luciano",
+      "birthDate": "1993-05-18",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "club": {
+    "id": "corinthians",
+    "name": "Corinthians",
+    "slug": "corinthians",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "São Paulo",
+    "stadium": "Neo Química Arena",
+    "coach": "Dorival Júnior",
+    "founded": 1910,
+    "primaryColor": "#3D3D3D"
+  },
+  "players": [
+    {
+      "id": "hugo-souza",
+      "name": "Hugo Souza",
+      "slug": "hugo-souza",
+      "birthDate": "1999-01-31",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 199,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "matheuzinho",
+      "name": "Matheuzinho",
+      "slug": "matheuzinho",
+      "birthDate": "2000-09-08",
+      "nationality": "Brasil",
+      "position": "Lateral derecho",
+      "height": 172,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "rodrigo-garro",
+      "name": "Rodrigo Garro",
+      "slug": "rodrigo-garro",
+      "birthDate": "1998-01-04",
+      "nationality": "Argentina",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "memphis-depay",
+      "name": "Memphis Depay",
+      "slug": "memphis-depay",
+      "birthDate": "1994-02-13",
+      "nationality": "Países Bajos",
+      "position": "Delantero centro",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2015-06-11",
+          "fee": 34,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2017-01-20",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-united",
+          "toClubId": "lyon"
+        },
+        {
+          "date": "2023-01-20",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "atletico-madrid"
+        },
+        {
+          "date": "2024-09-09",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Agente libre",
+          "toClubId": "corinthians"
+        }
+      ]
+    },
+    {
+      "id": "yuri-alberto",
+      "name": "Yuri Alberto",
+      "slug": "yuri-alberto",
+      "birthDate": "2001-03-18",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    }
+  ]
+}

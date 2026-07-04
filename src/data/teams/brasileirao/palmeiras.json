@@ -1,0 +1,173 @@
+{
+  "club": {
+    "id": "palmeiras",
+    "name": "Palmeiras",
+    "slug": "palmeiras",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "São Paulo",
+    "stadium": "Allianz Parque",
+    "coach": "Abel Ferreira",
+    "founded": 1914,
+    "primaryColor": "#006437"
+  },
+  "players": [
+    {
+      "id": "weverton",
+      "name": "Weverton",
+      "slug": "weverton",
+      "birthDate": "1987-12-13",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    },
+    {
+      "id": "gustavo-gomez",
+      "name": "Gustavo Gómez",
+      "slug": "gustavo-gomez",
+      "birthDate": "1993-05-06",
+      "nationality": "Paraguay",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 15,
+      "status": "titular"
+    },
+    {
+      "id": "joaquin-piquerez",
+      "name": "Joaquín Piquerez",
+      "slug": "joaquin-piquerez",
+      "birthDate": "1998-08-24",
+      "nationality": "Uruguay",
+      "position": "Lateral izquierdo",
+      "height": 179,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 22,
+      "status": "titular"
+    },
+    {
+      "id": "anibal-moreno",
+      "name": "Aníbal Moreno",
+      "slug": "anibal-moreno",
+      "birthDate": "1999-04-13",
+      "nationality": "Argentina",
+      "position": "Mediocentro defensivo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "raphael-veiga",
+      "name": "Raphael Veiga",
+      "slug": "raphael-veiga",
+      "birthDate": "1995-06-19",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 176,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 23,
+      "status": "titular"
+    },
+    {
+      "id": "mauricio",
+      "name": "Maurício",
+      "slug": "mauricio",
+      "birthDate": "2001-06-13",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 18,
+      "status": "titular"
+    },
+    {
+      "id": "paulinho",
+      "name": "Paulinho",
+      "slug": "paulinho",
+      "birthDate": "2000-07-15",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-10",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Atlético Mineiro",
+          "toClubId": "palmeiras"
+        }
+      ]
+    },
+    {
+      "id": "flaco-lopez",
+      "name": "Flaco López",
+      "slug": "flaco-lopez",
+      "birthDate": "2001-01-19",
+      "nationality": "Argentina",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 42,
+      "status": "titular"
+    },
+    {
+      "id": "vitor-roque",
+      "name": "Vitor Roque",
+      "slug": "vitor-roque",
+      "birthDate": "2005-02-28",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 172,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-01",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Athletico Paranaense",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2025-02-28",
+          "fee": 25.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "palmeiras"
+        }
+      ]
+    }
+  ]
+}

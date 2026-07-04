@@ -1,0 +1,212 @@
+{
+  "club": {
+    "id": "flamengo",
+    "name": "Flamengo",
+    "slug": "flamengo",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Río de Janeiro",
+    "stadium": "Maracanã",
+    "coach": "Filipe Luís",
+    "founded": 1895,
+    "primaryColor": "#C52613"
+  },
+  "players": [
+    {
+      "id": "agustin-rossi",
+      "name": "Agustín Rossi",
+      "slug": "agustin-rossi",
+      "birthDate": "1995-08-21",
+      "nationality": "Argentina",
+      "position": "Portero",
+      "height": 195,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "leo-ortiz",
+      "name": "Léo Ortiz",
+      "slug": "leo-ortiz",
+      "birthDate": "1996-01-06",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "leo-pereira",
+      "name": "Léo Pereira",
+      "slug": "leo-pereira",
+      "birthDate": "1996-01-31",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "ayrton-lucas",
+      "name": "Ayrton Lucas",
+      "slug": "ayrton-lucas",
+      "birthDate": "1997-06-19",
+      "nationality": "Brasil",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "erick-pulgar",
+      "name": "Erick Pulgar",
+      "slug": "erick-pulgar",
+      "birthDate": "1994-01-15",
+      "nationality": "Chile",
+      "position": "Mediocentro defensivo",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "jorginho",
+      "name": "Jorginho",
+      "slug": "jorginho",
+      "birthDate": "1991-12-20",
+      "nationality": "Italia",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 21,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-01-31",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "arsenal"
+        },
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "flamengo"
+        }
+      ]
+    },
+    {
+      "id": "nicolas-de-la-cruz",
+      "name": "Nicolás De La Cruz",
+      "slug": "nicolas-de-la-cruz",
+      "birthDate": "1997-06-01",
+      "nationality": "Uruguay",
+      "position": "Mediocentro",
+      "height": 168,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 18,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-10",
+          "fee": 16,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "River Plate",
+          "toClubId": "flamengo"
+        }
+      ]
+    },
+    {
+      "id": "giorgian-de-arrascaeta",
+      "name": "Giorgian de Arrascaeta",
+      "slug": "giorgian-de-arrascaeta",
+      "birthDate": "1994-06-01",
+      "nationality": "Uruguay",
+      "position": "Mediapunta",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "samuel-lino",
+      "name": "Samuel Lino",
+      "slug": "samuel-lino",
+      "birthDate": "1999-12-23",
+      "nationality": "Brasil",
+      "position": "Extremo izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 18,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 26,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-18",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atletico-madrid",
+          "toClubId": "flamengo"
+        }
+      ]
+    },
+    {
+      "id": "pedro",
+      "name": "Pedro",
+      "slug": "pedro",
+      "birthDate": "1997-06-20",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    },
+    {
+      "id": "bruno-henrique",
+      "name": "Bruno Henrique",
+      "slug": "bruno-henrique",
+      "birthDate": "1990-12-30",
+      "nationality": "Brasil",
+      "position": "Extremo izquierdo",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 27,
+      "status": "suplente"
+    }
+  ]
+}

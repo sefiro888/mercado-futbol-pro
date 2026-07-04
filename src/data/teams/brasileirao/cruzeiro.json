@@ -1,0 +1,153 @@
+{
+  "club": {
+    "id": "cruzeiro",
+    "name": "Cruzeiro",
+    "slug": "cruzeiro",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Belo Horizonte",
+    "stadium": "Mineirão",
+    "coach": "Leonardo Jardim",
+    "founded": 1921,
+    "primaryColor": "#003DA5"
+  },
+  "players": [
+    {
+      "id": "cassio",
+      "name": "Cássio",
+      "slug": "cassio",
+      "birthDate": "1987-06-06",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 195,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "fabricio-bruno",
+      "name": "Fabrício Bruno",
+      "slug": "fabricio-bruno",
+      "birthDate": "1996-02-12",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-20",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "flamengo",
+          "toClubId": "cruzeiro"
+        }
+      ]
+    },
+    {
+      "id": "lucas-romero",
+      "name": "Lucas Romero",
+      "slug": "lucas-romero",
+      "birthDate": "1994-04-18",
+      "nationality": "Argentina",
+      "position": "Mediocentro defensivo",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "matheus-pereira",
+      "name": "Matheus Pereira",
+      "slug": "matheus-pereira",
+      "birthDate": "1996-05-05",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-15",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Al-Hilal",
+          "toClubId": "cruzeiro"
+        }
+      ]
+    },
+    {
+      "id": "kaio-jorge",
+      "name": "Kaio Jorge",
+      "slug": "kaio-jorge",
+      "birthDate": "2002-01-24",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 19,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-19",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "santos",
+          "toClubId": "juventus"
+        },
+        {
+          "date": "2024-07-05",
+          "fee": 7.2,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "cruzeiro"
+        }
+      ]
+    },
+    {
+      "id": "gabriel-barbosa",
+      "name": "Gabriel Barbosa",
+      "slug": "gabriel-barbosa",
+      "birthDate": "1996-08-30",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "flamengo",
+          "toClubId": "cruzeiro"
+        }
+      ]
+    }
+  ]
+}

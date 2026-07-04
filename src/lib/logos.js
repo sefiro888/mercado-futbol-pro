@@ -118,6 +118,19 @@ const TEAM_IDS = {
   porto: 212,
   sporting: 228,
   braga: 217,
+  // Brasileirão
+  flamengo: 127,
+  palmeiras: 121,
+  corinthians: 131,
+  'sao-paulo': 126,
+  fluminense: 124,
+  botafogo: 120,
+  santos: 128,
+  gremio: 130,
+  internacional: 119,
+  cruzeiro: 135,
+  'atletico-mineiro': 1062,
+  vasco: 133,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */

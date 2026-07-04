@@ -1,0 +1,129 @@
+{
+  "club": {
+    "id": "fluminense",
+    "name": "Fluminense",
+    "slug": "fluminense",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Río de Janeiro",
+    "stadium": "Maracanã",
+    "coach": "Luis Zubeldía",
+    "founded": 1902,
+    "primaryColor": "#7A1230"
+  },
+  "players": [
+    {
+      "id": "fabio",
+      "name": "Fábio",
+      "slug": "fabio",
+      "birthDate": "1980-09-30",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 1,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "thiago-silva",
+      "name": "Thiago Silva",
+      "slug": "thiago-silva",
+      "birthDate": "1984-09-22",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2012-07-14",
+          "fee": 42,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "milan",
+          "toClubId": "psg"
+        },
+        {
+          "date": "2020-08-28",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "psg",
+          "toClubId": "chelsea"
+        },
+        {
+          "date": "2024-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "fluminense"
+        }
+      ]
+    },
+    {
+      "id": "rene",
+      "name": "Renê",
+      "slug": "rene",
+      "birthDate": "1992-09-14",
+      "nationality": "Brasil",
+      "position": "Lateral izquierdo",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "martinelli",
+      "name": "Martinelli",
+      "slug": "martinelli",
+      "birthDate": "2001-07-01",
+      "nationality": "Brasil",
+      "position": "Mediocentro defensivo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "paulo-henrique-ganso",
+      "name": "Paulo Henrique Ganso",
+      "slug": "paulo-henrique-ganso",
+      "birthDate": "1989-10-12",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 185,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "suplente"
+    },
+    {
+      "id": "german-cano",
+      "name": "Germán Cano",
+      "slug": "german-cano",
+      "birthDate": "1988-01-02",
+      "nationality": "Argentina",
+      "position": "Delantero centro",
+      "height": 176,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 14,
+      "status": "titular"
+    }
+  ]
+}

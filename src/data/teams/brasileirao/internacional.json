@@ -1,0 +1,100 @@
+{
+  "club": {
+    "id": "internacional",
+    "name": "Internacional",
+    "slug": "internacional",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Porto Alegre",
+    "stadium": "Estádio Beira-Rio",
+    "coach": "Ramón Díaz",
+    "founded": 1909,
+    "primaryColor": "#E5050F"
+  },
+  "players": [
+    {
+      "id": "sergio-rochet",
+      "name": "Sergio Rochet",
+      "slug": "sergio-rochet",
+      "birthDate": "1993-01-23",
+      "nationality": "Uruguay",
+      "position": "Portero",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "vitao",
+      "name": "Vitão",
+      "slug": "vitao",
+      "birthDate": "2000-02-23",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "alexandro-bernabei",
+      "name": "Alexandro Bernabei",
+      "slug": "alexandro-bernabei",
+      "birthDate": "2000-09-06",
+      "nationality": "Argentina",
+      "position": "Lateral izquierdo",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 26,
+      "status": "titular"
+    },
+    {
+      "id": "alan-patrick",
+      "name": "Alan Patrick",
+      "slug": "alan-patrick",
+      "birthDate": "1991-05-13",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "rafael-santos-borre",
+      "name": "Rafael Santos Borré",
+      "slug": "rafael-santos-borre",
+      "birthDate": "1995-09-15",
+      "nationality": "Colombia",
+      "position": "Delantero centro",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 19,
+      "status": "titular"
+    },
+    {
+      "id": "enner-valencia",
+      "name": "Enner Valencia",
+      "slug": "enner-valencia",
+      "birthDate": "1989-11-04",
+      "nationality": "Ecuador",
+      "position": "Delantero centro",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 13,
+      "status": "suplente"
+    }
+  ]
+}

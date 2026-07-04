@@ -1,0 +1,152 @@
+{
+  "club": {
+    "id": "vasco",
+    "name": "Vasco da Gama",
+    "slug": "vasco",
+    "country": "Brasil",
+    "league": "Brasileirão",
+    "city": "Río de Janeiro",
+    "stadium": "São Januário",
+    "coach": "Fernando Diniz",
+    "founded": 1898,
+    "primaryColor": "#454545"
+  },
+  "players": [
+    {
+      "id": "leo-jardim",
+      "name": "Léo Jardim",
+      "slug": "leo-jardim",
+      "birthDate": "1995-03-20",
+      "nationality": "Brasil",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "joao-victor",
+      "name": "João Victor",
+      "slug": "joao-victor",
+      "birthDate": "1998-07-17",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "lucas-piton",
+      "name": "Lucas Piton",
+      "slug": "lucas-piton",
+      "birthDate": "2000-10-09",
+      "nationality": "Brasil",
+      "position": "Lateral izquierdo",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "hugo-moura",
+      "name": "Hugo Moura",
+      "slug": "hugo-moura",
+      "birthDate": "1998-02-13",
+      "nationality": "Brasil",
+      "position": "Mediocentro defensivo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 35,
+      "status": "titular"
+    },
+    {
+      "id": "philippe-coutinho",
+      "name": "Philippe Coutinho",
+      "slug": "philippe-coutinho",
+      "birthDate": "1992-06-12",
+      "nationality": "Brasil",
+      "position": "Mediapunta",
+      "height": 172,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2013-01-30",
+          "fee": 13,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "liverpool"
+        },
+        {
+          "date": "2018-01-06",
+          "fee": 135,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "liverpool",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2022-05-12",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "aston-villa"
+        },
+        {
+          "date": "2025-07-05",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "aston-villa",
+          "toClubId": "vasco"
+        }
+      ]
+    },
+    {
+      "id": "rayan",
+      "name": "Rayan",
+      "slug": "rayan",
+      "birthDate": "2006-05-08",
+      "nationality": "Brasil",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 77,
+      "status": "titular"
+    },
+    {
+      "id": "pablo-vegetti",
+      "name": "Pablo Vegetti",
+      "slug": "pablo-vegetti",
+      "birthDate": "1988-10-13",
+      "nationality": "Argentina",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 99,
+      "status": "titular"
+    }
+  ]
+}
