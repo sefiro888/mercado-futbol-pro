@@ -23,6 +23,7 @@ import {
   getNewsByClub,
   getClubTopTransfers,
 } from '@/lib/data.js'
+import ClubHonors, { HonorsStrip } from './ClubHonors.jsx'
 import './Profile.css'
 
 // Badge de posición coloreado por demarcación.
@@ -112,6 +113,7 @@ const TABS = [
   { id: 'plantilla', label: 'Plantilla' },
   { id: 'once', label: 'Once ideal' },
   { id: 'mercado', label: 'Mercado' },
+  { id: 'palmares', label: 'Palmarés' },
   { id: 'actualidad', label: 'Actualidad' },
 ]
 
@@ -143,6 +145,7 @@ export default function ClubProfile({ club }) {
             <div className="hero-sub">
               <Flag country={club.country} withName /> · <Icon name="stadium" size={15} /> {club.stadium} · <Icon name="coach" size={15} /> {club.coach}
             </div>
+            <HonorsStrip clubId={club.id} />
           </div>
         </div>
       </header>
@@ -217,6 +220,13 @@ export default function ClubProfile({ club }) {
               </section>
             )}
           </>
+        )}
+
+        {tab === 'palmares' && (
+          <section className="profile-section">
+            <div className="section-head"><h2>Palmarés histórico</h2></div>
+            <ClubHonors clubId={club.id} />
+          </section>
         )}
 
         {tab === 'actualidad' && (
