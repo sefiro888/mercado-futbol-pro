@@ -1,0 +1,256 @@
+{
+  "club": {
+    "id": "porto",
+    "name": "FC Porto",
+    "slug": "porto",
+    "country": "Portugal",
+    "league": "Liga Portugal",
+    "city": "Oporto",
+    "stadium": "Estádio do Dragão",
+    "coach": "Francesco Farioli",
+    "founded": 1893,
+    "primaryColor": "#003E7E"
+  },
+  "players": [
+    {
+      "id": "diogo-costa",
+      "name": "Diogo Costa",
+      "slug": "diogo-costa",
+      "birthDate": "1999-09-19",
+      "nationality": "Portugal",
+      "position": "Portero",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 40,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 99,
+      "status": "titular"
+    },
+    {
+      "id": "alberto-costa",
+      "name": "Alberto Costa",
+      "slug": "alberto-costa",
+      "birthDate": "2003-11-26",
+      "nationality": "Portugal",
+      "position": "Lateral derecho",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-14",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "nehuen-perez",
+      "name": "Nehuén Pérez",
+      "slug": "nehuen-perez",
+      "birthDate": "2000-06-24",
+      "nationality": "Argentina",
+      "position": "Defensa central",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 25,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-30",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "udinese",
+          "toClubId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "jan-bednarek",
+      "name": "Jan Bednarek",
+      "slug": "jan-bednarek",
+      "birthDate": "1996-04-12",
+      "nationality": "Polonia",
+      "position": "Defensa central",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-04",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Southampton",
+          "toClubId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "francisco-moura",
+      "name": "Francisco Moura",
+      "slug": "francisco-moura",
+      "birthDate": "1999-08-08",
+      "nationality": "Portugal",
+      "position": "Lateral izquierdo",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "alan-varela",
+      "name": "Alan Varela",
+      "slug": "alan-varela",
+      "birthDate": "2001-07-04",
+      "nationality": "Argentina",
+      "position": "Mediocentro defensivo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-25",
+          "fee": 8.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Boca Juniors",
+          "toClubId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "victor-froholdt",
+      "name": "Victor Froholdt",
+      "slug": "victor-froholdt",
+      "birthDate": "2006-03-06",
+      "nationality": "Dinamarca",
+      "position": "Mediocentro",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-10",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Copenhague",
+          "toClubId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "gabri-veiga",
+      "name": "Gabri Veiga",
+      "slug": "gabri-veiga",
+      "birthDate": "2002-05-27",
+      "nationality": "España",
+      "position": "Mediocentro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 36,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "celta-vigo",
+          "toClubName": "Al-Ahli"
+        },
+        {
+          "date": "2025-08-09",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Al-Ahli",
+          "toClubId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "pepe",
+      "name": "Pepê",
+      "slug": "pepe",
+      "birthDate": "1997-02-24",
+      "nationality": "Brasil",
+      "position": "Extremo derecho",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 11,
+      "status": "titular"
+    },
+    {
+      "id": "rodrigo-mora",
+      "name": "Rodrigo Mora",
+      "slug": "rodrigo-mora",
+      "birthDate": "2007-05-05",
+      "nationality": "Portugal",
+      "position": "Mediapunta",
+      "height": 170,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 86,
+      "status": "titular"
+    },
+    {
+      "id": "samu-aghehowa",
+      "name": "Samu Aghehowa",
+      "slug": "samu-aghehowa",
+      "birthDate": "2004-05-31",
+      "nationality": "España",
+      "position": "Delantero centro",
+      "height": 193,
+      "dominantFoot": "Derecho",
+      "marketValue": 40,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-29",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atletico-madrid",
+          "toClubId": "porto"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "club": {
+    "id": "braga",
+    "name": "SC Braga",
+    "slug": "braga",
+    "country": "Portugal",
+    "league": "Liga Portugal",
+    "city": "Braga",
+    "stadium": "Estádio Municipal de Braga",
+    "coach": "Carlos Vicens",
+    "founded": 1921,
+    "primaryColor": "#B81F2D"
+  },
+  "players": [
+    {
+      "id": "lukas-hornicek",
+      "name": "Lukas Hornicek",
+      "slug": "lukas-hornicek",
+      "birthDate": "2002-08-12",
+      "nationality": "Chequia",
+      "position": "Portero",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "victor-gomez",
+      "name": "Víctor Gómez",
+      "slug": "victor-gomez",
+      "birthDate": "2000-04-01",
+      "nationality": "España",
+      "position": "Lateral derecho",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-05",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "espanyol",
+          "toClubId": "braga"
+        }
+      ]
+    },
+    {
+      "id": "sikou-niakate",
+      "name": "Sikou Niakaté",
+      "slug": "sikou-niakate",
+      "birthDate": "1999-05-10",
+      "nationality": "Malí",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "joao-moutinho",
+      "name": "João Moutinho",
+      "slug": "joao-moutinho",
+      "birthDate": "1986-09-08",
+      "nationality": "Portugal",
+      "position": "Mediocentro",
+      "height": 170,
+      "dominantFoot": "Derecho",
+      "marketValue": 1,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-07-06",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "wolves",
+          "toClubId": "braga"
+        }
+      ]
+    },
+    {
+      "id": "vitor-carvalho",
+      "name": "Vitor Carvalho",
+      "slug": "vitor-carvalho",
+      "birthDate": "1997-05-13",
+      "nationality": "Brasil",
+      "position": "Mediocentro defensivo",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "ricardo-horta",
+      "name": "Ricardo Horta",
+      "slug": "ricardo-horta",
+      "birthDate": "1994-09-15",
+      "nationality": "Portugal",
+      "position": "Extremo izquierdo",
+      "height": 173,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    },
+    {
+      "id": "gabri-martinez",
+      "name": "Gabri Martínez",
+      "slug": "gabri-martinez",
+      "birthDate": "2001-06-10",
+      "nationality": "España",
+      "position": "Extremo izquierdo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "pau-victor",
+      "name": "Pau Víctor",
+      "slug": "pau-victor",
+      "birthDate": "2001-11-26",
+      "nationality": "España",
+      "position": "Delantero centro",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 2.7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "girona",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2025-08-04",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "braga"
+        }
+      ]
+    },
+    {
+      "id": "fran-navarro",
+      "name": "Fran Navarro",
+      "slug": "fran-navarro",
+      "birthDate": "1998-02-03",
+      "nationality": "España",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 19,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-07-05",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Gil Vicente",
+          "toClubId": "porto"
+        },
+        {
+          "date": "2025-01-15",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "porto",
+          "toClubId": "braga"
+        }
+      ]
+    }
+  ]
+}

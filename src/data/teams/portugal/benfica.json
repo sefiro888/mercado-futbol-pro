@@ -1,0 +1,244 @@
+{
+  "club": {
+    "id": "benfica",
+    "name": "SL Benfica",
+    "slug": "benfica",
+    "country": "Portugal",
+    "league": "Liga Portugal",
+    "city": "Lisboa",
+    "stadium": "Estádio da Luz",
+    "coach": "José Mourinho",
+    "founded": 1904,
+    "primaryColor": "#E20613"
+  },
+  "players": [
+    {
+      "id": "anatoliy-trubin",
+      "name": "Anatoliy Trubin",
+      "slug": "anatoliy-trubin",
+      "birthDate": "2001-08-01",
+      "nationality": "Ucrania",
+      "position": "Portero",
+      "height": 199,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-10",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Shakhtar Donetsk",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "nicolas-otamendi",
+      "name": "Nicolás Otamendi",
+      "slug": "nicolas-otamendi",
+      "birthDate": "1988-02-12",
+      "nationality": "Argentina",
+      "position": "Defensa central",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 30,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-10-05",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "antonio-silva",
+      "name": "António Silva",
+      "slug": "antonio-silva",
+      "birthDate": "2003-10-31",
+      "nationality": "Portugal",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "fredrik-aursnes",
+      "name": "Fredrik Aursnes",
+      "slug": "fredrik-aursnes",
+      "birthDate": "1995-12-10",
+      "nationality": "Noruega",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "leandro-barreiro",
+      "name": "Leandro Barreiro",
+      "slug": "leandro-barreiro",
+      "birthDate": "2000-01-03",
+      "nationality": "Luxemburgo",
+      "position": "Mediocentro",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 61,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Mainz 05",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "orkun-kokcu",
+      "name": "Orkun Kökçü",
+      "slug": "orkun-kokcu",
+      "birthDate": "2001-12-29",
+      "nationality": "Turquía",
+      "position": "Mediocentro",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Feyenoord",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "richard-rios",
+      "name": "Richard Ríos",
+      "slug": "richard-rios",
+      "birthDate": "2000-06-02",
+      "nationality": "Colombia",
+      "position": "Mediocentro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 18,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-25",
+          "fee": 27,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Palmeiras",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "georgiy-sudakov",
+      "name": "Georgiy Sudakov",
+      "slug": "georgiy-sudakov",
+      "birthDate": "2002-09-01",
+      "nationality": "Ucrania",
+      "position": "Mediapunta",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 20,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-09-01",
+          "fee": 27,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Shakhtar Donetsk",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "vangelis-pavlidis",
+      "name": "Vangelis Pavlidis",
+      "slug": "vangelis-pavlidis",
+      "birthDate": "1998-11-21",
+      "nationality": "Grecia",
+      "position": "Delantero centro",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 14,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-08",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "AZ Alkmaar",
+          "toClubId": "benfica"
+        }
+      ]
+    },
+    {
+      "id": "franjo-ivanovic",
+      "name": "Franjo Ivanović",
+      "slug": "franjo-ivanovic",
+      "birthDate": "2003-09-24",
+      "nationality": "Croacia",
+      "position": "Delantero centro",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 22,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-14",
+          "fee": 23,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Union Saint-Gilloise",
+          "toClubId": "benfica"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "club": {
+    "id": "sporting",
+    "name": "Sporting CP",
+    "slug": "sporting",
+    "country": "Portugal",
+    "league": "Liga Portugal",
+    "city": "Lisboa",
+    "stadium": "Estádio José Alvalade",
+    "coach": "Rui Borges",
+    "founded": 1906,
+    "primaryColor": "#008057"
+  },
+  "players": [
+    {
+      "id": "rui-silva",
+      "name": "Rui Silva",
+      "slug": "rui-silva",
+      "birthDate": "1994-02-07",
+      "nationality": "Portugal",
+      "position": "Portero",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "sporting"
+        }
+      ]
+    },
+    {
+      "id": "ousmane-diomande",
+      "name": "Ousmane Diomande",
+      "slug": "ousmane-diomande",
+      "birthDate": "2003-12-04",
+      "nationality": "Costa de Marfil",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 26,
+      "status": "titular"
+    },
+    {
+      "id": "goncalo-inacio",
+      "name": "Gonçalo Inácio",
+      "slug": "goncalo-inacio",
+      "birthDate": "2001-08-25",
+      "nationality": "Portugal",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 35,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 25,
+      "status": "titular"
+    },
+    {
+      "id": "eduardo-quaresma",
+      "name": "Eduardo Quaresma",
+      "slug": "eduardo-quaresma",
+      "birthDate": "2002-03-02",
+      "nationality": "Portugal",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 72,
+      "status": "titular"
+    },
+    {
+      "id": "maximiliano-araujo",
+      "name": "Maximiliano Araújo",
+      "slug": "maximiliano-araujo",
+      "birthDate": "2000-02-15",
+      "nationality": "Uruguay",
+      "position": "Extremo izquierdo",
+      "height": 179,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 21,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-14",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Toluca",
+          "toClubId": "sporting"
+        }
+      ]
+    },
+    {
+      "id": "morten-hjulmand",
+      "name": "Morten Hjulmand",
+      "slug": "morten-hjulmand",
+      "birthDate": "1999-06-25",
+      "nationality": "Dinamarca",
+      "position": "Mediocentro defensivo",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 42,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-19",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lecce",
+          "toClubId": "sporting"
+        }
+      ]
+    },
+    {
+      "id": "pedro-goncalves",
+      "name": "Pedro Gonçalves",
+      "slug": "pedro-goncalves",
+      "birthDate": "1998-06-28",
+      "nationality": "Portugal",
+      "position": "Mediapunta",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "francisco-trincao",
+      "name": "Francisco Trincão",
+      "slug": "francisco-trincao",
+      "birthDate": "1999-12-29",
+      "nationality": "Portugal",
+      "position": "Extremo derecho",
+      "height": 184,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 25,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 17,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2020-07-01",
+          "fee": 31,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "SC Braga",
+          "toClubId": "barcelona"
+        },
+        {
+          "date": "2024-07-10",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "barcelona",
+          "toClubId": "sporting"
+        }
+      ]
+    },
+    {
+      "id": "fotis-ioannidis",
+      "name": "Fotis Ioannidis",
+      "slug": "fotis-ioannidis",
+      "birthDate": "2000-01-10",
+      "nationality": "Grecia",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-28",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Panathinaikos",
+          "toClubId": "sporting"
+        }
+      ]
+    },
+    {
+      "id": "luis-suarez",
+      "name": "Luis Suárez",
+      "slug": "luis-suarez",
+      "birthDate": "1997-12-02",
+      "nationality": "Colombia",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-12",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "UD Almería",
+          "toClubId": "sporting"
+        }
+      ]
+    }
+  ]
+}

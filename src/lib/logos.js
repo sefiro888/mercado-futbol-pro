@@ -113,6 +113,11 @@ const TEAM_IDS = {
   metz: 112,
   lorient: 97,
   'paris-fc': 114,
+  // Liga Portugal
+  benfica: 211,
+  porto: 212,
+  sporting: 228,
+  braga: 217,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */
