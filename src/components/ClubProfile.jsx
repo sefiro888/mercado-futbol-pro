@@ -24,6 +24,7 @@ import {
   getClubTopTransfers,
 } from '@/lib/data.js'
 import ClubHonors, { HonorsStrip } from './ClubHonors.jsx'
+import CoachHistory from './CoachHistory.jsx'
 import './Profile.css'
 
 // Badge de posición coloreado por demarcación.
@@ -223,10 +224,16 @@ export default function ClubProfile({ club }) {
         )}
 
         {tab === 'palmares' && (
-          <section className="profile-section">
-            <div className="section-head"><h2>Palmarés histórico</h2></div>
-            <ClubHonors clubId={club.id} />
-          </section>
+          <>
+            <section className="profile-section">
+              <div className="section-head"><h2>Palmarés histórico</h2></div>
+              <ClubHonors clubId={club.id} />
+            </section>
+            <section className="profile-section">
+              <div className="section-head"><h2>Historial de entrenadores</h2></div>
+              <CoachHistory clubId={club.id} />
+            </section>
+          </>
         )}
 
         {tab === 'actualidad' && (
