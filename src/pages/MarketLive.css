@@ -1,0 +1,324 @@
+/* =============================================
+   MarketLive — Mercado en vivo
+   ============================================= */
+
+.market-live {
+  max-width: 860px;
+}
+
+.ml-hero {
+  margin-bottom: 2rem;
+}
+
+.ml-hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin: 0.2rem 0 0.5rem;
+}
+
+.ml-sub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Cuenta atrás */
+.ml-countdown {
+  margin-bottom: 1.5rem;
+}
+
+/* Stats rápidas */
+.ml-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.ml-stat {
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: center;
+}
+
+.ml-stat-val {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--brand, #22c55e);
+  letter-spacing: -0.5px;
+}
+
+.ml-stat-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* Filtros */
+.ml-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.chip {
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.chip:hover {
+  background: rgba(255,255,255,0.08);
+  color: var(--text-primary);
+}
+
+.chip-active {
+  background: color-mix(in srgb, var(--brand, #22c55e) 15%, transparent);
+  border-color: color-mix(in srgb, var(--brand, #22c55e) 50%, transparent);
+  color: var(--brand, #22c55e);
+}
+
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tl-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.tl-date-label {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  position: relative;
+}
+
+.tl-date-label span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  background: var(--bg-page, #0b0f17);
+  padding-right: 0.75rem;
+  position: relative;
+  z-index: 1;
+}
+
+.tl-date-label::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: rgba(255,255,255,0.07);
+}
+
+/* Entradas de la timeline */
+.tl-entries {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-left: 1.5rem;
+  border-left: 2px solid rgba(255,255,255,0.07);
+  position: relative;
+}
+
+.tl-entry {
+  position: relative;
+  padding: 0 0 0.75rem 1.25rem;
+}
+
+.tl-dot {
+  position: absolute;
+  left: -5px;
+  top: 1rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--brand, #22c55e);
+  box-shadow: 0 0 6px var(--brand, #22c55e);
+}
+
+.tl-card {
+  display: grid;
+  grid-template-columns: 180px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.tl-card:hover {
+  border-color: rgba(255,255,255,0.14);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+/* Jugador */
+.tl-player {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.tl-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.tl-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tl-photo-init {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.tl-player-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.tl-player-name {
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-decoration: none;
+}
+
+.tl-player-name:hover { text-decoration: underline; }
+
+.tl-player-pos {
+  font-size: 0.68rem;
+  color: var(--text-secondary);
+}
+
+/* Mini escudo inline */
+.mc-wrap {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.mc-img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.mc-letter {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* Clubes con flecha */
+.tl-clubs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tl-club {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  transition: color 0.15s;
+  min-width: 0;
+}
+
+.tl-club:hover { color: var(--text-primary); }
+
+.tl-club-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 80px;
+}
+
+.tl-arrow {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* Fee badge */
+.tl-fee {
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.fee-big  { background: rgba(251,191,36,0.15); color: #fbbf24; border: 1px solid rgba(251,191,36,0.3); }
+.fee-mid  { background: rgba(129,140,248,0.15); color: #818cf8; border: 1px solid rgba(129,140,248,0.3); }
+.fee-low  { background: rgba(148,163,184,0.1); color: #94a3b8; border: 1px solid rgba(148,163,184,0.2); }
+.fee-free { background: rgba(74,222,128,0.1); color: #4ade80; border: 1px solid rgba(74,222,128,0.25); }
+
+@media (max-width: 640px) {
+  .ml-stats { grid-template-columns: repeat(2, 1fr); }
+
+  .tl-card {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 0.5rem;
+  }
+
+  .tl-player { grid-column: 1; }
+  .tl-fee    { grid-column: 2; grid-row: 1; }
+  .tl-clubs  { grid-column: 1 / -1; }
+  .tl-club-name { max-width: 100px; }
+}
