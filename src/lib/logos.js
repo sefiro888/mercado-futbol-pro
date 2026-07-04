@@ -101,6 +101,18 @@ const TEAM_IDS = {
   lyon: 80,
   lille: 79,
   niza: 84,
+  lens: 116,
+  rennes: 94,
+  estrasburgo: 95,
+  toulouse: 96,
+  nantes: 83,
+  brest: 106,
+  'le-havre': 111,
+  angers: 77,
+  auxerre: 108,
+  metz: 112,
+  lorient: 97,
+  'paris-fc': 114,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */

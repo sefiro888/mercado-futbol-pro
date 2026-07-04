@@ -1,0 +1,204 @@
+{
+  "club": {
+    "id": "lens",
+    "name": "RC Lens",
+    "slug": "lens",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Lens",
+    "stadium": "Stade Bollaert-Delelis",
+    "coach": "Pierre Sage",
+    "founded": 1906,
+    "primaryColor": "#E5B13A"
+  },
+  "players": [
+    {
+      "id": "robin-risser",
+      "name": "Robin Risser",
+      "slug": "robin-risser",
+      "birthDate": "2004-11-20",
+      "nationality": "Francia",
+      "position": "Portero",
+      "height": 196,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-10",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "RC Estrasburgo",
+          "toClubId": "lens"
+        }
+      ]
+    },
+    {
+      "id": "jonathan-gradit",
+      "name": "Jonathan Gradit",
+      "slug": "jonathan-gradit",
+      "birthDate": "1992-11-24",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 24,
+      "status": "titular"
+    },
+    {
+      "id": "malang-sarr",
+      "name": "Malang Sarr",
+      "slug": "malang-sarr",
+      "birthDate": "1999-01-23",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-09-02",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "lens"
+        }
+      ]
+    },
+    {
+      "id": "ruben-aguilar",
+      "name": "Ruben Aguilar",
+      "slug": "ruben-aguilar",
+      "birthDate": "1993-04-26",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 170,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 26,
+      "status": "titular"
+    },
+    {
+      "id": "deiver-machado",
+      "name": "Deiver Machado",
+      "slug": "deiver-machado",
+      "birthDate": "1993-09-02",
+      "nationality": "Colombia",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "adrien-thomasson",
+      "name": "Adrien Thomasson",
+      "slug": "adrien-thomasson",
+      "birthDate": "1993-12-10",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    },
+    {
+      "id": "florian-thauvin",
+      "name": "Florian Thauvin",
+      "slug": "florian-thauvin",
+      "birthDate": "1993-01-26",
+      "nationality": "Francia",
+      "position": "Extremo derecho",
+      "height": 179,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-09-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Tigres UANL",
+          "toClubId": "udinese"
+        },
+        {
+          "date": "2025-07-19",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "udinese",
+          "toClubId": "lens"
+        }
+      ]
+    },
+    {
+      "id": "odsonne-edouard",
+      "name": "Odsonne Édouard",
+      "slug": "odsonne-edouard",
+      "birthDate": "1998-01-16",
+      "nationality": "Francia",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-31",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Celtic",
+          "toClubId": "crystal-palace"
+        },
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "crystal-palace",
+          "toClubId": "lens"
+        }
+      ]
+    },
+    {
+      "id": "wesley-said",
+      "name": "Wesley Saïd",
+      "slug": "wesley-said",
+      "birthDate": "1995-04-19",
+      "nationality": "Francia",
+      "position": "Extremo izquierdo",
+      "height": 173,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 22,
+      "status": "suplente"
+    }
+  ]
+}

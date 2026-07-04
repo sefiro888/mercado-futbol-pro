@@ -1,0 +1,86 @@
+{
+  "club": {
+    "id": "lorient",
+    "name": "FC Lorient",
+    "slug": "lorient",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Lorient",
+    "stadium": "Stade du Moustoir",
+    "coach": "Olivier Pantaloni",
+    "founded": 1926,
+    "primaryColor": "#F36F21"
+  },
+  "players": [
+    {
+      "id": "yvon-mvogo",
+      "name": "Yvon Mvogo",
+      "slug": "yvon-mvogo",
+      "birthDate": "1994-06-06",
+      "nationality": "Suiza",
+      "position": "Portero",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "montassar-talbi",
+      "name": "Montassar Talbi",
+      "slug": "montassar-talbi",
+      "birthDate": "1998-05-26",
+      "nationality": "Túnez",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "laurent-abergel",
+      "name": "Laurent Abergel",
+      "slug": "laurent-abergel",
+      "birthDate": "1993-02-01",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 170,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "theo-le-bris",
+      "name": "Théo Le Bris",
+      "slug": "theo-le-bris",
+      "birthDate": "2002-10-27",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "mohamed-bamba",
+      "name": "Mohamed Bamba",
+      "slug": "mohamed-bamba",
+      "birthDate": "2001-11-21",
+      "nationality": "Costa de Marfil",
+      "position": "Delantero centro",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    }
+  ]
+}

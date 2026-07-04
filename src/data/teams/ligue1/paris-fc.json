@@ -1,0 +1,158 @@
+{
+  "club": {
+    "id": "paris-fc",
+    "name": "París FC",
+    "slug": "paris-fc",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "París",
+    "stadium": "Stade Jean-Bouin",
+    "coach": "Stéphane Gilli",
+    "founded": 1969,
+    "primaryColor": "#12325C"
+  },
+  "players": [
+    {
+      "id": "obed-nkambadio",
+      "name": "Obed Nkambadio",
+      "slug": "obed-nkambadio",
+      "birthDate": "2003-01-27",
+      "nationality": "Francia",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "otavio",
+      "name": "Otávio",
+      "slug": "otavio",
+      "birthDate": "2002-02-16",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-10",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Famalicão",
+          "toClubId": "paris-fc"
+        }
+      ]
+    },
+    {
+      "id": "maxime-lopez",
+      "name": "Maxime Lopez",
+      "slug": "maxime-lopez",
+      "birthDate": "1997-12-04",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 167,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-20",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "sassuolo",
+          "toClubId": "paris-fc"
+        }
+      ]
+    },
+    {
+      "id": "ilan-kebbal",
+      "name": "Ilan Kebbal",
+      "slug": "ilan-kebbal",
+      "birthDate": "1998-03-11",
+      "nationality": "Argelia",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "jean-philippe-krasso",
+      "name": "Jean-Philippe Krasso",
+      "slug": "jean-philippe-krasso",
+      "birthDate": "1997-07-17",
+      "nationality": "Costa de Marfil",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    },
+    {
+      "id": "willem-geubbels",
+      "name": "Willem Geubbels",
+      "slug": "willem-geubbels",
+      "birthDate": "2001-08-16",
+      "nationality": "Francia",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 3.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "St. Gallen",
+          "toClubId": "paris-fc"
+        }
+      ]
+    },
+    {
+      "id": "moses-simon",
+      "name": "Moses Simon",
+      "slug": "moses-simon",
+      "birthDate": "1995-07-12",
+      "nationality": "Nigeria",
+      "position": "Extremo izquierdo",
+      "height": 168,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "nantes",
+          "toClubId": "paris-fc"
+        }
+      ]
+    }
+  ]
+}

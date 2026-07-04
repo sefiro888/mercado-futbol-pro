@@ -1,0 +1,139 @@
+{
+  "club": {
+    "id": "toulouse",
+    "name": "Toulouse FC",
+    "slug": "toulouse",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Toulouse",
+    "stadium": "Stadium de Toulouse",
+    "coach": "Carles Martínez Novell",
+    "founded": 1970,
+    "primaryColor": "#5F259F"
+  },
+  "players": [
+    {
+      "id": "guillaume-restes",
+      "name": "Guillaume Restes",
+      "slug": "guillaume-restes",
+      "birthDate": "2005-03-01",
+      "nationality": "Francia",
+      "position": "Portero",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "charlie-cresswell",
+      "name": "Charlie Cresswell",
+      "slug": "charlie-cresswell",
+      "birthDate": "2002-08-17",
+      "nationality": "Inglaterra",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-11",
+          "fee": 4.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leeds United",
+          "toClubId": "toulouse"
+        }
+      ]
+    },
+    {
+      "id": "mark-mckenzie",
+      "name": "Mark McKenzie",
+      "slug": "mark-mckenzie",
+      "birthDate": "1999-02-25",
+      "nationality": "Estados Unidos",
+      "position": "Defensa central",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "warren-kamanzi",
+      "name": "Warren Kamanzi",
+      "slug": "warren-kamanzi",
+      "birthDate": "2000-11-11",
+      "nationality": "Noruega",
+      "position": "Lateral derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "cristian-casseres",
+      "name": "Cristian Cásseres",
+      "slug": "cristian-casseres",
+      "birthDate": "2000-01-15",
+      "nationality": "Venezuela",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "aron-dnnum",
+      "name": "Aron Dønnum",
+      "slug": "aron-dnnum",
+      "birthDate": "1998-04-20",
+      "nationality": "Noruega",
+      "position": "Extremo izquierdo",
+      "height": 181,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 11,
+      "status": "titular"
+    },
+    {
+      "id": "yann-gboho",
+      "name": "Yann Gboho",
+      "slug": "yann-gboho",
+      "birthDate": "2001-01-14",
+      "nationality": "Costa de Marfil",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "frank-magri",
+      "name": "Frank Magri",
+      "slug": "frank-magri",
+      "birthDate": "1999-08-01",
+      "nationality": "Camerún",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    }
+  ]
+}

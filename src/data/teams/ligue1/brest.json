@@ -1,0 +1,167 @@
+{
+  "club": {
+    "id": "brest",
+    "name": "Stade Brestois",
+    "slug": "brest",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Brest",
+    "stadium": "Stade Francis-Le Blé",
+    "coach": "Éric Roy",
+    "founded": 1950,
+    "primaryColor": "#E30613"
+  },
+  "players": [
+    {
+      "id": "radosaw-majecki",
+      "name": "Radosław Majecki",
+      "slug": "radosaw-majecki",
+      "birthDate": "1999-11-16",
+      "nationality": "Polonia",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "monaco",
+          "toClubId": "brest"
+        }
+      ]
+    },
+    {
+      "id": "lilian-brassier",
+      "name": "Lilian Brassier",
+      "slug": "lilian-brassier",
+      "birthDate": "1999-11-02",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "brendan-chardonnet",
+      "name": "Brendan Chardonnet",
+      "slug": "brendan-chardonnet",
+      "birthDate": "1994-12-22",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "kenny-lala",
+      "name": "Kenny Lala",
+      "slug": "kenny-lala",
+      "birthDate": "1991-10-03",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "bradley-locko",
+      "name": "Bradley Locko",
+      "slug": "bradley-locko",
+      "birthDate": "2002-05-06",
+      "nationality": "Francia",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "pierre-lees-melou",
+      "name": "Pierre Lees-Melou",
+      "slug": "pierre-lees-melou",
+      "birthDate": "1993-05-10",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "hugo-magnetti",
+      "name": "Hugo Magnetti",
+      "slug": "hugo-magnetti",
+      "birthDate": "1998-05-30",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "romain-del-castillo",
+      "name": "Romain Del Castillo",
+      "slug": "romain-del-castillo",
+      "birthDate": "1996-03-29",
+      "nationality": "Francia",
+      "position": "Extremo derecho",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "ludovic-ajorque",
+      "name": "Ludovic Ajorque",
+      "slug": "ludovic-ajorque",
+      "birthDate": "1994-02-25",
+      "nationality": "Francia",
+      "position": "Delantero centro",
+      "height": 196,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    },
+    {
+      "id": "mama-balde",
+      "name": "Mama Baldé",
+      "slug": "mama-balde",
+      "birthDate": "1995-11-06",
+      "nationality": "Guinea-Bisáu",
+      "position": "Extremo izquierdo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "suplente"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "club": {
+    "id": "rennes",
+    "name": "Stade Rennais",
+    "slug": "rennes",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Rennes",
+    "stadium": "Roazhon Park",
+    "coach": "Habib Beye",
+    "founded": 1901,
+    "primaryColor": "#C8102E"
+  },
+  "players": [
+    {
+      "id": "brice-samba",
+      "name": "Brice Samba",
+      "slug": "brice-samba",
+      "birthDate": "1994-04-25",
+      "nationality": "Francia",
+      "position": "Portero",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-10",
+          "fee": 14,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lens",
+          "toClubId": "rennes"
+        }
+      ]
+    },
+    {
+      "id": "christopher-wooh",
+      "name": "Christopher Wooh",
+      "slug": "christopher-wooh",
+      "birthDate": "2001-09-18",
+      "nationality": "Camerún",
+      "position": "Defensa central",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "anthony-rouault",
+      "name": "Anthony Rouault",
+      "slug": "anthony-rouault",
+      "birthDate": "2001-05-29",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-20",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "stuttgart",
+          "toClubId": "rennes"
+        }
+      ]
+    },
+    {
+      "id": "hans-hateboer",
+      "name": "Hans Hateboer",
+      "slug": "hans-hateboer",
+      "birthDate": "1994-01-09",
+      "nationality": "Países Bajos",
+      "position": "Lateral derecho",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 15,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-02-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "atalanta",
+          "toClubId": "rennes"
+        }
+      ]
+    },
+    {
+      "id": "lorenz-assignon",
+      "name": "Lorenz Assignon",
+      "slug": "lorenz-assignon",
+      "birthDate": "2000-06-22",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 22,
+      "status": "titular"
+    },
+    {
+      "id": "seko-fofana",
+      "name": "Seko Fofana",
+      "slug": "seko-fofana",
+      "birthDate": "1995-05-07",
+      "nationality": "Costa de Marfil",
+      "position": "Mediocentro defensivo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-01",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Al-Nassr",
+          "toClubId": "rennes"
+        }
+      ]
+    },
+    {
+      "id": "valentin-rongier",
+      "name": "Valentin Rongier",
+      "slug": "valentin-rongier",
+      "birthDate": "1994-12-07",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "marsella",
+          "toClubId": "rennes"
+        }
+      ]
+    },
+    {
+      "id": "ludovic-blas",
+      "name": "Ludovic Blas",
+      "slug": "ludovic-blas",
+      "birthDate": "1997-12-31",
+      "nationality": "Francia",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "breel-embolo",
+      "name": "Breel Embolo",
+      "slug": "breel-embolo",
+      "birthDate": "1997-02-14",
+      "nationality": "Suiza",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 36,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-30",
+          "fee": 12.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "monaco",
+          "toClubId": "rennes"
+        }
+      ]
+    },
+    {
+      "id": "esteban-lepaul",
+      "name": "Esteban Lepaul",
+      "slug": "esteban-lepaul",
+      "birthDate": "2000-03-27",
+      "nationality": "Francia",
+      "position": "Delantero centro",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 19,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-25",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Angers SCO",
+          "toClubId": "rennes"
+        }
+      ]
+    }
+  ]
+}

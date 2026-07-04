@@ -1,0 +1,100 @@
+{
+  "club": {
+    "id": "metz",
+    "name": "FC Metz",
+    "slug": "metz",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Metz",
+    "stadium": "Stade Saint-Symphorien",
+    "coach": "Stéphane Le Mignan",
+    "founded": 1932,
+    "primaryColor": "#7A1233"
+  },
+  "players": [
+    {
+      "id": "gauthier-gallon",
+      "name": "Gauthier Gallon",
+      "slug": "gauthier-gallon",
+      "birthDate": "1993-04-23",
+      "nationality": "Francia",
+      "position": "Portero",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 1.5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "fali-cande",
+      "name": "Fali Candé",
+      "slug": "fali-cande",
+      "birthDate": "1998-01-24",
+      "nationality": "Guinea-Bisáu",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 3,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "koffi-kouao",
+      "name": "Koffi Kouao",
+      "slug": "koffi-kouao",
+      "birthDate": "1998-05-08",
+      "nationality": "Costa de Marfil",
+      "position": "Lateral derecho",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "matthieu-udol",
+      "name": "Matthieu Udol",
+      "slug": "matthieu-udol",
+      "birthDate": "1996-03-20",
+      "nationality": "Francia",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "habib-maiga",
+      "name": "Habib Maïga",
+      "slug": "habib-maiga",
+      "birthDate": "1996-01-01",
+      "nationality": "Costa de Marfil",
+      "position": "Mediocentro",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "cheikh-sabaly",
+      "name": "Cheikh Sabaly",
+      "slug": "cheikh-sabaly",
+      "birthDate": "1999-03-05",
+      "nationality": "Senegal",
+      "position": "Extremo derecho",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    }
+  ]
+}

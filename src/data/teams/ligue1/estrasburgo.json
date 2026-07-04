@@ -1,0 +1,206 @@
+{
+  "club": {
+    "id": "estrasburgo",
+    "name": "RC Estrasburgo",
+    "slug": "estrasburgo",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Estrasburgo",
+    "stadium": "Stade de la Meinau",
+    "coach": "Liam Rosenior",
+    "founded": 1906,
+    "primaryColor": "#009FE3"
+  },
+  "players": [
+    {
+      "id": "mike-penders",
+      "name": "Mike Penders",
+      "slug": "mike-penders",
+      "birthDate": "2005-08-31",
+      "nationality": "Bélgica",
+      "position": "Portero",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "estrasburgo"
+        }
+      ]
+    },
+    {
+      "id": "guela-doue",
+      "name": "Guéla Doué",
+      "slug": "guela-doue",
+      "birthDate": "2002-10-17",
+      "nationality": "Costa de Marfil",
+      "position": "Lateral derecho",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 27,
+      "status": "titular"
+    },
+    {
+      "id": "abakar-sylla",
+      "name": "Abakar Sylla",
+      "slug": "abakar-sylla",
+      "birthDate": "2002-12-25",
+      "nationality": "Costa de Marfil",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "ismael-doukoure",
+      "name": "Ismaël Doukouré",
+      "slug": "ismael-doukoure",
+      "birthDate": "2003-07-24",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "diego-moreira",
+      "name": "Diego Moreira",
+      "slug": "diego-moreira",
+      "birthDate": "2004-08-06",
+      "nationality": "Portugal",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "valentin-barco",
+      "name": "Valentín Barco",
+      "slug": "valentin-barco",
+      "birthDate": "2004-07-23",
+      "nationality": "Argentina",
+      "position": "Lateral izquierdo",
+      "height": 173,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 12,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 17,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-31",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Boca Juniors",
+          "toClubId": "brighton"
+        },
+        {
+          "date": "2025-07-05",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brighton",
+          "toClubId": "estrasburgo"
+        }
+      ]
+    },
+    {
+      "id": "kendry-paez",
+      "name": "Kendry Páez",
+      "slug": "kendry-paez",
+      "birthDate": "2007-05-04",
+      "nationality": "Ecuador",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Independiente del Valle",
+          "toClubId": "estrasburgo"
+        }
+      ]
+    },
+    {
+      "id": "julio-enciso",
+      "name": "Julio Enciso",
+      "slug": "julio-enciso",
+      "birthDate": "2004-01-23",
+      "nationality": "Paraguay",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-30",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "brighton",
+          "toClubId": "estrasburgo"
+        }
+      ]
+    },
+    {
+      "id": "joaquin-panichelli",
+      "name": "Joaquín Panichelli",
+      "slug": "joaquin-panichelli",
+      "birthDate": "2002-10-07",
+      "nationality": "Argentina",
+      "position": "Delantero centro",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-08",
+          "fee": 16.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Deportivo Alavés",
+          "toClubId": "estrasburgo"
+        }
+      ]
+    }
+  ]
+}

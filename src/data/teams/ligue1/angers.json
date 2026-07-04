@@ -1,0 +1,86 @@
+{
+  "club": {
+    "id": "angers",
+    "name": "Angers SCO",
+    "slug": "angers",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Angers",
+    "stadium": "Stade Raymond-Kopa",
+    "coach": "Alexandre Dujeux",
+    "founded": 1919,
+    "primaryColor": "#1C1C1B"
+  },
+  "players": [
+    {
+      "id": "yahia-fofana",
+      "name": "Yahia Fofana",
+      "slug": "yahia-fofana",
+      "birthDate": "2000-08-21",
+      "nationality": "Costa de Marfil",
+      "position": "Portero",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "jordan-lefort",
+      "name": "Jordan Lefort",
+      "slug": "jordan-lefort",
+      "birthDate": "1993-08-09",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 184,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "cedric-hountondji",
+      "name": "Cédric Hountondji",
+      "slug": "cedric-hountondji",
+      "birthDate": "1994-01-19",
+      "nationality": "Benín",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "himad-abdelli",
+      "name": "Himad Abdelli",
+      "slug": "himad-abdelli",
+      "birthDate": "1999-11-17",
+      "nationality": "Argelia",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "farid-el-melali",
+      "name": "Farid El Melali",
+      "slug": "farid-el-melali",
+      "birthDate": "1997-06-13",
+      "nationality": "Argelia",
+      "position": "Extremo izquierdo",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    }
+  ]
+}
