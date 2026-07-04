@@ -1,15 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#22c55e"/>
-      <stop offset="0.55" stop-color="#2dd4bf"/>
-      <stop offset="1" stop-color="#38bdf8"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f7a3e"/>
+      <stop offset="1" stop-color="#064e27"/>
     </linearGradient>
+    <linearGradient id="ball" x1="20" y1="18" x2="44" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d4f7e2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="64" height="64" rx="15" fill="url(#g)"/>
-  <g fill="none" stroke="#06231a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="32" cy="32" r="18"/>
-    <path d="M32 22.6 L40.6 28.8 L37.4 39 L26.6 39 L23.4 28.8 Z"/>
-    <path d="M32 14.4 V22.6 M16 27.2 L23.4 29.2 M48 27.2 L40.6 29.2 M22 47.4 L26.6 41 M42 47.4 L37.4 41"/>
+
+  <!-- Fondo con forma de escudo -->
+  <path d="M32 3 L58 12 L58 34 Q58 52 32 61 Q6 52 6 34 L6 12 Z" fill="url(#bg)"/>
+
+  <!-- Línea de césped decorativa -->
+  <path d="M6 38 Q32 44 58 38" fill="none" stroke="rgba(34,197,94,0.25)" stroke-width="1.5"/>
+
+  <!-- Balón de fútbol -->
+  <circle cx="32" cy="30" r="14" fill="url(#ball)" filter="url(#glow)"/>
+
+  <!-- Costuras del balón -->
+  <g fill="none" stroke="#0f7a3e" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pentágono central -->
+    <polygon points="32,22.5 38.4,27.1 35.9,34.6 28.1,34.6 25.6,27.1" fill="rgba(15,122,62,0.18)" stroke="rgba(15,122,62,0.9)"/>
+    <!-- Costuras que irradian -->
+    <line x1="32" y1="16" x2="32" y2="22.5"/>
+    <line x1="41.5" y1="20.5" x2="38.4" y2="27.1"/>
+    <line x1="44" y1="32.5" x2="35.9" y2="34.6"/>
+    <line x1="39.5" y1="43.5" x2="35.9" y2="34.6"/>
+    <line x1="24.5" y1="43.5" x2="28.1" y2="34.6"/>
+    <line x1="20" y1="32.5" x2="28.1" y2="34.6"/>
+    <line x1="22.5" y1="20.5" x2="25.6" y2="27.1"/>
   </g>
+
+  <!-- Destello de brillo en el balón -->
+  <ellipse cx="27" cy="24" rx="3.5" ry="2" fill="rgba(255,255,255,0.55)" transform="rotate(-25,27,24)"/>
+
+  <!-- Trazo del escudo (borde) -->
+  <path d="M32 3 L58 12 L58 34 Q58 52 32 61 Q6 52 6 34 L6 12 Z" fill="none" stroke="rgba(34,197,94,0.4)" stroke-width="2"/>
 </svg>
