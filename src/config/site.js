@@ -32,6 +32,7 @@ export const SITE = {
     { to: '/rumores', label: 'Rumores' },
     { to: '/mercado-vivo', label: 'Mercado en vivo' },
     { to: '/once-ideal', label: 'Once ideal' },
+    { to: '/rankings', label: 'Rankings' },
     { to: '/comparador', label: 'Comparador' },
     { to: '/simulador', label: 'Simulador' },
   ],
