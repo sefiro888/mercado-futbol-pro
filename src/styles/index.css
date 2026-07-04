@@ -20,6 +20,9 @@
   --text: #e8edf6;
   --text-muted: #9aa7bd;
   --text-dim: #6b778c;
+  /* Aliases semánticos (usados por componentes nuevos) */
+  --text-primary: var(--text);
+  --text-secondary: var(--text-muted);
 
   /* --- Marca --- */
   --brand: #22c55e;
@@ -49,6 +52,37 @@
 
   --shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
   --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Tema claro: se activa cuando <html> tiene data-theme="light" --- */
+[data-theme="light"] {
+  --bg: #f0f4fa;
+  --bg-elevated: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f5f8ff;
+  --bg-input: #eef2f8;
+
+  --border: #d8e0ed;
+  --border-strong: #b8c5d9;
+
+  --text: #101827;
+  --text-muted: #4b5872;
+  --text-dim: #7b8ca6;
+  --text-primary: var(--text);
+  --text-secondary: var(--text-muted);
+
+  --brand: #16a34a;
+  --brand-strong: #15803d;
+  --brand-contrast: #f0fdf4;
+
+  --shadow: 0 20px 50px rgba(0,0,0,0.12);
+  --shadow-sm: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+[data-theme="light"] body::before {
+  background:
+    radial-gradient(900px 500px at 85% -10%, rgba(34,197,94,0.06), transparent 60%),
+    radial-gradient(700px 400px at 0% 0%, rgba(59,130,246,0.04), transparent 55%);
 }
 
 /* --------------------------------------------------------------------------- Reset */

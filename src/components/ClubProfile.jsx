@@ -25,6 +25,7 @@ import {
 } from '@/lib/data.js'
 import ClubHonors, { HonorsStrip } from './ClubHonors.jsx'
 import WatchlistButton from './WatchlistButton.jsx'
+import ShareButton from './ShareButton.jsx'
 import CoachHistory from './CoachHistory.jsx'
 import './Profile.css'
 
@@ -150,6 +151,7 @@ export default function ClubProfile({ club }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
               <HonorsStrip clubId={club.id} />
               <WatchlistButton id={club.id} type="club" name={club.name} size="sm" />
+              <ShareButton path={`/clubes/${club.slug}`} title={`${club.name} — Mercado Fútbol Pro`} text={`Consulta el perfil de ${club.name} en Mercado Fútbol Pro`} size="sm" label="Compartir club" />
             </div>
           </div>
         </div>

@@ -177,6 +177,43 @@
   opacity: 0.7;
 }
 
+/* Botón de toggle de tema */
+.header-theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6px;
+  padding: 7px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+
+.header-theme-btn:hover {
+  background: rgba(255,255,255,0.1);
+  color: var(--brand);
+  border-color: rgba(255,255,255,0.18);
+}
+
+/* En modo claro los fondos usan otro color base */
+[data-theme="light"] .header-search-btn {
+  background: rgba(255,255,255,0.7);
+  border-color: var(--border);
+}
+
+[data-theme="light"] .header-search-btn:hover {
+  background: rgba(255,255,255,0.95);
+}
+
+[data-theme="light"] .header-theme-btn {
+  background: rgba(255,255,255,0.7);
+  border-color: var(--border);
+}
+
 /* Botón menú móvil */
 .nav-toggle {
   display: none;

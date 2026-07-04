@@ -15,6 +15,8 @@ import { playerPhotoUrl } from '@/lib/photos.js'
 import { buildRadarAxes } from '@/lib/profileRadar.js'
 import RadarChart from './RadarChart.jsx'
 import WatchlistButton from './WatchlistButton.jsx'
+import ShareCardButton from './ShareCardButton.jsx'
+import ShareButton from './ShareButton.jsx'
 import { formatMoney, formatDate, formatHeight } from '@/lib/format.js'
 import PlayerCard from './PlayerCard.jsx'
 import {
@@ -333,6 +335,8 @@ export default function PlayerProfile({ player }) {
               <span className="chip"><Flag country={player.nationality} /> {player.nationality}</span>
               <span className="chip">Valor: {formatMoney(player.marketValue)}</span>
               <WatchlistButton id={player.slug} type="player" name={player.name} size="sm" />
+              <ShareCardButton player={player} size="sm" />
+              <ShareButton path={`/jugadores/${player.slug}`} title={`${player.name} — Mercado Fútbol Pro`} text={`Consulta el perfil de ${player.name} en Mercado Fútbol Pro`} size="sm" label="Compartir ficha" />
             </div>
           </div>
         </div>

@@ -12,6 +12,7 @@ import { getPlayerById, getClubById, getSources, getRumourOutcome } from '@/lib/
 import { clubLogoUrl } from '@/lib/logos.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
 import PredictionBar from './PredictionBar.jsx'
+import ShareButton from './ShareButton.jsx'
 import './RumourCard.css'
 
 // Tarjeta de rumor contrastado. Incluye botón para desplegar las fuentes.
@@ -101,6 +102,13 @@ export default function RumourCard({ rumour }) {
 
       <div className="rumour-foot">
         <PredictionBar rumourId={rumour.id} rumourStatus={rumour.status} />
+        <ShareButton
+          path="/rumores"
+          title={`Rumor: ${player?.name ?? rumour.playerId} — Mercado Fútbol Pro`}
+          text={rumour.summary}
+          size="icon"
+          label="Compartir rumor"
+        />
         <button
           className="btn btn-ghost btn-sm"
           onClick={() => setShowSources((v) => !v)}
