@@ -11,6 +11,7 @@ import { formatDate } from '@/lib/format.js'
 import { getPlayerById, getClubById, getSources, getRumourOutcome } from '@/lib/data.js'
 import { clubLogoUrl } from '@/lib/logos.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
+import PredictionBar from './PredictionBar.jsx'
 import './RumourCard.css'
 
 // Tarjeta de rumor contrastado. Incluye botón para desplegar las fuentes.
@@ -99,6 +100,7 @@ export default function RumourCard({ rumour }) {
       <p className="rumour-summary muted">{rumour.summary}</p>
 
       <div className="rumour-foot">
+        <PredictionBar rumourId={rumour.id} rumourStatus={rumour.status} />
         <button
           className="btn btn-ghost btn-sm"
           onClick={() => setShowSources((v) => !v)}

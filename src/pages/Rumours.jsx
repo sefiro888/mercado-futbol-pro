@@ -8,6 +8,7 @@ import { setPageSeo } from '@/lib/seo.js'
 import PremiumHeader from '@/components/PremiumHeader.jsx'
 import { RUMOUR_STATUS, RELIABILITY, OPERATION_TYPE } from '@/lib/taxonomy.js'
 import { getAllRumours, getPlayerById } from '@/lib/data.js'
+import { calcStats as calcPredStats, getAllPredictions } from '@/lib/predictions.js'
 import './Pages.css'
 
 const EMPTY = { q: '', reliability: '', status: '', operationType: '' }
@@ -25,6 +26,7 @@ export default function Rumours() {
   }, [])
 
   const allRumours = useMemo(() => getAllRumours(), [])
+  const predStats = useMemo(() => calcPredStats(allRumours), [allRumours])
 
   // Estadísticas y termómetro de rumores
   const stats = useMemo(() => {
@@ -85,6 +87,21 @@ export default function Rumours() {
           <StatCard label="Termómetro de actividad" value={`${stats.temp}%`} hint="Índice de dinamismo" icon="ball" accent="#22c55e" />
         </div>
       </div>
+
+      {predStats.total > 0 && (
+        <div className="container" style={{ marginTop: 16 }}>
+          <div className="pred-summary">
+            <span className="pred-summary-title">Tus predicciones</span>
+            <span className="pred-summary-stat">{predStats.total} realizadas</span>
+            <span className="pred-summary-stat">{predStats.pending} pendientes</span>
+            {predStats.pct !== null && (
+              <span className={`pred-summary-pct ${predStats.pct >= 60 ? 'pred-ok' : predStats.pct >= 40 ? 'pred-mid' : 'pred-bad'}`}>
+                {predStats.pct}% de acierto
+              </span>
+            )}
+          </div>
+        </div>
+      )}
 
       <div className="container" style={{ marginTop: 24 }}>
         <div className="rumours-dashboard-layout">
