@@ -723,6 +723,21 @@ table.data tbody tr { transition: background 0.15s var(--ease); }
   transition: transform 0.08s linear;
 }
 
+/* --------------------------------------------------------------- Skeleton de imágenes */
+/* Se aplica mientras una foto está descargándose; se retira al cargar (onLoad). */
+.img-skeleton {
+  background:
+    linear-gradient(100deg,
+      var(--bg-elevated) 40%,
+      rgba(255, 255, 255, 0.09) 50%,
+      var(--bg-elevated) 60%) !important;
+  background-size: 200% 100% !important;
+  animation: imgShimmer 1.1s linear infinite;
+}
+@keyframes imgShimmer {
+  to { background-position: -200% 0; }
+}
+
 /* --------------------------------------------------------------- Cargador de sección */
 /* Balón que bota mientras se descarga el código de la página (lazy loading). */
 .route-loader {

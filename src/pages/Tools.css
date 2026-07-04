@@ -1,0 +1,116 @@
+/* ===========================================================================
+   Herramientas interactivas: Comparador (/comparador) y Simulador (/simulador)
+   =========================================================================== */
+
+.tools-page { display: flex; flex-direction: column; gap: 18px; }
+
+/* --- Selectores --- */
+.cmp-pickers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 720px) { .cmp-pickers { grid-template-columns: 1fr; } }
+.cmp-input { width: 100%; }
+.sim-input { max-width: 420px; }
+
+/* --- Comparador --- */
+.cmp-card { padding: 18px; overflow-x: auto; }
+.cmp-heads {
+  display: grid;
+  grid-template-columns: 140px repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.cmp-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  text-align: center;
+  padding: 12px 8px;
+  border-radius: var(--radius);
+  background: linear-gradient(170deg, color-mix(in srgb, var(--club-c, var(--brand)) 18%, var(--bg-elevated)), var(--bg-elevated));
+  border: 1px solid color-mix(in srgb, var(--club-c, var(--brand)) 40%, var(--border));
+  color: var(--text);
+}
+.cmp-head:hover strong { text-decoration: underline; }
+.cmp-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--bg-elevated);
+  border: 2px solid color-mix(in srgb, var(--club-c, var(--brand)) 60%, #fff 10%);
+}
+.cmp-club { display: inline-flex; align-items: center; gap: 5px; font-size: 0.76rem; color: var(--text-muted); }
+
+.cmp-table { width: 100%; border-collapse: collapse; min-width: 560px; }
+.cmp-table th[scope="row"] {
+  text-align: left;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  width: 140px;
+  padding: 10px 8px;
+}
+.cmp-table td { padding: 10px 8px; text-align: center; border-top: 1px solid var(--border); font-weight: 600; }
+.cmp-table td.is-best { color: var(--brand); font-weight: 800; }
+.cmp-value { display: block; font-size: 1.05rem; }
+.cmp-bar {
+  display: block;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  overflow: hidden;
+}
+.cmp-bar span { display: block; height: 100%; border-radius: inherit; background: var(--grad-brand); }
+
+/* --- Simulador --- */
+.sim-result { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; align-items: start; }
+@media (max-width: 860px) { .sim-result { grid-template-columns: 1fr; } }
+
+.sim-main { padding: 20px; border-top: 3px solid var(--club-c, var(--brand)); }
+.sim-player { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+.sim-player strong { font-size: 1.15rem; }
+
+.sim-fee {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--club-c, var(--brand)) 12%, var(--bg-elevated));
+  border: 1px solid color-mix(in srgb, var(--club-c, var(--brand)) 35%, var(--border));
+  margin-bottom: 14px;
+}
+.sim-fee-label { font-size: 0.8rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.sim-fee-value { font-size: 2.2rem; font-weight: 800; color: var(--gold); }
+.sim-fee-range { font-size: 0.85rem; }
+
+.sim-factors { list-style: none; margin: 0; padding: 0; }
+.sim-factors li {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 9px 2px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.92rem;
+}
+.sim-factors li:last-child { border-bottom: none; }
+.sim-factors .up { color: var(--brand); }
+.sim-factors .down { color: #f87171; }
+
+.sim-comps { padding: 18px; }
+.sim-comps h3 { display: flex; align-items: center; gap: 7px; margin: 0 0 10px; font-size: 1rem; }
+.sim-comp-list { list-style: none; margin: 0; padding: 0; }
+.sim-comp-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+}
+.sim-comp-list li:last-child { border-bottom: none; }
+.scl-main { display: flex; flex-direction: column; }
+.scl-fee { font-weight: 800; color: var(--gold); }
+.sim-note { font-size: 0.78rem; margin: 12px 0 0; }

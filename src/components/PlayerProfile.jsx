@@ -12,6 +12,8 @@ import Flag from './Flag.jsx'
 import { PLAYER_STATUS } from '@/lib/taxonomy.js'
 import { clubLogoUrl } from '@/lib/logos.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
+import { buildRadarAxes } from '@/lib/profileRadar.js'
+import RadarChart from './RadarChart.jsx'
 import { formatMoney, formatDate, formatHeight } from '@/lib/format.js'
 import PlayerCard from './PlayerCard.jsx'
 import {
@@ -276,6 +278,7 @@ export default function PlayerProfile({ player }) {
   const yearsLeft = contractYear ? Math.max(0, contractYear - new Date().getFullYear()) : null
   const valuePct = rankInfo.topValue ? Math.round((player.marketValue / rankInfo.topValue) * 100) : 0
   const ordinal = rankInfo.rank === 1 ? '1º' : `${rankInfo.rank}º`
+  const radar = buildRadarAxes(player, club)
 
   return (
     <div className="container section">
@@ -354,6 +357,16 @@ export default function PlayerProfile({ player }) {
           <p className="dim vw-note">Comparado con el jugador más valioso del club ({formatMoney(rankInfo.topValue)}).</p>
         </div>
       )}
+
+      {/* Radar de perfil: percentiles REALES frente a su demarcación */}
+      <div className="card radar-card">
+        <h3 className="radar-title">Perfil frente a su demarcación</h3>
+        <RadarChart axes={radar.axes} color={club?.primaryColor || 'var(--brand)'} />
+        <p className="dim radar-note">
+          Percentiles calculados sobre los {radar.peers} jugadores de su misma línea en la base
+          de datos (valor, edad, contrato, peso en plantilla y rol). Sin atributos inventados.
+        </p>
+      </div>
 
       <div className="data-audit-grid">
         <div className="data-audit-card">

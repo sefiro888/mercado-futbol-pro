@@ -15,6 +15,8 @@ const ClubDetail = lazy(() => import('@/pages/ClubDetail.jsx'))
 const Players = lazy(() => import('@/pages/Players.jsx'))
 const PlayerDetail = lazy(() => import('@/pages/PlayerDetail.jsx'))
 const Rumours = lazy(() => import('@/pages/Rumours.jsx'))
+const Compare = lazy(() => import('@/pages/Compare.jsx'))
+const Simulator = lazy(() => import('@/pages/Simulator.jsx'))
 const NotFound = lazy(() => import('@/pages/NotFound.jsx'))
 
 // Vuelve arriba al cambiar de ruta (mejor UX en navegación SPA).
@@ -55,6 +57,8 @@ export default function App() {
               <Route path="/jugadores" element={<Players />} />
               <Route path="/jugadores/:slug" element={<PlayerDetail />} />
               <Route path="/rumores" element={<Rumours />} />
+              <Route path="/comparador" element={<Compare />} />
+              <Route path="/simulador" element={<Simulator />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

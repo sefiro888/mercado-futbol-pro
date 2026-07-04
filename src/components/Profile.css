@@ -1,3 +1,8 @@
+/* --- Radar de perfil del jugador --- */
+.radar-card { margin-top: 18px; padding: 18px 20px 12px; }
+.radar-title { margin: 0 0 8px; font-size: 1.05rem; }
+.radar-note { font-size: 0.78rem; margin: 6px 0 0; max-width: 560px; }
+
 /* ===========================================================================
    DISEÑO DE PERFILES PREMIUM (CLUB & JUGADOR HEROES)
    Estilos para cabeceras hero monumentales con focos radiales de estadio,

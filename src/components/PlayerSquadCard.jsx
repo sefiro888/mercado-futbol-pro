@@ -25,6 +25,7 @@ function initials(name = '') {
 // Carta de jugador estilo cromo (FUT) interactivo y premium.
 export default function PlayerSquadCard({ player, club }) {
   const [imgError, setImgError] = useState(false)
+  const [imgLoaded, setImgLoaded] = useState(false)
   const posColor = LINE_COLOR[lineOf(player.position)]
   const status = resolve(PLAYER_STATUS, player.status)
   const clubColor = club?.primaryColor || '#22c55e'
@@ -60,9 +61,16 @@ export default function PlayerSquadCard({ player, club }) {
         </div>
       </div>
 
-      <div className="sc-avatar-container">
+      <div className={`sc-avatar-container ${photoUrl && !imgLoaded ? 'img-skeleton' : ''}`}>
         {photoUrl ? (
-          <img className="sc-photo-render" src={photoUrl} alt={player.name} loading="lazy" onError={() => setImgError(true)} />
+          <img
+            className="sc-photo-render"
+            src={photoUrl}
+            alt={player.name}
+            loading="lazy"
+            onLoad={() => setImgLoaded(true)}
+            onError={() => setImgError(true)}
+          />
         ) : (
           <div className="sc-avatar-placeholder">
             <svg viewBox="0 0 100 100" className="sc-avatar-placeholder-svg">
