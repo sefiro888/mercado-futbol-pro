@@ -1,0 +1,215 @@
+{
+  "club": {
+    "id": "hamburgo",
+    "name": "Hamburgo SV",
+    "slug": "hamburgo",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Hamburgo",
+    "stadium": "Volksparkstadion",
+    "coach": "Merlin Polzin",
+    "founded": 1887,
+    "primaryColor": "#0A3F86"
+  },
+  "players": [
+    {
+      "id": "daniel-heuer-fernandes",
+      "name": "Daniel Heuer Fernandes",
+      "slug": "daniel-heuer-fernandes",
+      "birthDate": "1992-11-13",
+      "nationality": "Portugal",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "dennis-hadzikadunic",
+      "name": "Dennis Hadzikadunic",
+      "slug": "dennis-hadzikadunic",
+      "birthDate": "1998-07-09",
+      "nationality": "Bosnia y Herzegovina",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 24,
+      "status": "titular"
+    },
+    {
+      "id": "jordan-torunarigha",
+      "name": "Jordan Torunarigha",
+      "slug": "jordan-torunarigha",
+      "birthDate": "1997-08-07",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 2,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "KAA Gent",
+          "toClubId": "hamburgo"
+        }
+      ]
+    },
+    {
+      "id": "warmed-omari",
+      "name": "Warmed Omari",
+      "slug": "warmed-omari",
+      "birthDate": "2000-04-23",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "miro-muheim",
+      "name": "Miro Muheim",
+      "slug": "miro-muheim",
+      "birthDate": "1998-03-01",
+      "nationality": "Suiza",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 28,
+      "status": "titular"
+    },
+    {
+      "id": "william-mikelbrencis",
+      "name": "William Mikelbrencis",
+      "slug": "william-mikelbrencis",
+      "birthDate": "2004-02-24",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    },
+    {
+      "id": "jonas-meffert",
+      "name": "Jonas Meffert",
+      "slug": "jonas-meffert",
+      "birthDate": "1994-09-04",
+      "nationality": "Alemania",
+      "position": "Mediocentro defensivo",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "albert-sambi-lokonga",
+      "name": "Albert Sambi Lokonga",
+      "slug": "albert-sambi-lokonga",
+      "birthDate": "1999-10-22",
+      "nationality": "Bélgica",
+      "position": "Mediocentro",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-19",
+          "fee": 17.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Anderlecht",
+          "toClubId": "arsenal"
+        },
+        {
+          "date": "2025-08-12",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "hamburgo"
+        }
+      ]
+    },
+    {
+      "id": "immanuel-pherai",
+      "name": "Immanuel Pherai",
+      "slug": "immanuel-pherai",
+      "birthDate": "2001-05-27",
+      "nationality": "Países Bajos",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "suplente"
+    },
+    {
+      "id": "jean-luc-dompe",
+      "name": "Jean-Luc Dompé",
+      "slug": "jean-luc-dompe",
+      "birthDate": "1995-08-12",
+      "nationality": "Francia",
+      "position": "Extremo izquierdo",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "ransford-konigsdorffer",
+      "name": "Ransford Königsdörffer",
+      "slug": "ransford-konigsdorffer",
+      "birthDate": "2001-11-13",
+      "nationality": "Ghana",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 11,
+      "status": "titular"
+    },
+    {
+      "id": "robert-glatzel",
+      "name": "Robert Glatzel",
+      "slug": "robert-glatzel",
+      "birthDate": "1994-01-08",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 193,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 9,
+      "status": "suplente"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "club": {
+    "id": "freiburg",
+    "name": "SC Friburgo",
+    "slug": "freiburg",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Friburgo",
+    "stadium": "Europa-Park Stadion",
+    "coach": "Julian Schuster",
+    "founded": 1904,
+    "primaryColor": "#D40000"
+  },
+  "players": [
+    {
+      "id": "noah-atubolu",
+      "name": "Noah Atubolu",
+      "slug": "noah-atubolu",
+      "birthDate": "2002-05-25",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "matthias-ginter",
+      "name": "Matthias Ginter",
+      "slug": "matthias-ginter",
+      "birthDate": "1994-01-19",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 28,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "gladbach",
+          "toClubId": "freiburg"
+        }
+      ]
+    },
+    {
+      "id": "philipp-lienhart",
+      "name": "Philipp Lienhart",
+      "slug": "philipp-lienhart",
+      "birthDate": "1996-07-11",
+      "nationality": "Austria",
+      "position": "Defensa central",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "real-madrid",
+          "toClubId": "freiburg"
+        }
+      ]
+    },
+    {
+      "id": "kiliann-sildillia",
+      "name": "Kiliann Sildillia",
+      "slug": "kiliann-sildillia",
+      "birthDate": "2002-05-16",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 25,
+      "status": "titular"
+    },
+    {
+      "id": "christian-gunter",
+      "name": "Christian Günter",
+      "slug": "christian-gunter",
+      "birthDate": "1993-02-28",
+      "nationality": "Alemania",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 30,
+      "status": "titular"
+    },
+    {
+      "id": "maximilian-eggestein",
+      "name": "Maximilian Eggestein",
+      "slug": "maximilian-eggestein",
+      "birthDate": "1996-12-08",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-08-31",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Werder Bremen",
+          "toClubId": "freiburg"
+        }
+      ]
+    },
+    {
+      "id": "patrick-osterhage",
+      "name": "Patrick Osterhage",
+      "slug": "patrick-osterhage",
+      "birthDate": "2000-02-01",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "VfL Bochum",
+          "toClubId": "freiburg"
+        }
+      ]
+    },
+    {
+      "id": "vincenzo-grifo",
+      "name": "Vincenzo Grifo",
+      "slug": "vincenzo-grifo",
+      "birthDate": "1993-04-07",
+      "nationality": "Italia",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 32,
+      "status": "titular"
+    },
+    {
+      "id": "derry-scherhant",
+      "name": "Derry Scherhant",
+      "slug": "derry-scherhant",
+      "birthDate": "2002-11-06",
+      "nationality": "Alemania",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 38,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Hertha Berlín",
+          "toClubId": "freiburg"
+        }
+      ]
+    },
+    {
+      "id": "igor-matanovic",
+      "name": "Igor Matanovic",
+      "slug": "igor-matanovic",
+      "birthDate": "2003-03-31",
+      "nationality": "Croacia",
+      "position": "Delantero centro",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "frankfurt",
+          "toClubId": "freiburg"
+        }
+      ]
+    },
+    {
+      "id": "lucas-holer",
+      "name": "Lucas Höler",
+      "slug": "lucas-holer",
+      "birthDate": "1994-07-10",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 19,
+      "status": "suplente"
+    },
+    {
+      "id": "junior-adamu",
+      "name": "Junior Adamu",
+      "slug": "junior-adamu",
+      "birthDate": "2001-06-06",
+      "nationality": "Austria",
+      "position": "Delantero centro",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 26,
+      "status": "suplente"
+    }
+  ]
+}

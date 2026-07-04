@@ -1,0 +1,239 @@
+{
+  "club": {
+    "id": "gladbach",
+    "name": "Borussia Mönchengladbach",
+    "slug": "gladbach",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Mönchengladbach",
+    "stadium": "Borussia-Park",
+    "coach": "Eugen Polanski",
+    "founded": 1900,
+    "primaryColor": "#0E8A3E"
+  },
+  "players": [
+    {
+      "id": "moritz-nicolas",
+      "name": "Moritz Nicolas",
+      "slug": "moritz-nicolas",
+      "birthDate": "1997-10-21",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "nico-elvedi",
+      "name": "Nico Elvedi",
+      "slug": "nico-elvedi",
+      "birthDate": "1996-09-30",
+      "nationality": "Suiza",
+      "position": "Defensa central",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 30,
+      "status": "titular"
+    },
+    {
+      "id": "marvin-friedrich",
+      "name": "Marvin Friedrich",
+      "slug": "marvin-friedrich",
+      "birthDate": "1995-12-13",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 5,
+      "status": "suplente"
+    },
+    {
+      "id": "kevin-diks",
+      "name": "Kevin Diks",
+      "slug": "kevin-diks",
+      "birthDate": "1996-10-06",
+      "nationality": "Indonesia",
+      "position": "Lateral derecho",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Copenhague",
+          "toClubId": "gladbach"
+        }
+      ]
+    },
+    {
+      "id": "luca-netz",
+      "name": "Luca Netz",
+      "slug": "luca-netz",
+      "birthDate": "2003-05-15",
+      "nationality": "Alemania",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "rocco-reitz",
+      "name": "Rocco Reitz",
+      "slug": "rocco-reitz",
+      "birthDate": "2002-05-29",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "kevin-stoger",
+      "name": "Kevin Stöger",
+      "slug": "kevin-stoger",
+      "birthDate": "1993-08-27",
+      "nationality": "Austria",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 22,
+      "status": "titular"
+    },
+    {
+      "id": "franck-honorat",
+      "name": "Franck Honorat",
+      "slug": "franck-honorat",
+      "birthDate": "1996-08-11",
+      "nationality": "Francia",
+      "position": "Extremo derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-06",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Brestois",
+          "toClubId": "gladbach"
+        }
+      ]
+    },
+    {
+      "id": "robin-hack",
+      "name": "Robin Hack",
+      "slug": "robin-hack",
+      "birthDate": "1998-08-27",
+      "nationality": "Alemania",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 14,
+      "status": "titular"
+    },
+    {
+      "id": "haris-tabakovic",
+      "name": "Haris Tabakovic",
+      "slug": "haris-tabakovic",
+      "birthDate": "1994-06-20",
+      "nationality": "Bosnia y Herzegovina",
+      "position": "Delantero centro",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-10",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "TSG Hoffenheim",
+          "toClubId": "gladbach"
+        }
+      ]
+    },
+    {
+      "id": "shuto-machino",
+      "name": "Shuto Machino",
+      "slug": "shuto-machino",
+      "birthDate": "1999-09-30",
+      "nationality": "Japón",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 23,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-04",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Holstein Kiel",
+          "toClubId": "gladbach"
+        }
+      ]
+    },
+    {
+      "id": "giovanni-reyna",
+      "name": "Giovanni Reyna",
+      "slug": "giovanni-reyna",
+      "birthDate": "2002-11-13",
+      "nationality": "Estados Unidos",
+      "position": "Mediapunta",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-08-28",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "dortmund",
+          "toClubId": "gladbach"
+        }
+      ]
+    }
+  ]
+}

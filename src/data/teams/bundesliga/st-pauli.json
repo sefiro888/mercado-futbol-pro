@@ -1,0 +1,181 @@
+{
+  "club": {
+    "id": "st-pauli",
+    "name": "FC St. Pauli",
+    "slug": "st-pauli",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Hamburgo",
+    "stadium": "Millerntor-Stadion",
+    "coach": "Alexander Blessin",
+    "founded": 1910,
+    "primaryColor": "#6E4B3A"
+  },
+  "players": [
+    {
+      "id": "nikola-vasilj",
+      "name": "Nikola Vasilj",
+      "slug": "nikola-vasilj",
+      "birthDate": "1995-12-02",
+      "nationality": "Bosnia y Herzegovina",
+      "position": "Portero",
+      "height": 193,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "hauke-wahl",
+      "name": "Hauke Wahl",
+      "slug": "hauke-wahl",
+      "birthDate": "1994-04-15",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 5,
+      "status": "titular"
+    },
+    {
+      "id": "eric-smith",
+      "name": "Eric Smith",
+      "slug": "eric-smith",
+      "birthDate": "1997-01-08",
+      "nationality": "Suecia",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "karol-mets",
+      "name": "Karol Mets",
+      "slug": "karol-mets",
+      "birthDate": "1993-05-16",
+      "nationality": "Estonia",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 18,
+      "status": "suplente"
+    },
+    {
+      "id": "adam-dzwigala",
+      "name": "Adam Dzwigala",
+      "slug": "adam-dzwigala",
+      "birthDate": "1995-09-25",
+      "nationality": "Polonia",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 1.5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 4,
+      "status": "suplente"
+    },
+    {
+      "id": "manolis-saliakas",
+      "name": "Manolis Saliakas",
+      "slug": "manolis-saliakas",
+      "birthDate": "1996-09-12",
+      "nationality": "Grecia",
+      "position": "Lateral derecho",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "james-sands",
+      "name": "James Sands",
+      "slug": "james-sands",
+      "birthDate": "2000-07-06",
+      "nationality": "Estados Unidos",
+      "position": "Mediocentro defensivo",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 16,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-24",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "New York City FC",
+          "toClubId": "st-pauli"
+        }
+      ]
+    },
+    {
+      "id": "jackson-irvine",
+      "name": "Jackson Irvine",
+      "slug": "jackson-irvine",
+      "birthDate": "1993-03-07",
+      "nationality": "Australia",
+      "position": "Mediocentro",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "connor-metcalfe",
+      "name": "Connor Metcalfe",
+      "slug": "connor-metcalfe",
+      "birthDate": "1999-11-05",
+      "nationality": "Australia",
+      "position": "Mediocentro",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 33,
+      "status": "titular"
+    },
+    {
+      "id": "danel-sinani",
+      "name": "Danel Sinani",
+      "slug": "danel-sinani",
+      "birthDate": "1997-04-05",
+      "nationality": "Luxemburgo",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular"
+    },
+    {
+      "id": "oladapo-afolayan",
+      "name": "Oladapo Afolayan",
+      "slug": "oladapo-afolayan",
+      "birthDate": "1997-09-11",
+      "nationality": "Inglaterra",
+      "position": "Extremo izquierdo",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 14,
+      "status": "titular"
+    }
+  ]
+}

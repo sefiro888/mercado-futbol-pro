@@ -82,6 +82,18 @@ const TEAM_IDS = {
   leipzig: 173,
   frankfurt: 169,
   stuttgart: 172,
+  wolfsburg: 161,
+  gladbach: 163,
+  freiburg: 160,
+  hoffenheim: 167,
+  mainz: 164,
+  augsburg: 170,
+  'werder-bremen': 162,
+  'union-berlin': 182,
+  koln: 192,
+  hamburgo: 175,
+  'st-pauli': 186,
+  heidenheim: 180,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */

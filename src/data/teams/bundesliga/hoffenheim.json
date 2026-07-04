@@ -1,0 +1,236 @@
+{
+  "club": {
+    "id": "hoffenheim",
+    "name": "TSG Hoffenheim",
+    "slug": "hoffenheim",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Sinsheim",
+    "stadium": "PreZero Arena",
+    "coach": "Christian Ilzer",
+    "founded": 1899,
+    "primaryColor": "#1961B5"
+  },
+  "players": [
+    {
+      "id": "oliver-baumann",
+      "name": "Oliver Baumann",
+      "slug": "oliver-baumann",
+      "birthDate": "1990-06-02",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "albian-hajdari",
+      "name": "Albian Hajdari",
+      "slug": "albian-hajdari",
+      "birthDate": "2003-05-02",
+      "nationality": "Suiza",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 4,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Lugano",
+          "toClubId": "hoffenheim"
+        }
+      ]
+    },
+    {
+      "id": "kevin-akpoguma",
+      "name": "Kevin Akpoguma",
+      "slug": "kevin-akpoguma",
+      "birthDate": "1995-04-19",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 192,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 25,
+      "status": "titular"
+    },
+    {
+      "id": "bernardo",
+      "name": "Bernardo",
+      "slug": "bernardo",
+      "birthDate": "1995-05-14",
+      "nationality": "Brasil",
+      "position": "Lateral izquierdo",
+      "height": 184,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 30,
+      "status": "titular"
+    },
+    {
+      "id": "leon-avdullahu",
+      "name": "Leon Avdullahu",
+      "slug": "leon-avdullahu",
+      "birthDate": "2004-02-10",
+      "nationality": "Suiza",
+      "position": "Mediocentro defensivo",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Basilea",
+          "toClubId": "hoffenheim"
+        }
+      ]
+    },
+    {
+      "id": "grischa-promel",
+      "name": "Grischa Prömel",
+      "slug": "grischa-promel",
+      "birthDate": "1995-01-09",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "andrej-kramaric",
+      "name": "Andrej Kramarić",
+      "slug": "andrej-kramaric",
+      "birthDate": "1991-06-19",
+      "nationality": "Croacia",
+      "position": "Mediapunta",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 27,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2016-07-01",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Leicester City",
+          "toClubId": "hoffenheim"
+        }
+      ]
+    },
+    {
+      "id": "adam-hlozek",
+      "name": "Adam Hlozek",
+      "slug": "adam-hlozek",
+      "birthDate": "2002-07-25",
+      "nationality": "Chequia",
+      "position": "Delantero centro",
+      "height": 188,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-11",
+          "fee": 18,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "leverkusen",
+          "toClubId": "hoffenheim"
+        }
+      ]
+    },
+    {
+      "id": "fisnik-asllani",
+      "name": "Fisnik Asllani",
+      "slug": "fisnik-asllani",
+      "birthDate": "2002-08-19",
+      "nationality": "Kosovo",
+      "position": "Delantero centro",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    },
+    {
+      "id": "tim-lemperle",
+      "name": "Tim Lemperle",
+      "slug": "tim-lemperle",
+      "birthDate": "2002-02-05",
+      "nationality": "Alemania",
+      "position": "Extremo derecho",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "1. FC Colonia",
+          "toClubId": "hoffenheim"
+        }
+      ]
+    },
+    {
+      "id": "wouter-burger",
+      "name": "Wouter Burger",
+      "slug": "wouter-burger",
+      "birthDate": "2001-02-16",
+      "nationality": "Países Bajos",
+      "position": "Mediocentro",
+      "height": 188,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 16,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-15",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "burnley",
+          "toClubId": "hoffenheim"
+        }
+      ]
+    }
+  ]
+}

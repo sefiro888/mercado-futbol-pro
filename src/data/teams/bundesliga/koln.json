@@ -1,0 +1,206 @@
+{
+  "club": {
+    "id": "koln",
+    "name": "1. FC Colonia",
+    "slug": "koln",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Colonia",
+    "stadium": "RheinEnergieStadion",
+    "coach": "Lukas Kwasniok",
+    "founded": 1948,
+    "primaryColor": "#ED1C24"
+  },
+  "players": [
+    {
+      "id": "marvin-schwabe",
+      "name": "Marvin Schwäbe",
+      "slug": "marvin-schwabe",
+      "birthDate": "1995-04-25",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "timo-hubers",
+      "name": "Timo Hübers",
+      "slug": "timo-hubers",
+      "birthDate": "1996-07-20",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "dominique-heintz",
+      "name": "Dominique Heintz",
+      "slug": "dominique-heintz",
+      "birthDate": "1993-08-15",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 3,
+      "status": "suplente"
+    },
+    {
+      "id": "leart-paqarada",
+      "name": "Leart Paqarada",
+      "slug": "leart-paqarada",
+      "birthDate": "1994-08-08",
+      "nationality": "Kosovo",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 19,
+      "status": "titular"
+    },
+    {
+      "id": "jan-thielmann",
+      "name": "Jan Thielmann",
+      "slug": "jan-thielmann",
+      "birthDate": "2002-05-26",
+      "nationality": "Alemania",
+      "position": "Extremo derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "eric-martel",
+      "name": "Eric Martel",
+      "slug": "eric-martel",
+      "birthDate": "2002-04-29",
+      "nationality": "Alemania",
+      "position": "Mediocentro defensivo",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "denis-huseinbasic",
+      "name": "Denis Huseinbasic",
+      "slug": "denis-huseinbasic",
+      "birthDate": "2001-07-03",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 14,
+      "status": "titular"
+    },
+    {
+      "id": "luca-waldschmidt",
+      "name": "Luca Waldschmidt",
+      "slug": "luca-waldschmidt",
+      "birthDate": "1996-05-19",
+      "nationality": "Alemania",
+      "position": "Mediapunta",
+      "height": 181,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 10,
+      "status": "suplente"
+    },
+    {
+      "id": "florian-kainz",
+      "name": "Florian Kainz",
+      "slug": "florian-kainz",
+      "birthDate": "1992-10-24",
+      "nationality": "Austria",
+      "position": "Extremo izquierdo",
+      "height": 176,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "said-el-mala",
+      "name": "Said El Mala",
+      "slug": "said-el-mala",
+      "birthDate": "2006-08-25",
+      "nationality": "Alemania",
+      "position": "Extremo izquierdo",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 25,
+      "status": "titular"
+    },
+    {
+      "id": "marius-bulter",
+      "name": "Marius Bülter",
+      "slug": "marius-bulter",
+      "birthDate": "1993-03-29",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 15,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "hoffenheim",
+          "toClubId": "koln"
+        }
+      ]
+    },
+    {
+      "id": "ragnar-ache",
+      "name": "Ragnar Ache",
+      "slug": "ragnar-ache",
+      "birthDate": "1998-07-28",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "1. FC Kaiserslautern",
+          "toClubId": "koln"
+        }
+      ]
+    }
+  ]
+}

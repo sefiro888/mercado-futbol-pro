@@ -1,0 +1,203 @@
+{
+  "club": {
+    "id": "augsburg",
+    "name": "FC Augsburgo",
+    "slug": "augsburg",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Augsburgo",
+    "stadium": "WWK Arena",
+    "coach": "Sandro Wagner",
+    "founded": 1907,
+    "primaryColor": "#BA3733"
+  },
+  "players": [
+    {
+      "id": "finn-dahmen",
+      "name": "Finn Dahmen",
+      "slug": "finn-dahmen",
+      "birthDate": "1998-03-27",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "jeffrey-gouweleeuw",
+      "name": "Jeffrey Gouweleeuw",
+      "slug": "jeffrey-gouweleeuw",
+      "birthDate": "1991-07-10",
+      "nationality": "Países Bajos",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 6,
+      "status": "titular"
+    },
+    {
+      "id": "keven-schlotterbeck",
+      "name": "Keven Schlotterbeck",
+      "slug": "keven-schlotterbeck",
+      "birthDate": "1997-04-28",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 189,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 40,
+      "status": "titular"
+    },
+    {
+      "id": "chrislain-matsima",
+      "name": "Chrislain Matsima",
+      "slug": "chrislain-matsima",
+      "birthDate": "2002-05-15",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "AS Mónaco",
+          "toClubId": "augsburg"
+        }
+      ]
+    },
+    {
+      "id": "marius-wolf",
+      "name": "Marius Wolf",
+      "slug": "marius-wolf",
+      "birthDate": "1995-05-27",
+      "nationality": "Alemania",
+      "position": "Lateral derecho",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 17,
+      "status": "titular"
+    },
+    {
+      "id": "dimitrios-giannoulis",
+      "name": "Dimitrios Giannoulis",
+      "slug": "dimitrios-giannoulis",
+      "birthDate": "1995-10-17",
+      "nationality": "Grecia",
+      "position": "Lateral izquierdo",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "elvis-rexhbecaj",
+      "name": "Elvis Rexhbecaj",
+      "slug": "elvis-rexhbecaj",
+      "birthDate": "1997-11-01",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "kristijan-jakic",
+      "name": "Kristijan Jakic",
+      "slug": "kristijan-jakic",
+      "birthDate": "1997-05-14",
+      "nationality": "Croacia",
+      "position": "Mediocentro defensivo",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 7,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 16,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-29",
+          "fee": 7,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "frankfurt",
+          "toClubId": "augsburg"
+        }
+      ]
+    },
+    {
+      "id": "fabian-rieder",
+      "name": "Fabian Rieder",
+      "slug": "fabian-rieder",
+      "birthDate": "2002-02-16",
+      "nationality": "Suiza",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-20",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Rennais",
+          "toClubId": "augsburg"
+        }
+      ]
+    },
+    {
+      "id": "alexis-claude-maurice",
+      "name": "Alexis Claude-Maurice",
+      "slug": "alexis-claude-maurice",
+      "birthDate": "1998-06-06",
+      "nationality": "Francia",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 11,
+      "status": "titular"
+    },
+    {
+      "id": "phillip-tietz",
+      "name": "Phillip Tietz",
+      "slug": "phillip-tietz",
+      "birthDate": "1997-07-09",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 189,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    }
+  ]
+}

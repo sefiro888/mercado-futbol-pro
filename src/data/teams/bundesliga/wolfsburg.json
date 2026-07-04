@@ -1,0 +1,239 @@
+{
+  "club": {
+    "id": "wolfsburg",
+    "name": "VfL Wolfsburgo",
+    "slug": "wolfsburg",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Wolfsburgo",
+    "stadium": "Volkswagen Arena",
+    "coach": "Paul Simonis",
+    "founded": 1945,
+    "primaryColor": "#65B32E"
+  },
+  "players": [
+    {
+      "id": "kamil-grabara",
+      "name": "Kamil Grabara",
+      "slug": "kamil-grabara",
+      "birthDate": "1999-01-08",
+      "nationality": "Polonia",
+      "position": "Portero",
+      "height": 195,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "konstantinos-koulierakis",
+      "name": "Konstantinos Koulierakis",
+      "slug": "konstantinos-koulierakis",
+      "birthDate": "2003-11-28",
+      "nationality": "Grecia",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 15,
+      "status": "titular"
+    },
+    {
+      "id": "moritz-jenz",
+      "name": "Moritz Jenz",
+      "slug": "moritz-jenz",
+      "birthDate": "1999-04-30",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 25,
+      "status": "titular"
+    },
+    {
+      "id": "denis-vavro",
+      "name": "Denis Vavro",
+      "slug": "denis-vavro",
+      "birthDate": "1996-04-10",
+      "nationality": "Eslovaquia",
+      "position": "Defensa central",
+      "height": 192,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "sael-kumbedi",
+      "name": "Sael Kumbedi",
+      "slug": "sael-kumbedi",
+      "birthDate": "2005-03-26",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 2,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-25",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Olympique de Lyon",
+          "toClubId": "wolfsburg"
+        }
+      ]
+    },
+    {
+      "id": "maximilian-arnold",
+      "name": "Maximilian Arnold",
+      "slug": "maximilian-arnold",
+      "birthDate": "1994-05-27",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 184,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 27,
+      "status": "titular"
+    },
+    {
+      "id": "mattias-svanberg",
+      "name": "Mattias Svanberg",
+      "slug": "mattias-svanberg",
+      "birthDate": "1999-01-05",
+      "nationality": "Suecia",
+      "position": "Mediocentro",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 32,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-07-14",
+          "fee": 10,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "bologna",
+          "toClubId": "wolfsburg"
+        }
+      ]
+    },
+    {
+      "id": "aster-vranckx",
+      "name": "Aster Vranckx",
+      "slug": "aster-vranckx",
+      "birthDate": "2002-10-04",
+      "nationality": "Bélgica",
+      "position": "Mediocentro",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 20,
+      "status": "titular"
+    },
+    {
+      "id": "patrick-wimmer",
+      "name": "Patrick Wimmer",
+      "slug": "patrick-wimmer",
+      "birthDate": "2001-05-30",
+      "nationality": "Austria",
+      "position": "Extremo derecho",
+      "height": 182,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 16,
+      "status": "titular"
+    },
+    {
+      "id": "lovro-majer",
+      "name": "Lovro Majer",
+      "slug": "lovro-majer",
+      "birthDate": "1998-01-17",
+      "nationality": "Croacia",
+      "position": "Mediapunta",
+      "height": 176,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-31",
+          "fee": 25,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Rennais",
+          "toClubId": "wolfsburg"
+        }
+      ]
+    },
+    {
+      "id": "mohamed-amoura",
+      "name": "Mohamed Amoura",
+      "slug": "mohamed-amoura",
+      "birthDate": "2000-05-09",
+      "nationality": "Argelia",
+      "position": "Delantero centro",
+      "height": 170,
+      "dominantFoot": "Derecho",
+      "marketValue": 22,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-06-01",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Union Saint-Gilloise",
+          "toClubId": "wolfsburg"
+        }
+      ]
+    },
+    {
+      "id": "jonas-wind",
+      "name": "Jonas Wind",
+      "slug": "jonas-wind",
+      "birthDate": "1999-02-07",
+      "nationality": "Dinamarca",
+      "position": "Delantero centro",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-01-31",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Copenhague",
+          "toClubId": "wolfsburg"
+        }
+      ]
+    }
+  ]
+}

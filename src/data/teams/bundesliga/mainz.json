@@ -1,0 +1,192 @@
+{
+  "club": {
+    "id": "mainz",
+    "name": "Mainz 05",
+    "slug": "mainz",
+    "country": "Alemania",
+    "league": "Bundesliga",
+    "city": "Maguncia",
+    "stadium": "Mewa Arena",
+    "coach": "Bo Henriksen",
+    "founded": 1905,
+    "primaryColor": "#C3141E"
+  },
+  "players": [
+    {
+      "id": "robin-zentner",
+      "name": "Robin Zentner",
+      "slug": "robin-zentner",
+      "birthDate": "1994-10-28",
+      "nationality": "Alemania",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 27,
+      "status": "titular"
+    },
+    {
+      "id": "andreas-hanche-olsen",
+      "name": "Andreas Hanche-Olsen",
+      "slug": "andreas-hanche-olsen",
+      "birthDate": "1997-01-17",
+      "nationality": "Noruega",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "dominik-kohr",
+      "name": "Dominik Kohr",
+      "slug": "dominik-kohr",
+      "birthDate": "1994-01-31",
+      "nationality": "Alemania",
+      "position": "Mediocentro defensivo",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    },
+    {
+      "id": "anthony-caci",
+      "name": "Anthony Caci",
+      "slug": "anthony-caci",
+      "birthDate": "1997-07-01",
+      "nationality": "Francia",
+      "position": "Lateral derecho",
+      "height": 185,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 3,
+      "status": "titular"
+    },
+    {
+      "id": "danny-da-costa",
+      "name": "Danny da Costa",
+      "slug": "danny-da-costa",
+      "birthDate": "1993-07-13",
+      "nationality": "Alemania",
+      "position": "Lateral derecho",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 22,
+      "status": "suplente"
+    },
+    {
+      "id": "nadiem-amiri",
+      "name": "Nadiem Amiri",
+      "slug": "nadiem-amiri",
+      "birthDate": "1996-10-27",
+      "nationality": "Alemania",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-11",
+          "fee": 1,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "leverkusen",
+          "toClubId": "mainz"
+        }
+      ]
+    },
+    {
+      "id": "kaishu-sano",
+      "name": "Kaishu Sano",
+      "slug": "kaishu-sano",
+      "birthDate": "2000-12-30",
+      "nationality": "Japón",
+      "position": "Mediocentro defensivo",
+      "height": 176,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-13",
+          "fee": 3.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Kashima Antlers",
+          "toClubId": "mainz"
+        }
+      ]
+    },
+    {
+      "id": "jae-sung-lee",
+      "name": "Jae-sung Lee",
+      "slug": "jae-sung-lee",
+      "birthDate": "1992-08-10",
+      "nationality": "Corea del Sur",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 7,
+      "status": "titular"
+    },
+    {
+      "id": "paul-nebel",
+      "name": "Paul Nebel",
+      "slug": "paul-nebel",
+      "birthDate": "2002-10-10",
+      "nationality": "Alemania",
+      "position": "Extremo derecho",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 14,
+      "status": "titular"
+    },
+    {
+      "id": "nelson-weiper",
+      "name": "Nelson Weiper",
+      "slug": "nelson-weiper",
+      "birthDate": "2005-03-26",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 9,
+      "status": "titular"
+    },
+    {
+      "id": "armindo-sieb",
+      "name": "Armindo Sieb",
+      "slug": "armindo-sieb",
+      "birthDate": "2003-02-17",
+      "nationality": "Alemania",
+      "position": "Delantero centro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 20,
+      "status": "suplente"
+    }
+  ]
+}
