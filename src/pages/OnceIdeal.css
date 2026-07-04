@@ -1,0 +1,562 @@
+/* =============================================
+   Once Ideal — Campo interactivo
+   ============================================= */
+
+.once-ideal {
+  max-width: 900px;
+}
+
+.oi-hero {
+  margin-bottom: 1.5rem;
+}
+
+.oi-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--brand, #22c55e);
+  margin: 0 0 0.3rem;
+}
+
+.oi-hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 0.4rem;
+}
+
+.oi-sub {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+/* Controles */
+.oi-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.oi-league-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.oi-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-ghost {
+  padding: 0.38rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn-ghost:hover {
+  background: rgba(255,255,255,0.06);
+  color: var(--text-primary);
+}
+
+/* Stats */
+.oi-stats {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.oi-stat {
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 10px;
+  padding: 0.75rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.oi-stat-val {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--brand, #22c55e);
+}
+
+.oi-stat-total {
+  font-size: 0.7rem;
+  opacity: 0.5;
+  margin-left: 2px;
+}
+
+.oi-stat-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+/* =====================
+   CAMPO DE FÚTBOL
+   ===================== */
+.pitch-wrap {
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.pitch {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66%; /* aspect ratio ~3:2 */
+  background: linear-gradient(
+    175deg,
+    #166534 0%, #15803d 14%, #166534 28%,
+    #15803d 42%, #166534 56%,
+    #15803d 70%, #166534 84%, #15803d 100%
+  );
+  border-radius: 16px;
+  overflow: hidden;
+  border: 3px solid rgba(255,255,255,0.12);
+  box-shadow:
+    0 20px 60px rgba(0,0,0,0.5),
+    inset 0 1px 0 rgba(255,255,255,0.1);
+}
+
+/* Líneas blancas del campo */
+.pitch-line {
+  position: absolute;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-radius: 0;
+  pointer-events: none;
+}
+
+.pitch-center-h {
+  left: 5%;
+  right: 5%;
+  top: 50%;
+  height: 0;
+}
+
+.pitch-center-circle {
+  width: 18%;
+  padding-bottom: 27%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.pitch-penalty-top {
+  left: 22%;
+  right: 22%;
+  top: 5%;
+  height: 22%;
+}
+
+.pitch-penalty-bot {
+  left: 22%;
+  right: 22%;
+  bottom: 5%;
+  height: 22%;
+}
+
+.pitch-small-area-top {
+  left: 34%;
+  right: 34%;
+  top: 5%;
+  height: 10%;
+}
+
+.pitch-small-area-bot {
+  left: 34%;
+  right: 34%;
+  bottom: 5%;
+  height: 10%;
+}
+
+.pitch-label {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.75rem;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.35);
+  letter-spacing: 0.05em;
+  pointer-events: none;
+}
+
+/* =====================
+   SLOTS DEL CAMPO
+   ===================== */
+.pitch-slot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-family: inherit;
+  z-index: 2;
+}
+
+.pitch-slot-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.5);
+  border: 2px solid rgba(255,255,255,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  backdrop-filter: blur(4px);
+}
+
+.pitch-slot:hover .pitch-slot-avatar {
+  transform: scale(1.12);
+  border-color: rgba(255,255,255,0.6);
+  box-shadow: 0 0 16px rgba(255,255,255,0.2);
+}
+
+.pitch-slot--filled .pitch-slot-avatar {
+  border-color: var(--brand, #22c55e);
+  box-shadow: 0 0 10px rgba(34,197,94,0.35);
+}
+
+.pitch-slot--filled:hover .pitch-slot-avatar {
+  border-color: #4ade80;
+  box-shadow: 0 0 18px rgba(34,197,94,0.55);
+}
+
+.slot-avatar-img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.slot-avatar-init {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-weight: 800;
+  color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+}
+
+.pitch-slot-plus {
+  font-size: 1.4rem;
+  color: rgba(255,255,255,0.4);
+  line-height: 1;
+}
+
+.pitch-slot-label {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.55);
+  text-transform: uppercase;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  line-height: 1;
+}
+
+.pitch-slot-name {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  white-space: nowrap;
+  max-width: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 1;
+  background: rgba(0,0,0,0.45);
+  border-radius: 4px;
+  padding: 1px 4px;
+}
+
+/* =====================
+   PICKER MODAL
+   ===================== */
+.picker-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0,0,0,0.65);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: fadeIn 0.15s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.picker-panel {
+  background: var(--bg-card, #151c2e);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 520px;
+  max-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+  animation: slideUp 0.2s var(--ease, ease);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.picker-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.25rem 1.25rem 0.75rem;
+  gap: 1rem;
+}
+
+.picker-title {
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 0 0 0.15rem;
+}
+
+.picker-sub {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.picker-close {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--text-secondary);
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+
+.picker-close:hover { background: rgba(255,255,255,0.1); }
+
+.picker-search {
+  margin: 0 1.25rem 0.75rem;
+  padding: 0.65rem 1rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.picker-search:focus {
+  border-color: var(--brand, #22c55e);
+}
+
+.picker-list {
+  overflow-y: auto;
+  flex: 1;
+  padding: 0 0.5rem 1rem;
+}
+
+.picker-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  background: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: left;
+  transition: background 0.12s;
+}
+
+.picker-item:hover {
+  background: rgba(255,255,255,0.05);
+}
+
+.picker-item-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.picker-item-name {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.picker-item-meta {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.picker-item-val {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--brand, #22c55e);
+  white-space: nowrap;
+}
+
+.picker-empty {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  padding: 2rem 0;
+}
+
+/* =====================
+   LISTA DE SELECCIONADOS
+   ===================== */
+.oi-roster {
+  margin-top: 1rem;
+}
+
+.oi-roster h2 {
+  font-size: 1.2rem;
+  margin: 0 0 1rem;
+}
+
+.oi-roster-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.oi-card {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 0.65rem 1rem;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.oi-card:hover {
+  border-color: rgba(255,255,255,0.14);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.oi-card-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: rgba(255,255,255,0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oi-card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.oi-card-pos {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--brand, #22c55e);
+  text-transform: uppercase;
+}
+
+.oi-card-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.oi-card-club {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+}
+
+.oi-card-val {
+  font-size: 0.82rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* =====================
+   RESPONSIVE
+   ===================== */
+@media (max-width: 600px) {
+  .pitch-slot-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .pitch-slot-name {
+    display: none;
+  }
+
+  .oi-stats {
+    flex-wrap: wrap;
+  }
+
+  .picker-panel {
+    max-height: 90vh;
+    border-radius: 16px 16px 0 0;
+    align-self: flex-end;
+    max-width: 100%;
+  }
+
+  .picker-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+}
