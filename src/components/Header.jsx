@@ -20,6 +20,13 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
+  // Cerrar menú al cambiar tamaño a desktop
+  useEffect(() => {
+    const onResize = () => { if (window.innerWidth > 1060) setOpen(false) }
+    window.addEventListener('resize', onResize)
+    return () => window.removeEventListener('resize', onResize)
+  }, [])
+
   // Ctrl+K / Cmd+K abre la búsqueda global.
   useEffect(() => {
     function onKey(e) {
@@ -36,36 +43,33 @@ export default function Header() {
     <>
       <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-inner">
+
+          {/* Logo */}
           <Link to="/" className="brand" onClick={() => setOpen(false)}>
             <span className="brand-mark" aria-hidden="true"><Icon name="ball" size={22} /></span>
             <span className="brand-text">
-              {SITE.name}
+              {SITE.shortName}
               <small>{SITE.tagline}</small>
             </span>
           </Link>
 
-          <button
-            className="nav-toggle"
-            aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
-          >
-            {open ? <Icon name="close" size={22} /> : <Icon name="menu" size={22} />}
-          </button>
-
-          <nav className={`site-nav ${open ? 'is-open' : ''}`}>
+          {/* Nav desktop — solo visible >1060px */}
+          <nav className={`site-nav ${open ? 'is-open' : ''}`} aria-label="Navegación principal">
             {SITE.nav.map((item) => (
               <NavLink
                 key={item.to}
                 to={item.to}
                 end={item.to === '/'}
-                className={({ isActive }) => (isActive ? 'active' : '')}
+                className={({ isActive }) => [isActive ? 'active' : '', item.desktopHide ? 'nav-desktop-hide' : ''].join(' ').trim()}
                 onClick={() => setOpen(false)}
               >
                 {item.label}
               </NavLink>
             ))}
+          </nav>
 
+          {/* Acciones siempre visibles */}
+          <div className="header-actions">
             <button
               className="header-search-btn"
               onClick={() => { setSearchOpen(true); setOpen(false) }}
@@ -97,7 +101,17 @@ export default function Header() {
                 </svg>
               )}
             </button>
-          </nav>
+
+            {/* Hamburguesa — solo visible ≤1060px */}
+            <button
+              className="nav-toggle"
+              aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
+              aria-expanded={open}
+              onClick={() => setOpen((v) => !v)}
+            >
+              {open ? <Icon name="close" size={22} /> : <Icon name="menu" size={22} />}
+            </button>
+          </div>
         </div>
       </header>
 
