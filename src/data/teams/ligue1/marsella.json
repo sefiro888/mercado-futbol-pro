@@ -1,0 +1,317 @@
+{
+  "club": {
+    "id": "marsella",
+    "name": "Olympique de Marsella",
+    "slug": "marsella",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Marsella",
+    "stadium": "Stade Vélodrome",
+    "coach": "Pendiente de anuncio",
+    "founded": 1899,
+    "primaryColor": "#009DDC"
+  },
+  "players": [
+    {
+      "id": "geronimo-rulli",
+      "name": "Gerónimo Rulli",
+      "slug": "geronimo-rulli",
+      "birthDate": "1992-05-20",
+      "nationality": "Argentina",
+      "position": "Portero",
+      "height": 189,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "leonardo-balerdi",
+      "name": "Leonardo Balerdi",
+      "slug": "leonardo-balerdi",
+      "birthDate": "1999-01-26",
+      "nationality": "Argentina",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "dortmund",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "cj-egan-riley",
+      "name": "CJ Egan-Riley",
+      "slug": "cj-egan-riley",
+      "birthDate": "2003-01-02",
+      "nationality": "Inglaterra",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 24,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "burnley",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "amir-murillo",
+      "name": "Amir Murillo",
+      "slug": "amir-murillo",
+      "birthDate": "1996-03-11",
+      "nationality": "Panamá",
+      "position": "Lateral derecho",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 62,
+      "status": "titular"
+    },
+    {
+      "id": "ulisses-garcia",
+      "name": "Ulisses Garcia",
+      "slug": "ulisses-garcia",
+      "birthDate": "1996-01-11",
+      "nationality": "Suiza",
+      "position": "Lateral izquierdo",
+      "height": 182,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 18,
+      "status": "suplente"
+    },
+    {
+      "id": "pierre-emile-hjbjerg",
+      "name": "Pierre-Emile Højbjerg",
+      "slug": "pierre-emile-hjbjerg",
+      "birthDate": "1995-08-05",
+      "nationality": "Dinamarca",
+      "position": "Mediocentro defensivo",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 23,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-17",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "tottenham",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "geoffrey-kondogbia",
+      "name": "Geoffrey Kondogbia",
+      "slug": "geoffrey-kondogbia",
+      "birthDate": "1993-02-15",
+      "nationality": "República Centroafricana",
+      "position": "Mediocentro defensivo",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 19,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2023-08-04",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atletico-madrid",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "angel-gomes",
+      "name": "Angel Gomes",
+      "slug": "angel-gomes",
+      "birthDate": "2000-08-31",
+      "nationality": "Inglaterra",
+      "position": "Mediocentro",
+      "height": 168,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Lille",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "mason-greenwood",
+      "name": "Mason Greenwood",
+      "slug": "mason-greenwood",
+      "birthDate": "2001-10-01",
+      "nationality": "Inglaterra",
+      "position": "Extremo derecho",
+      "height": 181,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 40,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-18",
+          "fee": 26,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-united",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "timothy-weah",
+      "name": "Timothy Weah",
+      "slug": "timothy-weah",
+      "birthDate": "2000-02-22",
+      "nationality": "Estados Unidos",
+      "position": "Extremo derecho",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 22,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-01",
+          "fee": 11.3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Lille",
+          "toClubId": "juventus"
+        },
+        {
+          "date": "2025-08-01",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "igor-paixao",
+      "name": "Igor Paixão",
+      "slug": "igor-paixao",
+      "birthDate": "2000-06-28",
+      "nationality": "Brasil",
+      "position": "Extremo izquierdo",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 30,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 14,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-31",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Feyenoord",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "amine-gouiri",
+      "name": "Amine Gouiri",
+      "slug": "amine-gouiri",
+      "birthDate": "2000-02-16",
+      "nationality": "Argelia",
+      "position": "Delantero centro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-01-30",
+          "fee": 19,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade Rennais",
+          "toClubId": "marsella"
+        }
+      ]
+    },
+    {
+      "id": "pierre-emerick-aubameyang",
+      "name": "Pierre-Emerick Aubameyang",
+      "slug": "pierre-emerick-aubameyang",
+      "birthDate": "1989-06-18",
+      "nationality": "Gabón",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 17,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-22",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Al-Qadsiah",
+          "toClubId": "marsella"
+        }
+      ]
+    }
+  ]
+}

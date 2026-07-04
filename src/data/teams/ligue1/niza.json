@@ -1,0 +1,183 @@
+{
+  "club": {
+    "id": "niza",
+    "name": "OGC Niza",
+    "slug": "niza",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Niza",
+    "stadium": "Allianz Riviera",
+    "coach": "Franck Haise",
+    "founded": 1904,
+    "primaryColor": "#B0000E"
+  },
+  "players": [
+    {
+      "id": "yehvann-diouf",
+      "name": "Yehvann Diouf",
+      "slug": "yehvann-diouf",
+      "birthDate": "1999-11-16",
+      "nationality": "Francia",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-30",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Stade de Reims",
+          "toClubId": "niza"
+        }
+      ]
+    },
+    {
+      "id": "dante",
+      "name": "Dante",
+      "slug": "dante",
+      "birthDate": "1983-10-18",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 1,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 22,
+      "status": "titular"
+    },
+    {
+      "id": "melvin-bard",
+      "name": "Melvin Bard",
+      "slug": "melvin-bard",
+      "birthDate": "2000-11-06",
+      "nationality": "Francia",
+      "position": "Lateral izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 3,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lyon",
+          "toClubId": "niza"
+        }
+      ]
+    },
+    {
+      "id": "pablo-rosario",
+      "name": "Pablo Rosario",
+      "slug": "pablo-rosario",
+      "birthDate": "1997-01-07",
+      "nationality": "Países Bajos",
+      "position": "Mediocentro defensivo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2021-07-27",
+          "fee": 6,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "PSV Eindhoven",
+          "toClubId": "niza"
+        }
+      ]
+    },
+    {
+      "id": "hicham-boudaoui",
+      "name": "Hicham Boudaoui",
+      "slug": "hicham-boudaoui",
+      "birthDate": "1999-09-23",
+      "nationality": "Argelia",
+      "position": "Mediocentro",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular"
+    },
+    {
+      "id": "morgan-sanson",
+      "name": "Morgan Sanson",
+      "slug": "morgan-sanson",
+      "birthDate": "1994-08-18",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 14,
+      "status": "suplente"
+    },
+    {
+      "id": "sofiane-diop",
+      "name": "Sofiane Diop",
+      "slug": "sofiane-diop",
+      "birthDate": "2000-06-09",
+      "nationality": "Marruecos",
+      "position": "Mediapunta",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-09-01",
+          "fee": 22,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "monaco",
+          "toClubId": "niza"
+        }
+      ]
+    },
+    {
+      "id": "terem-moffi",
+      "name": "Terem Moffi",
+      "slug": "terem-moffi",
+      "birthDate": "1999-05-25",
+      "nationality": "Nigeria",
+      "position": "Delantero centro",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-01-31",
+          "fee": 22.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Lorient",
+          "toClubId": "niza"
+        }
+      ]
+    }
+  ]
+}

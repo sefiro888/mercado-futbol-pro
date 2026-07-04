@@ -1,0 +1,308 @@
+{
+  "club": {
+    "id": "lille",
+    "name": "Lille OSC",
+    "slug": "lille",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Lille",
+    "stadium": "Stade Pierre-Mauroy",
+    "coach": "Bruno Genesio",
+    "founded": 1944,
+    "primaryColor": "#E01E13"
+  },
+  "players": [
+    {
+      "id": "berke-ozer",
+      "name": "Berke Özer",
+      "slug": "berke-ozer",
+      "birthDate": "2000-05-25",
+      "nationality": "Turquía",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-16",
+          "fee": 3.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Eyüpspor",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "thomas-meunier",
+      "name": "Thomas Meunier",
+      "slug": "thomas-meunier",
+      "birthDate": "1991-09-12",
+      "nationality": "Bélgica",
+      "position": "Lateral derecho",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 12,
+      "status": "titular"
+    },
+    {
+      "id": "aissa-mandi",
+      "name": "Aïssa Mandi",
+      "slug": "aissa-mandi",
+      "birthDate": "1991-10-22",
+      "nationality": "Argelia",
+      "position": "Defensa central",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 23,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2021-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "real-betis",
+          "toClubId": "villarreal"
+        },
+        {
+          "date": "2024-08-10",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "villarreal",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "alexsandro",
+      "name": "Alexsandro",
+      "slug": "alexsandro",
+      "birthDate": "1999-08-09",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 18,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 4,
+      "status": "titular"
+    },
+    {
+      "id": "calvin-verdonk",
+      "name": "Calvin Verdonk",
+      "slug": "calvin-verdonk",
+      "birthDate": "1997-04-26",
+      "nationality": "Países Bajos",
+      "position": "Lateral izquierdo",
+      "height": 179,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 26,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-08",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "NEC Nimega",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-andre",
+      "name": "Benjamin André",
+      "slug": "benjamin-andre",
+      "birthDate": "1990-08-03",
+      "nationality": "Francia",
+      "position": "Mediocentro defensivo",
+      "height": 184,
+      "dominantFoot": "Derecho",
+      "marketValue": 3,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 21,
+      "status": "titular"
+    },
+    {
+      "id": "ayyoub-bouaddi",
+      "name": "Ayyoub Bouaddi",
+      "slug": "ayyoub-bouaddi",
+      "birthDate": "2007-10-02",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 45,
+      "status": "titular"
+    },
+    {
+      "id": "andre-gomes",
+      "name": "André Gomes",
+      "slug": "andre-gomes",
+      "birthDate": "1993-07-30",
+      "nationality": "Portugal",
+      "position": "Mediocentro",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 6,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2024-08-02",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "everton",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "hakon-haraldsson",
+      "name": "Hákon Haraldsson",
+      "slug": "hakon-haraldsson",
+      "birthDate": "2003-04-10",
+      "nationality": "Islandia",
+      "position": "Mediapunta",
+      "height": 177,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 10,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-07-14",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Copenhague",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "osame-sahraoui",
+      "name": "Osame Sahraoui",
+      "slug": "osame-sahraoui",
+      "birthDate": "2001-06-11",
+      "nationality": "Marruecos",
+      "position": "Extremo izquierdo",
+      "height": 175,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 7,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-15",
+          "fee": 6.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Heerenveen",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "hamza-igamane",
+      "name": "Hamza Igamane",
+      "slug": "hamza-igamane",
+      "birthDate": "2002-12-05",
+      "nationality": "Marruecos",
+      "position": "Delantero centro",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 15,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-20",
+          "fee": 11,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Rangers",
+          "toClubId": "lille"
+        }
+      ]
+    },
+    {
+      "id": "olivier-giroud",
+      "name": "Olivier Giroud",
+      "slug": "olivier-giroud",
+      "birthDate": "1986-09-30",
+      "nationality": "Francia",
+      "position": "Delantero centro",
+      "height": 193,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 9,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2012-06-26",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Montpellier",
+          "toClubId": "arsenal"
+        },
+        {
+          "date": "2018-01-31",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "chelsea"
+        },
+        {
+          "date": "2021-07-17",
+          "fee": 1,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "chelsea",
+          "toClubId": "milan"
+        },
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Los Angeles FC",
+          "toClubId": "lille"
+        }
+      ]
+    }
+  ]
+}

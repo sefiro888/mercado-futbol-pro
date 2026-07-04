@@ -94,6 +94,13 @@ const TEAM_IDS = {
   hamburgo: 175,
   'st-pauli': 186,
   heidenheim: 180,
+  // Ligue 1
+  psg: 85,
+  marsella: 81,
+  monaco: 91,
+  lyon: 80,
+  lille: 79,
+  niza: 84,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */

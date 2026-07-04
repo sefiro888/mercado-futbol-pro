@@ -1,0 +1,290 @@
+{
+  "club": {
+    "id": "monaco",
+    "name": "AS Mónaco",
+    "slug": "monaco",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Mónaco",
+    "stadium": "Stade Louis II",
+    "coach": "Sébastien Pocognoli",
+    "founded": 1924,
+    "primaryColor": "#CF0A2C"
+  },
+  "players": [
+    {
+      "id": "philipp-kohn",
+      "name": "Philipp Köhn",
+      "slug": "philipp-kohn",
+      "birthDate": "1998-04-02",
+      "nationality": "Suiza",
+      "position": "Portero",
+      "height": 190,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 1,
+      "status": "titular"
+    },
+    {
+      "id": "vanderson",
+      "name": "Vanderson",
+      "slug": "vanderson",
+      "birthDate": "2001-06-21",
+      "nationality": "Brasil",
+      "position": "Lateral derecho",
+      "height": 175,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "thilo-kehrer",
+      "name": "Thilo Kehrer",
+      "slug": "thilo-kehrer",
+      "birthDate": "1996-09-21",
+      "nationality": "Alemania",
+      "position": "Defensa central",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 11.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "west-ham",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "christian-mawissa",
+      "name": "Christian Mawissa",
+      "slug": "christian-mawissa",
+      "birthDate": "2005-04-24",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 4,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-23",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Toulouse",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "eric-dier",
+      "name": "Eric Dier",
+      "slug": "eric-dier",
+      "birthDate": "1994-01-15",
+      "nationality": "Inglaterra",
+      "position": "Defensa central",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 24,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "bayern",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "caio-henrique",
+      "name": "Caio Henrique",
+      "slug": "caio-henrique",
+      "birthDate": "1997-07-31",
+      "nationality": "Brasil",
+      "position": "Lateral izquierdo",
+      "height": 184,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 12,
+      "status": "titular"
+    },
+    {
+      "id": "denis-zakaria",
+      "name": "Denis Zakaria",
+      "slug": "denis-zakaria",
+      "birthDate": "1996-11-20",
+      "nationality": "Suiza",
+      "position": "Mediocentro defensivo",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-25",
+          "fee": 20,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "lamine-camara",
+      "name": "Lamine Camara",
+      "slug": "lamine-camara",
+      "birthDate": "2004-01-01",
+      "nationality": "Senegal",
+      "position": "Mediocentro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 20,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 17,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-07-01",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "FC Metz",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "paul-pogba",
+      "name": "Paul Pogba",
+      "slug": "paul-pogba",
+      "birthDate": "1993-03-15",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 191,
+      "dominantFoot": "Derecho",
+      "marketValue": 5,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2016-08-08",
+          "fee": 105,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "juventus",
+          "toClubId": "manchester-united"
+        },
+        {
+          "date": "2022-07-11",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "manchester-united",
+          "toClubId": "juventus"
+        },
+        {
+          "date": "2025-06-28",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubName": "Agente libre",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "maghnes-akliouche",
+      "name": "Maghnes Akliouche",
+      "slug": "maghnes-akliouche",
+      "birthDate": "2002-02-25",
+      "nationality": "Francia",
+      "position": "Mediapunta",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 45,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 11,
+      "status": "titular"
+    },
+    {
+      "id": "takumi-minamino",
+      "name": "Takumi Minamino",
+      "slug": "takumi-minamino",
+      "birthDate": "1995-01-16",
+      "nationality": "Japón",
+      "position": "Mediapunta",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 18,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2022-06-28",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "liverpool",
+          "toClubId": "monaco"
+        }
+      ]
+    },
+    {
+      "id": "folarin-balogun",
+      "name": "Folarin Balogun",
+      "slug": "folarin-balogun",
+      "birthDate": "2001-07-03",
+      "nationality": "Estados Unidos",
+      "position": "Delantero centro",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 25,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 29,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2023-08-30",
+          "fee": 30,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "arsenal",
+          "toClubId": "monaco"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "club": {
+    "id": "lyon",
+    "name": "Olympique de Lyon",
+    "slug": "lyon",
+    "country": "Francia",
+    "league": "Ligue 1",
+    "city": "Lyon",
+    "stadium": "Groupama Stadium",
+    "coach": "Paulo Fonseca",
+    "founded": 1950,
+    "primaryColor": "#1A3E8F"
+  },
+  "players": [
+    {
+      "id": "dominik-greif",
+      "name": "Dominik Greif",
+      "slug": "dominik-greif",
+      "birthDate": "1997-04-06",
+      "nationality": "Eslovaquia",
+      "position": "Portero",
+      "height": 194,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-24",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "mallorca",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "clinton-mata",
+      "name": "Clinton Mata",
+      "slug": "clinton-mata",
+      "birthDate": "1992-11-07",
+      "nationality": "Angola",
+      "position": "Lateral derecho",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 4,
+      "contractUntil": "2026-06-30",
+      "shirtNumber": 2,
+      "status": "titular"
+    },
+    {
+      "id": "moussa-niakhate",
+      "name": "Moussa Niakhaté",
+      "slug": "moussa-niakhate",
+      "birthDate": "1996-03-08",
+      "nationality": "Senegal",
+      "position": "Defensa central",
+      "height": 190,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 19,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-20",
+          "fee": 31.9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "nottingham-forest",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "ruben-kluivert",
+      "name": "Ruben Kluivert",
+      "slug": "ruben-kluivert",
+      "birthDate": "2001-05-21",
+      "nationality": "Países Bajos",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 3,
+      "status": "suplente"
+    },
+    {
+      "id": "abner",
+      "name": "Abner",
+      "slug": "abner",
+      "birthDate": "2000-05-27",
+      "nationality": "Brasil",
+      "position": "Lateral izquierdo",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 10,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 27,
+      "status": "titular"
+    },
+    {
+      "id": "corentin-tolisso",
+      "name": "Corentin Tolisso",
+      "slug": "corentin-tolisso",
+      "birthDate": "1994-08-03",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 181,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 8,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2017-06-14",
+          "fee": 41.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lyon",
+          "toClubId": "bayern"
+        },
+        {
+          "date": "2022-07-01",
+          "fee": 0,
+          "sources": [
+            "src-club-oficial"
+          ],
+          "fromClubId": "bayern",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "tanner-tessmann",
+      "name": "Tanner Tessmann",
+      "slug": "tanner-tessmann",
+      "birthDate": "2001-09-24",
+      "nationality": "Estados Unidos",
+      "position": "Mediocentro",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 15,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-08-30",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Venezia",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "tyler-morton",
+      "name": "Tyler Morton",
+      "slug": "tyler-morton",
+      "birthDate": "2002-10-13",
+      "nationality": "Inglaterra",
+      "position": "Mediocentro",
+      "height": 179,
+      "dominantFoot": "Derecho",
+      "marketValue": 10,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 37,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2025-07-11",
+          "fee": 12,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "liverpool",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "pavel-sulc",
+      "name": "Pavel Šulc",
+      "slug": "pavel-sulc",
+      "birthDate": "2000-12-29",
+      "nationality": "Chequia",
+      "position": "Mediapunta",
+      "height": 178,
+      "dominantFoot": "Derecho",
+      "marketValue": 12,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 26,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-07-15",
+          "fee": 8,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "Viktoria Pilsen",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "malick-fofana",
+      "name": "Malick Fofana",
+      "slug": "malick-fofana",
+      "birthDate": "2005-03-31",
+      "nationality": "Bélgica",
+      "position": "Extremo izquierdo",
+      "height": 174,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2024-01-25",
+          "fee": 17,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubName": "KAA Gent",
+          "toClubId": "lyon"
+        }
+      ]
+    },
+    {
+      "id": "martin-satriano",
+      "name": "Martín Satriano",
+      "slug": "martin-satriano",
+      "birthDate": "2001-02-20",
+      "nationality": "Uruguay",
+      "position": "Delantero centro",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 9,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2025-08-14",
+          "fee": 4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "lyon"
+        }
+      ]
+    }
+  ]
+}
