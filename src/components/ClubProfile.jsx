@@ -24,6 +24,7 @@ import {
   getClubTopTransfers,
 } from '@/lib/data.js'
 import ClubHonors, { HonorsStrip } from './ClubHonors.jsx'
+import WatchlistButton from './WatchlistButton.jsx'
 import CoachHistory from './CoachHistory.jsx'
 import './Profile.css'
 
@@ -146,7 +147,10 @@ export default function ClubProfile({ club }) {
             <div className="hero-sub">
               <Flag country={club.country} withName /> · <Icon name="stadium" size={15} /> {club.stadium} · <Icon name="coach" size={15} /> {club.coach}
             </div>
-            <HonorsStrip clubId={club.id} />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap', marginTop: '0.5rem' }}>
+              <HonorsStrip clubId={club.id} />
+              <WatchlistButton id={club.id} type="club" name={club.name} size="sm" />
+            </div>
           </div>
         </div>
       </header>

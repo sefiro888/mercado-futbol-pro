@@ -14,6 +14,7 @@ import { clubLogoUrl } from '@/lib/logos.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
 import { buildRadarAxes } from '@/lib/profileRadar.js'
 import RadarChart from './RadarChart.jsx'
+import WatchlistButton from './WatchlistButton.jsx'
 import { formatMoney, formatDate, formatHeight } from '@/lib/format.js'
 import PlayerCard from './PlayerCard.jsx'
 import {
@@ -331,6 +332,7 @@ export default function PlayerProfile({ player }) {
               <StatusBadge map={PLAYER_STATUS} value={player.status} />
               <span className="chip"><Flag country={player.nationality} /> {player.nationality}</span>
               <span className="chip">Valor: {formatMoney(player.marketValue)}</span>
+              <WatchlistButton id={player.slug} type="player" name={player.name} size="sm" />
             </div>
           </div>
         </div>

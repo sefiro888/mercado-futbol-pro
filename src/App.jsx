@@ -20,6 +20,7 @@ const Simulator = lazy(() => import('@/pages/Simulator.jsx'))
 const MarketLive = lazy(() => import('@/pages/MarketLive.jsx'))
 const OnceIdeal = lazy(() => import('@/pages/OnceIdeal.jsx'))
 const Rankings = lazy(() => import('@/pages/Rankings.jsx'))
+const Watchlist = lazy(() => import('@/pages/Watchlist.jsx'))
 const NotFound = lazy(() => import('@/pages/NotFound.jsx'))
 
 // Vuelve arriba al cambiar de ruta (mejor UX en navegación SPA).
@@ -65,6 +66,7 @@ export default function App() {
               <Route path="/mercado-vivo" element={<MarketLive />} />
               <Route path="/once-ideal" element={<OnceIdeal />} />
               <Route path="/rankings" element={<Rankings />} />
+              <Route path="/watchlist" element={<Watchlist />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
