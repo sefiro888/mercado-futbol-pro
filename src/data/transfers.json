@@ -857,5 +857,110 @@
       "src-wikipedia"
     ],
     "notes": "Incorporación veterana para el ataque del Espanyol. Actualizado a 27/06/2026."
+  },
+  {
+    "id": "tr26-roman-deportivo",
+    "playerId": "leo-roman",
+    "fromClubId": "mallorca",
+    "toClubId": "deportivo",
+    "transferFee": 9,
+    "marketValueAtTransfer": 6,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "El portero español ficha por el Deportivo tras destacar en el Mallorca. Datos vía Transfermarkt."
+  },
+  {
+    "id": "tr26-brown-bayern",
+    "playerId": "nathaniel-brown",
+    "fromClubId": "frankfurt",
+    "toClubId": "bayern",
+    "transferFee": 50,
+    "marketValueAtTransfer": 40,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-06-30",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "El lateral izquierdo germano-estadounidense refuerza al Bayern por 50 M€. Datos vía Transfermarkt."
+  },
+  {
+    "id": "tr26-abergel-niza",
+    "playerId": "laurent-abergel",
+    "fromClubId": "lorient",
+    "toClubId": "niza",
+    "transferFee": 0,
+    "marketValueAtTransfer": 1.8,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-06-30",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "El centrocampista francés llega libre tras acabar contrato con el Lorient. Datos vía Transfermarkt."
+  },
+  {
+    "id": "tr26-pedraza-lazio",
+    "playerId": "alfonso-pedraza",
+    "fromClubId": "villarreal",
+    "toClubId": "lazio",
+    "transferFee": 0,
+    "marketValueAtTransfer": 2.5,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-07-01",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "El lateral izquierdo español deja el Villarreal y firma libre por la Lazio. Datos vía Transfermarkt."
+  },
+  {
+    "id": "tr26-carboni-parma",
+    "playerId": "franco-carboni",
+    "fromClubId": "inter",
+    "toClubId": "parma",
+    "transferFee": 2.5,
+    "marketValueAtTransfer": 0.9,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-06-28",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "El lateral argentino-italiano sale del Inter para tener más minutos en el Parma. Datos vía Transfermarkt."
+  },
+  {
+    "id": "tr26-duranville-lyon",
+    "playerId": "julien-duranville",
+    "fromClubId": "dortmund",
+    "toClubId": "lyon",
+    "transferFee": 5,
+    "marketValueAtTransfer": 6,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-07-02",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "El extremo belga busca continuidad en el Lyon tras las lesiones en el Dortmund. Datos vía Transfermarkt."
+  },
+  {
+    "id": "tr26-detourbet-monaco",
+    "playerId": "mathys-detourbet",
+    "fromClubId": "manchester-city",
+    "toClubId": "monaco",
+    "transferFee": 0,
+    "marketValueAtTransfer": 15,
+    "previousPurchaseFee": null,
+    "transferDate": "2026-07-03",
+    "status": "confirmado",
+    "sources": [
+      "src-transfermarkt"
+    ],
+    "notes": "Cesión de una temporada del extremo francés, que busca protagonismo cerca de casa. Datos vía Transfermarkt."
   }
 ]

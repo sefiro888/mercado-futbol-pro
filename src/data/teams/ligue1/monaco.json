@@ -285,6 +285,32 @@
           "toClubId": "monaco"
         }
       ]
+    },
+    {
+      "id": "mathys-detourbet",
+      "name": "Mathys Detourbet",
+      "slug": "mathys-detourbet",
+      "birthDate": "2006-08-30",
+      "nationality": "Francia",
+      "position": "Extremo izquierdo",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 15,
+      "contractUntil": "2027-06-30",
+      "shirtNumber": 17,
+      "status": "cedido",
+      "transferHistory": [
+        {
+          "date": "2026-07-03",
+          "fee": 0,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "manchester-city",
+          "toClubId": "monaco",
+          "note": "Cesión de una temporada"
+        }
+      ]
     }
   ]
 }

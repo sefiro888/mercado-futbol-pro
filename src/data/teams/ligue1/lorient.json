@@ -41,20 +41,6 @@
       "status": "titular"
     },
     {
-      "id": "laurent-abergel",
-      "name": "Laurent Abergel",
-      "slug": "laurent-abergel",
-      "birthDate": "1993-02-01",
-      "nationality": "Francia",
-      "position": "Mediocentro",
-      "height": 170,
-      "dominantFoot": "Derecho",
-      "marketValue": 3,
-      "contractUntil": "2026-06-30",
-      "shirtNumber": 8,
-      "status": "titular"
-    },
-    {
       "id": "theo-le-bris",
       "name": "Théo Le Bris",
       "slug": "theo-le-bris",

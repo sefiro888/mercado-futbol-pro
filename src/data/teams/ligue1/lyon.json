@@ -262,6 +262,31 @@
           "toClubId": "lyon"
         }
       ]
+    },
+    {
+      "id": "julien-duranville",
+      "name": "Julien Duranville",
+      "slug": "julien-duranville",
+      "birthDate": "2006-01-05",
+      "nationality": "Bélgica",
+      "position": "Extremo izquierdo",
+      "height": 180,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 11,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-07-02",
+          "fee": 5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "dortmund",
+          "toClubId": "lyon"
+        }
+      ]
     }
   ]
 }

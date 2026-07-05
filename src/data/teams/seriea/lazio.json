@@ -290,6 +290,31 @@
           "toClubId": "lazio"
         }
       ]
+    },
+    {
+      "id": "alfonso-pedraza",
+      "name": "Alfonso Pedraza",
+      "slug": "alfonso-pedraza",
+      "birthDate": "1996-04-09",
+      "nationality": "España",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 2.5,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 22,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 0,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "villarreal",
+          "toClubId": "lazio"
+        }
+      ]
     }
   ]
 }

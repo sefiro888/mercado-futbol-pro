@@ -193,6 +193,31 @@
       "contractUntil": "2029-06-30",
       "shirtNumber": 19,
       "status": "suplente"
+    },
+    {
+      "id": "leo-roman",
+      "name": "Leo Román",
+      "slug": "leo-roman",
+      "birthDate": "2000-06-29",
+      "nationality": "España",
+      "position": "Portero",
+      "height": 188,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 1,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 9,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "mallorca",
+          "toClubId": "deportivo"
+        }
+      ]
     }
   ]
 }

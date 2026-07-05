@@ -362,6 +362,31 @@
           "toClubId": "bayern"
         }
       ]
+    },
+    {
+      "id": "nathaniel-brown",
+      "name": "Nathaniel Brown",
+      "slug": "nathaniel-brown",
+      "birthDate": "2003-06-16",
+      "nationality": "Alemania",
+      "position": "Lateral izquierdo",
+      "height": 183,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 40,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 27,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-06-30",
+          "fee": 50,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "frankfurt",
+          "toClubId": "bayern"
+        }
+      ]
     }
   ]
 }

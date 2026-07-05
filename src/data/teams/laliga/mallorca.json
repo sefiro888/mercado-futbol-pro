@@ -13,20 +13,6 @@
   },
   "players": [
     {
-      "id": "leo-roman",
-      "name": "Leo Román",
-      "slug": "leo-roman",
-      "birthDate": "2000-06-29",
-      "nationality": "España",
-      "position": "Portero",
-      "height": 188,
-      "dominantFoot": "Derecho",
-      "marketValue": 6,
-      "contractUntil": "2028-06-30",
-      "shirtNumber": 13,
-      "status": "titular"
-    },
-    {
       "id": "pablo-maffeo",
       "name": "Pablo Maffeo",
       "slug": "pablo-maffeo",

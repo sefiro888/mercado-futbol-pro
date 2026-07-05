@@ -12,7 +12,6 @@ import Reveal from '@/components/Reveal.jsx'
 import CountStat from '@/components/CountStat.jsx'
 import Icon from '@/components/Icon.jsx'
 import DeadlineCountdown from '@/components/DeadlineCountdown.jsx'
-import MarketSmash from '@/components/MarketSmash.jsx'
 
 import { SITE } from '@/config/site.js'
 import { setPageSeo } from '@/lib/seo.js'
@@ -269,8 +268,6 @@ export default function Home() {
             <CountStat key={s.l} value={s.v} label={s.l} delay={0.1 + i * 0.08} />
           ))}
         </div>
-
-        <MarketSmash />
 
         <WorldCupBanner />
 

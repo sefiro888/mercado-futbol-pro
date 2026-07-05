@@ -178,6 +178,31 @@
           "toClubId": "niza"
         }
       ]
+    },
+    {
+      "id": "laurent-abergel",
+      "name": "Laurent Abergel",
+      "slug": "laurent-abergel",
+      "birthDate": "1993-02-01",
+      "nationality": "Francia",
+      "position": "Mediocentro",
+      "height": 170,
+      "dominantFoot": "Derecho",
+      "marketValue": 1.8,
+      "contractUntil": "2028-06-30",
+      "shirtNumber": 6,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-06-30",
+          "fee": 0,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "lorient",
+          "toClubId": "niza"
+        }
+      ]
     }
   ]
 }

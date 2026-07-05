@@ -229,6 +229,31 @@
       "contractUntil": "2026-06-30",
       "shirtNumber": 19,
       "status": "suplente"
+    },
+    {
+      "id": "franco-carboni",
+      "name": "Franco Carboni",
+      "slug": "franco-carboni",
+      "birthDate": "2003-01-04",
+      "nationality": "Argentina",
+      "position": "Lateral izquierdo",
+      "height": 180,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 0.9,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 3,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-06-28",
+          "fee": 2.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "inter",
+          "toClubId": "parma"
+        }
+      ]
     }
   ]
 }
