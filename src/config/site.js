@@ -30,5 +30,6 @@ export const SITE = {
     { to: '/clubes', label: 'Clubes' },
     { to: '/jugadores', label: 'Jugadores' },
     { to: '/rumores', label: 'Rumores' },
+    { to: '/historial-fichajes', label: 'Historial' },
   ],
 }
