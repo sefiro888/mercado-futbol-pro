@@ -474,6 +474,9 @@
   background: rgba(251,191,36,0.04);
 }
 .wc-round-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -483,81 +486,137 @@
 }
 .wc-round-label.golden { color: #fbbf24; }
 
-.wc-matches { display: flex; flex-direction: column; gap: 8px; }
+/* Acento de color por ronda para orientarse de un vistazo */
+.wc-round-r16 { border-top: 3px solid rgba(56,189,248,0.45); }
+.wc-round-qf { border-top: 3px solid rgba(167,139,250,0.45); }
+.wc-round-sf { border-top: 3px solid rgba(251,146,60,0.45); }
+.wc-bracket-final { border-top: 3px solid rgba(251,191,36,0.65); }
+
+.wc-matches { display: flex; flex-direction: column; gap: 10px; }
 .wc-matches-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 10px;
 }
 
 .wc-match {
   background: rgba(255,255,255,0.03);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 10px 12px;
+  border-radius: 12px;
+  padding: 12px 14px;
   display: flex;
   flex-direction: column;
   gap: 4px;
+  transition: border-color .15s, transform .15s;
 }
-.wc-match.pens { border-color: rgba(167,139,250,0.3); }
+.wc-match:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+.wc-match.pens { border-color: rgba(167,139,250,0.35); }
 .wc-match-final {
   background: rgba(251,191,36,0.06);
-  border-color: rgba(251,191,36,0.35);
-  padding: 14px 16px;
+  border-color: rgba(251,191,36,0.4);
+  padding: 18px 20px;
 }
-.wc-match-note { font-size: 0.78rem; color: var(--text-dim); font-style: italic; padding: 4px 0; }
+.wc-match-note {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-style: italic;
+  padding: 8px 12px;
+  text-align: center;
+  border-style: dashed;
+  background: transparent;
+}
 
+/* Filas de equipo: bandera + nombre + check + marcador */
+.wc-match-teams { display: flex; flex-direction: column; gap: 3px; }
 .wc-match-team {
   display: flex;
   align-items: center;
-  gap: 7px;
-  font-size: 0.85rem;
+  gap: 8px;
+  font-size: 0.87rem;
   color: var(--text-muted);
-  padding: 2px 0;
+  padding: 5px 8px;
+  border-radius: 8px;
+  transition: background .15s;
 }
-.wc-match-team.winner { color: #fff; font-weight: 600; }
-.wc-match-team span { flex: 1; }
+.wc-match-team span {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .wc-match-team strong {
   font-family: var(--font-mono);
-  font-size: 1rem;
-  min-width: 18px;
+  font-size: 1.05rem;
+  min-width: 20px;
   text-align: right;
+  color: var(--text-muted);
 }
-.wc-match-team.winner strong { color: #fbbf24; }
+.wc-match-team.winner {
+  background: rgba(34,197,94,0.09);
+  color: #fff;
+  font-weight: 700;
+}
+.wc-match-team.winner strong { color: #4ade80; }
+.wc-win-check {
+  color: #4ade80;
+  font-size: 0.75rem;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+.wc-match-final .wc-match-team { font-size: 1rem; padding: 8px 10px; }
+.wc-match-final .wc-match-team strong { font-size: 1.3rem; }
 
-.wc-match-pen {
-  font-size: 0.7rem;
-  color: #a78bfa;
-  margin-top: 2px;
-  font-weight: 600;
+/* Chips de contexto: penaltis, prórroga, nota */
+.wc-match-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
 }
-.wc-match-et {
-  font-size: 0.7rem;
-  color: #38bdf8;
-  margin-top: 2px;
-  font-weight: 600;
+.wc-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+  line-height: 1.3;
 }
-.wc-match-note-text {
-  font-size: 0.7rem;
-  color: var(--text-dim);
+.wc-tag-pen { background: rgba(167,139,250,0.13); color: #a78bfa; border: 1px solid rgba(167,139,250,0.3); }
+.wc-tag-et { background: rgba(56,189,248,0.13); color: #38bdf8; border: 1px solid rgba(56,189,248,0.3); }
+.wc-tag-note {
+  background: rgba(255,255,255,0.04);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  flex-basis: 100%;
+  font-weight: 500;
   font-style: italic;
-  margin-top: 2px;
-  border-top: 1px solid var(--border);
-  padding-top: 4px;
+  text-align: left;
 }
 
 .wc-final-venue {
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
-  margin-top: 10px;
+  margin-top: 14px;
   text-align: center;
 }
 .wc-final-note {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: #fbbf24;
   font-style: italic;
-  margin-top: 6px;
+  margin-top: 8px;
   text-align: center;
+}
+
+/* Fallback cuando la bandera no carga */
+.wc-flag-fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  flex-shrink: 0;
+  opacity: 0.6;
 }
 
 /* --- Responsive -------------------------------------------- */

@@ -109,14 +109,29 @@ function matchEmoji(m) {
   return '💬'
 }
 
-// Banderas via flagcdn (2 letras ISO)
+// Banderas via flagcdn (formato "wNN" — el único que no bloquea el navegador)
+const FLAG_SPECIAL = { 'gb-eng': 'gb', 'gb-wls': 'gb', 'gb-nir': 'gb', 'gb-sct': 'gb' }
 function Flag({ code, size = 20 }) {
-  if (!code || code.startsWith('gb-')) {
-    const special = { 'gb-eng': 'gb', 'gb-wls': 'gb', 'gb-nir': 'gb', 'gb-sct': 'gb' }
-    const c = special[code] || 'xx'
-    return <img src={`https://flagcdn.com/${size}x${Math.round(size * 0.75)}/${c}.png`} alt="" className="wc-flag" />
+  const [failed, setFailed] = useState(false)
+  if (!code) return <span className="wc-flag-fallback" style={{ width: size * 1.33, height: size }} aria-hidden="true">🏳️</span>
+  const c = FLAG_SPECIAL[code] || code
+  if (failed) {
+    return <span className="wc-flag-fallback" style={{ width: size * 1.33, height: size }} aria-hidden="true">🏳️</span>
   }
-  return <img src={`https://flagcdn.com/${size}x${Math.round(size * 0.75)}/${code}.png`} alt="" className="wc-flag" />
+  return (
+    <img
+      src={`https://flagcdn.com/w40/${c}.png`}
+      srcSet={`https://flagcdn.com/w40/${c}.png 1x, https://flagcdn.com/w80/${c}.png 2x`}
+      width={Math.round(size * 1.33)}
+      height={size}
+      style={{ height: size }}
+      alt=""
+      loading="lazy"
+      decoding="async"
+      className="wc-flag"
+      onError={() => setFailed(true)}
+    />
+  )
 }
 
 // Score + overtime/pens display
@@ -185,23 +200,32 @@ function EditionBracket({ ed }) {
       if (m?.note) return <div key={idx} className="wc-match wc-match-note">📌 {m.note}</div>
       return null
     }
+    const drawAfterEt = m.hs === m.as
+    const hWin = m.hs > m.as || (m.pen && drawAfterEt && m.penH > m.penA)
+    const aWin = m.as > m.hs || (m.pen && drawAfterEt && m.penA > m.penH)
     return (
-      <div key={idx} className={`wc-match ${m._isFinal ? 'wc-match-final' : ''} ${m.pen ? 'pens' : ''} ${m.note ? 'has-note' : ''}`}>
-        <div className={`wc-match-team ${m.hs > m.as ? 'winner' : ''}`}>
-          <Flag code={m.hc} size={14} />
-          <span>{m.h}</span>
-          <strong>{m.hs}</strong>
+      <div key={idx} className={`wc-match ${m._isFinal ? 'wc-match-final' : ''} ${m.pen ? 'pens' : ''}`}>
+        <div className="wc-match-teams">
+          <div className={`wc-match-team ${hWin ? 'winner' : ''}`}>
+            <Flag code={m.hc} size={16} />
+            <span>{m.h}</span>
+            {hWin && <span className="wc-win-check">✓</span>}
+            <strong>{m.hs}</strong>
+          </div>
+          <div className={`wc-match-team ${aWin ? 'winner' : ''}`}>
+            <Flag code={m.ac} size={16} />
+            <span>{m.a}</span>
+            {aWin && <span className="wc-win-check">✓</span>}
+            <strong>{m.as}</strong>
+          </div>
         </div>
-        <div className={`wc-match-team ${m.as > m.hs ? 'winner' : m.pen && m.penA > m.penH ? 'winner' : ''}`}>
-          <Flag code={m.ac} size={14} />
-          <span>{m.a}</span>
-          <strong>{m.as}</strong>
-        </div>
-        {m.pen && m.penH != null && (
-          <div className="wc-match-pen">🎯 {m.penH}-{m.penA} penaltis</div>
+        {(m.pen || m.et || m.note) && (
+          <div className="wc-match-tags">
+            {m.pen && m.penH != null && <span className="wc-tag wc-tag-pen">🎯 {m.penH}-{m.penA} pens</span>}
+            {m.et && !m.pen && <span className="wc-tag wc-tag-et">⏱️ Prórroga</span>}
+            {m.note && <span className="wc-tag wc-tag-note">{matchEmoji(m)} {m.note}</span>}
+          </div>
         )}
-        {m.et && !m.pen && <div className="wc-match-et">⏱️ Prórroga</div>}
-        {m.note && <div className="wc-match-note-text">{matchEmoji(m)} {m.note}</div>}
       </div>
     )
   }
@@ -221,19 +245,19 @@ function EditionBracket({ ed }) {
         </section>
       )}
       {r16 && r16.length > 0 && (
-        <section className="wc-bracket-round">
+        <section className="wc-bracket-round wc-round-r16">
           <h4 className="wc-round-label">🥅 Octavos de Final</h4>
           <div className="wc-matches wc-matches-grid">{r16.map(renderMatch)}</div>
         </section>
       )}
       {qf && qf.length > 0 && (
-        <section className="wc-bracket-round">
+        <section className="wc-bracket-round wc-round-qf">
           <h4 className="wc-round-label">⚔️ Cuartos de Final</h4>
           <div className="wc-matches wc-matches-grid">{qf.map(renderMatch)}</div>
         </section>
       )}
       {sf && sf.length > 0 && (
-        <section className="wc-bracket-round">
+        <section className="wc-bracket-round wc-round-sf">
           <h4 className="wc-round-label">🔥 Semifinales</h4>
           <div className="wc-matches wc-matches-grid">{sf.map(renderMatch)}</div>
         </section>
