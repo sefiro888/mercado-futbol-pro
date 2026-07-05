@@ -408,6 +408,31 @@
           ]
         }
       ]
+    },
+    {
+      "id": "marco-palestra",
+      "name": "Marco Palestra",
+      "slug": "marco-palestra",
+      "birthDate": "2005-05-12",
+      "nationality": "Italia",
+      "position": "Lateral derecho",
+      "height": 183,
+      "dominantFoot": "Derecho",
+      "marketValue": 35,
+      "contractUntil": "2031-06-30",
+      "shirtNumber": 27,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 57,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "atalanta",
+          "toClubId": "chelsea"
+        }
+      ]
     }
   ]
 }

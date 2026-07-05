@@ -308,6 +308,31 @@
       "contractUntil": "2026-06-30",
       "shirtNumber": 9,
       "status": "suplente"
+    },
+    {
+      "id": "viery",
+      "name": "Viery",
+      "slug": "viery",
+      "birthDate": "2005-03-15",
+      "nationality": "Brasil",
+      "position": "Defensa central",
+      "height": 185,
+      "dominantFoot": "Derecho",
+      "marketValue": 6,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 23,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 15,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "gremio",
+          "toClubId": "fiorentina"
+        }
+      ]
     }
   ]
 }

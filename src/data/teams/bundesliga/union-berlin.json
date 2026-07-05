@@ -190,6 +190,31 @@
       "contractUntil": "2027-06-30",
       "shirtNumber": 11,
       "status": "suplente"
+    },
+    {
+      "id": "stanley-nsoki",
+      "name": "Stanley Nsoki",
+      "slug": "stanley-nsoki",
+      "birthDate": "1999-08-02",
+      "nationality": "Francia",
+      "position": "Defensa central",
+      "height": 187,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 5,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 1.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "hoffenheim",
+          "toClubId": "union-berlin"
+        }
+      ]
     }
   ]
 }

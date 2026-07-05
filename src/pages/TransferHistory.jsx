@@ -1,11 +1,10 @@
 import { useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
-import DeadlineCountdown from '@/components/DeadlineCountdown.jsx'
-import { clubLogoUrl } from '@/lib/logos.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
+import { clubLogoUrl } from '@/lib/logos.js'
 import { getAllPlayers, getAllClubs, getAllTransfers } from '@/lib/data.js'
 import { formatDate } from '@/lib/format.js'
-import './MarketLive.css'
+import './TransferHistory.css'
 
 function MiniCrest({ club }) {
   const [err, setErr] = useState(false)
@@ -26,7 +25,7 @@ function MiniCrest({ club }) {
   )
 }
 
-const LEAGUES = ['Todas', 'LaLiga', 'Premier League', 'Serie A', 'Bundesliga', 'Ligue 1', 'Liga Portugal', 'Brasileirão']
+const SEASONS = ['Todas', '2026/27', '2025/26', '2024/25', '2023/24', '2022/23', '2021/22', '2020/21', '2019/20', '2018/19', '2017/18']
 
 function getPlayerName(transfer, players) {
   const p = players.find((pl) => pl.id === transfer.playerId || pl.slug === transfer.playerId)
@@ -62,62 +61,62 @@ function TransferRow({ transfer, players, clubs }) {
   const { text: feeText, cls: feeCls } = feeBadge(transfer.transferFee)
 
   return (
-    <div className="tl-entry">
-      <div className="tl-dot" />
+    <div className="th-entry">
+      <div className="th-dot" />
 
-      <div className="tl-card">
+      <div className="th-card">
         {/* Jugador */}
-        <div className="tl-player">
-          <div className="tl-photo">
+        <div className="th-player">
+          <div className="th-photo">
             {photoUrl ? (
-              <img src={photoUrl} alt="" onError={() => setImgErr(true)} className="tl-photo-img" />
+              <img src={photoUrl} alt="" onError={() => setImgErr(true)} className="th-photo-img" />
             ) : (
-              <span className="tl-photo-init">
+              <span className="th-photo-init">
                 {playerName.split(' ').slice(-1)[0]?.[0] ?? '?'}
               </span>
             )}
           </div>
-          <div className="tl-player-info">
+          <div className="th-player-info">
             {playerLink ? (
-              <Link className="tl-player-name" to={playerLink}>{playerName}</Link>
+              <Link className="th-player-name" to={playerLink}>{playerName}</Link>
             ) : (
-              <span className="tl-player-name">{playerName}</span>
+              <span className="th-player-name">{playerName}</span>
             )}
-            {player?.position && <span className="tl-player-pos">{player.position}</span>}
+            {player?.position && <span className="th-player-pos">{player.position}</span>}
           </div>
         </div>
 
         {/* Flecha de transferencia */}
-        <div className="tl-clubs">
+        <div className="th-clubs">
           {fromClub ? (
-            <Link className="tl-club" to={`/clubes/${fromClub.id}`}>
+            <Link className="th-club" to={`/clubes/${fromClub.id}`}>
               <MiniCrest club={fromClub} />
-              <span className="tl-club-name">{fromClub.name}</span>
+              <span className="th-club-name">{fromClub.name}</span>
             </Link>
           ) : (
-            <span className="tl-club">
+            <span className="th-club">
               <MiniCrest club={null} />
-              <span className="tl-club-name">{transfer.fromClubId ?? '—'}</span>
+              <span className="th-club-name">{transfer.fromClubId ?? transfer.fromClubName ?? '—'}</span>
             </span>
           )}
 
-          <span className="tl-arrow">→</span>
+          <span className="th-arrow">→</span>
 
           {toClub ? (
-            <Link className="tl-club" to={`/clubes/${toClub.id}`}>
+            <Link className="th-club" to={`/clubes/${toClub.id}`}>
               <MiniCrest club={toClub} />
-              <span className="tl-club-name">{toClub.name}</span>
+              <span className="th-club-name">{toClub.name}</span>
             </Link>
           ) : (
-            <span className="tl-club">
+            <span className="th-club">
               <MiniCrest club={null} />
-              <span className="tl-club-name">{transfer.toClubId ?? '—'}</span>
+              <span className="th-club-name">{transfer.toClubId ?? transfer.toClubName ?? '—'}</span>
             </span>
           )}
         </div>
 
         {/* Cuota */}
-        <div className={`tl-fee ${feeCls}`}>{feeText}</div>
+        <div className={`th-fee ${feeCls}`}>{feeText}</div>
       </div>
     </div>
   )
@@ -133,24 +132,19 @@ function groupByDate(transfers) {
   return Object.entries(groups).sort(([a], [b]) => b.localeCompare(a))
 }
 
-export default function MarketLive() {
-  const [leagueFilter, setLeagueFilter] = useState('Todas')
+export default function TransferHistory() {
+  const [seasonFilter, setSeasonFilter] = useState('Todas')
   const allTransfers = getAllTransfers()
   const players = getAllPlayers()
   const clubs = getAllClubs()
 
   const filtered = useMemo(() => {
-    // Filtrar solo transfers de la temporada actual (2026/27)
-    let ts = allTransfers.filter((t) => t.status === 'confirmado' && t.season === '2026/27')
-    if (leagueFilter !== 'Todas') {
-      ts = ts.filter((t) => {
-        const fromLeague = getClubLeague(t.fromClubId, clubs)
-        const toLeague = getClubLeague(t.toClubId, clubs)
-        return fromLeague === leagueFilter || toLeague === leagueFilter
-      })
+    let ts = allTransfers.filter((t) => t.status === 'confirmado')
+    if (seasonFilter !== 'Todas') {
+      ts = ts.filter((t) => t.season === seasonFilter)
     }
     return ts
-  }, [allTransfers, clubs, leagueFilter])
+  }, [allTransfers, seasonFilter])
 
   const groups = useMemo(() => groupByDate(filtered), [filtered])
 
@@ -158,47 +152,42 @@ export default function MarketLive() {
   const biggestFee = filtered.reduce((max, t) => Math.max(max, t.transferFee ?? 0), 0)
 
   return (
-    <div className="container section market-live">
-      <div className="ml-hero">
-        <div className="eyebrow">Mercado de fichajes 2026</div>
-        <h1>Mercado en vivo</h1>
-        <p className="ml-sub">Cronología de todos los fichajes confirmados este verano. Actualizado regularmente.</p>
-      </div>
-
-      {/* Cuenta atrás */}
-      <div className="ml-countdown">
-        <DeadlineCountdown />
+    <div className="container section transfer-history">
+      <div className="th-hero">
+        <div className="eyebrow">Archivo de traspasos</div>
+        <h1>Historial de fichajes</h1>
+        <p className="th-sub">Todos los traspasos confirmados de los últimos 10 años. Datos detallados, clubs, cuantías reales.</p>
       </div>
 
       {/* Stats rápidas */}
-      <div className="ml-stats">
-        <div className="ml-stat">
-          <span className="ml-stat-val">{filtered.length}</span>
-          <span className="ml-stat-label">Fichajes confirmados</span>
+      <div className="th-stats">
+        <div className="th-stat">
+          <span className="th-stat-val">{filtered.length}</span>
+          <span className="th-stat-label">Fichajes en total</span>
         </div>
-        <div className="ml-stat">
-          <span className="ml-stat-val">{Math.round(totalFee)} M€</span>
-          <span className="ml-stat-label">Gasto total</span>
+        <div className="th-stat">
+          <span className="th-stat-val">{Math.round(totalFee)} M€</span>
+          <span className="th-stat-label">Inversión total</span>
         </div>
-        <div className="ml-stat">
-          <span className="ml-stat-val">{biggestFee} M€</span>
-          <span className="ml-stat-label">Mayor traspaso</span>
+        <div className="th-stat">
+          <span className="th-stat-val">{biggestFee} M€</span>
+          <span className="th-stat-label">Mayor traspaso</span>
         </div>
-        <div className="ml-stat">
-          <span className="ml-stat-val">{groups.length}</span>
-          <span className="ml-stat-label">Días con actividad</span>
+        <div className="th-stat">
+          <span className="th-stat-val">{groups.length}</span>
+          <span className="th-stat-label">Fechas con movimiento</span>
         </div>
       </div>
 
-      {/* Filtro por liga */}
-      <div className="ml-filters">
-        {LEAGUES.map((l) => (
+      {/* Filtro por temporada */}
+      <div className="th-filters">
+        {SEASONS.map((s) => (
           <button
-            key={l}
-            className={`chip ${leagueFilter === l ? 'chip-active' : ''}`}
-            onClick={() => setLeagueFilter(l)}
+            key={s}
+            className={`chip ${seasonFilter === s ? 'chip-active' : ''}`}
+            onClick={() => setSeasonFilter(s)}
           >
-            {l}
+            {s}
           </button>
         ))}
       </div>
@@ -209,11 +198,11 @@ export default function MarketLive() {
       ) : (
         <div className="timeline">
           {groups.map(([date, transfers]) => (
-            <div className="tl-group" key={date}>
-              <div className="tl-date-label">
+            <div className="th-group" key={date}>
+              <div className="th-date-label">
                 <span>{date !== 'Fecha desconocida' ? formatDate(date) : date}</span>
               </div>
-              <div className="tl-entries">
+              <div className="th-entries">
                 {transfers.map((t) => (
                   <TransferRow key={t.id} transfer={t} players={players} clubs={clubs} />
                 ))}

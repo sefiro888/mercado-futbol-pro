@@ -228,6 +228,31 @@
           "toClubId": "rennes"
         }
       ]
+    },
+    {
+      "id": "arnaud-nordin",
+      "name": "Arnaud Nordin",
+      "slug": "arnaud-nordin",
+      "birthDate": "1996-06-14",
+      "nationality": "Francia",
+      "position": "Extremo derecho",
+      "height": 178,
+      "dominantFoot": "Izquierdo",
+      "marketValue": 4,
+      "contractUntil": "2030-06-30",
+      "shirtNumber": 19,
+      "status": "titular",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 2.2,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "mainz",
+          "toClubId": "rennes"
+        }
+      ]
     }
   ]
 }

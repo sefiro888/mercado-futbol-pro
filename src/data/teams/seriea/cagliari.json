@@ -249,6 +249,31 @@
       "contractUntil": "2028-06-30",
       "shirtNumber": 18,
       "status": "suplente"
+    },
+    {
+      "id": "alessandro-romano",
+      "name": "Alessandro Romano",
+      "slug": "alessandro-romano",
+      "birthDate": "2004-08-20",
+      "nationality": "Suiza",
+      "position": "Pivote",
+      "height": 182,
+      "dominantFoot": "Derecho",
+      "marketValue": 2,
+      "contractUntil": "2029-06-30",
+      "shirtNumber": 4,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 0.5,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "roma",
+          "toClubId": "cagliari"
+        }
+      ]
     }
   ]
 }

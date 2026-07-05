@@ -399,6 +399,31 @@
           "toClubId": "juventus"
         }
       ]
+    },
+    {
+      "id": "jeff-ekhator",
+      "name": "Jeff Ekhator",
+      "slug": "jeff-ekhator",
+      "birthDate": "2007-06-08",
+      "nationality": "Italia",
+      "position": "Delantero centro",
+      "height": 186,
+      "dominantFoot": "Derecho",
+      "marketValue": 18,
+      "contractUntil": "2031-06-30",
+      "shirtNumber": 17,
+      "status": "suplente",
+      "transferHistory": [
+        {
+          "date": "2026-07-01",
+          "fee": 16.4,
+          "sources": [
+            "src-transfermarkt"
+          ],
+          "fromClubId": "genoa",
+          "toClubId": "juventus"
+        }
+      ]
     }
   ]
 }
