@@ -1,0 +1,388 @@
+{
+  "real-madrid": {
+    "liga": { "label": "LaLiga", "count": 36, "last": 2024 },
+    "champions": { "label": "Champions", "count": 15, "last": 2024 },
+    "copa": { "label": "Copa del Rey", "count": 20, "last": 2023 },
+    "mundial": { "label": "Mundial Clubes", "count": 8, "last": 2022 },
+    "supercopa": { "label": "Supercopa", "count": 13, "last": 2024 },
+    "europa": { "label": "UEFA Cup", "count": 2, "last": 1986 }
+  },
+  "barcelona": {
+    "liga": { "label": "LaLiga", "count": 27, "last": 2023 },
+    "champions": { "label": "Champions", "count": 5, "last": 2015 },
+    "copa": { "label": "Copa del Rey", "count": 31, "last": 2024 },
+    "supercopa": { "label": "Supercopa", "count": 14, "last": 2023 },
+    "mundial": { "label": "Mundial Clubes", "count": 3, "last": 2015 },
+    "europa": { "label": "Recopa/UEFAcup", "count": 5, "last": 1997 }
+  },
+  "atletico-madrid": {
+    "liga": { "label": "LaLiga", "count": 11, "last": 2021 },
+    "copa": { "label": "Copa del Rey", "count": 10, "last": 2013 },
+    "supercopa": { "label": "Supercopa", "count": 2, "last": 2014 },
+    "europa": { "label": "UEFA/Europa", "count": 3, "last": 2018 }
+  },
+  "athletic-club": {
+    "liga": { "label": "LaLiga", "count": 8, "last": 1984 },
+    "copa": { "label": "Copa del Rey", "count": 24, "last": 2024 }
+  },
+  "real-sociedad": {
+    "liga": { "label": "LaLiga", "count": 2, "last": 1982 },
+    "copa": { "label": "Copa del Rey", "count": 3, "last": 2020 }
+  },
+  "real-betis": {
+    "copa": { "label": "Copa del Rey", "count": 3, "last": 2022 }
+  },
+  "villarreal": {
+    "europa": { "label": "Europa League", "count": 1, "last": 2021 }
+  },
+  "sevilla": {
+    "copa": { "label": "Copa del Rey", "count": 5, "last": 2010 },
+    "europa": { "label": "Europa League", "count": 7, "last": 2023 }
+  },
+  "valencia": {
+    "liga": { "label": "LaLiga", "count": 6, "last": 2004 },
+    "copa": { "label": "Copa del Rey", "count": 8, "last": 2008 },
+    "europa": { "label": "UEFA Cup", "count": 1, "last": 2004 }
+  },
+  "arsenal": {
+    "liga": { "label": "Premier", "count": 13, "last": 2004 },
+    "copa": { "label": "FA Cup", "count": 14, "last": 2020 }
+  },
+  "manchester-city": {
+    "liga": { "label": "Premier", "count": 10, "last": 2024 },
+    "copa": { "label": "FA Cup", "count": 7, "last": 2023 },
+    "champions": { "label": "Champions", "count": 2, "last": 2023 },
+    "mundial": { "label": "Mundial Clubes", "count": 1, "last": 2023 },
+    "europa": { "label": "UEFA Cup", "count": 1, "last": 1970 }
+  },
+  "liverpool": {
+    "liga": { "label": "Premier", "count": 19, "last": 2020 },
+    "copa": { "label": "FA Cup", "count": 8, "last": 2022 },
+    "champions": { "label": "Champions", "count": 6, "last": 2019 },
+    "europa": { "label": "UEFA/Europa", "count": 3, "last": 2001 }
+  },
+  "chelsea": {
+    "liga": { "label": "Premier", "count": 6, "last": 2017 },
+    "copa": { "label": "FA Cup", "count": 8, "last": 2018 },
+    "champions": { "label": "Champions", "count": 2, "last": 2021 },
+    "europa": { "label": "Europa League", "count": 2, "last": 2019 }
+  },
+  "manchester-united": {
+    "liga": { "label": "Premier", "count": 20, "last": 2013 },
+    "copa": { "label": "FA Cup", "count": 12, "last": 2016 },
+    "champions": { "label": "Champions", "count": 3, "last": 2008 },
+    "europa": { "label": "Europa League", "count": 1, "last": 2017 }
+  },
+  "tottenham": {
+    "liga": { "label": "Premier", "count": 2, "last": 1961 },
+    "copa": { "label": "FA Cup", "count": 8, "last": 1991 }
+  },
+  "newcastle": {
+    "liga": { "label": "Premier", "count": 4, "last": 1927 },
+    "copa": { "label": "FA Cup", "count": 6, "last": 1955 }
+  },
+  "aston-villa": {
+    "liga": { "label": "Premier", "count": 7, "last": 1981 },
+    "copa": { "label": "FA Cup", "count": 7, "last": 2015 },
+    "champions": { "label": "Champions", "count": 1, "last": 1982 },
+    "europa": { "label": "UEFA Cup", "count": 1, "last": 1982 }
+  },
+  "west-ham": {
+    "copa": { "label": "FA Cup", "count": 3, "last": 1980 },
+    "europa": { "label": "Europa Conference", "count": 1, "last": 2023 }
+  },
+  "brighton": {},
+  "crystal-palace": {},
+  "bournemouth": {},
+  "brentford": {},
+  "fulham": {},
+  "wolves": {},
+  "everton": {
+    "liga": { "label": "Premier", "count": 9, "last": 1987 },
+    "copa": { "label": "FA Cup", "count": 5, "last": 1995 }
+  },
+  "nottingham-forest": {
+    "liga": { "label": "Premier", "count": 1, "last": 1978 },
+    "champions": { "label": "Champions", "count": 2, "last": 1980 }
+  },
+  "inter": {
+    "liga": { "label": "Serie A", "count": 20, "last": 2024 },
+    "copa": { "label": "Coppa Italia", "count": 9, "last": 2023 },
+    "champions": { "label": "Champions", "count": 3, "last": 2010 },
+    "europa": { "label": "UEFA Cup", "count": 3, "last": 1991 },
+    "mundial": { "label": "Mundial Clubes", "count": 2, "last": 2010 }
+  },
+  "milan": {
+    "liga": { "label": "Serie A", "count": 19, "last": 2022 },
+    "copa": { "label": "Coppa Italia", "count": 5, "last": 2003 },
+    "champions": { "label": "Champions", "count": 7, "last": 2007 },
+    "mundial": { "label": "Mundial Clubes", "count": 4, "last": 2007 }
+  },
+  "juventus": {
+    "liga": { "label": "Serie A", "count": 36, "last": 2020 },
+    "copa": { "label": "Coppa Italia", "count": 15, "last": 2024 },
+    "champions": { "label": "Champions", "count": 2, "last": 1996 },
+    "europa": { "label": "UEFA Cup", "count": 3, "last": 1993 }
+  },
+  "napoli": {
+    "liga": { "label": "Serie A", "count": 3, "last": 2023 },
+    "copa": { "label": "Coppa Italia", "count": 6, "last": 2020 },
+    "europa": { "label": "UEFA Cup", "count": 1, "last": 1989 }
+  },
+  "roma": {
+    "liga": { "label": "Serie A", "count": 3, "last": 2001 },
+    "copa": { "label": "Coppa Italia", "count": 9, "last": 2008 },
+    "europa": { "label": "Europa Conference", "count": 1, "last": 2022 }
+  },
+  "lazio": {
+    "liga": { "label": "Serie A", "count": 2, "last": 2000 },
+    "copa": { "label": "Coppa Italia", "count": 7, "last": 2019 },
+    "europa": { "label": "UEFA Cup/Recopa", "count": 1, "last": 1999 }
+  },
+  "atalanta": {
+    "copa": { "label": "Coppa Italia", "count": 1, "last": 1963 },
+    "europa": { "label": "Europa League", "count": 1, "last": 2024 }
+  },
+  "fiorentina": {
+    "liga": { "label": "Serie A", "count": 2, "last": 1969 },
+    "copa": { "label": "Coppa Italia", "count": 6, "last": 2001 }
+  },
+  "bologna": {
+    "liga": { "label": "Serie A", "count": 7, "last": 1964 },
+    "copa": { "label": "Coppa Italia", "count": 2, "last": 1974 }
+  },
+  "torino": {
+    "liga": { "label": "Serie A", "count": 7, "last": 1976 },
+    "copa": { "label": "Coppa Italia", "count": 5, "last": 1993 }
+  },
+  "genoa": {
+    "liga": { "label": "Serie A", "count": 9, "last": 1924 }
+  },
+  "udinese": {},
+  "como": {},
+  "cagliari": {
+    "liga": { "label": "Serie A", "count": 1, "last": 1970 }
+  },
+  "parma": {
+    "copa": { "label": "Coppa Italia", "count": 3, "last": 2002 },
+    "europa": { "label": "UEFA/Recopa", "count": 3, "last": 1999 }
+  },
+  "lecce": {},
+  "verona": {
+    "liga": { "label": "Serie A", "count": 1, "last": 1985 }
+  },
+  "pisa": {},
+  "cremonese": {},
+  "sassuolo": {},
+  "bayern": {
+    "liga": { "label": "Bundesliga", "count": 33, "last": 2023 },
+    "copa": { "label": "DFB Pokal", "count": 20, "last": 2023 },
+    "champions": { "label": "Champions", "count": 6, "last": 2023 },
+    "mundial": { "label": "Mundial Clubes", "count": 2, "last": 2020 }
+  },
+  "dortmund": {
+    "liga": { "label": "Bundesliga", "count": 8, "last": 2012 },
+    "copa": { "label": "DFB Pokal", "count": 5, "last": 2021 },
+    "champions": { "label": "Champions", "count": 1, "last": 1997 }
+  },
+  "leverkusen": {
+    "liga": { "label": "Bundesliga", "count": 1, "last": 2024 },
+    "copa": { "label": "DFB Pokal", "count": 1, "last": 2024 },
+    "europa": { "label": "UEFA Cup", "count": 1, "last": 1988 }
+  },
+  "leipzig": {
+    "copa": { "label": "DFB Pokal", "count": 1, "last": 2022 }
+  },
+  "frankfurt": {
+    "copa": { "label": "DFB Pokal", "count": 5, "last": 2018 },
+    "europa": { "label": "Europa League", "count": 2, "last": 2022 }
+  },
+  "wolfsburg": {
+    "liga": { "label": "Bundesliga", "count": 1, "last": 2009 },
+    "copa": { "label": "DFB Pokal", "count": 2, "last": 2015 }
+  },
+  "gladbach": {
+    "liga": { "label": "Bundesliga", "count": 5, "last": 1977 },
+    "copa": { "label": "DFB Pokal", "count": 3, "last": 1995 },
+    "europa": { "label": "UEFA Cup", "count": 2, "last": 1979 }
+  },
+  "hamburgo": {
+    "liga": { "label": "Bundesliga", "count": 6, "last": 1983 },
+    "copa": { "label": "DFB Pokal", "count": 3, "last": 1987 },
+    "champions": { "label": "Champions", "count": 1, "last": 1983 }
+  },
+  "stuttgart": {
+    "liga": { "label": "Bundesliga", "count": 5, "last": 2007 },
+    "copa": { "label": "DFB Pokal", "count": 3, "last": 2013 }
+  },
+  "werder-bremen": {
+    "liga": { "label": "Bundesliga", "count": 4, "last": 2004 },
+    "copa": { "label": "DFB Pokal", "count": 6, "last": 2004 }
+  },
+  "freiburg": {},
+  "hoffenheim": {},
+  "mainz": {},
+  "augsburg": {},
+  "union-berlin": {},
+  "koln": {
+    "liga": { "label": "Bundesliga", "count": 3, "last": 1978 },
+    "copa": { "label": "DFB Pokal", "count": 4, "last": 1983 }
+  },
+  "st-pauli": {},
+  "heidenheim": {},
+  "psg": {
+    "liga": { "label": "Ligue 1", "count": 14, "last": 2024 },
+    "copa": { "label": "Coupe de France", "count": 15, "last": 2021 },
+    "supercopa": { "label": "Trophée des Champions", "count": 12, "last": 2023 }
+  },
+  "marsella": {
+    "liga": { "label": "Ligue 1", "count": 9, "last": 2010 },
+    "copa": { "label": "Coupe de France", "count": 10, "last": 2018 },
+    "champions": { "label": "Champions", "count": 1, "last": 1993 }
+  },
+  "monaco": {
+    "liga": { "label": "Ligue 1", "count": 8, "last": 2017 },
+    "copa": { "label": "Coupe de France", "count": 5, "last": 1991 }
+  },
+  "lyon": {
+    "liga": { "label": "Ligue 1", "count": 7, "last": 2008 },
+    "copa": { "label": "Coupe de France", "count": 5, "last": 2012 }
+  },
+  "lille": {
+    "liga": { "label": "Ligue 1", "count": 4, "last": 2021 },
+    "copa": { "label": "Coupe de France", "count": 6, "last": 2011 }
+  },
+  "niza": {
+    "liga": { "label": "Ligue 1", "count": 4, "last": 1959 },
+    "copa": { "label": "Coupe de France", "count": 3, "last": 1997 }
+  },
+  "lens": {
+    "liga": { "label": "Ligue 1", "count": 1, "last": 1998 }
+  },
+  "rennes": {
+    "copa": { "label": "Coupe de France", "count": 3, "last": 2022 }
+  },
+  "nantes": {
+    "liga": { "label": "Ligue 1", "count": 8, "last": 2001 },
+    "copa": { "label": "Coupe de France", "count": 3, "last": 2022 }
+  },
+  "estrasburgo": {
+    "liga": { "label": "Ligue 1", "count": 1, "last": 1979 },
+    "copa": { "label": "Coupe de France", "count": 3, "last": 2001 }
+  },
+  "toulouse": {
+    "copa": { "label": "Coupe de France", "count": 1, "last": 1957 }
+  },
+  "brest": {},
+  "le-havre": {},
+  "angers": {},
+  "auxerre": {
+    "liga": { "label": "Ligue 1", "count": 1, "last": 1996 },
+    "copa": { "label": "Coupe de France", "count": 4, "last": 2005 }
+  },
+  "metz": {
+    "liga": { "label": "Ligue 1", "count": 2, "last": 1972 },
+    "copa": { "label": "Coupe de France", "count": 2, "last": 1988 }
+  },
+  "lorient": {},
+  "paris-fc": {},
+  "benfica": {
+    "liga": { "label": "Primeira Liga", "count": 38, "last": 2023 },
+    "copa": { "label": "Taça de Portugal", "count": 26, "last": 2017 },
+    "champions": { "label": "Champions", "count": 2, "last": 1962 }
+  },
+  "porto": {
+    "liga": { "label": "Primeira Liga", "count": 30, "last": 2022 },
+    "copa": { "label": "Taça de Portugal", "count": 17, "last": 2022 },
+    "champions": { "label": "Champions", "count": 2, "last": 2004 },
+    "europa": { "label": "UEFA Cup", "count": 2, "last": 2011 },
+    "mundial": { "label": "Mundial Clubes", "count": 2, "last": 2004 }
+  },
+  "sporting": {
+    "liga": { "label": "Primeira Liga", "count": 19, "last": 2024 },
+    "copa": { "label": "Taça de Portugal", "count": 17, "last": 2019 },
+    "europa": { "label": "UEFA/Recopa", "count": 1, "last": 1964 }
+  },
+  "braga": {
+    "copa": { "label": "Taça de Portugal", "count": 3, "last": 2021 }
+  },
+  "flamengo": {
+    "liga": { "label": "Brasileirão", "count": 8, "last": 2024 },
+    "copa": { "label": "Copa do Brasil", "count": 5, "last": 2022 },
+    "champions": { "label": "Libertadores", "count": 3, "last": 2022 }
+  },
+  "palmeiras": {
+    "liga": { "label": "Brasileirão", "count": 11, "last": 2023 },
+    "copa": { "label": "Copa do Brasil", "count": 5, "last": 2023 },
+    "champions": { "label": "Libertadores", "count": 3, "last": 2021 }
+  },
+  "corinthians": {
+    "liga": { "label": "Brasileirão", "count": 7, "last": 2017 },
+    "copa": { "label": "Copa do Brasil", "count": 3, "last": 2002 },
+    "champions": { "label": "Libertadores", "count": 1, "last": 2012 },
+    "mundial": { "label": "Mundial Clubes", "count": 2, "last": 2012 }
+  },
+  "sao-paulo": {
+    "liga": { "label": "Brasileirão", "count": 6, "last": 2008 },
+    "copa": { "label": "Copa do Brasil", "count": 1, "last": 1992 },
+    "champions": { "label": "Libertadores", "count": 3, "last": 1993 },
+    "mundial": { "label": "Mundial Clubes", "count": 3, "last": 2005 }
+  },
+  "fluminense": {
+    "liga": { "label": "Brasileirão", "count": 4, "last": 2012 },
+    "copa": { "label": "Copa do Brasil", "count": 2, "last": 2023 },
+    "champions": { "label": "Libertadores", "count": 1, "last": 2023 }
+  },
+  "botafogo": {
+    "liga": { "label": "Brasileirão", "count": 2, "last": 2024 },
+    "champions": { "label": "Libertadores", "count": 1, "last": 2024 }
+  },
+  "santos": {
+    "liga": { "label": "Brasileirão", "count": 8, "last": 2004 },
+    "copa": { "label": "Copa do Brasil", "count": 1, "last": 2010 },
+    "champions": { "label": "Libertadores", "count": 3, "last": 1963 },
+    "mundial": { "label": "Mundial Clubes", "count": 2, "last": 1963 }
+  },
+  "gremio": {
+    "liga": { "label": "Brasileirão", "count": 2, "last": 1996 },
+    "copa": { "label": "Copa do Brasil", "count": 5, "last": 2016 },
+    "champions": { "label": "Libertadores", "count": 2, "last": 1995 },
+    "mundial": { "label": "Mundial Clubes", "count": 1, "last": 1983 }
+  },
+  "internacional": {
+    "liga": { "label": "Brasileirão", "count": 3, "last": 1979 },
+    "copa": { "label": "Copa do Brasil", "count": 1, "last": 2023 },
+    "champions": { "label": "Libertadores", "count": 1, "last": 2006 },
+    "mundial": { "label": "Mundial Clubes", "count": 1, "last": 2006 }
+  },
+  "cruzeiro": {
+    "liga": { "label": "Brasileirão", "count": 3, "last": 2003 },
+    "copa": { "label": "Copa do Brasil", "count": 6, "last": 2018 },
+    "champions": { "label": "Libertadores", "count": 2, "last": 1997 }
+  },
+  "atletico-mineiro": {
+    "liga": { "label": "Brasileirão", "count": 2, "last": 2021 },
+    "copa": { "label": "Copa do Brasil", "count": 4, "last": 2023 },
+    "champions": { "label": "Libertadores", "count": 1, "last": 2013 }
+  },
+  "vasco": {
+    "liga": { "label": "Brasileirão", "count": 4, "last": 2000 },
+    "copa": { "label": "Copa do Brasil", "count": 1, "last": 2011 },
+    "champions": { "label": "Libertadores", "count": 1, "last": 1998 },
+    "mundial": { "label": "Mundial Clubes", "count": 1, "last": 1998 }
+  },
+  "girona": {},
+  "celta-vigo": {},
+  "rayo-vallecano": {},
+  "osasuna": {},
+  "getafe": {},
+  "mallorca": {},
+  "espanyol": {},
+  "alaves": {},
+  "levante": {},
+  "elche": {},
+  "real-oviedo": {},
+  "sunderland": {},
+  "leeds": {},
+  "burnley": {}
+}

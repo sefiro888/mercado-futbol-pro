@@ -1,0 +1,73 @@
+.wl-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.05);
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+}
+
+.wl-btn:hover {
+  background: rgba(255,255,255,0.09);
+  color: var(--text-primary);
+}
+
+.wl-btn:active { transform: scale(0.95); }
+
+.wl-btn svg {
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.wl-btn:active svg { transform: scale(1.25); }
+
+/* Activo: corazón relleno rojo */
+.wl-btn--active {
+  color: #f87171;
+  border-color: rgba(248,113,113,0.3);
+  background: rgba(248,113,113,0.08);
+}
+
+.wl-btn--active:hover {
+  background: rgba(248,113,113,0.14);
+}
+
+/* Tamaños */
+.wl-btn--sm {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.72rem;
+}
+
+.wl-btn--sm svg {
+  width: 14px;
+  height: 14px;
+}
+
+.wl-btn--md {
+  padding: 0.45rem 0.9rem;
+  font-size: 0.82rem;
+}
+
+.wl-btn--md svg {
+  width: 16px;
+  height: 16px;
+}
+
+.wl-btn--lg {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.wl-btn--lg svg {
+  width: 18px;
+  height: 18px;
+}
+
+.wl-btn-label {
+  white-space: nowrap;
+}

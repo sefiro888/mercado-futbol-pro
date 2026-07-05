@@ -1,0 +1,209 @@
+{
+  "real-madrid": [
+    { "name": "José Mourinho", "from": "2024-06", "to": null, "spend": 85, "income": 120, "trophies": [], "note": "Segundo mandato en el Bernabéu" },
+    { "name": "Carlo Ancelotti", "from": "2021-06", "to": "2024-05", "spend": 310, "income": 110, "trophies": ["Champions 2022", "LaLiga 2022", "LaLiga 2024", "Supercopa 2022"] },
+    { "name": "Zinedine Zidane", "from": "2019-03", "to": "2021-05", "spend": 280, "income": 120, "trophies": ["LaLiga 2020"] },
+    { "name": "Santiago Solari", "from": "2018-10", "to": "2019-03", "spend": 0, "income": 0, "trophies": ["Mundial Clubes 2018"] },
+    { "name": "Julen Lopetegui", "from": "2018-06", "to": "2018-10", "spend": 115, "income": 0, "trophies": [] },
+    { "name": "Zinedine Zidane", "from": "2016-01", "to": "2018-05", "spend": 295, "income": 165, "trophies": ["Champions 2016", "Champions 2017", "Champions 2018", "LaLiga 2017"] },
+    { "name": "Rafael Benítez", "from": "2015-06", "to": "2016-01", "spend": 110, "income": 30, "trophies": [] },
+    { "name": "Carlo Ancelotti", "from": "2013-06", "to": "2015-05", "spend": 180, "income": 55, "trophies": ["Champions 2014", "Copa del Rey 2014"] },
+    { "name": "José Mourinho", "from": "2010-06", "to": "2013-06", "spend": 310, "income": 95, "trophies": ["LaLiga 2012", "Copa del Rey 2011"] }
+  ],
+  "barcelona": [
+    { "name": "Hansi Flick", "from": "2024-06", "to": null, "spend": 180, "income": 70, "trophies": ["LaLiga 2025"], "note": "Reconstrucción con la Masia" },
+    { "name": "Xavi Hernández", "from": "2021-11", "to": "2024-05", "spend": 490, "income": 180, "trophies": ["LaLiga 2023"] },
+    { "name": "Ronald Koeman", "from": "2020-08", "to": "2021-10", "spend": 80, "income": 135, "trophies": ["Copa del Rey 2021"] },
+    { "name": "Quique Setién", "from": "2020-01", "to": "2020-08", "spend": 0, "income": 0, "trophies": [] },
+    { "name": "Ernesto Valverde", "from": "2017-06", "to": "2020-01", "spend": 580, "income": 310, "trophies": ["LaLiga 2018", "LaLiga 2019", "Copa del Rey 2018"] },
+    { "name": "Luis Enrique", "from": "2014-06", "to": "2017-06", "spend": 370, "income": 255, "trophies": ["Champions 2015", "LaLiga 2015", "Copa del Rey 2015", "Copa del Rey 2016"] },
+    { "name": "Gerardo Martino", "from": "2013-06", "to": "2014-05", "spend": 100, "income": 45, "trophies": ["Copa del Rey 2014"] }
+  ],
+  "atletico-madrid": [
+    { "name": "Diego Simeone", "from": "2011-12", "to": null, "spend": 1100, "income": 950, "trophies": ["LaLiga 2014", "LaLiga 2021", "Europa League 2012", "Europa League 2018", "Supercopa 2014"], "note": "El técnico más longevo de la élite europea" }
+  ],
+  "manchester-city": [
+    { "name": "Pep Guardiola", "from": "2016-07", "to": null, "spend": 1600, "income": 450, "trophies": ["Premier 2018", "Premier 2019", "Premier 2021", "Premier 2022", "Premier 2023", "Premier 2024", "Champions 2023", "FA Cup 2019", "FA Cup 2023", "Mundial Clubes 2023"], "note": "El ciclo de dominio más impresionante del fútbol inglés" },
+    { "name": "Manuel Pellegrini", "from": "2013-06", "to": "2016-06", "spend": 380, "income": 80, "trophies": ["Premier 2014"] }
+  ],
+  "liverpool": [
+    { "name": "Arne Slot", "from": "2024-06", "to": null, "spend": 70, "income": 80, "trophies": ["Premier 2025"], "note": "Sucesor de Klopp con presupuesto contenido" },
+    { "name": "Jürgen Klopp", "from": "2015-10", "to": "2024-05", "spend": 810, "income": 420, "trophies": ["Champions 2019", "Premier 2020", "FA Cup 2022", "Copa de la Liga 2022"] },
+    { "name": "Brendan Rodgers", "from": "2012-06", "to": "2015-10", "spend": 290, "income": 165, "trophies": [] }
+  ],
+  "arsenal": [
+    { "name": "Mikel Arteta", "from": "2019-12", "to": null, "spend": 870, "income": 340, "trophies": ["FA Cup 2020"] },
+    { "name": "Unai Emery", "from": "2018-05", "to": "2019-11", "spend": 140, "income": 75, "trophies": [] },
+    { "name": "Arsène Wenger", "from": "1996-09", "to": "2018-05", "spend": 650, "income": 480, "trophies": ["Premier 1998", "Premier 2002", "Premier 2004", "FA Cup 1998", "FA Cup 2002", "FA Cup 2003", "FA Cup 2005", "FA Cup 2014", "FA Cup 2015", "FA Cup 2017", "FA Cup 2020"] }
+  ],
+  "chelsea": [
+    { "name": "Enzo Maresca", "from": "2024-06", "to": null, "spend": 250, "income": 90, "trophies": [], "note": "Nuevo ciclo tras la era propietarios nuevos" },
+    { "name": "Mauricio Pochettino", "from": "2023-07", "to": "2024-05", "spend": 230, "income": 120, "trophies": [] },
+    { "name": "Graham Potter", "from": "2022-09", "to": "2023-04", "spend": 300, "income": 60, "trophies": [] },
+    { "name": "Thomas Tuchel", "from": "2021-01", "to": "2022-09", "spend": 340, "income": 175, "trophies": ["Champions 2021", "Supercopa UEFA 2021", "Mundial Clubes 2022"] },
+    { "name": "Frank Lampard", "from": "2019-07", "to": "2021-01", "spend": 250, "income": 55, "trophies": [] },
+    { "name": "Maurizio Sarri", "from": "2018-07", "to": "2019-07", "spend": 70, "income": 15, "trophies": ["Europa League 2019"] }
+  ],
+  "manchester-united": [
+    { "name": "Ruben Amorim", "from": "2024-11", "to": null, "spend": 60, "income": 30, "trophies": [], "note": "Fichado desde el Sporting CP" },
+    { "name": "Erik ten Hag", "from": "2022-06", "to": "2024-10", "spend": 620, "income": 215, "trophies": ["Copa de la Liga 2023", "FA Cup 2024"] },
+    { "name": "Ralf Rangnick", "from": "2021-11", "to": "2022-05", "spend": 0, "income": 0, "trophies": [] },
+    { "name": "Ole Gunnar Solskjær", "from": "2019-03", "to": "2021-11", "spend": 450, "income": 135, "trophies": [] },
+    { "name": "José Mourinho", "from": "2016-05", "to": "2018-12", "spend": 360, "income": 80, "trophies": ["Europa League 2017", "Copa de la Liga 2017"] }
+  ],
+  "tottenham": [
+    { "name": "Ange Postecoglou", "from": "2023-06", "to": null, "spend": 210, "income": 95, "trophies": [] },
+    { "name": "Antonio Conte", "from": "2021-11", "to": "2023-03", "spend": 270, "income": 85, "trophies": [] },
+    { "name": "José Mourinho", "from": "2019-11", "to": "2021-04", "spend": 140, "income": 60, "trophies": [] },
+    { "name": "Mauricio Pochettino", "from": "2014-05", "to": "2019-11", "spend": 340, "income": 185, "trophies": [] }
+  ],
+  "newcastle": [
+    { "name": "Eddie Howe", "from": "2021-11", "to": null, "spend": 670, "income": 180, "trophies": [], "note": "Construcción de proyecto con los nuevos propietarios saudíes" },
+    { "name": "Steve Bruce", "from": "2019-07", "to": "2021-10", "spend": 80, "income": 60, "trophies": [] }
+  ],
+  "aston-villa": [
+    { "name": "Unai Emery", "from": "2022-10", "to": null, "spend": 480, "income": 155, "trophies": [], "note": "Refundación con ambición Champions" },
+    { "name": "Steven Gerrard", "from": "2021-11", "to": "2022-10", "spend": 90, "income": 40, "trophies": [] }
+  ],
+  "inter": [
+    { "name": "Simone Inzaghi", "from": "2021-06", "to": null, "spend": 320, "income": 290, "trophies": ["Serie A 2024", "Coppa Italia 2023", "Supercoppa 2024"] },
+    { "name": "Antonio Conte", "from": "2019-05", "to": "2021-05", "spend": 220, "income": 85, "trophies": ["Serie A 2021"] },
+    { "name": "Luciano Spalletti", "from": "2017-06", "to": "2019-05", "spend": 195, "income": 120, "trophies": [] }
+  ],
+  "milan": [
+    { "name": "Paulo Fonseca", "from": "2024-06", "to": null, "spend": 110, "income": 65, "trophies": [] },
+    { "name": "Stefano Pioli", "from": "2019-10", "to": "2024-05", "spend": 410, "income": 290, "trophies": ["Serie A 2022"] },
+    { "name": "Marco Giampaolo", "from": "2019-06", "to": "2019-10", "spend": 90, "income": 40, "trophies": [] }
+  ],
+  "juventus": [
+    { "name": "Thiago Motta", "from": "2024-06", "to": null, "spend": 150, "income": 85, "trophies": [], "note": "Proyecto de reconstrucción post-Allegri" },
+    { "name": "Massimiliano Allegri", "from": "2021-06", "to": "2024-05", "spend": 270, "income": 210, "trophies": ["Coppa Italia 2024"] },
+    { "name": "Andrea Pirlo", "from": "2020-08", "to": "2021-05", "spend": 110, "income": 65, "trophies": ["Coppa Italia 2021", "Supercoppa 2021"] },
+    { "name": "Massimiliano Allegri", "from": "2014-06", "to": "2019-05", "spend": 520, "income": 255, "trophies": ["Serie A 2015", "Serie A 2016", "Serie A 2017", "Serie A 2018", "Serie A 2019"] }
+  ],
+  "napoli": [
+    { "name": "Antonio Conte", "from": "2024-06", "to": null, "spend": 130, "income": 110, "trophies": [], "note": "Llegó para devolverles la estabilidad" },
+    { "name": "Walter Mazzarri", "from": "2023-11", "to": "2024-05", "spend": 0, "income": 0, "trophies": [] },
+    { "name": "Rudi Garcia", "from": "2023-06", "to": "2023-11", "spend": 90, "income": 130, "trophies": [] },
+    { "name": "Luciano Spalletti", "from": "2021-06", "to": "2023-05", "spend": 160, "income": 80, "trophies": ["Serie A 2023"] },
+    { "name": "Rino Gattuso", "from": "2019-12", "to": "2021-05", "spend": 90, "income": 70, "trophies": ["Coppa Italia 2020"] }
+  ],
+  "roma": [
+    { "name": "Claudio Ranieri", "from": "2024-11", "to": null, "spend": 40, "income": 20, "trophies": [], "note": "Tercer mandato como entrenador de la Roma" },
+    { "name": "Daniele De Rossi", "from": "2024-01", "to": "2024-09", "spend": 75, "income": 40, "trophies": [] },
+    { "name": "José Mourinho", "from": "2021-07", "to": "2024-01", "spend": 280, "income": 110, "trophies": ["Europa Conference League 2022"] }
+  ],
+  "atalanta": [
+    { "name": "Gian Piero Gasperini", "from": "2016-06", "to": null, "spend": 520, "income": 680, "trophies": ["Europa League 2024", "Coppa Italia 2024"], "note": "Revolucionó el fútbol italiano con su pressing y uso del mercado" }
+  ],
+  "lazio": [
+    { "name": "Marco Baroni", "from": "2024-06", "to": null, "spend": 70, "income": 55, "trophies": [] },
+    { "name": "Tudor", "from": "2023-06", "to": "2024-05", "spend": 60, "income": 80, "trophies": [] },
+    { "name": "Maurizio Sarri", "from": "2021-07", "to": "2023-03", "spend": 90, "income": 50, "trophies": ["Coppa Italia 2019"] }
+  ],
+  "fiorentina": [
+    { "name": "Raffaele Palladino", "from": "2024-06", "to": null, "spend": 85, "income": 65, "trophies": [] },
+    { "name": "Vincenzo Italiano", "from": "2021-07", "to": "2024-05", "spend": 185, "income": 120, "trophies": [] }
+  ],
+  "bayern": [
+    { "name": "Vincent Kompany", "from": "2024-06", "to": null, "spend": 150, "income": 60, "trophies": [], "note": "Primera gran aventura como entrenador de élite" },
+    { "name": "Thomas Tuchel", "from": "2023-03", "to": "2024-05", "spend": 160, "income": 70, "trophies": [] },
+    { "name": "Julian Nagelsmann", "from": "2021-07", "to": "2023-03", "spend": 165, "income": 80, "trophies": ["Bundesliga 2022", "Bundesliga 2023"] },
+    { "name": "Hansi Flick", "from": "2019-11", "to": "2021-06", "spend": 60, "income": 80, "trophies": ["Bundesliga 2020", "Bundesliga 2021", "Champions 2020", "Mundial Clubes 2021"] },
+    { "name": "Niko Kovač", "from": "2018-07", "to": "2019-11", "spend": 85, "income": 75, "trophies": ["Bundesliga 2019", "DFB Pokal 2019"] }
+  ],
+  "dortmund": [
+    { "name": "Niko Kovač", "from": "2024-06", "to": null, "spend": 95, "income": 70, "trophies": [] },
+    { "name": "Edin Terzić", "from": "2021-06", "to": "2024-05", "spend": 310, "income": 250, "trophies": ["DFB Pokal 2021"] },
+    { "name": "Lucien Favre", "from": "2018-07", "to": "2020-12", "spend": 200, "income": 165, "trophies": [] }
+  ],
+  "leverkusen": [
+    { "name": "Xabi Alonso", "from": "2022-10", "to": null, "spend": 180, "income": 90, "trophies": ["Bundesliga 2024", "DFB Pokal 2024"], "note": "Temporada histórica invicto 2023-24" }
+  ],
+  "frankfurt": [
+    { "name": "Dino Toppmöller", "from": "2023-06", "to": null, "spend": 120, "income": 95, "trophies": [] },
+    { "name": "Oliver Glasner", "from": "2021-07", "to": "2023-04", "spend": 110, "income": 130, "trophies": ["Europa League 2022"] }
+  ],
+  "psg": [
+    { "name": "Luis Enrique", "from": "2023-07", "to": null, "spend": 230, "income": 200, "trophies": ["Ligue 1 2024"] },
+    { "name": "Christophe Galtier", "from": "2022-07", "to": "2023-06", "spend": 265, "income": 70, "trophies": ["Ligue 1 2023"] },
+    { "name": "Mauricio Pochettino", "from": "2021-01", "to": "2022-07", "spend": 190, "income": 50, "trophies": [] },
+    { "name": "Thomas Tuchel", "from": "2018-07", "to": "2020-12", "spend": 480, "income": 190, "trophies": ["Ligue 1 2019", "Ligue 1 2020", "Ligue 1 2022"] }
+  ],
+  "marsella": [
+    { "name": "Roberto De Zerbi", "from": "2024-06", "to": null, "spend": 110, "income": 60, "trophies": [] },
+    { "name": "Jean-Louis Gasset", "from": "2024-01", "to": "2024-05", "spend": 0, "income": 0, "trophies": [] },
+    { "name": "Gennaro Gattuso", "from": "2023-06", "to": "2023-09", "spend": 80, "income": 50, "trophies": [] },
+    { "name": "Igor Tudor", "from": "2022-07", "to": "2023-04", "spend": 105, "income": 70, "trophies": [] },
+    { "name": "Jorge Sampaoli", "from": "2021-02", "to": "2022-07", "spend": 90, "income": 55, "trophies": [] }
+  ],
+  "monaco": [
+    { "name": "Adi Hütter", "from": "2024-06", "to": null, "spend": 80, "income": 50, "trophies": [] },
+    { "name": "Philippe Clement", "from": "2022-10", "to": "2024-01", "spend": 130, "income": 90, "trophies": [] }
+  ],
+  "lyon": [
+    { "name": "Paulo Fonseca", "from": "2023-07", "to": "2024-06", "spend": 75, "income": 40, "trophies": [] },
+    { "name": "Laurent Blanc", "from": "2022-10", "to": "2023-06", "spend": 55, "income": 35, "trophies": [] }
+  ],
+  "lille": [
+    { "name": "Bruno Genesio", "from": "2023-06", "to": null, "spend": 90, "income": 120, "trophies": [] },
+    { "name": "Paulo Fonseca", "from": "2020-08", "to": "2021-06", "spend": 35, "income": 60, "trophies": ["Ligue 1 2021"] }
+  ],
+  "benfica": [
+    { "name": "José Mourinho", "from": "2024-06", "to": null, "spend": 80, "income": 55, "trophies": [], "note": "Regreso de Mourinho a Portugal, su país natal" },
+    { "name": "Roger Schmidt", "from": "2022-06", "to": "2024-05", "spend": 140, "income": 175, "trophies": ["Primeira Liga 2023"] },
+    { "name": "Nélson Veríssimo", "from": "2021-12", "to": "2022-05", "spend": 0, "income": 0, "trophies": [] },
+    { "name": "Jorge Jesus", "from": "2020-07", "to": "2021-12", "spend": 70, "income": 60, "trophies": [] }
+  ],
+  "porto": [
+    { "name": "Francesco Farioli", "from": "2024-06", "to": null, "spend": 95, "income": 110, "trophies": [] },
+    { "name": "Sérgio Conceição", "from": "2017-05", "to": "2024-05", "spend": 340, "income": 520, "trophies": ["Primeira Liga 2018", "Primeira Liga 2020", "Primeira Liga 2022", "Taça 2020", "Taça 2022"], "note": "Uno de los mejores balances venta/compra del fútbol europeo" }
+  ],
+  "sporting": [
+    { "name": "Rui Borges", "from": "2024-06", "to": null, "spend": 80, "income": 90, "trophies": [] },
+    { "name": "Rúben Amorim", "from": "2020-03", "to": "2024-10", "spend": 165, "income": 220, "trophies": ["Primeira Liga 2021", "Primeira Liga 2024", "Taça da Liga 2022"] }
+  ],
+  "flamengo": [
+    { "name": "Filipe Luís", "from": "2024-06", "to": null, "spend": 30, "income": 15, "trophies": [], "note": "Ex lateral del club en su primera temporada como técnico" },
+    { "name": "Tite", "from": "2023-07", "to": "2024-04", "spend": 45, "income": 20, "trophies": [] },
+    { "name": "Vítor Pereira", "from": "2022-10", "to": "2023-05", "spend": 30, "income": 25, "trophies": [] }
+  ],
+  "palmeiras": [
+    { "name": "Abel Ferreira", "from": "2020-10", "to": null, "spend": 120, "income": 95, "trophies": ["Brasileirão 2022", "Brasileirão 2023", "Libertadores 2020", "Libertadores 2021", "Copa do Brasil 2023"], "note": "El técnico portugués más exitoso en Sudamérica" }
+  ],
+  "corinthians": [
+    { "name": "Dorival Júnior", "from": "2024-06", "to": null, "spend": 20, "income": 10, "trophies": [] },
+    { "name": "Mano Menezes", "from": "2023-07", "to": "2024-05", "spend": 15, "income": 10, "trophies": [] }
+  ],
+  "santos": [
+    { "name": "Fábio Carille", "from": "2024-01", "to": null, "spend": 5, "income": 3, "trophies": [] }
+  ],
+  "sao-paulo": [
+    { "name": "Luis Zubeldía", "from": "2024-04", "to": null, "spend": 20, "income": 12, "trophies": [] },
+    { "name": "Thiago Carpini", "from": "2024-01", "to": "2024-04", "spend": 10, "income": 5, "trophies": [] }
+  ],
+  "botafogo": [
+    { "name": "Davide Ancelotti", "from": "2024-06", "to": null, "spend": 40, "income": 15, "trophies": [], "note": "Hijo de Carlo, primer gran cargo en élite" },
+    { "name": "Artur Jorge", "from": "2023-06", "to": "2024-05", "spend": 35, "income": 20, "trophies": ["Brasileirão 2024", "Libertadores 2024"] }
+  ],
+  "fluminense": [
+    { "name": "Mano Menezes", "from": "2024-06", "to": null, "spend": 10, "income": 5, "trophies": [] },
+    { "name": "Fernando Diniz", "from": "2022-04", "to": "2024-01", "spend": 25, "income": 15, "trophies": ["Libertadores 2023", "Copa do Brasil 2023"] }
+  ],
+  "gremio": [
+    { "name": "Gustavo Quinteros", "from": "2024-06", "to": null, "spend": 15, "income": 8, "trophies": [] }
+  ],
+  "internacional": [
+    { "name": "Roger Machado", "from": "2024-01", "to": null, "spend": 20, "income": 12, "trophies": [] }
+  ],
+  "cruzeiro": [
+    { "name": "Leonardo Jardim", "from": "2024-06", "to": null, "spend": 18, "income": 8, "trophies": [] }
+  ],
+  "atletico-mineiro": [
+    { "name": "Jorge Sampaoli", "from": "2024-06", "to": null, "spend": 35, "income": 18, "trophies": [] },
+    { "name": "Gabriel Milito", "from": "2023-01", "to": "2024-04", "spend": 25, "income": 15, "trophies": ["Copa do Brasil 2023", "Libertadores 2013"] }
+  ],
+  "vasco": [
+    { "name": "Rafael Paiva", "from": "2024-03", "to": null, "spend": 12, "income": 6, "trophies": [] }
+  ]
+}

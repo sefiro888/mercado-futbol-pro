@@ -1,0 +1,2003 @@
+{
+  "competition": {
+    "id": "ucl",
+    "name": "UEFA Champions League",
+    "short": "UCL",
+    "emoji": "⭐",
+    "color": "#1d4ed8",
+    "accent": "#fbbf24",
+    "founded": 1955,
+    "continent": "Europa",
+    "governing": "UEFA",
+    "totalEditions": 69,
+    "currentChampion": "Real Madrid",
+    "currentChampionCode": "es"
+  },
+  "editions": [
+    {
+      "year": 1956,
+      "host": "París",
+      "hc": "fr",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Stade Reims",
+      "ruc": "fr",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Stade Reims",
+        "hs": 4,
+        "as": 3,
+        "venue": "Parc des Princes, París"
+      },
+      "top": {
+        "name": "Alfredo Di Stéfano",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 16,
+      "goals": 127,
+      "note": "Primera Copa de Europa. Di Stéfano marcó en su debut"
+    },
+    {
+      "year": 1957,
+      "host": "Madrid",
+      "hc": "es",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Fiorentina",
+      "ruc": "it",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Fiorentina",
+        "hs": 2,
+        "as": 0,
+        "venue": "Bernabéu, Madrid"
+      },
+      "top": {
+        "name": "Dennis Viollet",
+        "g": 9,
+        "nc": "gb-eng"
+      },
+      "teams": 16,
+      "goals": 144
+    },
+    {
+      "year": 1958,
+      "host": "Bruselas",
+      "hc": "be",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Milan",
+      "ruc": "it",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Milan",
+        "hs": 3,
+        "as": 2,
+        "et": true,
+        "venue": "Heysel, Bruselas"
+      },
+      "top": {
+        "name": "Just Fontaine",
+        "g": 10,
+        "nc": "fr"
+      },
+      "teams": 16,
+      "goals": 167
+    },
+    {
+      "year": 1959,
+      "host": "Stuttgart",
+      "hc": "de",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Stade Reims",
+      "ruc": "fr",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Stade Reims",
+        "hs": 2,
+        "as": 0,
+        "venue": "Neckarstadion, Stuttgart"
+      },
+      "top": {
+        "name": "Alfredo Di Stéfano",
+        "g": 11,
+        "nc": "ar"
+      },
+      "teams": 16,
+      "goals": 139
+    },
+    {
+      "year": 1960,
+      "host": "Glasgow",
+      "hc": "gb-sct",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Eintracht Frankfurt",
+      "ruc": "de",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Eintracht Frankfurt",
+        "hs": 7,
+        "as": 3,
+        "venue": "Hampden Park, Glasgow",
+        "note": "Considerada la mejor final de la historia. Di Stéfano 3 goles, Puskás 4"
+      },
+      "top": {
+        "name": "Eintracht Frankfurt",
+        "g": 12,
+        "nc": "de"
+      },
+      "teams": 16,
+      "goals": 127
+    },
+    {
+      "year": 1961,
+      "host": "Berna",
+      "hc": "ch",
+      "champion": "Benfica",
+      "cc": "pt",
+      "ru": "Barcelona",
+      "ruc": "es",
+      "final": {
+        "h": "Benfica",
+        "a": "Barcelona",
+        "hs": 3,
+        "as": 2,
+        "venue": "Wankdorf, Berna"
+      },
+      "top": {
+        "name": "José Aguas",
+        "g": 11,
+        "nc": "pt"
+      },
+      "teams": 16,
+      "goals": 119
+    },
+    {
+      "year": 1962,
+      "host": "Ámsterdam",
+      "hc": "nl",
+      "champion": "Benfica",
+      "cc": "pt",
+      "ru": "Real Madrid",
+      "ruc": "es",
+      "final": {
+        "h": "Benfica",
+        "a": "Real Madrid",
+        "hs": 5,
+        "as": 3,
+        "venue": "Olimpisch Stadion, Ámsterdam",
+        "note": "Eusébio marcó 2 goles para remontar el 3-2"
+      },
+      "top": {
+        "name": "Eusébio",
+        "g": 9,
+        "nc": "pt"
+      },
+      "teams": 16,
+      "goals": 141
+    },
+    {
+      "year": 1963,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Benfica",
+      "ruc": "pt",
+      "final": {
+        "h": "Milan",
+        "a": "Benfica",
+        "hs": 2,
+        "as": 1,
+        "venue": "Wembley, Londres"
+      },
+      "top": {
+        "name": "Eusébio",
+        "g": 10,
+        "nc": "pt"
+      },
+      "teams": 16,
+      "goals": 135
+    },
+    {
+      "year": 1964,
+      "host": "Viena",
+      "hc": "at",
+      "champion": "Inter",
+      "cc": "it",
+      "ru": "Real Madrid",
+      "ruc": "es",
+      "final": {
+        "h": "Inter",
+        "a": "Real Madrid",
+        "hs": 3,
+        "as": 1,
+        "venue": "Prater, Viena"
+      },
+      "top": {
+        "name": "José Torres",
+        "g": 9,
+        "nc": "pt"
+      },
+      "teams": 16,
+      "goals": 105
+    },
+    {
+      "year": 1965,
+      "host": "Milán",
+      "hc": "it",
+      "champion": "Inter",
+      "cc": "it",
+      "ru": "Benfica",
+      "ruc": "pt",
+      "final": {
+        "h": "Inter",
+        "a": "Benfica",
+        "hs": 1,
+        "as": 0,
+        "venue": "San Siro, Milán"
+      },
+      "top": {
+        "name": "José Torres",
+        "g": 9,
+        "nc": "pt"
+      },
+      "teams": 16,
+      "goals": 107
+    },
+    {
+      "year": 1966,
+      "host": "Bruselas",
+      "hc": "be",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Partizan",
+      "ruc": "rs",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Partizan",
+        "hs": 2,
+        "as": 1,
+        "venue": "Heysel, Bruselas"
+      },
+      "top": {
+        "name": "Eusébio",
+        "g": 7,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 167
+    },
+    {
+      "year": 1967,
+      "host": "Lisboa",
+      "hc": "pt",
+      "champion": "Celtic",
+      "cc": "gb-sct",
+      "ru": "Inter",
+      "ruc": "it",
+      "final": {
+        "h": "Celtic",
+        "a": "Inter",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Nacional, Lisboa",
+        "note": "Leones de Lisboa: primer equipo del norte de Europa en ganar la Copa. 11 jugadores nacidos en radio de 30 km de Glasgow"
+      },
+      "top": {
+        "name": "Eusébio",
+        "g": 9,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 187
+    },
+    {
+      "year": 1968,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Manchester United",
+      "cc": "gb-eng",
+      "ru": "Benfica",
+      "ruc": "pt",
+      "final": {
+        "h": "Manchester United",
+        "a": "Benfica",
+        "hs": 4,
+        "as": 1,
+        "et": true,
+        "venue": "Wembley, Londres",
+        "note": "Charlton marcó 2. Primer club inglés campeón"
+      },
+      "top": {
+        "name": "Eusébio",
+        "g": 9,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 218
+    },
+    {
+      "year": 1969,
+      "host": "Madrid",
+      "hc": "es",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Ajax",
+      "ruc": "nl",
+      "final": {
+        "h": "Milan",
+        "a": "Ajax",
+        "hs": 4,
+        "as": 1,
+        "venue": "Bernabéu, Madrid"
+      },
+      "top": {
+        "name": "Denis Law",
+        "g": 9,
+        "nc": "gb-sct"
+      },
+      "teams": 32,
+      "goals": 197
+    },
+    {
+      "year": 1970,
+      "host": "Milán",
+      "hc": "it",
+      "champion": "Feyenoord",
+      "cc": "nl",
+      "ru": "Celtic",
+      "ruc": "gb-sct",
+      "final": {
+        "h": "Feyenoord",
+        "a": "Celtic",
+        "hs": 2,
+        "as": 1,
+        "et": true,
+        "venue": "San Siro, Milán"
+      },
+      "top": {
+        "name": "John Hughes",
+        "g": 7,
+        "nc": "gb-sct"
+      },
+      "teams": 32,
+      "goals": 209
+    },
+    {
+      "year": 1971,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Ajax",
+      "cc": "nl",
+      "ru": "Panathinaikos",
+      "ruc": "gr",
+      "final": {
+        "h": "Ajax",
+        "a": "Panathinaikos",
+        "hs": 2,
+        "as": 0,
+        "venue": "Wembley, Londres"
+      },
+      "top": {
+        "name": "Johan Cruyff",
+        "g": 8,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 188
+    },
+    {
+      "year": 1972,
+      "host": "Rotterdam",
+      "hc": "nl",
+      "champion": "Ajax",
+      "cc": "nl",
+      "ru": "Inter",
+      "ruc": "it",
+      "final": {
+        "h": "Ajax",
+        "a": "Inter",
+        "hs": 2,
+        "as": 0,
+        "venue": "De Kuip, Rotterdam"
+      },
+      "top": {
+        "name": "Antonis Antoniadis",
+        "g": 9,
+        "nc": "gr"
+      },
+      "teams": 32,
+      "goals": 192
+    },
+    {
+      "year": 1973,
+      "host": "Belgrado",
+      "hc": "rs",
+      "champion": "Ajax",
+      "cc": "nl",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "Ajax",
+        "a": "Juventus",
+        "hs": 1,
+        "as": 0,
+        "venue": "Crvena Zvezda, Belgrado",
+        "note": "Johan Cruyff ganó sus tres Copa de Europa consecutivas"
+      },
+      "top": {
+        "name": "Gerd Müller",
+        "g": 9,
+        "nc": "de"
+      },
+      "teams": 32,
+      "goals": 182
+    },
+    {
+      "year": 1974,
+      "host": "Bruselas",
+      "hc": "be",
+      "champion": "Bayern Múnich",
+      "cc": "de",
+      "ru": "Atlético Madrid",
+      "ruc": "es",
+      "final": {
+        "h": "Bayern Múnich",
+        "a": "Atlético Madrid",
+        "hs": 1,
+        "as": 1,
+        "et": true,
+        "note": "Replayed: Bayern ganó 4-0 en la repetición",
+        "venue": "Heysel, Bruselas"
+      },
+      "top": {
+        "name": "Gerd Müller",
+        "g": 10,
+        "nc": "de"
+      },
+      "teams": 32,
+      "goals": 176
+    },
+    {
+      "year": 1975,
+      "host": "París",
+      "hc": "fr",
+      "champion": "Bayern Múnich",
+      "cc": "de",
+      "ru": "Leeds United",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Bayern Múnich",
+        "a": "Leeds United",
+        "hs": 2,
+        "as": 0,
+        "venue": "Parc des Princes, París"
+      },
+      "top": {
+        "name": "Ruud Geels",
+        "g": 10,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 183
+    },
+    {
+      "year": 1976,
+      "host": "Glasgow",
+      "hc": "gb-sct",
+      "champion": "Bayern Múnich",
+      "cc": "de",
+      "ru": "Saint-Étienne",
+      "ruc": "fr",
+      "final": {
+        "h": "Bayern Múnich",
+        "a": "Saint-Étienne",
+        "hs": 1,
+        "as": 0,
+        "venue": "Hampden Park, Glasgow"
+      },
+      "top": {
+        "name": "Carlos Bianchi",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 177
+    },
+    {
+      "year": 1977,
+      "host": "Roma",
+      "hc": "it",
+      "champion": "Liverpool",
+      "cc": "gb-eng",
+      "ru": "Borussia M'gladbach",
+      "ruc": "de",
+      "final": {
+        "h": "Liverpool",
+        "a": "Borussia M'gladbach",
+        "hs": 3,
+        "as": 1,
+        "venue": "Olímpico, Roma"
+      },
+      "top": {
+        "name": "Gerd Müller",
+        "g": 8,
+        "nc": "de"
+      },
+      "teams": 32,
+      "goals": 176
+    },
+    {
+      "year": 1978,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Liverpool",
+      "cc": "gb-eng",
+      "ru": "Club Brugge",
+      "ruc": "be",
+      "final": {
+        "h": "Liverpool",
+        "a": "Club Brugge",
+        "hs": 1,
+        "as": 0,
+        "venue": "Wembley, Londres"
+      },
+      "top": {
+        "name": "Alan Simonsen",
+        "g": 7,
+        "nc": "dk"
+      },
+      "teams": 32,
+      "goals": 178
+    },
+    {
+      "year": 1979,
+      "host": "Múnich",
+      "hc": "de",
+      "champion": "Nottingham Forest",
+      "cc": "gb-eng",
+      "ru": "Malmö",
+      "ruc": "se",
+      "final": {
+        "h": "Nottingham Forest",
+        "a": "Malmö",
+        "hs": 1,
+        "as": 0,
+        "venue": "Olímpico, Múnich"
+      },
+      "top": {
+        "name": "Karl-Heinz Rummenigge",
+        "g": 9,
+        "nc": "de"
+      },
+      "teams": 32,
+      "goals": 193
+    },
+    {
+      "year": 1980,
+      "host": "Madrid",
+      "hc": "es",
+      "champion": "Nottingham Forest",
+      "cc": "gb-eng",
+      "ru": "SV Hamburg",
+      "ruc": "de",
+      "final": {
+        "h": "Nottingham Forest",
+        "a": "SV Hamburg",
+        "hs": 1,
+        "as": 0,
+        "venue": "Bernabéu, Madrid"
+      },
+      "top": {
+        "name": "Rüdiger Wenzel",
+        "g": 9,
+        "nc": "de"
+      },
+      "teams": 32,
+      "goals": 167
+    },
+    {
+      "year": 1981,
+      "host": "París",
+      "hc": "fr",
+      "champion": "Liverpool",
+      "cc": "gb-eng",
+      "ru": "Real Madrid",
+      "ruc": "es",
+      "final": {
+        "h": "Liverpool",
+        "a": "Real Madrid",
+        "hs": 1,
+        "as": 0,
+        "venue": "Parc des Princes, París"
+      },
+      "top": {
+        "name": "Karl-Heinz Rummenigge",
+        "g": 12,
+        "nc": "de"
+      },
+      "teams": 32,
+      "goals": 198
+    },
+    {
+      "year": 1982,
+      "host": "Rotterdam",
+      "hc": "nl",
+      "champion": "Aston Villa",
+      "cc": "gb-eng",
+      "ru": "Bayern Múnich",
+      "ruc": "de",
+      "final": {
+        "h": "Aston Villa",
+        "a": "Bayern Múnich",
+        "hs": 1,
+        "as": 0,
+        "venue": "De Kuip, Rotterdam",
+        "note": "Sorpresa histórica: Aston Villa derrotó al poderoso Bayern"
+      },
+      "top": {
+        "name": "Wim Kieft",
+        "g": 8,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 194
+    },
+    {
+      "year": 1983,
+      "host": "Atenas",
+      "hc": "gr",
+      "champion": "SV Hamburg",
+      "cc": "de",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "SV Hamburg",
+        "a": "Juventus",
+        "hs": 1,
+        "as": 0,
+        "venue": "Spyros Louis, Atenas"
+      },
+      "top": {
+        "name": "Mark Hughes",
+        "g": 8,
+        "nc": "gb-wls"
+      },
+      "teams": 32,
+      "goals": 188
+    },
+    {
+      "year": 1984,
+      "host": "Roma",
+      "hc": "it",
+      "champion": "Liverpool",
+      "cc": "gb-eng",
+      "ru": "Roma",
+      "ruc": "it",
+      "final": {
+        "h": "Liverpool",
+        "a": "Roma",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 4,
+        "penA": 2,
+        "venue": "Olímpico, Roma",
+        "note": "Liverpool ganó la final en casa del rival"
+      },
+      "top": {
+        "name": "José Antonio Camacho",
+        "g": 8,
+        "nc": "es"
+      },
+      "teams": 32,
+      "goals": 192
+    },
+    {
+      "year": 1985,
+      "host": "Bruselas",
+      "hc": "be",
+      "champion": "Juventus",
+      "cc": "it",
+      "ru": "Liverpool",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Juventus",
+        "a": "Liverpool",
+        "hs": 1,
+        "as": 0,
+        "venue": "Heysel, Bruselas",
+        "note": "Tragedia del Heysel: 39 muertos antes del partido. Clubes ingleses vetados 5 años"
+      },
+      "top": {
+        "name": "Michel Platini",
+        "g": 7,
+        "nc": "fr"
+      },
+      "teams": 32,
+      "goals": 167
+    },
+    {
+      "year": 1986,
+      "host": "Sevilla",
+      "hc": "es",
+      "champion": "Steaua București",
+      "cc": "ro",
+      "ru": "Barcelona",
+      "ruc": "es",
+      "final": {
+        "h": "Steaua București",
+        "a": "Barcelona",
+        "hs": 0,
+        "as": 0,
+        "pen": true,
+        "penH": 2,
+        "penA": 0,
+        "venue": "Sánchez Pizjuán, Sevilla",
+        "note": "Barça falló los 4 penaltis. Mayor sorpresa en una final"
+      },
+      "top": {
+        "name": "Marco Van Basten",
+        "g": 9,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 172
+    },
+    {
+      "year": 1987,
+      "host": "Viena",
+      "hc": "at",
+      "champion": "Porto",
+      "cc": "pt",
+      "ru": "Bayern Múnich",
+      "ruc": "de",
+      "final": {
+        "h": "Porto",
+        "a": "Bayern Múnich",
+        "hs": 2,
+        "as": 1,
+        "venue": "Prater, Viena"
+      },
+      "top": {
+        "name": "Rabah Madjer",
+        "g": 7,
+        "nc": "dz"
+      },
+      "teams": 32,
+      "goals": 183
+    },
+    {
+      "year": 1988,
+      "host": "Stuttgart",
+      "hc": "de",
+      "champion": "PSV Eindhoven",
+      "cc": "nl",
+      "ru": "Benfica",
+      "ruc": "pt",
+      "final": {
+        "h": "PSV Eindhoven",
+        "a": "Benfica",
+        "hs": 0,
+        "as": 0,
+        "pen": true,
+        "penH": 6,
+        "penA": 5,
+        "venue": "Neckarstadion, Stuttgart"
+      },
+      "top": {
+        "name": "Marco Van Basten",
+        "g": 9,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 178
+    },
+    {
+      "year": 1989,
+      "host": "Barcelona",
+      "hc": "es",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Steaua București",
+      "ruc": "ro",
+      "final": {
+        "h": "Milan",
+        "a": "Steaua București",
+        "hs": 4,
+        "as": 0,
+        "venue": "Camp Nou, Barcelona",
+        "note": "Gullit y Van Basten: la mayor goleada en una final moderna"
+      },
+      "top": {
+        "name": "Romário",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 195
+    },
+    {
+      "year": 1990,
+      "host": "Viena",
+      "hc": "at",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Benfica",
+      "ruc": "pt",
+      "final": {
+        "h": "Milan",
+        "a": "Benfica",
+        "hs": 1,
+        "as": 0,
+        "venue": "Prater, Viena"
+      },
+      "top": {
+        "name": "Jean-Pierre Papin",
+        "g": 9,
+        "nc": "fr"
+      },
+      "teams": 32,
+      "goals": 189
+    },
+    {
+      "year": 1991,
+      "host": "Bari",
+      "hc": "it",
+      "champion": "Estrella Roja",
+      "cc": "rs",
+      "ru": "Marsella",
+      "ruc": "fr",
+      "final": {
+        "h": "Estrella Roja",
+        "a": "Marsella",
+        "hs": 0,
+        "as": 0,
+        "pen": true,
+        "penH": 5,
+        "penA": 3,
+        "venue": "San Nicola, Bari"
+      },
+      "top": {
+        "name": "Jean-Pierre Papin",
+        "g": 8,
+        "nc": "fr"
+      },
+      "teams": 32,
+      "goals": 175
+    },
+    {
+      "year": 1992,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Barcelona",
+      "cc": "es",
+      "ru": "Sampdoria",
+      "ruc": "it",
+      "final": {
+        "h": "Barcelona",
+        "a": "Sampdoria",
+        "hs": 1,
+        "as": 0,
+        "et": true,
+        "venue": "Wembley, Londres",
+        "note": "Libre directo de Koeman en la prórroga. Primera edición llamada Champions League"
+      },
+      "top": {
+        "name": "Hristo Stoichkov",
+        "g": 9,
+        "nc": "bg"
+      },
+      "teams": 32,
+      "goals": 178
+    },
+    {
+      "year": 1993,
+      "host": "Múnich",
+      "hc": "de",
+      "champion": "Marsella",
+      "cc": "fr",
+      "ru": "Milan",
+      "ruc": "it",
+      "final": {
+        "h": "Marsella",
+        "a": "Milan",
+        "hs": 1,
+        "as": 0,
+        "venue": "Olímpico, Múnich",
+        "note": "Marsella fue desposeído del título por corrupción. El único campeón sin estrella oficial"
+      },
+      "top": {
+        "name": "Alexandre Volkov",
+        "g": 9,
+        "nc": "ru"
+      },
+      "teams": 32,
+      "goals": 181
+    },
+    {
+      "year": 1994,
+      "host": "Atenas",
+      "hc": "gr",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Barcelona",
+      "ruc": "es",
+      "final": {
+        "h": "Milan",
+        "a": "Barcelona",
+        "hs": 4,
+        "as": 0,
+        "venue": "Spyros Louis, Atenas",
+        "note": "El Dream Team de Cruyff humillado. Savicević hat-trick"
+      },
+      "top": {
+        "name": "Ronald Koeman",
+        "g": 8,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 176
+    },
+    {
+      "year": 1995,
+      "host": "Viena",
+      "hc": "at",
+      "champion": "Ajax",
+      "cc": "nl",
+      "ru": "Milan",
+      "ruc": "it",
+      "final": {
+        "h": "Ajax",
+        "a": "Milan",
+        "hs": 1,
+        "as": 0,
+        "venue": "Prater, Viena",
+        "note": "Patrick Kluivert marcó con 18 años. El equipo más joven en ganar la UCL"
+      },
+      "top": {
+        "name": "Jari Litmanen",
+        "g": 9,
+        "nc": "fi"
+      },
+      "teams": 32,
+      "goals": 189
+    },
+    {
+      "year": 1996,
+      "host": "Roma",
+      "hc": "it",
+      "champion": "Juventus",
+      "cc": "it",
+      "ru": "Ajax",
+      "ruc": "nl",
+      "final": {
+        "h": "Juventus",
+        "a": "Ajax",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 4,
+        "penA": 2,
+        "venue": "Olímpico, Roma"
+      },
+      "top": {
+        "name": "Jari Litmanen",
+        "g": 9,
+        "nc": "fi"
+      },
+      "teams": 32,
+      "goals": 197
+    },
+    {
+      "year": 1997,
+      "host": "Múnich",
+      "hc": "de",
+      "champion": "Borussia Dortmund",
+      "cc": "de",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "Borussia Dortmund",
+        "a": "Juventus",
+        "hs": 3,
+        "as": 1,
+        "venue": "Olímpico, Múnich",
+        "note": "Riedle marcó 2 con 35 años. Sorpresa total"
+      },
+      "top": {
+        "name": "Milinko Pantić",
+        "g": 9,
+        "nc": "rs"
+      },
+      "teams": 32,
+      "goals": 191
+    },
+    {
+      "year": 1998,
+      "host": "Ámsterdam",
+      "hc": "nl",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Juventus",
+        "hs": 1,
+        "as": 0,
+        "venue": "Ámsterdam Arena",
+        "note": "La 7ª Copa de Europa del Madrid. Mijatović marcó el gol definitivo"
+      },
+      "top": {
+        "name": "Ronaldo",
+        "g": 9,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 203
+    },
+    {
+      "year": 1999,
+      "host": "Barcelona",
+      "hc": "es",
+      "champion": "Manchester United",
+      "cc": "gb-eng",
+      "ru": "Bayern Múnich",
+      "ruc": "de",
+      "final": {
+        "h": "Manchester United",
+        "a": "Bayern Múnich",
+        "hs": 2,
+        "as": 1,
+        "venue": "Camp Nou, Barcelona",
+        "note": "90'+1 Sheringham, 90'+3 Solskjær. La remontada más épica de la historia"
+      },
+      "top": {
+        "name": "Andriy Shevchenko",
+        "g": 12,
+        "nc": "ua"
+      },
+      "teams": 32,
+      "goals": 238
+    },
+    {
+      "year": 2000,
+      "host": "París",
+      "hc": "fr",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Valencia",
+      "ruc": "es",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Valencia",
+        "hs": 3,
+        "as": 0,
+        "venue": "Stade de France, París",
+        "note": "Raúl ×2, Morientes. Primer final entre clubes del mismo país desde 1977"
+      },
+      "top": {
+        "name": "Mário Jardel",
+        "g": 12,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 252
+    },
+    {
+      "year": 2001,
+      "host": "Milán",
+      "hc": "it",
+      "champion": "Bayern Múnich",
+      "cc": "de",
+      "ru": "Valencia",
+      "ruc": "es",
+      "final": {
+        "h": "Bayern Múnich",
+        "a": "Valencia",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 5,
+        "penA": 4,
+        "venue": "San Siro, Milán"
+      },
+      "top": {
+        "name": "Raúl González",
+        "g": 10,
+        "nc": "es"
+      },
+      "teams": 32,
+      "goals": 241
+    },
+    {
+      "year": 2002,
+      "host": "Glasgow",
+      "hc": "gb-sct",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Leverkusen",
+      "ruc": "de",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Leverkusen",
+        "hs": 2,
+        "as": 1,
+        "venue": "Hampden Park, Glasgow",
+        "note": "La volea de Zidane: el gol más bello de la historia de la UCL"
+      },
+      "top": {
+        "name": "Ruud van Nistelrooy",
+        "g": 12,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 239
+    },
+    {
+      "year": 2003,
+      "host": "Manchester",
+      "hc": "gb-eng",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "Milan",
+        "a": "Juventus",
+        "hs": 0,
+        "as": 0,
+        "pen": true,
+        "penH": 3,
+        "penA": 2,
+        "venue": "Old Trafford, Manchester",
+        "note": "Primera final todo-italiana. Cero goles en 120 minutos"
+      },
+      "top": {
+        "name": "Ruud van Nistelrooy",
+        "g": 14,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 236
+    },
+    {
+      "year": 2004,
+      "host": "Gelsenkirchen",
+      "hc": "de",
+      "champion": "Porto",
+      "cc": "pt",
+      "ru": "Monaco",
+      "ruc": "mc",
+      "final": {
+        "h": "Porto",
+        "a": "Monaco",
+        "hs": 3,
+        "as": 0,
+        "venue": "Veltins-Arena, Gelsenkirchen",
+        "note": "Mourinho ganó la UCL con Porto. Descomunal hazaña"
+      },
+      "top": {
+        "name": "Fernando Morientes",
+        "g": 9,
+        "nc": "es"
+      },
+      "teams": 32,
+      "goals": 218
+    },
+    {
+      "year": 2005,
+      "host": "Estambul",
+      "hc": "tr",
+      "champion": "Liverpool",
+      "cc": "gb-eng",
+      "ru": "Milan",
+      "ruc": "it",
+      "final": {
+        "h": "Liverpool",
+        "a": "Milan",
+        "hs": 3,
+        "as": 3,
+        "pen": true,
+        "penH": 3,
+        "penA": 2,
+        "venue": "Ataturk, Estambul",
+        "note": "LA MILAGRO DE ESTAMBUL. 3-0 al descanso → 3-3 en 6 minutos → penaltis. Gerrard, Smicer, Alonso"
+      },
+      "top": {
+        "name": "Ruud van Nistelrooy",
+        "g": 8,
+        "nc": "nl"
+      },
+      "teams": 32,
+      "goals": 244
+    },
+    {
+      "year": 2006,
+      "host": "París",
+      "hc": "fr",
+      "champion": "Barcelona",
+      "cc": "es",
+      "ru": "Arsenal",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Barcelona",
+        "a": "Arsenal",
+        "hs": 2,
+        "as": 1,
+        "venue": "Stade de France, París",
+        "note": "Arsenal con 10 desde el min 18. Barça remontó con Eto'o y Belletti"
+      },
+      "top": {
+        "name": "Andriy Shevchenko",
+        "g": 9,
+        "nc": "ua"
+      },
+      "teams": 32,
+      "goals": 226
+    },
+    {
+      "year": 2007,
+      "host": "Atenas",
+      "hc": "gr",
+      "champion": "Milan",
+      "cc": "it",
+      "ru": "Liverpool",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Milan",
+        "a": "Liverpool",
+        "hs": 2,
+        "as": 1,
+        "venue": "Spyros Louis, Atenas",
+        "note": "Revancha del 2005. Inzaghi aprovechó dos regalos de Reina"
+      },
+      "top": {
+        "name": "Kaká",
+        "g": 10,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 239
+    },
+    {
+      "year": 2008,
+      "host": "Moscú",
+      "hc": "ru",
+      "champion": "Manchester United",
+      "cc": "gb-eng",
+      "ru": "Chelsea",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Manchester United",
+        "a": "Chelsea",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 6,
+        "penA": 5,
+        "venue": "Luzhniki, Moscú",
+        "note": "Terry falló el penalti decisivo. Ronaldo abrió el marcador"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 8,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 244
+    },
+    {
+      "year": 2009,
+      "host": "Roma",
+      "hc": "it",
+      "champion": "Barcelona",
+      "cc": "es",
+      "ru": "Manchester United",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Barcelona",
+        "a": "Manchester United",
+        "hs": 2,
+        "as": 0,
+        "venue": "Olímpico, Roma",
+        "note": "Messi de cabeza. El Barça de Guardiola deslumbró al mundo"
+      },
+      "top": {
+        "name": "Lionel Messi",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 268
+    },
+    {
+      "year": 2010,
+      "host": "Madrid",
+      "hc": "es",
+      "champion": "Inter",
+      "cc": "it",
+      "ru": "Bayern Múnich",
+      "ruc": "de",
+      "final": {
+        "h": "Inter",
+        "a": "Bayern Múnich",
+        "hs": 2,
+        "as": 0,
+        "venue": "Bernabéu, Madrid",
+        "note": "Mourinho ganó el Triplete. Milito marcó los dos goles"
+      },
+      "top": {
+        "name": "Lionel Messi",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 247
+    },
+    {
+      "year": 2011,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Barcelona",
+      "cc": "es",
+      "ru": "Manchester United",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Barcelona",
+        "a": "Manchester United",
+        "hs": 3,
+        "as": 1,
+        "venue": "Wembley, Londres",
+        "note": "El segundo 3-1 de Barça a United en 2 años. Messi insuperable"
+      },
+      "top": {
+        "name": "Lionel Messi",
+        "g": 12,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 279
+    },
+    {
+      "year": 2012,
+      "host": "Múnich",
+      "hc": "de",
+      "champion": "Chelsea",
+      "cc": "gb-eng",
+      "ru": "Bayern Múnich",
+      "ruc": "de",
+      "final": {
+        "h": "Chelsea",
+        "a": "Bayern Múnich",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 4,
+        "penA": 3,
+        "venue": "Allianz Arena, Múnich",
+        "note": "Bayern perdió en casa. Drogba empató en el 88'. Mito Cech y Mito Didier"
+      },
+      "top": {
+        "name": "Lionel Messi",
+        "g": 14,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 276
+    },
+    {
+      "year": 2013,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Bayern Múnich",
+      "cc": "de",
+      "ru": "Borussia Dortmund",
+      "ruc": "de",
+      "final": {
+        "h": "Bayern Múnich",
+        "a": "Borussia Dortmund",
+        "hs": 2,
+        "as": 1,
+        "venue": "Wembley, Londres",
+        "note": "Primera final todo-alemana. Robben marcó en el 89'"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 12,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 278
+    },
+    {
+      "year": 2014,
+      "host": "Lisboa",
+      "hc": "pt",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Atlético Madrid",
+      "ruc": "es",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Atlético Madrid",
+        "hs": 4,
+        "as": 1,
+        "et": true,
+        "venue": "Luz, Lisboa",
+        "note": "La Décima. Ramos igualó en el 93'. Luego 3 goles en prórroga"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 17,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 300
+    },
+    {
+      "year": 2015,
+      "host": "Berlín",
+      "hc": "de",
+      "champion": "Barcelona",
+      "cc": "es",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "Barcelona",
+        "a": "Juventus",
+        "hs": 3,
+        "as": 1,
+        "venue": "Olímpico, Berlín",
+        "note": "La primera Triple Corona de Barça. Messi-Suárez-Neymar imparables"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 10,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 274
+    },
+    {
+      "year": 2016,
+      "host": "Milán",
+      "hc": "it",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Atlético Madrid",
+      "ruc": "es",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Atlético Madrid",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 5,
+        "penA": 3,
+        "venue": "San Siro, Milán",
+        "note": "Ramos marcó en el 15'. Keylor paró el penalti de Juanfran"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 16,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 280
+    },
+    {
+      "year": 2017,
+      "host": "Cardiff",
+      "hc": "gb-wls",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Juventus",
+      "ruc": "it",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Juventus",
+        "hs": 4,
+        "as": 1,
+        "venue": "Millennium Stadium, Cardiff",
+        "note": "La Duodécima. CR7 marcó 2. Primer equipo en defender el título"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 12,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 291
+    },
+    {
+      "year": 2018,
+      "host": "Kiev",
+      "hc": "ua",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Liverpool",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Liverpool",
+        "hs": 3,
+        "as": 1,
+        "venue": "Olímpico, Kiev",
+        "note": "Bale de bicicleta. Ramos lesionó a Salah. Karius con dos errores fatales"
+      },
+      "top": {
+        "name": "Cristiano Ronaldo",
+        "g": 15,
+        "nc": "pt"
+      },
+      "teams": 32,
+      "goals": 289
+    },
+    {
+      "year": 2019,
+      "host": "Madrid",
+      "hc": "es",
+      "champion": "Liverpool",
+      "cc": "gb-eng",
+      "ru": "Tottenham",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Liverpool",
+        "a": "Tottenham",
+        "hs": 2,
+        "as": 0,
+        "venue": "Metropolitano, Madrid",
+        "note": "Primer final de UCL entre dos clubes del mismo país (inglés) en la era moderna"
+      },
+      "top": {
+        "name": "Lionel Messi",
+        "g": 12,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 303
+    },
+    {
+      "year": 2020,
+      "host": "Lisboa",
+      "hc": "pt",
+      "champion": "Bayern Múnich",
+      "cc": "de",
+      "ru": "PSG",
+      "ruc": "fr",
+      "final": {
+        "h": "Bayern Múnich",
+        "a": "PSG",
+        "hs": 1,
+        "as": 0,
+        "venue": "Luz, Lisboa",
+        "note": "Final a partido único por COVID. Coman marcó ante su ex club"
+      },
+      "top": {
+        "name": "Robert Lewandowski",
+        "g": 15,
+        "nc": "pl"
+      },
+      "teams": 32,
+      "goals": 290
+    },
+    {
+      "year": 2021,
+      "host": "Oporto",
+      "hc": "pt",
+      "champion": "Chelsea",
+      "cc": "gb-eng",
+      "ru": "Manchester City",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Chelsea",
+        "a": "Manchester City",
+        "hs": 1,
+        "as": 0,
+        "venue": "Dragão, Oporto",
+        "note": "Havertz marcó el único gol. Tuchel ganó la UCL con dos equipos distintos en dos años"
+      },
+      "top": {
+        "name": "Erling Haaland",
+        "g": 10,
+        "nc": "no"
+      },
+      "teams": 32,
+      "goals": 265
+    },
+    {
+      "year": 2022,
+      "host": "París",
+      "hc": "fr",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Liverpool",
+      "ruc": "gb-eng",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Liverpool",
+        "hs": 1,
+        "as": 0,
+        "venue": "Stade de France, París",
+        "note": "Vinicius Jr. decidió. El Madrid remontó al PSG, Chelsea y City por el camino"
+      },
+      "top": {
+        "name": "Karim Benzema",
+        "g": 15,
+        "nc": "fr"
+      },
+      "teams": 32,
+      "goals": 304
+    },
+    {
+      "year": 2023,
+      "host": "Estambul",
+      "hc": "tr",
+      "champion": "Manchester City",
+      "cc": "gb-eng",
+      "ru": "Inter",
+      "ruc": "it",
+      "final": {
+        "h": "Manchester City",
+        "a": "Inter",
+        "hs": 1,
+        "as": 0,
+        "venue": "Ataturk, Estambul",
+        "note": "Rodri marcó el gol del Triplete para el City. Guardiola conquistó la UCL por segunda vez"
+      },
+      "top": {
+        "name": "Erling Haaland",
+        "g": 12,
+        "nc": "no"
+      },
+      "teams": 32,
+      "goals": 315
+    },
+    {
+      "year": 2024,
+      "host": "Londres",
+      "hc": "gb-eng",
+      "champion": "Real Madrid",
+      "cc": "es",
+      "ru": "Borussia Dortmund",
+      "ruc": "de",
+      "final": {
+        "h": "Real Madrid",
+        "a": "Borussia Dortmund",
+        "hs": 2,
+        "as": 0,
+        "venue": "Wembley, Londres",
+        "note": "Carvajal y Vinicius. El Madrid remontó el semifinal ante Bayern otra vez. La 15ª Copa"
+      },
+      "top": {
+        "name": "Kylian Mbappé",
+        "g": 8,
+        "nc": "fr"
+      },
+      "teams": 32,
+      "goals": 309
+    },
+    {
+      "year": 2025,
+      "host": "Múnich",
+      "hc": "de",
+      "champion": "PSG",
+      "cc": "fr",
+      "ru": "Inter",
+      "ruc": "it",
+      "final": {
+        "h": "PSG",
+        "a": "Inter",
+        "hs": 1,
+        "as": 0,
+        "venue": "Allianz Arena, Múnich",
+        "note": "Primera Champions League del PSG. Dembélé marcó el único gol. Final histórica para el fútbol francés"
+      },
+      "top": {
+        "name": "Ousmane Dembélé",
+        "g": 9,
+        "nc": "fr"
+      },
+      "teams": 36,
+      "goals": 328
+    }
+  ],
+  "records": {
+    "mostTitles": [
+      {
+        "name": "Real Madrid",
+        "titles": 15,
+        "nc": "es",
+        "years": "1956, 57, 58, 59, 60, 66, 98, 00, 02, 14, 16, 17, 18, 22, 24"
+      },
+      {
+        "name": "Milan",
+        "titles": 7,
+        "nc": "it",
+        "years": "1963, 69, 89, 90, 94, 03, 07"
+      },
+      {
+        "name": "Bayern Múnich",
+        "titles": 6,
+        "nc": "de",
+        "years": "1974, 75, 76, 01, 13, 20"
+      },
+      {
+        "name": "Liverpool",
+        "titles": 6,
+        "nc": "gb-eng",
+        "years": "1977, 78, 81, 84, 05, 19"
+      },
+      {
+        "name": "Barcelona",
+        "titles": 5,
+        "nc": "es",
+        "years": "1992, 06, 09, 11, 15"
+      },
+      {
+        "name": "Ajax",
+        "titles": 4,
+        "nc": "nl",
+        "years": "1971, 72, 73, 95"
+      },
+      {
+        "name": "Manchester United",
+        "titles": 3,
+        "nc": "gb-eng",
+        "years": "1968, 99, 08"
+      },
+      {
+        "name": "Inter",
+        "titles": 3,
+        "nc": "it",
+        "years": "1964, 65, 10"
+      },
+      {
+        "name": "Juventus",
+        "titles": 2,
+        "nc": "it",
+        "years": "1985, 96"
+      },
+      {
+        "name": "Benfica",
+        "titles": 2,
+        "nc": "pt",
+        "years": "1961, 62"
+      }
+    ],
+    "topScorers": [
+      {
+        "name": "Cristiano Ronaldo",
+        "goals": 140,
+        "nc": "pt",
+        "editions": "2003-2018"
+      },
+      {
+        "name": "Lionel Messi",
+        "goals": 129,
+        "nc": "ar",
+        "editions": "2005-2023"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "goals": 91,
+        "nc": "pl",
+        "editions": "2011-presente"
+      },
+      {
+        "name": "Raúl González",
+        "goals": 71,
+        "nc": "es",
+        "editions": "1995-2011"
+      },
+      {
+        "name": "Karim Benzema",
+        "goals": 90,
+        "nc": "fr",
+        "editions": "2010-2023"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "goals": 56,
+        "nc": "nl",
+        "editions": "1998-2007"
+      },
+      {
+        "name": "Thierry Henry",
+        "goals": 50,
+        "nc": "fr",
+        "editions": "1998-2012"
+      },
+      {
+        "name": "Andriy Shevchenko",
+        "goals": 67,
+        "nc": "ua",
+        "editions": "1994-2012"
+      }
+    ],
+    "mostFinals": [
+      {
+        "name": "Real Madrid",
+        "finals": 18,
+        "nc": "es",
+        "won": 15
+      },
+      {
+        "name": "Milan",
+        "finals": 11,
+        "nc": "it",
+        "won": 7
+      },
+      {
+        "name": "Juventus",
+        "finals": 9,
+        "nc": "it",
+        "won": 2
+      },
+      {
+        "name": "Bayern Múnich",
+        "finals": 11,
+        "nc": "de",
+        "won": 6
+      },
+      {
+        "name": "Barcelona",
+        "finals": 8,
+        "nc": "es",
+        "won": 5
+      },
+      {
+        "name": "Benfica",
+        "finals": 8,
+        "nc": "pt",
+        "won": 2
+      },
+      {
+        "name": "Liverpool",
+        "finals": 10,
+        "nc": "gb-eng",
+        "won": 6
+      }
+    ],
+    "mostAppearances": [
+      {
+        "name": "Cristiano Ronaldo",
+        "apps": 183,
+        "nc": "pt"
+      },
+      {
+        "name": "Lionel Messi",
+        "apps": 163,
+        "nc": "ar"
+      },
+      {
+        "name": "Iker Casillas",
+        "apps": 177,
+        "nc": "es"
+      },
+      {
+        "name": "Xavi Hernández",
+        "apps": 157,
+        "nc": "es"
+      },
+      {
+        "name": "Raúl González",
+        "apps": 142,
+        "nc": "es"
+      }
+    ]
+  },
+  "curiosities": [
+    {
+      "id": 1,
+      "emoji": "🤯",
+      "tag": "Récord absoluto",
+      "title": "Cristiano Ronaldo: el marciano de Europa",
+      "body": "CR7 tiene 140 goles en Champions, casi el doble del tercero en la lista. En temporadas buenas marcó 15-17 goles él solo. Es el máximo goleador en 4 clubes distintos de la competición."
+    },
+    {
+      "id": 2,
+      "emoji": "😱",
+      "tag": "La noche eterna",
+      "title": "Estambul 2005: de la muerte a la gloria",
+      "body": "Liverpool iba 3-0 al descanso contra Milan. En 6 minutos (54-60) marcaron 3 gracias a Gerrard, Smicer y Alonso. Ganaron en penaltis. El propio Alonso falló el suyo y marcó el rebote."
+    },
+    {
+      "id": 3,
+      "emoji": "⚡",
+      "tag": "Gol inmortal",
+      "title": "La volea de Zidane que paró el tiempo",
+      "body": "En la final de 2002, Zidane recibió un centro de Roberto Carlos y marcó la volea más bella de la historia del fútbol. El Bayern nunca se recuperó de ese golpe."
+    },
+    {
+      "id": 4,
+      "emoji": "🎩",
+      "tag": "Bestia húngara",
+      "title": "Puskás marcó 4 goles en la final de 1960",
+      "body": "La final de 1960 en Hampden Park: Real Madrid 7-3 Eintracht Frankfurt. Puskás marcó 4 y Di Stéfano 3. 127.000 aficionados escoceses aplaudieron al rival. Considerada la mejor final de la historia."
+    },
+    {
+      "id": 5,
+      "emoji": "😭",
+      "tag": "Tragedia",
+      "title": "Heysel 1985: la noche más oscura",
+      "body": "Antes de la final Juventus-Liverpool, un muro colapsó y murieron 39 personas. El partido se jugó igualmente por razones de seguridad. Los clubes ingleses fueron vetados 5 años."
+    },
+    {
+      "id": 6,
+      "emoji": "🔥",
+      "tag": "Real Madrid supremo",
+      "title": "5 Champions seguidas (1956-1960)",
+      "body": "El Real Madrid ganó las primeras 5 ediciones de la Copa de Europa. Ningún equipo ha repetido esa hazaña. Di Stéfano jugó todas las finales y fue el alma de ese equipo eterno."
+    },
+    {
+      "id": 7,
+      "emoji": "🦁",
+      "tag": "Los Leones de Lisboa",
+      "title": "Celtic 1967: 11 del mismo barrio",
+      "body": "El Celtic ganó la Copa de Europa de 1967 con 11 jugadores nacidos todos en un radio de 30 km de Glasgow. Eran locales contra el Inter de Helenio Herrera. El fútbol de pueblo venció al catenaccio."
+    },
+    {
+      "id": 8,
+      "emoji": "🎯",
+      "tag": "Remontada final",
+      "title": "Solskjær y el minuto 93",
+      "body": "Bayern Munich 1-0 en el 90'+ 1. Teddy Sheringham empató. Bayern ya celebraba. En el 90'+3, Ole Gunnar Solskjær marcó el 2-1. Ferguson había prometido ganar la Champions en el año del centenario de Manchester United."
+    },
+    {
+      "id": 9,
+      "emoji": "🚩",
+      "tag": "Campeón robado",
+      "title": "Marsella: el único título borrado",
+      "body": "Marsella ganó la Champions de 1993, pero fue desposeída del título de la Ligue 1 por corrupción (caso Valenciennes). La UEFA no le quitó la Copa, pero el club nunca ha podido lucir la estrella en la liga francesa."
+    },
+    {
+      "id": 10,
+      "emoji": "👑",
+      "tag": "Decima",
+      "title": "La espera de 12 años del Real Madrid",
+      "body": "Entre 2002 (Zidane) y 2014 (Ramos+Sergio), el Real Madrid esperó 12 años para ganar su décima Champions. Ramos la empató en el 93' y en la prórroga fue una goleada: 4-1 al Atlético."
+    },
+    {
+      "id": 11,
+      "emoji": "🤚",
+      "tag": "Fracaso épico",
+      "title": "Barcelona en el Heysel: 0 de 4 penaltis",
+      "body": "En la final de 1986, el Barça falló los 4 penaltis lanzados ante el Steaua de Bucarest. Incluso Alexanko y Marcos tiemblan hoy al recordarlo. La mayor desgracia en una final de UCL."
+    },
+    {
+      "id": 12,
+      "emoji": "⚽",
+      "tag": "Juventud",
+      "title": "El más joven en ganar la UCL",
+      "body": "Patrick Kluivert marcó el gol del Ajax en la final de 1995 ante el Milan con 18 años y 327 días. Es el jugador más joven en marcar en una final de Champions."
+    },
+    {
+      "id": 13,
+      "emoji": "🏆",
+      "tag": "15 estrellas",
+      "title": "Por qué el Real Madrid tiene 15 estrellas",
+      "body": "Real Madrid ha ganado más Champions Leagues que cualquier otro club. La 15ª llegó en 2024 en Wembley contra el Borussia Dortmund. Carvajal y Vinicius Jr. sellaron otra noche de leyenda blanca."
+    },
+    {
+      "id": 14,
+      "emoji": "🔄",
+      "tag": "Coman y su ex",
+      "title": "Coman marcó ante su ex club en 2020",
+      "body": "Kingsley Coman, exjugador del PSG, marcó el único gol del Bayern contra el PSG en la final de Lisboa 2020. Fue él quien también decidió el duelo. Las ironías del fútbol."
+    },
+    {
+      "id": 15,
+      "emoji": "🌍",
+      "tag": "Historia viva",
+      "title": "2025: el año del PSG",
+      "body": "PSG ganó su primera Champions en 2025 en Múnich, con Dembélé como héroe. Después de años de inversión catarí y fracasos dolorosos (remontadas del Barça, salida de Mbappé), Paris finalmente conquistó Europa."
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "editions": [
+    {
+      "year": 1930, "host": "Uruguay", "hc": "uy", "teams": 13, "matches": 18, "goals": 70, "avgGoals": 3.89, "att": 590549,
+      "champion": "Uruguay", "cc": "uy", "ru": "Argentina", "ruc": "ar", "third": "USA", "tc": "us", "fourth": "Yugoslavia", "fc": "rs",
+      "top": {"name": "Guillermo Stábile", "g": 8, "nat": "Argentina", "nc": "ar"},
+      "final": {"h": "Uruguay", "hc": "uy", "hs": 4, "a": "Argentina", "ac": "ar", "as": 2, "et": false, "pen": false, "venue": "Estadio Centenario, Montevideo", "date": "30 jul 1930"},
+      "rounds": {
+        "sf": [
+          {"h": "Argentina", "hc": "ar", "hs": 6, "a": "USA", "ac": "us", "as": 1},
+          {"h": "Uruguay", "hc": "uy", "hs": 6, "a": "Yugoslavia", "ac": "rs", "as": 1}
+        ]
+      },
+      "curiosity": "Solo 13 equipos participaron. Los europeos debían cruzar el Atlántico en barco durante 3 semanas, y la mayoría se negó. Uruguay pagó todos los gastos de los participantes.",
+      "nickname": "El primer Mundial"
+    },
+    {
+      "year": 1934, "host": "Italia", "hc": "it", "teams": 16, "matches": 17, "goals": 70, "avgGoals": 4.12, "att": 395000,
+      "champion": "Italia", "cc": "it", "ru": "Checoslovaquia", "ruc": "cz", "third": "Alemania", "tc": "de", "fourth": "Austria", "fc": "at",
+      "top": {"name": "Oldřich Nejedlý", "g": 5, "nat": "Checoslovaquia", "nc": "cz"},
+      "final": {"h": "Italia", "hc": "it", "hs": 2, "a": "Checoslovaquia", "ac": "cz", "as": 1, "et": true, "pen": false, "venue": "Stadio PNF, Roma", "date": "10 jun 1934"},
+      "rounds": {
+        "qf": [
+          {"h": "Italia", "hc": "it", "hs": 1, "a": "España", "ac": "es", "as": 1, "note": "Italia ganó el replay 1-0"},
+          {"h": "Checoslovaquia", "hc": "cz", "hs": 3, "a": "Suiza", "ac": "ch", "as": 2},
+          {"h": "Alemania", "hc": "de", "hs": 2, "a": "Suecia", "ac": "se", "as": 1},
+          {"h": "Austria", "hc": "at", "hs": 3, "a": "Hungría", "ac": "hu", "as": 2}
+        ],
+        "sf": [
+          {"h": "Checoslovaquia", "hc": "cz", "hs": 3, "a": "Alemania", "ac": "de", "as": 1},
+          {"h": "Italia", "hc": "it", "hs": 1, "a": "Austria", "ac": "at", "as": 0}
+        ]
+      },
+      "curiosity": "Uruguay, campeón defensor, boicoteó el torneo en represalia por la escasa participación europea en 1930. El formato eliminatoria directa comenzó en primera ronda.",
+      "nickname": "El primer Mundial en Europa"
+    },
+    {
+      "year": 1938, "host": "Francia", "hc": "fr", "teams": 15, "matches": 18, "goals": 84, "avgGoals": 4.67, "att": 483000,
+      "champion": "Italia", "cc": "it", "ru": "Hungría", "ruc": "hu", "third": "Brasil", "tc": "br", "fourth": "Suecia", "fc": "se",
+      "top": {"name": "Leônidas", "g": 7, "nat": "Brasil", "nc": "br"},
+      "final": {"h": "Italia", "hc": "it", "hs": 4, "a": "Hungría", "ac": "hu", "as": 2, "et": false, "pen": false, "venue": "Stade Olympique de Colombes, París", "date": "19 jun 1938"},
+      "rounds": {
+        "qf": [
+          {"h": "Italia", "hc": "it", "hs": 3, "a": "Francia", "ac": "fr", "as": 1},
+          {"h": "Hungría", "hc": "hu", "hs": 2, "a": "Suiza", "ac": "ch", "as": 0},
+          {"h": "Brasil", "hc": "br", "hs": 2, "a": "Checoslovaquia", "ac": "cz", "as": 1, "note": "Tras replay (1-1)"},
+          {"h": "Suecia", "hc": "se", "hs": 8, "a": "Cuba", "ac": "cu", "as": 0}
+        ],
+        "sf": [
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Brasil", "ac": "br", "as": 1},
+          {"h": "Hungría", "hc": "hu", "hs": 5, "a": "Suecia", "ac": "se", "as": 1}
+        ]
+      },
+      "curiosity": "Austria fue anexionada por Alemania (Anschluss) y se retiró. Leônidas descansó en la semifinal para la final — Brasil perdió. La WWII suspendería los dos siguientes Mundiales.",
+      "nickname": "El último antes de la guerra"
+    },
+    {
+      "year": 1950, "host": "Brasil", "hc": "br", "teams": 13, "matches": 22, "goals": 88, "avgGoals": 4.00, "att": 1337000,
+      "champion": "Uruguay", "cc": "uy", "ru": "Brasil", "ruc": "br", "third": "Suecia", "tc": "se", "fourth": "España", "fc": "es",
+      "top": {"name": "Ademir", "g": 9, "nat": "Brasil", "nc": "br"},
+      "final": {"h": "Uruguay", "hc": "uy", "hs": 2, "a": "Brasil", "ac": "br", "as": 1, "et": false, "pen": false, "venue": "Maracaná, Río de Janeiro", "date": "16 jul 1950", "note": "Partido decisivo de la fase final (no hubo final única)"},
+      "rounds": {
+        "finalRound": [
+          {"h": "Uruguay", "hc": "uy", "hs": 2, "a": "Brasil", "ac": "br", "as": 1, "note": "El 'Maracanazo' — 200.000 espectadores"},
+          {"h": "Uruguay", "hc": "uy", "hs": 3, "a": "Suecia", "ac": "se", "as": 2},
+          {"h": "Brasil", "hc": "br", "hs": 7, "a": "Suecia", "ac": "se", "as": 1},
+          {"h": "Brasil", "hc": "br", "hs": 6, "a": "España", "ac": "es", "as": 1}
+        ]
+      },
+      "curiosity": "No hubo partido final. Un grupo round-robin de 4 equipos decidió el campeón. Uruguay derrotó a Brasil ante 200.000 personas en el Maracaná: el 'Maracanazo'. Ghiggia marcó el 2-1 al minuto 79.",
+      "nickname": "El Maracanazo"
+    },
+    {
+      "year": 1954, "host": "Suiza", "hc": "ch", "teams": 16, "matches": 26, "goals": 140, "avgGoals": 5.38, "att": 943000,
+      "champion": "Alemania Occ.", "cc": "de", "ru": "Hungría", "ruc": "hu", "third": "Austria", "tc": "at", "fourth": "Uruguay", "fc": "uy",
+      "top": {"name": "Sándor Kocsis", "g": 11, "nat": "Hungría", "nc": "hu"},
+      "final": {"h": "Alemania Occ.", "hc": "de", "hs": 3, "a": "Hungría", "ac": "hu", "as": 2, "et": false, "pen": false, "venue": "Wankdorfstadion, Berna", "date": "4 jul 1954"},
+      "rounds": {
+        "qf": [
+          {"h": "Alemania Occ.", "hc": "de", "hs": 2, "a": "Yugoslavia", "ac": "rs", "as": 0},
+          {"h": "Hungría", "hc": "hu", "hs": 4, "a": "Brasil", "ac": "br", "as": 2, "note": "La 'Batalla de Berna' — 3 expulsados"},
+          {"h": "Austria", "hc": "at", "hs": 7, "a": "Suiza", "ac": "ch", "as": 5, "note": "El partido más goleador de la historia"},
+          {"h": "Uruguay", "hc": "uy", "hs": 4, "a": "Inglaterra", "ac": "gb-eng", "as": 2}
+        ],
+        "sf": [
+          {"h": "Alemania Occ.", "hc": "de", "hs": 6, "a": "Austria", "ac": "at", "as": 1},
+          {"h": "Hungría", "hc": "hu", "hs": 4, "a": "Uruguay", "ac": "uy", "as": 2}
+        ]
+      },
+      "curiosity": "El 'Milagro de Berna': Hungría — invicta durante 4 años y con el mejor equipo del mundo — perdió la final ante Alemania, a quien había goleado 8-3 en grupos. El récord de goles del torneo (5.38/partido) nunca se ha igualado.",
+      "nickname": "El Milagro de Berna"
+    },
+    {
+      "year": 1958, "host": "Suecia", "hc": "se", "teams": 16, "matches": 35, "goals": 126, "avgGoals": 3.60, "att": 868000,
+      "champion": "Brasil", "cc": "br", "ru": "Suecia", "ruc": "se", "third": "Francia", "tc": "fr", "fourth": "Alemania Occ.", "fc": "de",
+      "top": {"name": "Just Fontaine", "g": 13, "nat": "Francia", "nc": "fr"},
+      "final": {"h": "Brasil", "hc": "br", "hs": 5, "a": "Suecia", "ac": "se", "as": 2, "et": false, "pen": false, "venue": "Råsundastadion, Solna", "date": "29 jun 1958"},
+      "rounds": {
+        "qf": [
+          {"h": "Francia", "hc": "fr", "hs": 4, "a": "Irlanda del Norte", "ac": "gb-nir", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Yugoslavia", "ac": "rs", "as": 0},
+          {"h": "Suecia", "hc": "se", "hs": 2, "a": "URSS", "ac": "ru", "as": 0},
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "Gales", "ac": "gb-wls", "as": 0}
+        ],
+        "sf": [
+          {"h": "Brasil", "hc": "br", "hs": 5, "a": "Francia", "ac": "fr", "as": 2},
+          {"h": "Suecia", "hc": "se", "hs": 3, "a": "Alemania Occ.", "ac": "de", "as": 1}
+        ]
+      },
+      "curiosity": "Just Fontaine marcó 13 goles en un solo Mundial — récord absoluto e imbatible. Pelé tenía 17 años y marcó un hat-trick en la semifinal. Francia goleó 6-3 a Alemania por el tercer puesto.",
+      "nickname": "La llegada de Pelé y Garrincha"
+    },
+    {
+      "year": 1962, "host": "Chile", "hc": "cl", "teams": 16, "matches": 32, "goals": 89, "avgGoals": 2.78, "att": 893000,
+      "champion": "Brasil", "cc": "br", "ru": "Checoslovaquia", "ruc": "cz", "third": "Chile", "tc": "cl", "fourth": "Yugoslavia", "fc": "rs",
+      "top": {"name": "Varios (6 jugadores)", "g": 4, "nat": "Múltiples", "nc": ""},
+      "final": {"h": "Brasil", "hc": "br", "hs": 3, "a": "Checoslovaquia", "ac": "cz", "as": 1, "et": false, "pen": false, "venue": "Estadio Nacional, Santiago", "date": "17 jun 1962"},
+      "rounds": {
+        "qf": [
+          {"h": "Yugoslavia", "hc": "rs", "hs": 1, "a": "Alemania Occ.", "ac": "de", "as": 0},
+          {"h": "Brasil", "hc": "br", "hs": 3, "a": "Inglaterra", "ac": "gb-eng", "as": 1},
+          {"h": "Chile", "hc": "cl", "hs": 2, "a": "URSS", "ac": "ru", "as": 1},
+          {"h": "Checoslovaquia", "hc": "cz", "hs": 1, "a": "Hungría", "ac": "hu", "as": 0}
+        ],
+        "sf": [
+          {"h": "Brasil", "hc": "br", "hs": 4, "a": "Chile", "ac": "cl", "as": 2},
+          {"h": "Checoslovaquia", "hc": "cz", "hs": 3, "a": "Yugoslavia", "ac": "rs", "as": 1}
+        ]
+      },
+      "curiosity": "La 'Batalla de Santiago' entre Chile e Italia fue el partido más violento de la historia: dos expulsados, patadas, puñetazos. Brasil ganó sin Pelé (lesionado en el segundo partido). Garrincha fue el mejor jugador.",
+      "nickname": "La Batalla de Santiago"
+    },
+    {
+      "year": 1966, "host": "Inglaterra", "hc": "gb-eng", "teams": 16, "matches": 32, "goals": 89, "avgGoals": 2.78, "att": 1614677,
+      "champion": "Inglaterra", "cc": "gb-eng", "ru": "Alemania Occ.", "ruc": "de", "third": "Portugal", "tc": "pt", "fourth": "URSS", "fc": "ru",
+      "top": {"name": "Eusébio", "g": 9, "nat": "Portugal", "nc": "pt"},
+      "final": {"h": "Inglaterra", "hc": "gb-eng", "hs": 4, "a": "Alemania Occ.", "ac": "de", "as": 2, "et": true, "pen": false, "venue": "Wembley, Londres", "date": "30 jul 1966"},
+      "rounds": {
+        "qf": [
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 1, "a": "Argentina", "ac": "ar", "as": 0, "note": "Expulsión de Rattín"},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 4, "a": "Uruguay", "ac": "uy", "as": 0},
+          {"h": "Portugal", "hc": "pt", "hs": 5, "a": "Corea del Norte", "ac": "kp", "as": 3, "note": "Corea iba ganando 3-0"},
+          {"h": "URSS", "hc": "ru", "hs": 2, "a": "Hungría", "ac": "hu", "as": 1}
+        ],
+        "sf": [
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 2, "a": "Portugal", "ac": "pt", "as": 1},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 2, "a": "URSS", "ac": "ru", "as": 1}
+        ]
+      },
+      "curiosity": "El balón del Mundial fue robado semanas antes y encontrado por un perro llamado Pickles. Corea del Norte eliminó a Italia y llegó a ganar 3-0 a Portugal en QF. El tercer gol de Inglaterra en la final sigue siendo polémico — ¿cruzó la línea?",
+      "nickname": "El Mundial de casa de Inglaterra"
+    },
+    {
+      "year": 1970, "host": "México", "hc": "mx", "teams": 16, "matches": 32, "goals": 95, "avgGoals": 2.97, "att": 1604065,
+      "champion": "Brasil", "cc": "br", "ru": "Italia", "ruc": "it", "third": "Alemania Occ.", "tc": "de", "fourth": "Uruguay", "fc": "uy",
+      "top": {"name": "Gerd Müller", "g": 10, "nat": "Alemania Occ.", "nc": "de"},
+      "final": {"h": "Brasil", "hc": "br", "hs": 4, "a": "Italia", "ac": "it", "as": 1, "et": false, "pen": false, "venue": "Estadio Azteca, Ciudad de México", "date": "21 jun 1970"},
+      "rounds": {
+        "qf": [
+          {"h": "Uruguay", "hc": "uy", "hs": 1, "a": "URSS", "ac": "ru", "as": 0, "et": true},
+          {"h": "Italia", "hc": "it", "hs": 4, "a": "México", "ac": "mx", "as": 1},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 3, "a": "Inglaterra", "ac": "gb-eng", "as": 2, "et": true, "note": "Remontada de 0-2"},
+          {"h": "Brasil", "hc": "br", "hs": 4, "a": "Perú", "ac": "pe", "as": 2}
+        ],
+        "sf": [
+          {"h": "Italia", "hc": "it", "hs": 4, "a": "Alemania Occ.", "ac": "de", "as": 3, "et": true, "note": "El 'Partido del Siglo'"},
+          {"h": "Brasil", "hc": "br", "hs": 3, "a": "Uruguay", "ac": "uy", "as": 1}
+        ]
+      },
+      "curiosity": "La semifinal Italia–Alemania (4-3 AET) se conoce como el 'Partido del Siglo'. El gol de Carlos Alberto en la final de Brasil es el mejor gol colectivo de la historia. Brasil ganó la Copa Jules Rimet para siempre.",
+      "nickname": "El Brasil de Pelé — el mejor equipo de la historia"
+    },
+    {
+      "year": 1974, "host": "Alemania Occ.", "hc": "de", "teams": 16, "matches": 38, "goals": 97, "avgGoals": 2.55, "att": 1865762,
+      "champion": "Alemania Occ.", "cc": "de", "ru": "Países Bajos", "ruc": "nl", "third": "Polonia", "tc": "pl", "fourth": "Brasil", "fc": "br",
+      "top": {"name": "Grzegorz Lato", "g": 7, "nat": "Polonia", "nc": "pl"},
+      "final": {"h": "Alemania Occ.", "hc": "de", "hs": 2, "a": "Países Bajos", "ac": "nl", "as": 1, "et": false, "pen": false, "venue": "Olympiastadion, Múnich", "date": "7 jul 1974"},
+      "rounds": {
+        "sf": [
+          {"h": "Alemania Occ.", "hc": "de", "note": "Ganó el Grupo A de 2ª ronda (3-0-0, 4 pts)"},
+          {"h": "Países Bajos", "hc": "nl", "note": "Ganó el Grupo B de 2ª ronda (3-0-0, 4 pts)"}
+        ],
+        "secondRound": [
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Suecia", "ac": "se", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 4, "a": "Yugoslavia", "ac": "rs", "as": 2},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Polonia", "ac": "pl", "as": 0},
+          {"h": "Países Bajos", "hc": "nl", "hs": 4, "a": "Argentina", "ac": "ar", "as": 0},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Alemania del Este", "ac": "de", "as": 0},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Brasil", "ac": "br", "as": 0}
+        ]
+      },
+      "curiosity": "Johan Cruyff y el 'fútbol total' neerlandés revolucionaron el juego. Alemania ganó en casa con Beckenbauer y Müller. El penalti marcado en el primer minuto de la final — antes de que Alemania tocara el balón — es el más rápido de la historia.",
+      "nickname": "El fútbol total de Cruyff"
+    },
+    {
+      "year": 1978, "host": "Argentina", "hc": "ar", "teams": 16, "matches": 38, "goals": 102, "avgGoals": 2.68, "att": 1545791,
+      "champion": "Argentina", "cc": "ar", "ru": "Países Bajos", "ruc": "nl", "third": "Brasil", "tc": "br", "fourth": "Italia", "fc": "it",
+      "top": {"name": "Mario Kempes", "g": 6, "nat": "Argentina", "nc": "ar"},
+      "final": {"h": "Argentina", "hc": "ar", "hs": 3, "a": "Países Bajos", "ac": "nl", "as": 1, "et": true, "pen": false, "venue": "Estadio Monumental, Buenos Aires", "date": "25 jun 1978"},
+      "rounds": {
+        "secondRound": [
+          {"h": "Argentina", "hc": "ar", "hs": 6, "a": "Perú", "ac": "pe", "as": 0, "note": "Controvertido — Perú necesitaba perder por 4+"},
+          {"h": "Argentina", "hc": "ar", "hs": 2, "a": "Polonia", "ac": "pl", "as": 0},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Italia", "ac": "it", "as": 1},
+          {"h": "Países Bajos", "hc": "nl", "hs": 5, "a": "Austria", "ac": "at", "as": 1}
+        ]
+      },
+      "curiosity": "El 6-0 de Argentina ante Perú en el último partido de la 2ª ronda para superar a Brasil en diferencia de goles fue muy polémico. Cruyff no fue — alegó razones personales, pero décadas después reveló un secuestro frustrado. Mario Kempes fue el héroe.",
+      "nickname": "La primera estrella de Argentina"
+    },
+    {
+      "year": 1982, "host": "España", "hc": "es", "teams": 24, "matches": 52, "goals": 146, "avgGoals": 2.81, "att": 2109723,
+      "champion": "Italia", "cc": "it", "ru": "Alemania Occ.", "ruc": "de", "third": "Polonia", "tc": "pl", "fourth": "Francia", "fc": "fr",
+      "top": {"name": "Paolo Rossi", "g": 6, "nat": "Italia", "nc": "it"},
+      "final": {"h": "Italia", "hc": "it", "hs": 3, "a": "Alemania Occ.", "ac": "de", "as": 1, "et": false, "pen": false, "venue": "Santiago Bernabéu, Madrid", "date": "11 jul 1982"},
+      "rounds": {
+        "sf": [
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Polonia", "ac": "pl", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 3, "a": "Francia", "ac": "fr", "as": 3, "et": true, "pen": true, "penH": 5, "penA": 4, "note": "PRIMERA tanda de penaltis en un Mundial"}
+        ],
+        "secondRound": [
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Argentina", "ac": "ar", "as": 1},
+          {"h": "Italia", "hc": "it", "hs": 3, "a": "Brasil", "ac": "br", "as": 2, "note": "Rossi hat-trick"},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 0, "a": "Inglaterra", "ac": "gb-eng", "as": 0},
+          {"h": "Francia", "hc": "fr", "hs": 1, "a": "Austria", "ac": "at", "as": 0}
+        ]
+      },
+      "curiosity": "La primera tanda de penaltis de la historia en un Mundial (Alemania–Francia en SF). Paolo Rossi, suspendido 2 años por escándalo de amaño, marcó 6 goles en 3 partidos consecutivos (ARG, BRA, POL). El juego sucio de Alemania a Battiston casi le cuesta la vida.",
+      "nickname": "Rossi y la primera tanda de penaltis"
+    },
+    {
+      "year": 1986, "host": "México", "hc": "mx", "teams": 24, "matches": 52, "goals": 132, "avgGoals": 2.54, "att": 2394031,
+      "champion": "Argentina", "cc": "ar", "ru": "Alemania Occ.", "ruc": "de", "third": "Francia", "tc": "fr", "fourth": "Bélgica", "fc": "be",
+      "top": {"name": "Gary Lineker", "g": 6, "nat": "Inglaterra", "nc": "gb-eng"},
+      "final": {"h": "Argentina", "hc": "ar", "hs": 3, "a": "Alemania Occ.", "ac": "de", "as": 2, "et": false, "pen": false, "venue": "Estadio Azteca, Ciudad de México", "date": "29 jun 1986"},
+      "rounds": {
+        "r16": [
+          {"h": "México", "hc": "mx", "hs": 2, "a": "Bulgaria", "ac": "bg", "as": 0},
+          {"h": "Bélgica", "hc": "be", "hs": 4, "a": "URSS", "ac": "ru", "as": 3, "et": true},
+          {"h": "Brasil", "hc": "br", "hs": 4, "a": "Polonia", "ac": "pl", "as": 0},
+          {"h": "Francia", "hc": "fr", "hs": 2, "a": "Italia", "ac": "it", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Marruecos", "ac": "ma", "as": 0},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 3, "a": "Paraguay", "ac": "py", "as": 0},
+          {"h": "Argentina", "hc": "ar", "hs": 1, "a": "Uruguay", "ac": "uy", "as": 0},
+          {"h": "España", "hc": "es", "hs": 5, "a": "Dinamarca", "ac": "dk", "as": 1}
+        ],
+        "qf": [
+          {"h": "Francia", "hc": "fr", "hs": 1, "a": "Brasil", "ac": "br", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 3},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "México", "ac": "mx", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 1},
+          {"h": "Bélgica", "hc": "be", "hs": 1, "a": "España", "ac": "es", "as": 1, "et": true, "pen": true, "penH": 5, "penA": 4},
+          {"h": "Argentina", "hc": "ar", "hs": 2, "a": "Inglaterra", "ac": "gb-eng", "as": 1, "note": "La Mano de Dios + Gol del Siglo"}
+        ],
+        "sf": [
+          {"h": "Argentina", "hc": "ar", "hs": 2, "a": "Bélgica", "ac": "be", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 2, "a": "Francia", "ac": "fr", "as": 0}
+        ]
+      },
+      "curiosity": "Maradona marcó en el mismo partido el 'Gol del Siglo' (el mejor gol de la historia) y la 'Mano de Dios'. Marruecos fue el primer equipo africano en superar la fase de grupos. México organizó de nuevo el torneo porque Colombia renunció.",
+      "nickname": "El Mundial de Maradona"
+    },
+    {
+      "year": 1990, "host": "Italia", "hc": "it", "teams": 24, "matches": 52, "goals": 115, "avgGoals": 2.21, "att": 2516215,
+      "champion": "Alemania Occ.", "cc": "de", "ru": "Argentina", "ruc": "ar", "third": "Italia", "tc": "it", "fourth": "Inglaterra", "fc": "gb-eng",
+      "top": {"name": "Salvatore Schillaci", "g": 6, "nat": "Italia", "nc": "it"},
+      "final": {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Argentina", "ac": "ar", "as": 0, "et": false, "pen": false, "venue": "Stadio Olimpico, Roma", "date": "8 jul 1990"},
+      "rounds": {
+        "r16": [
+          {"h": "Camerún", "hc": "cm", "hs": 2, "a": "Colombia", "ac": "co", "as": 1, "et": true},
+          {"h": "Checoslovaquia", "hc": "cz", "hs": 4, "a": "Costa Rica", "ac": "cr", "as": 1},
+          {"h": "Argentina", "hc": "ar", "hs": 1, "a": "Brasil", "ac": "br", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 2, "a": "Países Bajos", "ac": "nl", "as": 1},
+          {"h": "Irlanda", "hc": "ie", "hs": 0, "a": "Rumanía", "ac": "ro", "as": 0, "et": true, "pen": true, "penH": 5, "penA": 4},
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Uruguay", "ac": "uy", "as": 0},
+          {"h": "Yugoslavia", "hc": "rs", "hs": 2, "a": "España", "ac": "es", "as": 1},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 1, "a": "Bélgica", "ac": "be", "as": 0, "et": true, "note": "Gol de volea de Platt"}
+        ],
+        "qf": [
+          {"h": "Argentina", "hc": "ar", "hs": 0, "a": "Yugoslavia", "ac": "rs", "as": 0, "et": true, "pen": true, "penH": 3, "penA": 2},
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Irlanda", "ac": "ie", "as": 0},
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Checoslovaquia", "ac": "cz", "as": 0},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 3, "a": "Camerún", "ac": "cm", "as": 2, "et": true, "note": "Camerún iba ganando"}
+        ],
+        "sf": [
+          {"h": "Alemania Occ.", "hc": "de", "hs": 1, "a": "Inglaterra", "ac": "gb-eng", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 3, "note": "Llanto de Gazza, falló Waddle"},
+          {"h": "Argentina", "hc": "ar", "hs": 1, "a": "Italia", "ac": "it", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 3}
+        ]
+      },
+      "curiosity": "El torneo más aburrido de la historia (2.21 goles/partido). La final fue la peor de la historia — Argentina con dos expulsados. Camerún llegó a cuartos. Schillaci, un desconocido antes del torneo, ganó la Bota de Oro.",
+      "nickname": "El peor Mundial de la historia"
+    },
+    {
+      "year": 1994, "host": "EE.UU.", "hc": "us", "teams": 24, "matches": 52, "goals": 141, "avgGoals": 2.71, "att": 3587538,
+      "champion": "Brasil", "cc": "br", "ru": "Italia", "ruc": "it", "third": "Suecia", "tc": "se", "fourth": "Bulgaria", "fc": "bg",
+      "top": {"name": "Hristo Stoichkov / Oleg Salenko", "g": 6, "nat": "Bulgaria/Rusia", "nc": "bg"},
+      "final": {"h": "Brasil", "hc": "br", "hs": 0, "a": "Italia", "ac": "it", "as": 0, "et": true, "pen": true, "penH": 3, "penA": 2, "venue": "Rose Bowl, Los Ángeles", "date": "17 jul 1994", "note": "Baggio falló el último penalti"},
+      "rounds": {
+        "r16": [
+          {"h": "Alemania", "hc": "de", "hs": 3, "a": "Bélgica", "ac": "be", "as": 2},
+          {"h": "España", "hc": "es", "hs": 3, "a": "Suiza", "ac": "ch", "as": 0},
+          {"h": "Suecia", "hc": "se", "hs": 3, "a": "Arabia Saudí", "ac": "sa", "as": 1},
+          {"h": "Rumanía", "hc": "ro", "hs": 3, "a": "Argentina", "ac": "ar", "as": 2},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Irlanda", "ac": "ie", "as": 0},
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "EE.UU.", "ac": "us", "as": 0},
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Nigeria", "ac": "ng", "as": 1, "et": true, "note": "Baggio de nuevo al rescate"},
+          {"h": "México", "hc": "mx", "hs": 1, "a": "Bulgaria", "ac": "bg", "as": 1, "et": true, "pen": true, "penH": 1, "penA": 3}
+        ],
+        "qf": [
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "España", "ac": "es", "as": 1},
+          {"h": "Brasil", "hc": "br", "hs": 3, "a": "Países Bajos", "ac": "nl", "as": 2},
+          {"h": "Bulgaria", "hc": "bg", "hs": 2, "a": "Alemania", "ac": "de", "as": 1, "note": "Gran sorpresa"},
+          {"h": "Suecia", "hc": "se", "hs": 2, "a": "Rumanía", "ac": "ro", "as": 2, "et": true, "pen": true, "penH": 5, "penA": 4}
+        ],
+        "sf": [
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "Suecia", "ac": "se", "as": 0},
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Bulgaria", "ac": "bg", "as": 1}
+        ]
+      },
+      "curiosity": "La final con más espectadores de la historia del fútbol (94.194 personas). Roberto Baggio falló el penalti decisivo con la cabeza gacha. Oleg Salenko marcó 5 goles en un partido. Pelé predijo que Nigeria ganaría el Mundial.",
+      "nickname": "El penalti de Baggio"
+    },
+    {
+      "year": 1998, "host": "Francia", "hc": "fr", "teams": 32, "matches": 64, "goals": 171, "avgGoals": 2.67, "att": 2785100,
+      "champion": "Francia", "cc": "fr", "ru": "Brasil", "ruc": "br", "third": "Croacia", "tc": "hr", "fourth": "Países Bajos", "fc": "nl",
+      "top": {"name": "Davor Šuker", "g": 6, "nat": "Croacia", "nc": "hr"},
+      "final": {"h": "Francia", "hc": "fr", "hs": 3, "a": "Brasil", "ac": "br", "as": 0, "et": false, "pen": false, "venue": "Stade de France, París", "date": "12 jul 1998", "note": "Ronaldo con convulsiones antes del partido"},
+      "rounds": {
+        "r16": [
+          {"h": "Brasil", "hc": "br", "hs": 4, "a": "Chile", "ac": "cl", "as": 1},
+          {"h": "Francia", "hc": "fr", "hs": 1, "a": "Paraguay", "ac": "py", "as": 0, "et": true, "note": "GG de Laurent Blanc"},
+          {"h": "Argentina", "hc": "ar", "hs": 2, "a": "Inglaterra", "ac": "gb-eng", "as": 2, "et": true, "pen": true, "penH": 4, "penA": 3, "note": "Gol de Owen, roja de Beckham"},
+          {"h": "Italia", "hc": "it", "hs": 1, "a": "Nigeria", "ac": "ng", "as": 0},
+          {"h": "Alemania", "hc": "de", "hs": 2, "a": "México", "ac": "mx", "as": 1},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Yugoslavia", "ac": "rs", "as": 1},
+          {"h": "Rumanía", "hc": "ro", "hs": 1, "a": "Colombia", "ac": "co", "as": 0},
+          {"h": "Croacia", "hc": "hr", "hs": 1, "a": "Japón", "ac": "jp", "as": 0}
+        ],
+        "qf": [
+          {"h": "Francia", "hc": "fr", "hs": 0, "a": "Italia", "ac": "it", "as": 0, "et": true, "pen": true, "penH": 4, "penA": 3},
+          {"h": "Brasil", "hc": "br", "hs": 3, "a": "Dinamarca", "ac": "dk", "as": 2},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Argentina", "ac": "ar", "as": 1, "note": "Gol de Bergkamp en el 89'"},
+          {"h": "Croacia", "hc": "hr", "hs": 3, "a": "Alemania", "ac": "de", "as": 0}
+        ],
+        "sf": [
+          {"h": "Francia", "hc": "fr", "hs": 2, "a": "Croacia", "ac": "hr", "as": 1, "note": "Doblete de Thuram"},
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "Países Bajos", "ac": "nl", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 2}
+        ]
+      },
+      "curiosity": "Ronaldo sufrió convulsiones horas antes de la final y fue retirado de la alineación inicial, volvió a entrar pero estaba en otro mundo. Zidane marcó dos cabezazos en la final. Francia debutó y ganó el Mundial en casa.",
+      "nickname": "Zidane besa la Copa"
+    },
+    {
+      "year": 2002, "host": "Corea/Japón", "hc": "kr", "teams": 32, "matches": 64, "goals": 161, "avgGoals": 2.52, "att": 2705197,
+      "champion": "Brasil", "cc": "br", "ru": "Alemania", "ruc": "de", "third": "Turquía", "tc": "tr", "fourth": "Corea del Sur", "fc": "kr",
+      "top": {"name": "Ronaldo", "g": 8, "nat": "Brasil", "nc": "br"},
+      "final": {"h": "Brasil", "hc": "br", "hs": 2, "a": "Alemania", "ac": "de", "as": 0, "et": false, "pen": false, "venue": "Estadio Internacional de Yokohama", "date": "30 jun 2002"},
+      "rounds": {
+        "r16": [
+          {"h": "Alemania", "hc": "de", "hs": 1, "a": "Paraguay", "ac": "py", "as": 0},
+          {"h": "EE.UU.", "hc": "us", "hs": 2, "a": "México", "ac": "mx", "as": 0},
+          {"h": "Corea del Sur", "hc": "kr", "hs": 2, "a": "Italia", "ac": "it", "as": 1, "et": true, "note": "GG de Ahn — Italia eliminada"},
+          {"h": "España", "hc": "es", "hs": 1, "a": "Irlanda", "ac": "ie", "as": 1, "et": true, "pen": true, "penH": 3, "penA": 2},
+          {"h": "Brasil", "hc": "br", "hs": 2, "a": "Bélgica", "ac": "be", "as": 0},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 3, "a": "Dinamarca", "ac": "dk", "as": 0},
+          {"h": "Turquía", "hc": "tr", "hs": 1, "a": "Japón", "ac": "jp", "as": 0},
+          {"h": "Senegal", "hc": "sn", "hs": 2, "a": "Suecia", "ac": "se", "as": 1, "et": true}
+        ],
+        "qf": [
+          {"h": "Corea del Sur", "hc": "kr", "hs": 0, "a": "España", "ac": "es", "as": 0, "et": true, "pen": true, "penH": 5, "penA": 3, "note": "Dos goles anulados a España"},
+          {"h": "Alemania", "hc": "de", "hs": 1, "a": "EE.UU.", "ac": "us", "as": 0},
+          {"h": "Brasil", "hc": "br", "hs": 2, "a": "Inglaterra", "ac": "gb-eng", "as": 1, "note": "Gol de Ronaldinho de falta"},
+          {"h": "Turquía", "hc": "tr", "hs": 1, "a": "Senegal", "ac": "sn", "as": 0, "et": true}
+        ],
+        "sf": [
+          {"h": "Alemania", "hc": "de", "hs": 1, "a": "Corea del Sur", "ac": "kr", "as": 0},
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "Turquía", "ac": "tr", "as": 0}
+        ]
+      },
+      "curiosity": "El primer Mundial en Asia. Corea del Sur llegó a semifinales entre múltiples polémicas arbitrales (eliminó a Italia y España). Ronaldo reivindicó su carrera tras la crisis del 98 y ganó la Bota de Oro con 8 goles.",
+      "nickname": "Las sorpresas de Asia"
+    },
+    {
+      "year": 2006, "host": "Alemania", "hc": "de", "teams": 32, "matches": 64, "goals": 147, "avgGoals": 2.30, "att": 3359439,
+      "champion": "Italia", "cc": "it", "ru": "Francia", "ruc": "fr", "third": "Alemania", "tc": "de", "fourth": "Portugal", "fc": "pt",
+      "top": {"name": "Miroslav Klose", "g": 5, "nat": "Alemania", "nc": "de"},
+      "final": {"h": "Italia", "hc": "it", "hs": 1, "a": "Francia", "ac": "fr", "as": 1, "et": true, "pen": true, "penH": 5, "penA": 3, "venue": "Olympiastadion, Berlín", "date": "9 jul 2006", "note": "Cabezazo de Zidane a Materazzi"},
+      "rounds": {
+        "r16": [
+          {"h": "Alemania", "hc": "de", "hs": 2, "a": "Suecia", "ac": "se", "as": 0},
+          {"h": "Italia", "hc": "it", "hs": 1, "a": "Australia", "ac": "au", "as": 0, "note": "Penalti de Totti en el 93'"},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 1, "a": "Ecuador", "ac": "ec", "as": 0},
+          {"h": "Portugal", "hc": "pt", "hs": 2, "a": "Países Bajos", "ac": "nl", "as": 1, "note": "4 tarjetas rojas — 'La Batalla de Núremberg'"},
+          {"h": "Suiza", "hc": "ch", "hs": 0, "a": "Ucrania", "ac": "ua", "as": 0, "et": true, "pen": true, "penH": 0, "penA": 3},
+          {"h": "Brasil", "hc": "br", "hs": 3, "a": "Ghana", "ac": "gh", "as": 0},
+          {"h": "Argentina", "hc": "ar", "hs": 2, "a": "México", "ac": "mx", "as": 1, "et": true},
+          {"h": "Francia", "hc": "fr", "hs": 3, "a": "España", "ac": "es", "as": 1}
+        ],
+        "qf": [
+          {"h": "Alemania", "hc": "de", "hs": 1, "a": "Argentina", "ac": "ar", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 2},
+          {"h": "Italia", "hc": "it", "hs": 3, "a": "Ucrania", "ac": "ua", "as": 0},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 0, "a": "Portugal", "ac": "pt", "as": 0, "et": true, "pen": true, "penH": 1, "penA": 3},
+          {"h": "Francia", "hc": "fr", "hs": 1, "a": "Brasil", "ac": "br", "as": 0, "note": "Zidane elimina al favorito"}
+        ],
+        "sf": [
+          {"h": "Italia", "hc": "it", "hs": 2, "a": "Alemania", "ac": "de", "as": 0, "note": "Grosso y Del Piero en últimos 2 min."},
+          {"h": "Francia", "hc": "fr", "hs": 1, "a": "Portugal", "ac": "pt", "as": 0}
+        ]
+      },
+      "curiosity": "El cabezazo de Zidane a Materazzi en la final: la imagen más icónica. Italiá ganó su cuarta Copa del Mundo en una fase que arrancó entre rumores de escándalos de amaño (el 'Calciopoli'). Klose llegó a 10 goles mundialistas.",
+      "nickname": "El cabezazo de Zidane"
+    },
+    {
+      "year": 2010, "host": "Sudáfrica", "hc": "za", "teams": 32, "matches": 64, "goals": 145, "avgGoals": 2.27, "att": 3178856,
+      "champion": "España", "cc": "es", "ru": "Países Bajos", "ruc": "nl", "third": "Alemania", "tc": "de", "fourth": "Uruguay", "fc": "uy",
+      "top": {"name": "Thomas Müller / David Villa", "g": 5, "nat": "Alemania/España", "nc": "de"},
+      "final": {"h": "España", "hc": "es", "hs": 1, "a": "Países Bajos", "ac": "nl", "as": 0, "et": true, "pen": false, "venue": "Soccer City, Johannesburgo", "date": "11 jul 2010", "note": "Gol de Iniesta en el 116'"},
+      "rounds": {
+        "r16": [
+          {"h": "Uruguay", "hc": "uy", "hs": 2, "a": "Corea del Sur", "ac": "kr", "as": 1},
+          {"h": "EE.UU.", "hc": "us", "hs": 1, "a": "Ghana", "ac": "gh", "as": 2, "et": true, "note": "GG de Gyan"},
+          {"h": "Alemania", "hc": "de", "hs": 4, "a": "Inglaterra", "ac": "gb-eng", "as": 1, "note": "Gol anulado a Lampard cruzó la línea"},
+          {"h": "Argentina", "hc": "ar", "hs": 3, "a": "México", "ac": "mx", "as": 1},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Eslovaquia", "ac": "sk", "as": 1},
+          {"h": "Brasil", "hc": "br", "hs": 3, "a": "Chile", "ac": "cl", "as": 0},
+          {"h": "España", "hc": "es", "hs": 1, "a": "Portugal", "ac": "pt", "as": 0},
+          {"h": "Paraguay", "hc": "py", "hs": 0, "a": "Japón", "ac": "jp", "as": 0, "et": true, "pen": true, "penH": 5, "penA": 3}
+        ],
+        "qf": [
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Brasil", "ac": "br", "as": 1, "note": "Robben, Sneijder — eliminan al favorito"},
+          {"h": "Uruguay", "hc": "uy", "hs": 1, "a": "Ghana", "ac": "gh", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 2, "note": "Mano de Suárez en el último segundo"},
+          {"h": "Alemania", "hc": "de", "hs": 4, "a": "Argentina", "ac": "ar", "as": 0, "note": "Müller hat-trick, humillación a Maradona"},
+          {"h": "España", "hc": "es", "hs": 1, "a": "Paraguay", "ac": "py", "as": 0}
+        ],
+        "sf": [
+          {"h": "Uruguay", "hc": "uy", "hs": 2, "a": "Países Bajos", "ac": "nl", "as": 3},
+          {"h": "España", "hc": "es", "hs": 1, "a": "Alemania", "ac": "de", "as": 0}
+        ]
+      },
+      "curiosity": "El pulpo Paul predijo correctamente los 8 partidos de Alemania. La mano de Suárez salvó a Uruguay en el último segundo — Gyan falló el penalti y lloró. España ganó su primer Mundial con el único gol de Iniesta en la prórroga.",
+      "nickname": "La España de Iniesta — el pulpo Paul"
+    },
+    {
+      "year": 2014, "host": "Brasil", "hc": "br", "teams": 32, "matches": 64, "goals": 171, "avgGoals": 2.67, "att": 3429873,
+      "champion": "Alemania", "cc": "de", "ru": "Argentina", "ruc": "ar", "third": "Países Bajos", "tc": "nl", "fourth": "Brasil", "fc": "br",
+      "top": {"name": "James Rodríguez", "g": 6, "nat": "Colombia", "nc": "co"},
+      "final": {"h": "Alemania", "hc": "de", "hs": 1, "a": "Argentina", "ac": "ar", "as": 0, "et": true, "pen": false, "venue": "Estádio do Maracanã, Río de Janeiro", "date": "13 jul 2014", "note": "Gol de Götze en el 113'"},
+      "rounds": {
+        "r16": [
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "Chile", "ac": "cl", "as": 1, "et": true, "pen": true, "penH": 3, "penA": 2},
+          {"h": "Colombia", "hc": "co", "hs": 2, "a": "Uruguay", "ac": "uy", "as": 0, "note": "James marcó uno de los mejores goles del torneo"},
+          {"h": "Francia", "hc": "fr", "hs": 2, "a": "Nigeria", "ac": "ng", "as": 0},
+          {"h": "Alemania", "hc": "de", "hs": 2, "a": "Argelia", "ac": "dz", "as": 1, "et": true},
+          {"h": "Argentina", "hc": "ar", "hs": 1, "a": "Suiza", "ac": "ch", "as": 0, "et": true, "note": "Gol de Di María en el 118'"},
+          {"h": "Bélgica", "hc": "be", "hs": 2, "a": "EE.UU.", "ac": "us", "as": 1, "et": true},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "México", "ac": "mx", "as": 1, "note": "Penalti en el 90+4 de Huntelaar"},
+          {"h": "Costa Rica", "hc": "cr", "hs": 1, "a": "Grecia", "ac": "gr", "as": 1, "et": true, "pen": true, "penH": 5, "penA": 3}
+        ],
+        "qf": [
+          {"h": "Francia", "hc": "fr", "hs": 0, "a": "Alemania", "ac": "de", "as": 1},
+          {"h": "Brasil", "hc": "br", "hs": 2, "a": "Colombia", "ac": "co", "as": 1, "note": "Neymar se lesionó — operado en Brasil"},
+          {"h": "Argentina", "hc": "ar", "hs": 1, "a": "Bélgica", "ac": "be", "as": 0},
+          {"h": "Países Bajos", "hc": "nl", "hs": 0, "a": "Costa Rica", "ac": "cr", "as": 0, "et": true, "pen": true, "penH": 4, "penA": 3}
+        ],
+        "sf": [
+          {"h": "Brasil", "hc": "br", "hs": 1, "a": "Alemania", "ac": "de", "as": 7, "note": "El 'Mineirazo' — el peor resultado de la historia"},
+          {"h": "Argentina", "hc": "ar", "hs": 0, "a": "Países Bajos", "ac": "nl", "as": 0, "et": true, "pen": true, "penH": 4, "penA": 2}
+        ]
+      },
+      "curiosity": "El 7-1 de Alemania a Brasil en el propio Mineirão pasará a la historia como el 'Mineirazo' — Müller hizo 2 goles en 3 minutos mientras el estadio lloraba. James Rodríguez ganó la Bota de Oro con el gol más bello del torneo ante Uruguay.",
+      "nickname": "El Mineirazo"
+    },
+    {
+      "year": 2018, "host": "Rusia", "hc": "ru", "teams": 32, "matches": 64, "goals": 169, "avgGoals": 2.64, "att": 3031768,
+      "champion": "Francia", "cc": "fr", "ru": "Croacia", "ruc": "hr", "third": "Bélgica", "tc": "be", "fourth": "Inglaterra", "fc": "gb-eng",
+      "top": {"name": "Harry Kane", "g": 6, "nat": "Inglaterra", "nc": "gb-eng"},
+      "final": {"h": "Francia", "hc": "fr", "hs": 4, "a": "Croacia", "ac": "hr", "as": 2, "et": false, "pen": false, "venue": "Luzhniki, Moscú", "date": "15 jul 2018", "note": "Primer OG en una final — Mandžukić marcó y OG y el 2-1"},
+      "rounds": {
+        "r16": [
+          {"h": "Francia", "hc": "fr", "hs": 4, "a": "Argentina", "ac": "ar", "as": 3, "note": "Doblete de Mbappé a los 18 años"},
+          {"h": "Uruguay", "hc": "uy", "hs": 2, "a": "Portugal", "ac": "pt", "as": 1},
+          {"h": "Rusia", "hc": "ru", "hs": 1, "a": "España", "ac": "es", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 3, "note": "Akinféev con las manos en los bolsillos"},
+          {"h": "Croacia", "hc": "hr", "hs": 1, "a": "Dinamarca", "ac": "dk", "as": 1, "et": true, "pen": true, "penH": 3, "penA": 2},
+          {"h": "Brasil", "hc": "br", "hs": 2, "a": "México", "ac": "mx", "as": 0},
+          {"h": "Bélgica", "hc": "be", "hs": 3, "a": "Japón", "ac": "jp", "as": 2, "note": "Japón iba 2-0, remontada épica de Bélgica"},
+          {"h": "Suecia", "hc": "se", "hs": 1, "a": "Suiza", "ac": "ch", "as": 0},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 1, "a": "Colombia", "ac": "co", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 3}
+        ],
+        "qf": [
+          {"h": "Francia", "hc": "fr", "hs": 2, "a": "Uruguay", "ac": "uy", "as": 0},
+          {"h": "Bélgica", "hc": "be", "hs": 2, "a": "Brasil", "ac": "br", "as": 1, "note": "Fernandinho OG, De Bruyne gran partido"},
+          {"h": "Rusia", "hc": "ru", "hs": 2, "a": "Croacia", "ac": "hr", "as": 2, "et": true, "pen": true, "penH": 3, "penA": 4},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 2, "a": "Suecia", "ac": "se", "as": 0}
+        ],
+        "sf": [
+          {"h": "Francia", "hc": "fr", "hs": 1, "a": "Bélgica", "ac": "be", "as": 0},
+          {"h": "Croacia", "hc": "hr", "hs": 2, "a": "Inglaterra", "ac": "gb-eng", "as": 1, "et": true, "note": "Mandžukić GG"}
+        ]
+      },
+      "curiosity": "Mbappé, con 19 años, fue el segundo jugador en marcar en una final del Mundial tras Pelé. Bélgica remontó un 0-2 a Japón en 15 minutos. Rusia, la mayor sorpresa del torneo, eliminó a España en su país.",
+      "nickname": "La generación dorada de Francia"
+    },
+    {
+      "year": 2022, "host": "Catar", "hc": "qa", "teams": 32, "matches": 64, "goals": 172, "avgGoals": 2.69, "att": 3404252,
+      "champion": "Argentina", "cc": "ar", "ru": "Francia", "ruc": "fr", "third": "Croacia", "tc": "hr", "fourth": "Marruecos", "fc": "ma",
+      "top": {"name": "Kylian Mbappé", "g": 8, "nat": "Francia", "nc": "fr"},
+      "final": {"h": "Argentina", "hc": "ar", "hs": 3, "a": "Francia", "ac": "fr", "as": 3, "et": true, "pen": true, "penH": 4, "penA": 2, "venue": "Lusail Iconic Stadium, Lusail", "date": "18 dic 2022", "note": "La mejor final de la historia — hat-trick de Mbappé"},
+      "rounds": {
+        "r16": [
+          {"h": "Argentina", "hc": "ar", "hs": 2, "a": "Australia", "ac": "au", "as": 1},
+          {"h": "Países Bajos", "hc": "nl", "hs": 3, "a": "EE.UU.", "ac": "us", "as": 1},
+          {"h": "Brasil", "hc": "br", "hs": 4, "a": "Corea del Sur", "ac": "kr", "as": 1},
+          {"h": "Croacia", "hc": "hr", "hs": 1, "a": "Japón", "ac": "jp", "as": 1, "et": true, "pen": true, "penH": 3, "penA": 1},
+          {"h": "Marruecos", "hc": "ma", "hs": 0, "a": "España", "ac": "es", "as": 0, "et": true, "pen": true, "penH": 3, "penA": 0},
+          {"h": "Portugal", "hc": "pt", "hs": 6, "a": "Suiza", "ac": "ch", "as": 1},
+          {"h": "Francia", "hc": "fr", "hs": 3, "a": "Polonia", "ac": "pl", "as": 1, "note": "Doblete de Mbappé"},
+          {"h": "Inglaterra", "hc": "gb-eng", "hs": 3, "a": "Senegal", "ac": "sn", "as": 0}
+        ],
+        "qf": [
+          {"h": "Croacia", "hc": "hr", "hs": 1, "a": "Brasil", "ac": "br", "as": 1, "et": true, "pen": true, "penH": 4, "penA": 2, "note": "Brasil lloró de nuevo"},
+          {"h": "Países Bajos", "hc": "nl", "hs": 2, "a": "Argentina", "ac": "ar", "as": 2, "et": true, "pen": true, "penH": 3, "penA": 4, "note": "Messi vs Weghorst — tensión máxima"},
+          {"h": "Marruecos", "hc": "ma", "hs": 1, "a": "Portugal", "ac": "pt", "as": 0, "note": "El milagro marroquí — eliminó a CR7"},
+          {"h": "Francia", "hc": "fr", "hs": 2, "a": "Inglaterra", "ac": "gb-eng", "as": 1}
+        ],
+        "sf": [
+          {"h": "Argentina", "hc": "ar", "hs": 3, "a": "Croacia", "ac": "hr", "as": 0, "note": "Messi pen, Julián Álvarez doble"},
+          {"h": "Francia", "hc": "fr", "hs": 2, "a": "Marruecos", "ac": "ma", "as": 0}
+        ]
+      },
+      "curiosity": "La final más épica de la historia: Argentina ganaba 2-0, Mbappé marcó dos en 97 segundos para el 2-2, llegaron a penaltis. Mbappé hizo hat-trick en la final (el tercero en la historia). Messi, con 35 años, ganó el único trofeo que le faltaba.",
+      "nickname": "La final del siglo — Messi vs Mbappé"
+    },
+    {
+      "year": 2026, "host": "USA/México/Canadá", "hc": "us", "teams": 48, "matches": 104, "goals": null, "avgGoals": null, "att": null,
+      "champion": null, "cc": null, "ru": null, "ruc": null, "third": null, "tc": null, "fourth": null, "fc": null,
+      "top": {"name": "En curso", "g": null, "nat": "—", "nc": ""},
+      "final": null,
+      "rounds": null,
+      "curiosity": "El primer Mundial con 48 equipos y 104 partidos. Las sedes se reparten entre 16 estadios de USA, México y Canadá. Nuevo formato: 12 grupos de 4 equipos, con los dos mejores y 8 mejores terceros avanzando.",
+      "nickname": "El Mundial más grande de la historia",
+      "status": "live"
+    }
+  ],
+  "records": {
+    "topScorers": [
+      {"name": "Miroslav Klose", "nc": "de", "goals": 16, "editions": "2002, 2006, 2010, 2014"},
+      {"name": "Ronaldo", "nc": "br", "goals": 15, "editions": "1998, 2002, 2006"},
+      {"name": "Gerd Müller", "nc": "de", "goals": 14, "editions": "1970, 1974"},
+      {"name": "Just Fontaine", "nc": "fr", "goals": 13, "editions": "1958"},
+      {"name": "Pelé", "nc": "br", "goals": 12, "editions": "1958, 1962, 1966, 1970"},
+      {"name": "Kylian Mbappé", "nc": "fr", "goals": 12, "editions": "2018, 2022"},
+      {"name": "Sándor Kocsis", "nc": "hu", "goals": 11, "editions": "1954"},
+      {"name": "Jürgen Klinsmann", "nc": "de", "goals": 11, "editions": "1990, 1994, 1998"},
+      {"name": "Helmut Rahn", "nc": "de", "goals": 10, "editions": "1954, 1958"},
+      {"name": "Gary Lineker", "nc": "gb-eng", "goals": 10, "editions": "1986, 1990"}
+    ],
+    "mostTitles": [
+      {"name": "Brasil", "nc": "br", "titles": 5, "years": "1958, 1962, 1970, 1994, 2002"},
+      {"name": "Alemania", "nc": "de", "titles": 4, "years": "1954, 1974, 1990, 2014"},
+      {"name": "Italia", "nc": "it", "titles": 4, "years": "1934, 1938, 1982, 2006"},
+      {"name": "Argentina", "nc": "ar", "titles": 3, "years": "1978, 1986, 2022"},
+      {"name": "Francia", "nc": "fr", "titles": 2, "years": "1998, 2018"},
+      {"name": "Uruguay", "nc": "uy", "titles": 2, "years": "1930, 1950"},
+      {"name": "Inglaterra", "nc": "gb-eng", "titles": 1, "years": "1966"},
+      {"name": "España", "nc": "es", "titles": 1, "years": "2010"}
+    ],
+    "mostFinals": [
+      {"name": "Alemania", "nc": "de", "finals": 8, "wins": 4},
+      {"name": "Brasil", "nc": "br", "finals": 7, "wins": 5},
+      {"name": "Italia", "nc": "it", "finals": 6, "wins": 4},
+      {"name": "Argentina", "nc": "ar", "finals": 6, "wins": 3},
+      {"name": "Francia", "nc": "fr", "finals": 3, "wins": 2},
+      {"name": "Países Bajos", "nc": "nl", "finals": 3, "wins": 0},
+      {"name": "Uruguay", "nc": "uy", "finals": 2, "wins": 2},
+      {"name": "Checoslovaquia", "nc": "cz", "finals": 2, "wins": 0},
+      {"name": "Hungría", "nc": "hu", "finals": 2, "wins": 0},
+      {"name": "Suecia", "nc": "se", "finals": 1, "wins": 0}
+    ]
+  },
+  "curiosities": [
+    {"id": 1, "icon": "⚽", "title": "El récord imbatible de Fontaine", "text": "Just Fontaine marcó 13 goles en el Mundial de 1958 en solo 6 partidos. Ese récord en una sola edición jamás ha sido igualado y probablemente nunca lo será."},
+    {"id": 2, "icon": "🏆", "title": "Brasil, el único omnipresente", "text": "Brasil es el único país que ha participado en TODAS las ediciones del Mundial — las 22 celebradas hasta 2022. Nunca ha faltado ni una sola clasificación."},
+    {"id": 3, "icon": "🐙", "title": "El pulpo Paul (2010)", "text": "Un pulpo en un acuario alemán predijo correctamente los 8 resultados de Alemania y la final de España. Se convirtió en el animal más famoso del planeta durante un mes."},
+    {"id": 4, "icon": "✋", "title": "La Mano de Dios (1986)", "text": "El 22 de junio de 1986, Maradona marcó con la mano ante Inglaterra en cuartos. Cuatro minutos después marcó el 'Gol del Siglo'. Ese partido resume todo el fútbol."},
+    {"id": 5, "icon": "😭", "title": "El Maracanazo (1950)", "text": "Uruguay ganó 2-1 a Brasil ante 200.000 aficionados en el Maracaná en el partido decisivo. El periodista uruguayo que narró el partido lloraba mientras lo describía."},
+    {"id": 6, "icon": "🐶", "title": "El balón robado y rescatado por un perro", "text": "Semanas antes del Mundial de 1966 en Inglaterra, el trofeo Jules Rimet fue robado de una exposición. Un perro llamado Pickles lo encontró envuelto en periódico bajo un arbusto."},
+    {"id": 7, "icon": "🤯", "title": "El 7-1 del Mineirazo (2014)", "text": "Alemania goleó 7-1 a Brasil en su propio estadio en la semifinal. Müller marcó a los 11', 23', 24', 26' y 29'. Un minuto antes del descanso ya era 5-0. Brasil lloraba en las gradas."},
+    {"id": 8, "icon": "💥", "title": "El cabezazo de Zidane (2006)", "text": "Zidane, en su último partido de carrera, golpeó a Materazzi en el pecho con el cabezazo más famoso de la historia. Fue expulsado y Francia perdió la final en penaltis."},
+    {"id": 9, "icon": "🥅", "title": "El gol más goleador de la historia", "text": "Austria 7-5 Suiza en los cuartos del 54 es el partido con más goles en la historia del Mundial. Austria ganaba 3-0, Suiza remontó a 5-3, Austria marcó 4 más. 12 goles en total."},
+    {"id": 10, "icon": "🌍", "title": "El primer equipo africano en semis", "text": "Marruecos en 2022 fue el primer equipo africano en llegar a semifinales, eliminando a España, Portugal y Bélgica. Todo África lloró de emoción. Terminó cuarto."},
+    {"id": 11, "icon": "👶", "title": "Pelé, el más joven en una final", "text": "Pelé tenía 17 años y 249 días cuando marcó en la final del Mundial de 1958 contra Suecia. El más joven en marcar en una final mundialista. Terminó llorando en el hombro del portero Gilmar."},
+    {"id": 12, "icon": "🐐", "title": "Messi, el más completo", "text": "Lionel Messi ganó el Mundial de 2022 a los 35 años completando el 'Grand Slam' del fútbol. Es el jugador con más goles (13), asistencias (8) y partidos (26) en la historia del torneo."},
+    {"id": 13, "icon": "⏱️", "title": "El primer penalti mundialista", "text": "Johan Neeskens marcó el primer penalti de la historia de una final mundialista en el minuto 1 del España-Países Bajos de 1974... antes de que Alemania tocara el balón."},
+    {"id": 14, "icon": "🎯", "title": "5 goles en un solo partido", "text": "Oleg Salenko marcó 5 goles en el partido de la URSS ante Camerún en 1994, el récord de goles individuales en un partido del Mundial. Y Rusia quedó eliminada en grupos."},
+    {"id": 15, "icon": "🏟️", "title": "El récord de asistencia", "text": "La final de 1994 entre Brasil e Italia se disputó ante 94.194 espectadores en el Rose Bowl de Los Ángeles — el mayor público de una final mundialista. El estadio no era ni de fútbol."}
+  ]
+}

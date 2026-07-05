@@ -1,0 +1,235 @@
+.league-stats {
+  max-width: 900px;
+}
+
+.ls-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--brand, #22c55e);
+  margin: 0 0 0.3rem;
+}
+
+.league-stats h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  margin: 0 0 0.4rem;
+}
+
+.ls-sub {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin: 0 0 1.75rem;
+}
+
+/* Resumen global */
+.ls-summary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.ls-summary-stat {
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.ls-summary-val {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--brand, #22c55e);
+}
+
+.ls-summary-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary);
+}
+
+/* Tabla */
+.ls-table-wrap {
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.ls-table-head,
+.ls-row {
+  display: grid;
+  grid-template-columns: 36px 160px 1fr 1fr 1fr 1fr;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.65rem 1rem;
+}
+
+.ls-table-head {
+  background: rgba(255,255,255,0.03);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.ls-row {
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  transition: background 0.12s;
+}
+
+.ls-row:last-child { border-bottom: none; }
+.ls-row:hover { background: rgba(255,255,255,0.02); }
+
+.ls-rank {
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.ls-league-name {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.ls-flag {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.1);
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.ls-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.ls-val {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.ls-bar-wrap {
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.ls-bar {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+/* Rankings individuales */
+.ls-rankings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ls-rank-block {
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.ls-rank-title {
+  font-size: 0.82rem;
+  font-weight: 800;
+  margin: 0 0 0.75rem;
+  color: var(--text-primary);
+}
+
+.ls-rank-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.ls-rank-row:last-child { border-bottom: none; }
+
+.ls-rank-n {
+  font-size: 0.72rem;
+  font-weight: 800;
+  width: 18px;
+  text-align: center;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.ls-rank-1 { color: #f59e0b; }
+.ls-rank-2 { color: #94a3b8; }
+.ls-rank-3 { color: #cd7f32; }
+
+.ls-rank-flag {
+  font-size: 0.58rem;
+  font-weight: 800;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.08);
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.ls-rank-name {
+  flex: 1;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ls-rank-val {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .ls-summary { grid-template-columns: repeat(2, 1fr); }
+  .ls-rankings { grid-template-columns: 1fr; }
+
+  .ls-table-head,
+  .ls-row {
+    grid-template-columns: 28px 120px 1fr 1fr;
+    font-size: 0.72rem;
+  }
+
+  /* Ocultar columnas de ingresos y valor en móvil */
+  .ls-table-head > :nth-child(3),
+  .ls-row > :nth-child(3),
+  .ls-table-head > :nth-child(6),
+  .ls-row > :nth-child(6) {
+    display: none;
+  }
+}

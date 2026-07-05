@@ -532,40 +532,6 @@
     "notes": "El mediapunta inglés se une al Arsenal. Mercado de verano 2025."
   },
   {
-    "id": "tr-isak-liverpool",
-    "playerId": "alexander-isak",
-    "fromClubId": "newcastle",
-    "fromClubName": "Newcastle United",
-    "toClubId": "liverpool",
-    "transferFee": 145,
-    "marketValueAtTransfer": 120,
-    "previousPurchaseFee": 70,
-    "transferDate": "2025-09-01",
-    "status": "confirmado",
-    "sources": [
-      "src-club-oficial",
-      "src-fabrizio-romano"
-    ],
-    "notes": "Cerrado en el último día de mercado. Mercado de verano 2025."
-  },
-  {
-    "id": "tr-hojlund-napoli",
-    "playerId": "rasmus-hojlund",
-    "fromClubId": "manchester-united",
-    "fromClubName": "Manchester United",
-    "toClubId": "napoli",
-    "transferFee": 0,
-    "marketValueAtTransfer": 35,
-    "previousPurchaseFee": null,
-    "transferDate": "2025-09-01",
-    "status": "confirmado",
-    "sources": [
-      "src-club-oficial",
-      "src-gazzetta"
-    ],
-    "notes": "Cesión con opción de compra desde el Manchester United. Mercado de verano 2025."
-  },
-  {
     "id": "tr-canales-racing",
     "playerId": "sergio-canales",
     "fromClubId": null,
@@ -597,54 +563,6 @@
       "src-wikipedia"
     ],
     "notes": "Salida a coste cero al terminar contrato con Liverpool. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-lewandowski-atletico",
-    "playerId": "robert-lewandowski",
-    "fromClubId": "barcelona",
-    "toClubId": "atletico-madrid",
-    "transferFee": 0,
-    "marketValueAtTransfer": 8,
-    "previousPurchaseFee": 45,
-    "transferDate": "2025-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "El Atlético incorpora experiencia ofensiva a coste cero. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-tyrick-atletico",
-    "playerId": "tyrick-mitchell",
-    "fromClubId": "crystal-palace",
-    "toClubId": "atletico-madrid",
-    "transferFee": 0,
-    "marketValueAtTransfer": 25,
-    "previousPurchaseFee": null,
-    "transferDate": "2025-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "Libre tras finalizar contrato en Crystal Palace. Actualizado a 27/06/2026."
-  },
-  {
-    "id": "tr-raspadori-inter-2026",
-    "playerId": "giacomo-raspadori",
-    "fromClubId": "atletico-madrid",
-    "toClubId": "inter",
-    "transferFee": 31,
-    "marketValueAtTransfer": 25,
-    "previousPurchaseFee": 22,
-    "transferDate": "2025-07-01",
-    "status": "confirmado",
-    "sources": [
-      "src-as",
-      "src-wikipedia"
-    ],
-    "notes": "El delantero italiano regresa a la Serie A. Actualizado a 27/06/2026."
   },
   {
     "id": "tr-kubo-arsenal",

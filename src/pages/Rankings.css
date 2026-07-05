@@ -1,0 +1,261 @@
+/* =============================================
+   Rankings — Clasificaciones especiales
+   ============================================= */
+
+.rankings {
+  max-width: 760px;
+}
+
+.rk-hero {
+  margin-bottom: 1.5rem;
+}
+
+.rk-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--brand, #22c55e);
+  margin: 0 0 0.3rem;
+}
+
+.rk-hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 0.4rem;
+}
+
+.rk-sub {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin: 0;
+  max-width: 540px;
+}
+
+/* ── Tabs ─────────────────────────────── */
+.rk-tabs {
+  display: flex;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 0.3rem;
+}
+
+.rk-tab {
+  flex: 1;
+  padding: 0.6rem 0.5rem;
+  border-radius: 9px;
+  border: none;
+  background: none;
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.rk-tab:hover {
+  background: rgba(255,255,255,0.05);
+  color: var(--text-primary);
+}
+
+.rk-tab--active {
+  background: color-mix(in srgb, var(--brand, #22c55e) 12%, transparent);
+  color: var(--brand, #22c55e);
+  border: 1px solid color-mix(in srgb, var(--brand, #22c55e) 30%, transparent);
+}
+
+/* ── Filtro posición ──────────────────── */
+.rk-pos-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+/* ── Cabecera lista ───────────────────── */
+.rk-list-head {
+  display: grid;
+  grid-template-columns: 36px 48px 1fr auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0 0.75rem 0.5rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.rk-head-rank { text-align: center; }
+.rk-head-extra { text-align: center; }
+.rk-head-val   { text-align: right; }
+
+/* ── Filas ────────────────────────────── */
+.rk-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.rank-row {
+  display: grid;
+  grid-template-columns: 36px 48px 1fr auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.65rem 0.75rem;
+  background: var(--bg-elevated);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.rank-row:hover {
+  border-color: rgba(255,255,255,0.13);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  background: color-mix(in srgb, var(--bg-elevated) 80%, white 3%);
+}
+
+/* Número de posición */
+.rank-num {
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+  min-width: 0;
+}
+
+.rank-top {
+  font-size: 1rem;
+}
+
+.rank-1 { color: #f59e0b; }
+.rank-2 { color: #94a3b8; }
+.rank-3 { color: #cd7f32; }
+
+/* Foto */
+.rank-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: rgba(255,255,255,0.07);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rank-photo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rank-photo-init {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--text-secondary);
+}
+
+/* Info */
+.rank-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.rank-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rank-meta {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Extra (badge) */
+.rank-extra {
+  display: flex;
+  justify-content: center;
+}
+
+.rank-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.rank-pos    { background: rgba(99,102,241,0.12); color: #818cf8; border: 1px solid rgba(99,102,241,0.25); }
+.rank-age    { background: rgba(34,197,94,0.1);   color: #4ade80; border: 1px solid rgba(34,197,94,0.25); }
+.rank-free   { background: rgba(251,191,36,0.1);  color: #fbbf24; border: 1px solid rgba(251,191,36,0.25); }
+.rank-expire { background: rgba(248,113,113,0.1); color: #f87171; border: 1px solid rgba(248,113,113,0.25); }
+
+/* Valor */
+.rank-val {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Footer */
+.rk-empty {
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 3rem 0;
+  font-size: 0.9rem;
+}
+
+.rk-footer {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 560px) {
+  .rk-tabs {
+    flex-wrap: wrap;
+  }
+
+  .rk-tab {
+    flex: none;
+    font-size: 0.75rem;
+    padding: 0.5rem 0.6rem;
+  }
+
+  .rank-row,
+  .rk-list-head {
+    grid-template-columns: 28px 40px 1fr auto auto;
+    gap: 0.5rem;
+    padding: 0.55rem 0.5rem;
+  }
+
+  .rank-photo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .rank-badge {
+    font-size: 0.62rem;
+    padding: 0.2rem 0.4rem;
+  }
+}

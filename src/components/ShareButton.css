@@ -1,0 +1,81 @@
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.42rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.06);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.share-btn:hover {
+  background: rgba(255,255,255,0.1);
+  color: var(--text-primary);
+  border-color: rgba(255,255,255,0.22);
+}
+
+.share-btn svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.share-btn--done {
+  border-color: rgba(74,222,128,0.4);
+  color: #4ade80;
+}
+
+.share-btn--error {
+  border-color: rgba(248,113,113,0.4);
+  color: #f87171;
+}
+
+.share-btn--loading {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.sb-spin {
+  animation: sb-rotate 0.8s linear infinite;
+}
+
+@keyframes sb-rotate {
+  to { transform: rotate(360deg); }
+}
+
+.share-btn--lg {
+  font-size: 0.88rem;
+  padding: 0.55rem 1.1rem;
+}
+
+.share-btn--lg svg {
+  width: 16px;
+  height: 16px;
+}
+
+.share-btn--sm {
+  font-size: 0.7rem;
+  padding: 0.3rem 0.65rem;
+}
+
+.share-btn--sm svg {
+  width: 12px;
+  height: 12px;
+}
+
+/* Solo icono (sin texto) */
+.share-btn--icon {
+  padding: 0.42rem;
+  border-radius: 50%;
+}
+
+.share-btn--icon svg {
+  width: 15px;
+  height: 15px;
+}
