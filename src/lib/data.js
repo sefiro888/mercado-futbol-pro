@@ -22,16 +22,12 @@ import marketValuesData from '@/data/market-values.json'
 import { getSupabaseClient, isSupabaseConfigured } from '@/lib/supabase'
 
 // ---------------------------------------------------------------------------
-// CARGA DE EQUIPOS REALES.
-// Cada club vive en su propio archivo: src/data/teams/<liga>/<slug>.json con la
-// forma { club: {...}, players: [...] }. Vite los recoge TODOS automáticamente
-// con import.meta.glob, así que añadir un equipo = añadir un archivo (sin tocar
-// código). data.js calcula solo los valores derivados (edad, valor de plantilla,
-// edad media, historial), para no repetirlos a mano y que nunca se descuadren.
+// CARGA DE EQUIPOS — lazy (sin eager) para que Vite genere chunks separados
+// por archivo y no los incluya en el bundle principal. Se cargan todos en
+// paralelo dentro de initData(), antes de pintar la app (ver main.jsx).
 // ---------------------------------------------------------------------------
-const teamModules = import.meta.glob('../data/teams/**/*.json', { eager: true })
+const teamGlobs = import.meta.glob('../data/teams/**/*.json')
 
-// Edad a partir de la fecha de nacimiento (YYYY-MM-DD).
 function calcAge(birthDate) {
   if (!birthDate) return null
   const b = new Date(birthDate)
@@ -43,16 +39,20 @@ function calcAge(birthDate) {
   return age
 }
 
-
 const round1 = (n) => Math.round(n * 10) / 10
 
-// Combina todos los archivos de equipo en colecciones planas de clubes y jugadores.
-function buildFromTeams() {
+async function loadTeamModules() {
+  const entries = await Promise.all(
+    Object.values(teamGlobs).map((load) => load())
+  )
+  return entries
+}
+
+function buildFromTeams(modules) {
   const clubs = []
   const players = []
 
-  for (const path in teamModules) {
-    const mod = teamModules[path]
+  for (const mod of modules) {
     const team = mod.default || mod
     if (!team || !team.club) continue
 
@@ -71,7 +71,6 @@ function buildFromTeams() {
       }
     })
 
-    // Valores derivados del club (calculados, nunca a mano).
     club.playerIds = teamPlayers.map((p) => p.id)
     const values = teamPlayers.map((p) => p.marketValue || 0)
     const ages = teamPlayers.map((p) => p.age).filter((a) => a != null)
@@ -84,28 +83,19 @@ function buildFromTeams() {
     players.push(...teamPlayers)
   }
 
-  // Orden estable de clubes: por liga y luego por valor de plantilla desc.
   clubs.sort(
     (a, b) => (a.league || '').localeCompare(b.league || '') || b.squadValue - a.squadValue,
   )
   return { clubs, players }
 }
 
-const seeded = buildFromTeams()
-
-// Origen de datos: "local" (por defecto) | "supabase".
 const DATA_SOURCE = import.meta.env.VITE_DATA_SOURCE || 'local'
-
-// Nombres de las colecciones = nombres de las tablas en Supabase.
 const COLLECTIONS = ['clubs', 'players', 'transfers', 'rumours', 'news', 'sources']
 
-// ---------------------------------------------------------------------------
-// Almacén mutable. Las funciones de abajo SIEMPRE leen de `store` en tiempo de
-// llamada, por lo que reflejan el origen activo (demo o Supabase) sin cambios.
-// ---------------------------------------------------------------------------
+// Almacén mutable — clubes y jugadores se llenan en initData() tras cargar los JSON de equipo.
 const store = {
-  clubs: seeded.clubs,
-  players: seeded.players,
+  clubs: [],
+  players: [],
   transfers: [...transfersSeed],
   rumours: [...rumoursSeed],
   news: [...newsSeed],
@@ -141,12 +131,26 @@ function rebuildIndexes() {
 // supabase, carga las 6 colecciones; ante cualquier error conserva los demo.
 // ---------------------------------------------------------------------------
 export async function initData() {
-  if (DATA_SOURCE !== 'supabase') return { source: 'local' }
+  // Cargar JSON de equipos en paralelo (chunks separados del bundle principal)
+  if (DATA_SOURCE !== 'supabase') {
+    const modules = await loadTeamModules()
+    const { clubs, players } = buildFromTeams(modules)
+    store.clubs = clubs
+    store.players = players
+    rebuildIndexes()
+    return { source: 'local' }
+  }
+
   if (!isSupabaseConfigured()) {
     console.warn(
       '[data] VITE_DATA_SOURCE=supabase pero faltan VITE_SUPABASE_URL / ' +
         'VITE_SUPABASE_ANON_KEY. Se usan los datos demo.',
     )
+    const modules = await loadTeamModules()
+    const { clubs, players } = buildFromTeams(modules)
+    store.clubs = clubs
+    store.players = players
+    rebuildIndexes()
     return { source: 'local' }
   }
   try {
@@ -167,6 +171,12 @@ export async function initData() {
       '[data] Falló la carga desde Supabase; se mantienen los datos demo.',
       error,
     )
+    // Fallback: cargar datos locales
+    const modules = await loadTeamModules()
+    const { clubs, players } = buildFromTeams(modules)
+    store.clubs = clubs
+    store.players = players
+    rebuildIndexes()
     return { source: 'local', error }
   }
 }

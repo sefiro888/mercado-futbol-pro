@@ -2,7 +2,8 @@ import { useState } from 'react'
 import Icon from './Icon.jsx'
 import './FilterPanel.css'
 
-// Cuenta cuántos filtros tienen valor (para el badge del botón en móvil).
+const SKIP_CHIPS = new Set(['sort']) // campos que no generan chip
+
 function countActive(values) {
   return Object.values(values).reduce((n, v) => {
     if (v == null || v === '') return n
@@ -11,13 +12,30 @@ function countActive(values) {
   }, 0)
 }
 
-// Panel de filtros reutilizable y declarativo.
-// En móvil se colapsa tras un botón "Filtros" para no empujar el contenido.
-// El padre define los campos y mantiene el estado; este componente solo pinta
-// los controles y notifica cambios. Tipos soportados: 'select', 'text', 'range'.
+function buildChips(fields, values) {
+  const chips = []
+  for (const field of fields) {
+    if (SKIP_CHIPS.has(field.name)) continue
+    const val = values[field.name]
+    if (field.type === 'range') {
+      const { min, max } = val || {}
+      if (min || max) {
+        const unit = field.unit ? ` ${field.unit}` : ''
+        const label = min && max ? `${min}${unit} – ${max}${unit}` : min ? `≥ ${min}${unit}` : `≤ ${max}${unit}`
+        chips.push({ name: field.name, label: `${field.label}: ${label}`, reset: { min: '', max: '' } })
+      }
+    } else if (val) {
+      const opt = field.options?.find((o) => o.value === val)
+      chips.push({ name: field.name, label: `${field.label}: ${opt?.label ?? val}`, reset: '' })
+    }
+  }
+  return chips
+}
+
 export default function FilterPanel({ fields, values, onChange, onReset, resultCount }) {
-  const [open, setOpen] = useState(false) // solo afecta a móvil
-  const active = countActive(values)
+  const [open, setOpen] = useState(false)
+  const chips = buildChips(fields, values)
+  const active = chips.length
 
   return (
     <aside className={`filter-panel card ${open ? 'is-open' : ''}`}>
@@ -40,6 +58,22 @@ export default function FilterPanel({ fields, values, onChange, onReset, resultC
           <button className="btn btn-ghost btn-sm" onClick={onReset}>Limpiar ({active})</button>
         )}
       </div>
+
+      {chips.length > 0 && (
+        <div className="filter-chips">
+          {chips.map((chip) => (
+            <button
+              key={chip.name}
+              className="filter-chip"
+              onClick={() => onChange(chip.name, chip.reset)}
+              title={`Quitar filtro: ${chip.label}`}
+            >
+              {chip.label}
+              <span className="filter-chip-x" aria-hidden="true">×</span>
+            </button>
+          ))}
+        </div>
+      )}
 
       <div className="filter-body">
        <div className="filter-inner">

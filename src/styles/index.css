@@ -29,6 +29,11 @@
   --brand-strong: #16a34a;
   --brand-contrast: #052e16;
 
+  /* --- Dorado (acento premium / Mundial) --- */
+  --gold: #fbbf24;
+  --gold-strong: #f59e0b;
+  --gold-glow: rgba(251,191,36,0.2);
+
   /* --- Estados (colores semánticos) --- */
   --state-success: #22c55e;        /* confirmado */
   --state-success-strong: #15803d; /* oficial */

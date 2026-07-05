@@ -6,7 +6,13 @@
 // Si no hay mapeo, cae a un valor nulo para que el componente muestre la silueta.
 // =============================================================================
 
-import SPORTSDB_PHOTOS from './sportsdb-photos.json'
+import SPORTSDB_FILENAMES from './sportsdb-photos.json'
+
+const SPORTSDB_BASE = 'https://r2.thesportsdb.com/images/media/player/cutout/'
+// Reconstruye la URL completa a partir del nombre de archivo almacenado
+const SPORTSDB_PHOTOS = Object.fromEntries(
+  Object.entries(SPORTSDB_FILENAMES).map(([slug, file]) => [slug, SPORTSDB_BASE + file])
+)
 
 const PLAYER_ESPN_IDS = {
   "antonio-sivera": 200910,
@@ -656,11 +662,10 @@ export function playerPhotoUrl(player) {
     return sportsdbUrl
   }
   
-  // 2. Fallback de ESPN
+  // 2. Fallback de ESPN (tamaño reducido: 130x100 px, suficiente para cards a 2x)
   const espnId = PLAYER_ESPN_IDS[player.id || player.slug]
   if (espnId) {
-    // Retorna una URL con el procesador de imágenes de ESPN
-    return `https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/${espnId}.png&w=260&h=200`
+    return `https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/${espnId}.png&w=130&h=100`
   }
   
   return null

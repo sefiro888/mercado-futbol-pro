@@ -1,0 +1,59 @@
+{
+  "name": "Mercado Fútbol Pro",
+  "short_name": "MF Pro",
+  "description": "Noticias, fichajes confirmados y rumores de fútbol contrastados con fuentes reales.",
+  "start_url": "/mercado-futbol-pro/",
+  "scope": "/mercado-futbol-pro/",
+  "display": "standalone",
+  "background_color": "#0b0f17",
+  "theme_color": "#22c55e",
+  "lang": "es",
+  "orientation": "portrait-primary",
+  "categories": ["sports", "news"],
+  "icons": [
+    {
+      "src": "/mercado-futbol-pro/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/mercado-futbol-pro/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/mercado-futbol-pro/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/mercado-futbol-pro/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Mercado Fútbol Pro — Inicio"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fichajes",
+      "url": "/mercado-futbol-pro/#/fichajes",
+      "description": "Fichajes confirmados del mercado"
+    },
+    {
+      "name": "Rumores",
+      "url": "/mercado-futbol-pro/#/rumores",
+      "description": "Rumores clasificados por fiabilidad"
+    },
+    {
+      "name": "Jugadores",
+      "url": "/mercado-futbol-pro/#/jugadores",
+      "description": "Base de datos de jugadores"
+    }
+  ]
+}

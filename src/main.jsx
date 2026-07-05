@@ -29,3 +29,12 @@ initData()
     }
   })
   .finally(renderApp)
+
+// Registrar Service Worker para soporte offline (PWA)
+if ('serviceWorker' in navigator && import.meta.env.PROD) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register('/mercado-futbol-pro/sw.js', { scope: '/mercado-futbol-pro/' })
+      .catch(() => {})
+  })
+}

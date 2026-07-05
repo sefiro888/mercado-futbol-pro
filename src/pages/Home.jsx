@@ -12,6 +12,7 @@ import Reveal from '@/components/Reveal.jsx'
 import CountStat from '@/components/CountStat.jsx'
 import Icon from '@/components/Icon.jsx'
 import DeadlineCountdown from '@/components/DeadlineCountdown.jsx'
+import MarketSmash from '@/components/MarketSmash.jsx'
 
 import { SITE } from '@/config/site.js'
 import { setPageSeo } from '@/lib/seo.js'
@@ -38,6 +39,91 @@ import { playerPhotoUrl } from '@/lib/photos.js'
 import { enrichTransfer } from '@/lib/calculations.js'
 import { formatMoney } from '@/lib/format.js'
 import './Pages.css'
+
+// Calendario del Mundial 2026 para determinar la fase actual
+const WC2026 = [
+  { label: 'Fase de Grupos', from: new Date('2026-06-11'), to: new Date('2026-06-27') },
+  { label: '32avos de Final', from: new Date('2026-06-29'), to: new Date('2026-07-03') },
+  { label: 'Octavos de Final', from: new Date('2026-07-04'), to: new Date('2026-07-07') },
+  { label: 'Cuartos de Final', from: new Date('2026-07-09'), to: new Date('2026-07-10') },
+  { label: 'Semifinales', from: new Date('2026-07-14'), to: new Date('2026-07-15') },
+  { label: 'Final', from: new Date('2026-07-19'), to: new Date('2026-07-19') },
+]
+const WC_START = new Date('2026-06-11')
+const WC_END = new Date('2026-07-19T23:59:59')
+
+function WorldCupBanner() {
+  const now = new Date()
+  const isActive = now >= WC_START && now <= WC_END
+  const isFuture = now < WC_START
+  const isOver = now > WC_END
+
+  let phase = null
+  if (isActive) {
+    phase = WC2026.find(p => now >= p.from && now <= p.to)?.label
+      || WC2026.slice().reverse().find(p => now >= p.from)?.label
+      || 'En curso'
+  }
+
+  // Countdown para cuando sea futuro
+  const [timeLeft, setTimeLeft] = useState(() => {
+    const diff = WC_START - new Date()
+    if (diff <= 0) return null
+    const d = Math.floor(diff / 86400000)
+    const h = Math.floor((diff % 86400000) / 3600000)
+    const m = Math.floor((diff % 3600000) / 60000)
+    return { d, h, m }
+  })
+
+  useEffect(() => {
+    if (!isFuture) return
+    const id = setInterval(() => {
+      const diff = WC_START - new Date()
+      if (diff <= 0) { clearInterval(id); setTimeLeft(null); return }
+      setTimeLeft({
+        d: Math.floor(diff / 86400000),
+        h: Math.floor((diff % 86400000) / 3600000),
+        m: Math.floor((diff % 3600000) / 60000),
+      })
+    }, 30000)
+    return () => clearInterval(id)
+  }, [isFuture])
+
+  if (isOver) return null
+
+  return (
+    <Link to="/mundial" className="wc-banner">
+      <div className="wc-banner-left">
+        <span className="wc-banner-trophy">🏆</span>
+        <div>
+          <div className="wc-banner-title">Copa del Mundo 2026</div>
+          <div className="wc-banner-sub">USA · México · Canadá · 48 equipos</div>
+        </div>
+      </div>
+      <div className="wc-banner-right">
+        {isActive && (
+          <>
+            <span className="wc-banner-live">
+              <span className="wc-banner-dot" />
+              EN CURSO
+            </span>
+            {phase && <span className="wc-banner-phase">{phase}</span>}
+          </>
+        )}
+        {isFuture && timeLeft && (
+          <div className="wc-countdown">
+            <div className="wc-cd-unit"><strong>{timeLeft.d}</strong><span>días</span></div>
+            <div className="wc-cd-sep">:</div>
+            <div className="wc-cd-unit"><strong>{timeLeft.h}</strong><span>horas</span></div>
+            <div className="wc-cd-sep">:</div>
+            <div className="wc-cd-unit"><strong>{timeLeft.m}</strong><span>min</span></div>
+          </div>
+        )}
+        <span className="wc-banner-arrow">→</span>
+      </div>
+    </Link>
+  )
+}
 
 // Bloque que explica las reglas de clasificación de rumores (transparencia editorial).
 const GUIDE = [
@@ -183,6 +269,10 @@ export default function Home() {
             <CountStat key={s.l} value={s.v} label={s.l} delay={0.1 + i * 0.08} />
           ))}
         </div>
+
+        <MarketSmash />
+
+        <WorldCupBanner />
 
         <div className="hero-market-strip">
           {topSpender && (

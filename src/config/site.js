@@ -34,6 +34,7 @@ export const SITE = {
     { to: '/once-ideal', label: 'Once ideal' },
     { to: '/rankings', label: 'Rankings' },
     { to: '/quiz', label: 'Quiz' },
+    { to: '/mundial', label: '🏆 Mundial 2026' },
     { to: '/comparador', label: 'Comparador', desktopHide: true },
     { to: '/simulador', label: 'Simulador', desktopHide: true },
   ],

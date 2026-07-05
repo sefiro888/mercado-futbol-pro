@@ -23,6 +23,7 @@ const Rankings = lazy(() => import('@/pages/Rankings.jsx'))
 const Watchlist = lazy(() => import('@/pages/Watchlist.jsx'))
 const Quiz = lazy(() => import('@/pages/Quiz.jsx'))
 const LeagueStats = lazy(() => import('@/pages/LeagueStats.jsx'))
+const Mundial = lazy(() => import('@/pages/Mundial.jsx'))
 const NotFound = lazy(() => import('@/pages/NotFound.jsx'))
 
 // Vuelve arriba al cambiar de ruta (mejor UX en navegación SPA).
@@ -71,6 +72,7 @@ export default function App() {
               <Route path="/watchlist" element={<Watchlist />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/ligas" element={<LeagueStats />} />
+              <Route path="/mundial" element={<Mundial />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

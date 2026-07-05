@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import Crest from './Crest.jsx'
 import StatCard from './StatCard.jsx'
@@ -120,9 +120,30 @@ const TABS = [
   { id: 'actualidad', label: 'Actualidad' },
 ]
 
+function useSwipeTabs(tabs, tab, setTab) {
+  const touchX = useRef(null)
+
+  const onTouchStart = useCallback((e) => {
+    touchX.current = e.touches[0].clientX
+  }, [])
+
+  const onTouchEnd = useCallback((e) => {
+    if (touchX.current === null) return
+    const dx = e.changedTouches[0].clientX - touchX.current
+    touchX.current = null
+    if (Math.abs(dx) < 50) return // umbral mínimo
+    const idx = tabs.findIndex((t) => t.id === tab)
+    if (dx < 0 && idx < tabs.length - 1) setTab(tabs[idx + 1].id) // swipe left → siguiente
+    if (dx > 0 && idx > 0) setTab(tabs[idx - 1].id)               // swipe right → anterior
+  }, [tabs, tab, setTab])
+
+  return { onTouchStart, onTouchEnd }
+}
+
 export default function ClubProfile({ club }) {
   const [tab, setTab] = useState('plantilla')
   const [squadView, setSquadView] = useState('cards')
+  const swipe = useSwipeTabs(TABS, tab, setTab)
 
   const players = getPlayersByClub(club.id)
   const sortedSquad = [...players].sort((a, b) => (a.shirtNumber ?? 99) - (b.shirtNumber ?? 99))
@@ -178,8 +199,8 @@ export default function ClubProfile({ club }) {
         ))}
       </nav>
 
-      {/* Contenido de la pestaña activa */}
-      <div className="club-tab-body">
+      {/* Contenido de la pestaña activa — swipe táctil entre pestañas */}
+      <div className="club-tab-body" onTouchStart={swipe.onTouchStart} onTouchEnd={swipe.onTouchEnd}>
         {tab === 'plantilla' && (
           <section className="profile-section">
             <div className="section-head">
