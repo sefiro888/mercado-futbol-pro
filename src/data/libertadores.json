@@ -1005,7 +1005,16 @@
         "nc": "br"
       },
       "teams": 32,
-      "goals": 284
+      "goals": 284,
+      "mvp": "Carlos Tévez",
+      "mvpNc": "ar",
+      "scorer": "Tévez 2, Delgado; Nilmar",
+      "att": 45000,
+      "semis": [
+        "Boca (vs Junior)",
+        "Fútbol Club"
+      ],
+      "note2": "Boca Juniors ganó su quinta Libertadores. Tévez fue el gran nombre antes de irse a Corinthians. Marcó dos goles en la final."
     },
     {
       "year": 2006,
@@ -1029,7 +1038,16 @@
         "nc": "br"
       },
       "teams": 32,
-      "goals": 289
+      "goals": 289,
+      "mvp": "Adriano",
+      "mvpNc": "br",
+      "scorer": "Adriano 2; Herrera, Bernardi",
+      "att": 42000,
+      "semis": [
+        "Chivas",
+        "Boca Juniors"
+      ],
+      "note2": "Internacional de Porto Alegre ganó su primera Libertadores ante el São Paulo. Primer título del Inter en el torneo continental."
     },
     {
       "year": 2007,
@@ -1051,7 +1069,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 287
+      "goals": 287,
+      "mvp": "Sebastián Battaglia",
+      "mvpNc": "ar",
+      "scorer": "Palermo, Scotti; Herrera",
+      "att": 55000,
+      "semis": [
+        "Grêmio",
+        "River Plate"
+      ],
+      "note2": "Boca Juniors ganó su sexta Libertadores ante el Grêmio brasileño. El equipo de Riquelme, Palermo y Battaglia fue el mejor del continente."
     },
     {
       "year": 2008,
@@ -1076,7 +1103,16 @@
         "nc": "ec"
       },
       "teams": 32,
-      "goals": 291
+      "goals": 291,
+      "mvp": "Claudio Bieler",
+      "mvpNc": "ec",
+      "scorer": "Bieler, Holder; Herrera",
+      "att": 30000,
+      "semis": [
+        "Fluminense",
+        "Boca Juniors"
+      ],
+      "note2": "LDU de Quito se convirtió en el primer club ecuatoriano en ganar la Libertadores, venciendo al Fluminense en la tanda de penaltis."
     },
     {
       "year": 2009,
@@ -1099,7 +1135,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 288
+      "goals": 288,
+      "mvp": "Agüero",
+      "mvpNc": "ar",
+      "scorer": "Buonanotte, Cardozo; Araújo",
+      "att": 42000,
+      "semis": [
+        "Fluminense",
+        "Liga de Quito"
+      ],
+      "note2": "Estudiantes de La Plata ganó su cuarta Libertadores venciendo al Cruzeiro de Brasil."
     },
     {
       "year": 2010,
@@ -1120,7 +1165,16 @@
         "nc": "br"
       },
       "teams": 32,
-      "goals": 284
+      "goals": 284,
+      "mvp": "Giuliano",
+      "mvpNc": "br",
+      "scorer": "Giuliano, Fernandão; Ureña",
+      "att": 45000,
+      "semis": [
+        "Chivas",
+        "Deportivo Quito"
+      ],
+      "note2": "Internacional de Porto Alegre ganó su segunda Libertadores venciendo al Guadalajara de México."
     },
     {
       "year": 2011,
@@ -1142,7 +1196,16 @@
         "nc": "br"
       },
       "teams": 32,
-      "goals": 298
+      "goals": 298,
+      "mvp": "Luis Suárez",
+      "mvpNc": "uy",
+      "scorer": "Suárez, Fernández; Gamboa",
+      "att": 53000,
+      "semis": [
+        "Santos",
+        "Internacional"
+      ],
+      "note2": "Peñarol de Uruguay ganó su quinta Libertadores venciendo al Santos de Neymar. Era la cuarta Libertadores del club uruguayo."
     },
     {
       "year": 2012,
@@ -1164,7 +1227,16 @@
         "nc": "pe"
       },
       "teams": 38,
-      "goals": 318
+      "goals": 318,
+      "mvp": "Paulinho",
+      "mvpNc": "br",
+      "scorer": "Paulinho 2; Camacho",
+      "att": 40000,
+      "semis": [
+        "Santos",
+        "Internacional"
+      ],
+      "note2": "Corinthians ganó su primera Libertadores incluyendo a Paolo Guerrero. Venció al Boca Juniors en la final de dos partidos."
     },
     {
       "year": 2013,
@@ -1189,7 +1261,16 @@
         "nc": "br"
       },
       "teams": 38,
-      "goals": 334
+      "goals": 334,
+      "mvp": "Bernard",
+      "mvpNc": "br",
+      "scorer": "Ronaldinho pen; Herrera, Cardozo",
+      "att": 50000,
+      "semis": [
+        "Mineiro",
+        "Tijuana"
+      ],
+      "note2": "Atlético Mineiro ganó en penaltis ante Olimpia. Ronaldinho y Bernard fueron los grandes nombres. El Galo levantó por primera vez el trofeo."
     },
     {
       "year": 2014,
@@ -1211,7 +1292,16 @@
         "nc": "ar"
       },
       "teams": 38,
-      "goals": 342
+      "goals": 342,
+      "mvp": "Gonzalo Bergessio",
+      "mvpNc": "ar",
+      "scorer": "Bergessio, Pisano, Dátolo",
+      "att": 45000,
+      "semis": [
+        "Mineiro",
+        "Estudiantes"
+      ],
+      "note2": "San Lorenzo ganó su primera Libertadores ante Nacional de Uruguay. El Papa Francisco, hincha declarado, envió sus felicitaciones al club."
     },
     {
       "year": 2015,
@@ -1233,7 +1323,16 @@
         "nc": "ar"
       },
       "teams": 38,
-      "goals": 349
+      "goals": 349,
+      "mvp": "Lucas Alario",
+      "mvpNc": "ar",
+      "scorer": "Alario 2, Sánchez; Damião",
+      "att": 47000,
+      "semis": [
+        "Guaraní",
+        "Barcelona SC"
+      ],
+      "note2": "River Plate ganó su cuarta Libertadores. Lucas Alario marcó dos goles ante Tigres de México en Santiago. El Más Grande levantó el trofeo 23 años después."
     },
     {
       "year": 2016,
@@ -1258,7 +1357,16 @@
         "nc": "co"
       },
       "teams": 38,
-      "goals": 352
+      "goals": 352,
+      "mvp": "Miguel Borja",
+      "mvpNc": "co",
+      "scorer": "Borja, Moreno; Banguera",
+      "att": 40000,
+      "semis": [
+        "San Lorenzo",
+        "LDU Quito"
+      ],
+      "note2": "Atlético Nacional venció a Independiente del Valle de Ecuador. Año marcado por la tragedia del Chapecoense, equipo brasileño que viajaba a Medellín para la final de la Sudamericana."
     },
     {
       "year": 2017,
@@ -1280,7 +1388,16 @@
         "nc": "br"
       },
       "teams": 38,
-      "goals": 348
+      "goals": 348,
+      "mvp": "Luan",
+      "mvpNc": "br",
+      "scorer": "Luan 2, Kannemann; Acuña, Muñoz",
+      "att": 60000,
+      "semis": [
+        "Barcelona SC",
+        "River Plate"
+      ],
+      "note2": "Grêmio ganó su tercera Libertadores ante Lanús. Luan fue el gran nombre del torneo."
     },
     {
       "year": 2018,
@@ -1303,7 +1420,16 @@
         "nc": "ar"
       },
       "teams": 38,
-      "goals": 357
+      "goals": 357,
+      "mvp": "Juan Quintero",
+      "mvpNc": "co",
+      "scorer": "Benedetto 54' (pen); Pratto 68', Quintero 109', Palacios 117'",
+      "att": 61000,
+      "semis": [
+        "Grêmio",
+        "Boca Juniors"
+      ],
+      "note2": "La gran Superclásica en el Bernabéu. El partido de vuelta se suspendió tras el ataque al bus de River. Se jugó en Madrid. River ganó 3-1 en prórroga."
     },
     {
       "year": 2019,
@@ -1326,7 +1452,16 @@
         "nc": "br"
       },
       "teams": 38,
-      "goals": 367
+      "goals": 367,
+      "mvp": "Gabriel Barbosa 'Gabigol'",
+      "mvpNc": "br",
+      "scorer": "Borré 89'; Gabigol 89', 92'",
+      "att": 75000,
+      "semis": [
+        "Grêmio",
+        "Boca Juniors"
+      ],
+      "note2": "GABIGOL! Flamengo iba perdiendo hasta el 89 y Gabigol marcó en el 89 y el 92 para el 2-1. La remontada más épica en la historia de las finales de Libertadores."
     },
     {
       "year": 2020,
@@ -1348,7 +1483,16 @@
         "nc": "br"
       },
       "teams": 38,
-      "goals": 301
+      "goals": 301,
+      "mvp": "Rony",
+      "mvpNc": "br",
+      "scorer": "Breno Lopes 99'",
+      "att": 5000,
+      "semis": [
+        "River Plate",
+        "Boca Juniors"
+      ],
+      "note2": "Palmeiras ganó en el Maracaná ante Santos. Breno Lopes, de cabeza en el 99, marcó el único gol. Sin público por la pandemia."
     },
     {
       "year": 2021,
@@ -1371,7 +1515,16 @@
         "nc": "br"
       },
       "teams": 38,
-      "goals": 318
+      "goals": 318,
+      "mvp": "Gabriel Barbosa 'Gabigol'",
+      "mvpNc": "br",
+      "scorer": "Veiga 5'; Gabi 44', Gabigol 97'",
+      "att": 16000,
+      "semis": [
+        "Barcelona SC",
+        "River Plate"
+      ],
+      "note2": "Flamengo remontó al Palmeiras en la prórroga. Gabigol marcó en el 97 en Montevideo. COVID redujo el aforo a apenas 16.000 personas."
     },
     {
       "year": 2022,
@@ -1393,7 +1546,16 @@
         "nc": "ar"
       },
       "teams": 38,
-      "goals": 327
+      "goals": 327,
+      "mvp": "Arrascaeta",
+      "mvpNc": "uy",
+      "scorer": "Gabigol 43'",
+      "att": 42000,
+      "semis": [
+        "Vélez",
+        "Estudiantes"
+      ],
+      "note2": "Flamengo ganó su segunda Libertadores consecutiva. Gabigol volvió a ser el héroe ante el Athletico Paranaense. Final 100% brasileña en Guayaquil."
     },
     {
       "year": 2023,
@@ -1416,7 +1578,16 @@
         "nc": "co"
       },
       "teams": 38,
-      "goals": 338
+      "goals": 338,
+      "mvp": "André",
+      "mvpNc": "br",
+      "scorer": "Cano 57', 65'",
+      "att": 73834,
+      "semis": [
+        "Olimpia",
+        "River Plate"
+      ],
+      "note2": "Fluminense ganó su primera Libertadores en el Maracaná. Germán Cano, goleador del torneo con 11 tantos, marcó un doblete ante Boca Juniors. La hinchada local desbordó el estadio."
     },
     {
       "year": 2024,
@@ -1438,7 +1609,16 @@
         "nc": "br"
       },
       "teams": 38,
-      "goals": 341
+      "goals": 341,
+      "mvp": "Hulk",
+      "mvpNc": "br",
+      "scorer": "Hulk 18', 49', Battaglia 27'",
+      "att": 83214,
+      "semis": [
+        "Fluminense",
+        "Colo-Colo"
+      ],
+      "note2": "Atlético Mineiro se coronó por primera vez. Hulk, con 38 años, marcó dos goles en el Monumental de Buenos Aires ante Racing Club de Argentina."
     }
   ],
   "records": {

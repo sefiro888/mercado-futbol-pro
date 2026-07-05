@@ -37,7 +37,16 @@
       },
       "teams": 4,
       "goals": 17,
-      "note": "Primera edición. Solo 4 equipos en la fase final"
+      "note": "Primera edición. Solo 4 equipos en la fase final",
+      "mvp": "Valentin Ivanov",
+      "mvpNc": "su",
+      "scorer": "Metreveli 49' (pp); Ponedelnik 113'",
+      "att": 17966,
+      "semis": [
+        "Yugoslavia",
+        "Checoslovaquia"
+      ],
+      "note2": "La primera Eurocopa, celebrada en Francia. La URSS ganó con gol en prórroga. España se retiró por negarse a jugar contra la URSS por motivos políticos."
     },
     {
       "year": 1964,
@@ -61,7 +70,16 @@
         "nc": "es"
       },
       "teams": 4,
-      "goals": 13
+      "goals": 13,
+      "mvp": "Jesús Pereda",
+      "mvpNc": "es",
+      "scorer": "Pereda 6', Marcelino 84'",
+      "att": 79115,
+      "semis": [
+        "Hungría",
+        "Dinamarca"
+      ],
+      "note2": "España derrotó a la URSS en el Santiago Bernabéu. Marcelino marcó el gol de la victoria en el 84. Primera Eurocopa de España."
     },
     {
       "year": 1968,
@@ -85,7 +103,16 @@
         "nc": "rs"
       },
       "teams": 4,
-      "goals": 7
+      "goals": 7,
+      "mvp": "Luigi Riva",
+      "mvpNc": "it",
+      "scorer": "Domenghini 81'; Riva 12', Anastasi 31'",
+      "att": 75000,
+      "semis": [
+        "Yugoslavia",
+        "URSS"
+      ],
+      "note2": "Empate 1-1, se repitió al día siguiente. En el replay Italia ganó 2-0. Luigi Riva fue el máximo goleador del torneo."
     },
     {
       "year": 1972,
@@ -109,7 +136,16 @@
         "nc": "de"
       },
       "teams": 4,
-      "goals": 10
+      "goals": 10,
+      "mvp": "Gerd Müller",
+      "mvpNc": "de",
+      "scorer": "Müller 27', 58'",
+      "att": 43437,
+      "semis": [
+        "Bélgica",
+        "URSS"
+      ],
+      "note2": "Alemania Occidental con Müller, Beckenbauer y Netzer en su mejor versión. Doblete de Müller ante la URSS en la final de Bruselas."
     },
     {
       "year": 1976,
@@ -136,7 +172,16 @@
         "nc": "de"
       },
       "teams": 4,
-      "goals": 19
+      "goals": 19,
+      "mvp": "Antonín Panenka",
+      "mvpNc": "cs",
+      "scorer": "Schreiber 20'; Švehlík, Dobiaš; 5-3 pen",
+      "att": 30790,
+      "semis": [
+        "Yugoslavia",
+        "Países Bajos"
+      ],
+      "note2": "PANENKA. Antonín Panenka inventó el penalti en cucharita ante Uli Hoeness. La técnica lleva su nombre desde entonces. El portero Maier se tiró y Panenka la puso suave al centro."
     },
     {
       "year": 1980,
@@ -159,7 +204,16 @@
         "nc": "de"
       },
       "teams": 8,
-      "goals": 27
+      "goals": 27,
+      "mvp": "Klaus Allofs",
+      "mvpNc": "de",
+      "scorer": "Hrubesch 10', 88'",
+      "att": 47864,
+      "semis": [
+        "Checoslovaquia",
+        "Italia"
+      ],
+      "note2": "Alemania Occidental ganó su segunda Eurocopa. Hrubesch, de cabeza en ambos goles, fue el héroe ante Bélgica."
     },
     {
       "year": 1984,
@@ -183,7 +237,16 @@
         "nc": "fr"
       },
       "teams": 8,
-      "goals": 41
+      "goals": 41,
+      "mvp": "Michel Platini",
+      "mvpNc": "fr",
+      "scorer": "Platini 57'; Bellone 88'",
+      "att": 47000,
+      "semis": [
+        "España",
+        "Dinamarca"
+      ],
+      "note2": "Platini marcó 9 goles en la fase de grupos, récord histórico vigente. Francia venció en casa con un gol de Bellone en el 88."
     },
     {
       "year": 1988,
@@ -207,7 +270,16 @@
         "nc": "nl"
       },
       "teams": 8,
-      "goals": 34
+      "goals": 34,
+      "mvp": "Marco van Basten",
+      "mvpNc": "nl",
+      "scorer": "Van Basten 54' (volea)",
+      "att": 72308,
+      "semis": [
+        "Alemania Occ.",
+        "Italia"
+      ],
+      "note2": "LA VOLEA más famosa del fútbol. Van Basten recibió un centro desde la banda izquierda y conectó una volea imposible desde ángulo cerrado que batió a Dasayev."
     },
     {
       "year": 1992,
@@ -231,7 +303,16 @@
         "nc": "se"
       },
       "teams": 8,
-      "goals": 32
+      "goals": 32,
+      "mvp": "Peter Schmeichel",
+      "mvpNc": "dk",
+      "scorer": "Jensen 18', Vilfort 78'",
+      "att": 37000,
+      "semis": [
+        "Países Bajos",
+        "Alemania"
+      ],
+      "note2": "DINAMARCA: EL MILAGRO. Convocados 10 días antes para sustituir a Yugoslavia (suspendida por la guerra). Ganaron el torneo sin perder un partido."
     },
     {
       "year": 1996,
@@ -256,7 +337,16 @@
         "nc": "gb-eng"
       },
       "teams": 16,
-      "goals": 64
+      "goals": 64,
+      "mvp": "Matthias Sammer",
+      "mvpNc": "de",
+      "scorer": "Berger 59' (pen); Bierhoff 73', 95' (GG)",
+      "att": 73611,
+      "semis": [
+        "Inglaterra",
+        "Francia"
+      ],
+      "note2": "Alemania ganó con el primer Gol de Oro de la historia. Bierhoff, sustituto, marcó el de oro ante la Rep. Checa. Sammer, líbero elegante, fue el mejor."
     },
     {
       "year": 2000,
@@ -281,7 +371,16 @@
         "nc": "nl"
       },
       "teams": 16,
-      "goals": 85
+      "goals": 85,
+      "mvp": "Zinedine Zidane",
+      "mvpNc": "fr",
+      "scorer": "Delvecchio 55'; Wiltord 90', Trezeguet 103' (GG)",
+      "att": 50000,
+      "semis": [
+        "Portugal",
+        "Bélgica"
+      ],
+      "note2": "Francia ganó con el gol de oro de Trezeguet en prórroga. Italia iba ganando hasta que Wiltord igualó en el 90+3. Primer y único Gol de Oro en Eurocopas."
     },
     {
       "year": 2004,
@@ -305,7 +404,16 @@
         "nc": "cz"
       },
       "teams": 16,
-      "goals": 77
+      "goals": 77,
+      "mvp": "Theodoros Zagorakis",
+      "mvpNc": "gr",
+      "scorer": "Charisteas 57'",
+      "att": 62865,
+      "semis": [
+        "Rep. Checa",
+        "Países Bajos"
+      ],
+      "note2": "LA GRAN SORPRESA. Grecia, a 150-1 al inicio, venció al anfitrión Portugal. Charisteas cabeceó el único gol. Otto Rehhagel, técnico alemán, hizo historia con Grecia."
     },
     {
       "year": 2008,
@@ -329,7 +437,16 @@
         "nc": "es"
       },
       "teams": 16,
-      "goals": 77
+      "goals": 77,
+      "mvp": "Xavi Hernández",
+      "mvpNc": "es",
+      "scorer": "Torres 33'",
+      "att": 51428,
+      "semis": [
+        "Rusia",
+        "Turquía"
+      ],
+      "note2": "El inicio de la era dorada española. Torres batió a Lehmann con un toque de vaselina. Xavi fue el mejor del torneo. Inicio de la racha de tres títulos consecutivos."
     },
     {
       "year": 2012,
@@ -353,7 +470,16 @@
         "nc": "es"
       },
       "teams": 16,
-      "goals": 76
+      "goals": 76,
+      "mvp": "Andrés Iniesta",
+      "mvpNc": "es",
+      "scorer": "D.Silva 14', J.Alba 41', Torres 84', Mata 88'",
+      "att": 63170,
+      "semis": [
+        "Portugal",
+        "Alemania"
+      ],
+      "note2": "La España de Iniesta y Xavi hizo su mejor partido. 4-0 histórico ante Italia. Torres y Mata cerraron la goleada. España en la cima del fútbol mundial."
     },
     {
       "year": 2016,
@@ -378,7 +504,16 @@
         "nc": "fr"
       },
       "teams": 24,
-      "goals": 108
+      "goals": 108,
+      "mvp": "Antoine Griezmann",
+      "mvpNc": "fr",
+      "scorer": "Éder 109'",
+      "att": 75868,
+      "semis": [
+        "Gales",
+        "Alemania"
+      ],
+      "note2": "Portugal ganó sin CR7, lesionado en el min 25. Éder, modesto goleador, marcó un golazo en la prórroga. Griezmann fue el mejor jugador pero Francia perdió en casa."
     },
     {
       "year": 2020,
@@ -429,7 +564,16 @@
         "nc": "es"
       },
       "teams": 24,
-      "goals": 117
+      "goals": 117,
+      "mvp": "Rodri",
+      "mvpNc": "es",
+      "scorer": "Williams 47', Oyarzabal 86'",
+      "att": 65000,
+      "semis": [
+        "Francia",
+        "Países Bajos"
+      ],
+      "note2": "España ganó su cuarta Eurocopa, récord histórico. Nico Williams marcó el primero y Oyarzabal sentenció en el 86. Cole Palmer había empatado en el 73. Rodri, BALÓN DE ORO ese año, fue el mejor."
     }
   ],
   "records": {

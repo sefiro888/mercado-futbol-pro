@@ -36,6 +36,13 @@ function saveReactions(key, obj) {
   try { localStorage.setItem(key, JSON.stringify(obj)) } catch {}
 }
 
+// ── Formato número ────────────────────────────────────────────
+function fmtAtt(n) {
+  if (!n) return null
+  if (n === 0) return 'Sin público (COVID)'
+  return n.toLocaleString('es-ES') + ' espectadores'
+}
+
 // ── Flag ─────────────────────────────────────────────────────
 const FLAG_SPECIAL = { 'gb-eng': 'gb', 'gb-wls': 'gb', 'gb-nir': 'gb', 'gb-sct': 'gb', 'eu': null }
 function Flag({ code, size = 18 }) {
@@ -110,53 +117,123 @@ function EditionDetail({ ed, onClose, comp }) {
       >
         <button className="cp-detail-close" onClick={onClose}>✕</button>
 
-        <div className="cp-detail-year">{ed.year}</div>
-        <div className="cp-detail-host">
-          <Flag code={ed.hc} size={16} />
-          <span>{ed.host}</span>
+        {/* Cabecera */}
+        <div className="cp-detail-header">
+          <div className="cp-detail-year">{ed.year}</div>
+          <div className="cp-detail-host">
+            <Flag code={ed.hc} size={16} />
+            <span>{ed.host}</span>
+            {ed.teams && <span className="cp-detail-teams-badge">{ed.teams} equipos</span>}
+          </div>
         </div>
 
+        {/* Marcador final */}
         {f && f.hs != null && !isLive && (
           <div className="cp-detail-final">
-            <div className="cp-final-label">⚽ Final · {f.venue || ''}</div>
+            <div className="cp-final-label">
+              🏆 Final
+              {f.venue && <span className="cp-final-venue"> · {f.venue}</span>}
+            </div>
             <div className="cp-final-teams">
               <div className={`cp-final-team ${champWon ? 'winner' : ''}`}>
-                <span className="cp-final-team-flag"><Flag code={ed.cc} size={22} /></span>
+                <span className="cp-final-team-flag"><Flag code={ed.cc} size={24} /></span>
                 <span>{f.h || ed.champion}</span>
+                {champWon && <span className="cp-final-crown">🏆</span>}
               </div>
-              <div className="cp-final-score">{f.hs} – {f.as}</div>
+              <div className="cp-final-score-col">
+                <div className="cp-final-score">{f.hs} – {f.as}</div>
+                {(f.pen || f.et) && (
+                  <div className="cp-final-score-sub">
+                    {f.pen ? `(${f.penH}-${f.penA} pen)` : 'AET'}
+                  </div>
+                )}
+              </div>
               <div className={`cp-final-team ${!champWon ? 'winner' : ''}`}>
-                <span className="cp-final-team-flag"><Flag code={ed.ruc} size={22} /></span>
+                <span className="cp-final-team-flag"><Flag code={ed.ruc} size={24} /></span>
                 <span>{f.a || ed.ru}</span>
+                {!champWon && <span className="cp-final-crown">🏆</span>}
               </div>
             </div>
-            <div className="cp-final-tags">
-              {f.pen && f.penH != null && <span className="cp-final-tag">🎯 {f.penH}-{f.penA} penaltis</span>}
-              {f.et && !f.pen && <span className="cp-final-tag">⏱️ Prórroga</span>}
-              {f.note && <span className="cp-final-tag">💬 Historia</span>}
-            </div>
-            {f.note && <p className="cp-final-note">"{f.note}"</p>}
           </div>
         )}
 
+        {/* Grid de datos clave */}
         {!isLive && (
-          <div className="cp-detail-meta-grid">
-            <div className="cp-meta-item">
-              <strong>🥈 {ed.ru || '—'}</strong>
-              <span>Subcampeón</span>
-            </div>
-            <div className="cp-meta-item">
-              <strong>{ed.goals ?? '—'}</strong>
-              <span>⚽ Goles totales</span>
-            </div>
-            <div className="cp-meta-item">
-              <strong>{ed.top?.name?.split(' ').slice(-1)[0] ?? '—'} {ed.top?.g ? `${ed.top.g}⚽` : ''}</strong>
-              <span>🎯 Máx. goleador</span>
-            </div>
+          <div className="cp-detail-facts">
+            {ed.scorer && (
+              <div className="cp-fact-item">
+                <span className="cp-fact-icon">⚽</span>
+                <div>
+                  <div className="cp-fact-label">Goleadores de la final</div>
+                  <div className="cp-fact-val">{ed.scorer}</div>
+                </div>
+              </div>
+            )}
+            {ed.mvp && (
+              <div className="cp-fact-item cp-fact-highlight">
+                <span className="cp-fact-icon">🌟</span>
+                <div>
+                  <div className="cp-fact-label">Mejor jugador del torneo</div>
+                  <div className="cp-fact-val">
+                    <Flag code={ed.mvpNc} size={14} /> {ed.mvp}
+                  </div>
+                </div>
+              </div>
+            )}
+            {ed.top?.name && (
+              <div className="cp-fact-item">
+                <span className="cp-fact-icon">🎯</span>
+                <div>
+                  <div className="cp-fact-label">Máximo goleador</div>
+                  <div className="cp-fact-val">
+                    <Flag code={ed.top.nc} size={14} /> {ed.top.name}
+                    {ed.top.g && <strong> · {ed.top.g} goles</strong>}
+                  </div>
+                </div>
+              </div>
+            )}
+            {ed.att != null && (
+              <div className="cp-fact-item">
+                <span className="cp-fact-icon">👥</span>
+                <div>
+                  <div className="cp-fact-label">Asistencia a la final</div>
+                  <div className="cp-fact-val">{fmtAtt(ed.att)}</div>
+                </div>
+              </div>
+            )}
+            {ed.goals && (
+              <div className="cp-fact-item">
+                <span className="cp-fact-icon">🥅</span>
+                <div>
+                  <div className="cp-fact-label">Goles totales del torneo</div>
+                  <div className="cp-fact-val">{ed.goals} goles</div>
+                </div>
+              </div>
+            )}
+            {ed.semis && ed.semis.length > 0 && (
+              <div className="cp-fact-item">
+                <span className="cp-fact-icon">⚡</span>
+                <div>
+                  <div className="cp-fact-label">Semifinalistas eliminados</div>
+                  <div className="cp-fact-val">{ed.semis.join(' · ')}</div>
+                </div>
+              </div>
+            )}
           </div>
         )}
 
-        {ed.note && <div className="cp-detail-note">{ed.note}</div>}
+        {/* Nota histórica principal */}
+        {ed.note && (
+          <div className="cp-detail-note">
+            <span className="cp-detail-note-icon">💬</span>
+            {ed.note}
+          </div>
+        )}
+
+        {/* Nota extra enriquecida */}
+        {ed.note2 && (
+          <div className="cp-detail-note2">{ed.note2}</div>
+        )}
       </div>
     </div>
   )
@@ -358,7 +435,7 @@ const TABS = [
   { id: 'curiosidades', label: '🤯 Curiosidades' },
 ]
 
-export default function CompetitionPage({ data }) {
+export default function CompetitionPage({ data, TrophyComponent }) {
   const [tab, setTab] = useState('historia')
   const [selected, setSelected] = useState(null)
   const { competition: comp, editions } = data
@@ -387,7 +464,10 @@ export default function CompetitionPage({ data }) {
       <div className="cp-hero">
         <div className="cp-hero-emblem">
           <span className="cp-emblem-ring" />
-          <span className="cp-emblem-icon">{comp.emoji}</span>
+          {TrophyComponent
+            ? <TrophyComponent size={110} accent={accent} />
+            : <span className="cp-emblem-icon">{comp.emoji}</span>
+          }
         </div>
 
         <div className="cp-badge">{comp.governing} · Desde {comp.founded}</div>

@@ -1113,7 +1113,16 @@
         "nc": "es"
       },
       "teams": 32,
-      "goals": 241
+      "goals": 241,
+      "mvp": "Oliver Kahn",
+      "mvpNc": "de",
+      "scorer": "Mendieta 3' (pen); Effenberg 50' (pen); 5-4 pen",
+      "att": 71500,
+      "semis": [
+        "Real Madrid",
+        "Leeds"
+      ],
+      "note2": "Bayern venció en penaltis a Valencia. Kahn fue decisivo deteniendo los disparos de Los Ches. Mendieta abrió pero Effenberg igualó."
     },
     {
       "year": 2002,
@@ -1137,7 +1146,16 @@
         "nc": "nl"
       },
       "teams": 32,
-      "goals": 239
+      "goals": 239,
+      "mvp": "Zinedine Zidane",
+      "mvpNc": "fr",
+      "scorer": "Raúl 8', Zidane 45' (volea); Lucio 14'",
+      "att": 50499,
+      "semis": [
+        "Barcelona",
+        "Man United"
+      ],
+      "note2": "La volea de Zidane. Considerada el mejor gol en la historia de las finales de Champions. Centro de Roberto Carlos, volea con la pierna derecha. Imparable."
     },
     {
       "year": 2003,
@@ -1164,7 +1182,16 @@
         "nc": "nl"
       },
       "teams": 32,
-      "goals": 236
+      "goals": 236,
+      "mvp": "Paolo Maldini",
+      "mvpNc": "it",
+      "scorer": "0-0 AET, 3-2 pen",
+      "att": 62315,
+      "semis": [
+        "Inter",
+        "Real Madrid"
+      ],
+      "note2": "Primer Derby della Madonnina en una final de Champions. 0-0 en 120 minutos. Shevchenko falló el penalti clave."
     },
     {
       "year": 2004,
@@ -1188,7 +1215,16 @@
         "nc": "es"
       },
       "teams": 32,
-      "goals": 218
+      "goals": 218,
+      "mvp": "Deco",
+      "mvpNc": "pt",
+      "scorer": "Carlos Alberto 39', Deco 54', Alenichev 75'",
+      "att": 52000,
+      "semis": [
+        "Deportivo",
+        "Monaco"
+      ],
+      "note2": "El Porto de Mourinho ganó la Champions en su segunda temporada. Deco fue el motor. Mourinho se fue al Chelsea ese verano para no volver a ganarla."
     },
     {
       "year": 2005,
@@ -1215,7 +1251,16 @@
         "nc": "nl"
       },
       "teams": 32,
-      "goals": 244
+      "goals": 244,
+      "mvp": "Steven Gerrard",
+      "mvpNc": "gb-eng",
+      "scorer": "Maldini 1', Crespo 39', 44'; Gerrard 54', Šmicer 56', Alonso 60'; 3-2 pen",
+      "att": 65000,
+      "semis": [
+        "Chelsea",
+        "PSV"
+      ],
+      "note2": "EL MILAGRO DE ESTAMBUL. 3-0 al descanso. Remontada en 6 minutos. Dudek paró el penalti a Shevchenko. La final más épica de la historia."
     },
     {
       "year": 2006,
@@ -1239,7 +1284,16 @@
         "nc": "ua"
       },
       "teams": 32,
-      "goals": 226
+      "goals": 226,
+      "mvp": "Samuel Eto'o",
+      "mvpNc": "cm",
+      "scorer": "Campbell 37'; Eto'o 76', Belletti 81'",
+      "att": 79610,
+      "semis": [
+        "Villarreal",
+        "Milan"
+      ],
+      "note2": "Arsenal marcó primero con 10 jugadores. Larsson cambió el partido al entrar desde el banquillo, generando los dos goles de la remontada del Barça."
     },
     {
       "year": 2007,
@@ -1263,7 +1317,16 @@
         "nc": "br"
       },
       "teams": 32,
-      "goals": 239
+      "goals": 239,
+      "mvp": "Filippo Inzaghi",
+      "mvpNc": "it",
+      "scorer": "Inzaghi 45', 82'; Kuyt 89'",
+      "att": 63000,
+      "semis": [
+        "Man United",
+        "Chelsea"
+      ],
+      "note2": "La revancha de Estambul. Inzaghi marcó con la mano el primero y de rebote el segundo. Liverpool presionó pero Milan fue más sólido esta vez."
     },
     {
       "year": 2008,
@@ -1290,7 +1353,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 244
+      "goals": 244,
+      "mvp": "Cristiano Ronaldo",
+      "mvpNc": "pt",
+      "scorer": "CR7 26'; Lampard 45'; 6-5 pen",
+      "att": 67310,
+      "semis": [
+        "Barcelona",
+        "Liverpool"
+      ],
+      "note2": "Final all-english en Moscú. John Terry resbaló en el penalti decisivo. Van der Sar paró el de Anelka. La sequía del United acabó en Rusia."
     },
     {
       "year": 2009,
@@ -1314,7 +1386,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 268
+      "goals": 268,
+      "mvp": "Xavi Hernández",
+      "mvpNc": "es",
+      "scorer": "Eto'o 10', Messi 70'",
+      "att": 62467,
+      "semis": [
+        "Chelsea",
+        "Arsenal"
+      ],
+      "note2": "Primer año del Barça de Guardiola. Messi marcó un gol de cabeza inverosímil. Eto abrió en el 10. El Barcelona ganó el treble completo."
     },
     {
       "year": 2010,
@@ -1338,7 +1419,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 247
+      "goals": 247,
+      "mvp": "Wesley Sneijder",
+      "mvpNc": "nl",
+      "scorer": "Milito 35', 70'",
+      "att": 73490,
+      "semis": [
+        "Barcelona",
+        "Lyon"
+      ],
+      "note2": "El Inter del Triplete de Mourinho. Milito fue el héroe. Sneijder estuvo decisivo toda la temporada. Una actuación histórica que no ha vuelto a repetirse."
     },
     {
       "year": 2011,
@@ -1362,7 +1452,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 279
+      "goals": 279,
+      "mvp": "Lionel Messi",
+      "mvpNc": "ar",
+      "scorer": "Pedro 27'; Rooney 34'; Messi 54'; Villa 69'",
+      "att": 87695,
+      "semis": [
+        "Real Madrid",
+        "Schalke"
+      ],
+      "note2": "El Barça de Guardiola en su cúspide. Messi y compañía dieron una lección de fútbol total al United en Wembley."
     },
     {
       "year": 2012,
@@ -1389,7 +1488,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 276
+      "goals": 276,
+      "mvp": "Didier Drogba",
+      "mvpNc": "ci",
+      "scorer": "Müller 83'; Drogba 88'; 4-3 pen",
+      "att": 62500,
+      "semis": [
+        "Barcelona",
+        "Real Madrid"
+      ],
+      "note2": "Drogba empató en el último minuto y fue decisivo en la tanda. Chelsea ganó su primera Champions en casa del Bayern. El portero Cech fue clave."
     },
     {
       "year": 2013,
@@ -1413,7 +1521,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 278
+      "goals": 278,
+      "mvp": "Arjen Robben",
+      "mvpNc": "nl",
+      "scorer": "Mandžukić 60'; Gündoğan 68' (pen); Robben 89'",
+      "att": 86298,
+      "semis": [
+        "Barcelona",
+        "Real Madrid"
+      ],
+      "note2": "Robben, que había fallado un penalti en la final de 2012, marcó el gol de la victoria en el 89. Primera final all-Bundesliga de la historia."
     },
     {
       "year": 2014,
@@ -1438,7 +1555,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 300
+      "goals": 300,
+      "mvp": "Gareth Bale",
+      "mvpNc": "gb-wls",
+      "scorer": "Godín 36'; Ramos 90', Bale 110', Marcelo 118', CR7 120'",
+      "att": 60976,
+      "semis": [
+        "Bayern Múnich",
+        "Chelsea"
+      ],
+      "note2": "LA DÉCIMA. El Atlético resistió hasta el 90 cuando Ramos empató. En prórroga el Madrid fue aplastante. CR7 cerró en el 120 el ansiado título."
     },
     {
       "year": 2015,
@@ -1462,7 +1588,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 274
+      "goals": 274,
+      "mvp": "Lionel Messi",
+      "mvpNc": "ar",
+      "scorer": "Rakitić 4', Suárez 68', Neymar 90'",
+      "att": 70442,
+      "semis": [
+        "Bayern Múnich",
+        "Real Madrid"
+      ],
+      "note2": "El Barça del triplete de Luis Enrique. Messi dirigió al tridente MSN. Morata marcó el honor de la Juve."
     },
     {
       "year": 2016,
@@ -1489,7 +1624,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 280
+      "goals": 280,
+      "mvp": "Sergio Ramos",
+      "mvpNc": "es",
+      "scorer": "Ramos 15', Carrasco 79'; 5-3 pen",
+      "att": 71426,
+      "semis": [
+        "Man City",
+        "Bayern Múnich"
+      ],
+      "note2": "Real Madrid venció en penaltis al Atlético por segunda vez en tres años. Juanfran falló el penalti decisivo para el Atlético. Ramos abrió el marcador de cabeza."
     },
     {
       "year": 2017,
@@ -1513,7 +1657,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 291
+      "goals": 291,
+      "mvp": "Cristiano Ronaldo",
+      "mvpNc": "pt",
+      "scorer": "CR7 20', 64'; Asensio 90'",
+      "att": 65842,
+      "semis": [
+        "Atlético Madrid",
+        "Monaco"
+      ],
+      "note2": "Primera final 100% española de la historia. CR7 marcó en todas las rondas de eliminación. Juventus tuvo un gol de chilena extraordinario de Mandžukić pero no fue suficiente."
     },
     {
       "year": 2018,
@@ -1537,7 +1690,16 @@
         "nc": "pt"
       },
       "teams": 32,
-      "goals": 289
+      "goals": 289,
+      "mvp": "Gareth Bale",
+      "mvpNc": "gb-wls",
+      "scorer": "Benzema 51' (pp), Bale 64' (chilena), Bale 83'",
+      "att": 61561,
+      "semis": [
+        "Bayern Múnich",
+        "Roma"
+      ],
+      "note2": "Bale entró desde el banquillo y marcó una chilena legendaria, considerada el mejor gol en la historia de las finales de Champions. El portero Loris Karius cometió dos errores garrafales."
     },
     {
       "year": 2019,
@@ -1561,7 +1723,16 @@
         "nc": "ar"
       },
       "teams": 32,
-      "goals": 303
+      "goals": 303,
+      "mvp": "Alisson Becker",
+      "mvpNc": "br",
+      "scorer": "Salah 2', Origi 87'",
+      "att": 63272,
+      "semis": [
+        "Barcelona",
+        "Ajax"
+      ],
+      "note2": "Liverpool remontó un 3-0 ante Barcelona en Anfield (4-0). Tottenham eliminó a un Ajax que había hecho lo propio con el Madrid."
     },
     {
       "year": 2020,
@@ -1585,7 +1756,16 @@
         "nc": "pl"
       },
       "teams": 32,
-      "goals": 290
+      "goals": 290,
+      "mvp": "Robert Lewandowski",
+      "mvpNc": "pl",
+      "scorer": "Coman 59'",
+      "att": 0,
+      "semis": [
+        "Lyon",
+        "Leipzig"
+      ],
+      "note2": "La Final 8 en Lisboa, sin público por pandemia. Lewandowski marcó 15 goles esa edición. Coman, ex jugador del PSG, anotó el gol ante su exclub."
     },
     {
       "year": 2021,
@@ -1609,7 +1789,16 @@
         "nc": "no"
       },
       "teams": 32,
-      "goals": 265
+      "goals": 265,
+      "mvp": "N'Golo Kanté",
+      "mvpNc": "fr",
+      "scorer": "Havertz 42'",
+      "att": 14110,
+      "semis": [
+        "Real Madrid",
+        "PSG"
+      ],
+      "note2": "Final en Porto con aforo COVID. Havertz marcó el único gol. Kanté fue omnipresente en el centro del campo toda la competición."
     },
     {
       "year": 2022,
@@ -1633,7 +1822,16 @@
         "nc": "fr"
       },
       "teams": 32,
-      "goals": 304
+      "goals": 304,
+      "mvp": "Thibaut Courtois",
+      "mvpNc": "be",
+      "scorer": "Vinicius Jr. 59'",
+      "att": 75000,
+      "semis": [
+        "Man City",
+        "Villarreal"
+      ],
+      "note2": "Courtois realizó 9 paradas milagrosas. Real Madrid eliminó al Chelsea, Man City y Liverpool en tres noches épicas de remontada."
     },
     {
       "year": 2023,
@@ -1657,7 +1855,16 @@
         "nc": "no"
       },
       "teams": 32,
-      "goals": 315
+      "goals": 315,
+      "mvp": "Rodri",
+      "mvpNc": "es",
+      "scorer": "Gündoğan 68'",
+      "att": 71412,
+      "semis": [
+        "Real Madrid",
+        "Milan"
+      ],
+      "note2": "Man City completó el triplete bajo Pep Guardiola. El gol de Gündoğan en Estambul bastó para derrotar al Inter. El mismo estadio que vio el milagro de Liverpool en 2005."
     },
     {
       "year": 2024,
@@ -1681,7 +1888,16 @@
         "nc": "fr"
       },
       "teams": 32,
-      "goals": 309
+      "goals": 309,
+      "mvp": "Vinicius Jr.",
+      "mvpNc": "br",
+      "scorer": "Carvajal 74', Vinicius Jr. 83'",
+      "att": 86047,
+      "semis": [
+        "Bayern Múnich",
+        "PSG"
+      ],
+      "note2": "Real Madrid ganó su 15ª Champions derrotando al Dortmund. Vinicius fue decisivo en el tramo final. Carvajal fue el primer lateral en marcar en una final de Champions en la era moderna."
     },
     {
       "year": 2025,
@@ -1705,7 +1921,16 @@
         "nc": "fr"
       },
       "teams": 36,
-      "goals": 328
+      "goals": 328,
+      "mvp": "Ousmane Dembélé",
+      "mvpNc": "fr",
+      "scorer": "Dembélé 45'",
+      "att": 70000,
+      "semis": [
+        "Arsenal",
+        "Bayern Múnich"
+      ],
+      "note2": "Primera Champions de la historia del PSG. Dembélé, ex del Barça, marcó el único gol y fue el mejor jugador del torneo. Francia celebró su primera final ganada en Champions."
     }
   ],
   "records": {
