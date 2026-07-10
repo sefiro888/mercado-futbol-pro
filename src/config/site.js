@@ -43,13 +43,5 @@ export const SITE = {
     { to: '/quiz', label: 'Quiz' },
     { to: '/mercado-vivo', label: 'Mercado Vivo' },
     { to: '/rumores', label: 'Rumores' },
-    { to: '/mercado-vivo', label: 'Mercado en vivo' },
-    { to: '/historial-fichajes', label: 'Historial' },
-    { to: '/once-ideal', label: 'Once ideal' },
-    { to: '/rankings', label: 'Rankings' },
-    { to: '/quiz', label: 'Quiz' },
-    { to: '/mundial', label: '🏆 Mundial 2026' },
-    { to: '/comparador', label: 'Comparador', desktopHide: true },
-    { to: '/simulador', label: 'Simulador', desktopHide: true },
   ],
 }

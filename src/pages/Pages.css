@@ -100,9 +100,12 @@
 }
 
 @media (max-width: 480px) {
-  .wc-banner { padding: 12px 14px; }
+  .wc-banner { padding: 12px 14px; flex-wrap: wrap; }
+  .wc-banner-left { flex: 1 1 100%; }
+  .wc-banner-right { flex: 1 1 100%; justify-content: flex-start; }
   .wc-banner-trophy { font-size: 1.3rem; }
   .wc-banner-title { font-size: 0.82rem; }
+  .wc-banner-arrow { margin-left: auto; }
   .wc-cd-unit strong { font-size: 0.9rem; }
 }
 

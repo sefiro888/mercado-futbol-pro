@@ -175,7 +175,9 @@
   align-items: center;
 }
 
-.search-icon {
+/* Solo el buscador del header usa icono superpuesto; el del hero lo lleva
+   en flujo (SearchBar.css), así que la regla debe quedar acotada aquí. */
+.header-search .search-icon {
   position: absolute;
   left: 11px;
   width: 15px;
@@ -258,8 +260,9 @@
   display: inline-block;
 }
 
+/* Con el menú abierto las barras ya dibujan una X: el emoji ✕ sobraría. */
 .menu-btn--open .menu-btn-emoji {
-  transform: rotate(90deg) scale(1.1);
+  display: none;
 }
 
 .menu-btn-label {

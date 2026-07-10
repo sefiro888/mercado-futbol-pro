@@ -1,6 +1,7 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { getAllPlayers, getAllClubs } from '@/lib/data.js'
+import { getAllPlayers, getAllClubs, getAllTransfers, getPlayerById, getClubById } from '@/lib/data.js'
+import { flagCode } from '@/lib/flags.js'
 import historicalData from '@/data/transfers-history.json'
 import './TransferHistory.css'
 
@@ -12,7 +13,9 @@ const SEASONS = [
   { id: '2023/24', label: '23/24', full: 'Temporada 2023/24' },
   { id: '2022/23', label: '22/23', full: 'Temporada 2022/23' },
   { id: '2021/22', label: '21/22', full: 'Temporada 2021/22' },
+  { id: '2020/21', label: '20/21', full: 'Temporada 2020/21' },
   { id: '2019/20', label: '19/20', full: 'Temporada 2019/20' },
+  { id: '2018/19', label: '18/19', full: 'Temporada 2018/19' },
   { id: '2017/18', label: '17/18', full: 'Temporada 2017/18' },
 ]
 
@@ -64,6 +67,62 @@ const SORT_OPTIONS = [
 function flagUrl(code) {
   if (!code) return null
   return `https://flagcdn.com/w40/${code.toLowerCase()}.png`
+}
+
+// Posición textual del dataset → grupo del filtro (GK/DEF/LAT/MID/EXT/DEL).
+function posToGroup(position = '') {
+  const p = position.toLowerCase()
+  if (p.includes('portero')) return 'GK'
+  if (p.includes('lateral') || p.includes('carrilero')) return 'LAT'
+  if (p.includes('central') || p.includes('defensa')) return 'DEF'
+  if (p.includes('extremo')) return 'EXT'
+  if (p.includes('delantero')) return 'DEL'
+  return 'MID'
+}
+
+// Temporada futbolística (jul–jun) a partir de una fecha: '2026/27'.
+function seasonFromDate(dateStr) {
+  const d = new Date(dateStr)
+  if (Number.isNaN(d.getTime())) return null
+  const y = d.getMonth() >= 6 ? d.getFullYear() : d.getFullYear() - 1
+  return `${y}/${String((y + 1) % 100).padStart(2, '0')}`
+}
+
+// Fichajes confirmados del mercado EN CURSO (transfers.json) convertidos al
+// formato del archivo histórico. Solo la temporada 2026/27: las anteriores ya
+// están curadas a mano en transfers-history.json (evita duplicados).
+function buildLiveSeason() {
+  return getAllTransfers()
+    .filter((t) => t.status === 'confirmado' && seasonFromDate(t.transferDate) === '2026/27')
+    .map((t) => {
+      const player = getPlayerById(t.playerId)
+      const from = getClubById(t.fromClubId)
+      const to = getClubById(t.toClubId)
+      if (!player || !to) return null
+      return {
+        id: `live-${t.id}`,
+        season: '2026/27',
+        playerName: player.name,
+        playerSlug: player.slug,
+        nationality: player.nationality,
+        nationalityCode: flagCode(player.nationality) || null,
+        position: player.position,
+        posGroup: posToGroup(player.position),
+        age: player.age,
+        fromClubName: from?.name ?? t.fromClubName ?? '—',
+        fromClubId: t.fromClubId,
+        fromLeague: from?.league ?? null,
+        toClubName: to.name,
+        toClubId: t.toClubId,
+        toLeague: to.league,
+        transferFee: t.transferFee ?? 0,
+        marketValue: t.marketValueAtTransfer ?? player.marketValue ?? null,
+        transferDate: t.transferDate,
+        notes: t.notes ?? null,
+        sources: [],
+      }
+    })
+    .filter(Boolean)
 }
 
 function feeTier(fee) {
@@ -389,10 +448,10 @@ export default function TransferHistory() {
   const players = getAllPlayers()
   const clubs   = getAllClubs()
 
-  const seasonData = useMemo(
-    () => historicalData.filter((t) => t.season === season),
-    [season]
-  )
+  const seasonData = useMemo(() => {
+    if (season === '2026/27') return buildLiveSeason()
+    return historicalData.filter((t) => t.season === season)
+  }, [season])
 
   const filtered = useMemo(() => {
     let ts = [...seasonData]
