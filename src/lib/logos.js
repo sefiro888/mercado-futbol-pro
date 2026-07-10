@@ -118,19 +118,19 @@ const TEAM_IDS = {
   porto: 212,
   sporting: 228,
   braga: 217,
-  // Brasileirão
-  flamengo: 64,
-  palmeiras: 67,
-  corinthians: 72,
-  'sao-paulo': 87,
-  fluminense: 71,
-  botafogo: 566,
-  internacional: 74,
-  santos: 80,
-  gremio: 75,
-  cruzeiro: 70,
-  'atletico-mineiro': 65,
-  vasco: 88,
+  // Brasileirão (ids de api-sports para Brasil, ¡no confundir con los ingleses!)
+  flamengo: 127,
+  palmeiras: 121,
+  corinthians: 131,
+  'sao-paulo': 126,
+  fluminense: 124,
+  botafogo: 120,
+  internacional: 119,
+  santos: 128,
+  gremio: 130,
+  cruzeiro: 135,
+  'atletico-mineiro': 1062,
+  vasco: 133,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */
