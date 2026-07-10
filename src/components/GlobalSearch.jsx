@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { search } from '@/lib/data.js'
+import { search, getClubById } from '@/lib/data.js'
 import { playerPhotoUrl } from '@/lib/photos.js'
 import { clubLogoUrl } from '@/lib/logos.js'
 import Icon from './Icon.jsx'
@@ -35,7 +35,7 @@ function PlayerResult({ player, onSelect }) {
       </span>
       <span className="gs-info">
         <span className="gs-name">{player.name}</span>
-        <span className="gs-sub">{player.position} · {player.currentClubId}</span>
+        <span className="gs-sub">{player.position} · {getClubById(player.currentClubId)?.name ?? player.currentClubId}</span>
       </span>
       <span className="gs-value">{player.marketValue ? `${player.marketValue} M€` : ''}</span>
     </button>

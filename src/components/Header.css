@@ -168,12 +168,54 @@
   margin-top: 3px;
 }
 
-/* ── Buscador desktop ─────────────────────────────────────────────────────── */
+/* ── Buscador desktop (disparador del overlay de búsqueda global) ─────────── */
 .header-search {
   position: relative;
   display: flex;
   align-items: center;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
+
+/* El "input" es un span decorativo: el teclear real ocurre en el overlay. */
+.header-search-fake {
+  display: flex;
+  align-items: center;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.header-search-kbd {
+  position: absolute;
+  right: 10px;
+  font-size: 0.62rem;
+  font-family: var(--font-mono, monospace);
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 5px;
+  padding: 2px 6px;
+  pointer-events: none;
+}
+
+/* Lupa compacta para móvil */
+.header-search-mobile {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: rgba(14,20,31,0.5);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: var(--text-muted);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: border-color .2s, color .2s;
+}
+.header-search-mobile:hover { color: #fff; border-color: rgba(34,197,94,0.4); }
 
 /* Solo el buscador del header usa icono superpuesto; el del hero lo lleva
    en flujo (SearchBar.css), así que la regla debe quedar acotada aquí. */
@@ -496,6 +538,7 @@
 /* ── Responsive ───────────────────────────────────────────────────────────── */
 @media (max-width: 680px) {
   .header-search { display: none; }
+  .header-search-mobile { display: flex; }
 
   .nav-panel {
     top: 98px;

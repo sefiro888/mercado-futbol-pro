@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
-import { NavLink, Link, useNavigate, useLocation } from 'react-router-dom'
+import { NavLink, Link, useLocation } from 'react-router-dom'
 import Icon from './Icon.jsx'
+import GlobalSearch from './GlobalSearch.jsx'
 import { SITE } from '@/config/site.js'
 import newsData from '@/data/news.json'
 import rumoursData from '@/data/rumours.json'
@@ -163,9 +164,8 @@ function MenuOverlay({ open, onClose }) {
 // ── Header principal ───────────────────────────────────────────────────────
 export default function Header() {
   const [open, setOpen]       = useState(false)
-  const [q, setQ]             = useState('')
+  const [searchOpen, setSearchOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const navigate              = useNavigate()
   const location              = useLocation()
 
   useEffect(() => {
@@ -176,20 +176,25 @@ export default function Header() {
   }, [])
 
   // Cierra el menú al cambiar ruta
-  useEffect(() => { setOpen(false) }, [location.pathname])
+  useEffect(() => { setOpen(false); setSearchOpen(false) }, [location.pathname])
 
-  // Bloquea scroll del body cuando el menú está abierto
+  // Bloquea scroll del body cuando el menú o el buscador están abiertos
   useEffect(() => {
-    document.body.style.overflow = open ? 'hidden' : ''
+    document.body.style.overflow = open || searchOpen ? 'hidden' : ''
     return () => { document.body.style.overflow = '' }
-  }, [open])
+  }, [open, searchOpen])
 
-  function onSearch(e) {
-    e.preventDefault()
-    const term = q.trim()
-    if (term) navigate(`/jugadores?q=${encodeURIComponent(term)}`)
-    setOpen(false)
-  }
+  // Atajo de teclado: Ctrl/Cmd+K abre la búsqueda global
+  useEffect(() => {
+    function onKey(e) {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
+        setSearchOpen(true)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [])
 
   const currentEmoji = NAV_EMOJI[location.pathname]?.emoji ?? '⚽'
 
@@ -212,20 +217,31 @@ export default function Header() {
             </span>
           </Link>
 
-          {/* Buscador (desktop) */}
-          <form className="header-search" onSubmit={onSearch} role="search">
+          {/* Disparador del buscador global (desktop) */}
+          <button
+            type="button"
+            className="header-search"
+            onClick={() => setSearchOpen(true)}
+            aria-label="Abrir búsqueda global (Ctrl+K)"
+          >
             <svg className="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="1.8">
               <circle cx="8.5" cy="8.5" r="5.5"/><path d="M14 14l3.5 3.5" strokeLinecap="round"/>
             </svg>
-            <input
-              className="input"
-              type="search"
-              placeholder="Buscar jugador, club…"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              aria-label="Buscar en el portal"
-            />
-          </form>
+            <span className="input header-search-fake">Buscar jugador, club…</span>
+            <kbd className="header-search-kbd">Ctrl K</kbd>
+          </button>
+
+          {/* Lupa (móvil): abre el mismo buscador global */}
+          <button
+            type="button"
+            className="header-search-mobile"
+            onClick={() => setSearchOpen(true)}
+            aria-label="Abrir búsqueda"
+          >
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8">
+              <circle cx="8.5" cy="8.5" r="5.5"/><path d="M14 14l3.5 3.5" strokeLinecap="round"/>
+            </svg>
+          </button>
 
           {/* Botón de menú */}
           <button
@@ -245,6 +261,9 @@ export default function Header() {
 
       {/* Panel overlay */}
       <MenuOverlay open={open} onClose={() => setOpen(false)} />
+
+      {/* Búsqueda global instantánea */}
+      {searchOpen && <GlobalSearch onClose={() => setSearchOpen(false)} />}
     </>
   )
 }
