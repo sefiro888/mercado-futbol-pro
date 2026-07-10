@@ -101,6 +101,19 @@ const TEAM_IDS = {
   lyon: 80,
   lille: 79,
   niza: 84,
+  // Brasileirão
+  flamengo: 64,
+  palmeiras: 67,
+  corinthians: 72,
+  'sao-paulo': 87,
+  fluminense: 71,
+  botafogo: 566,
+  internacional: 74,
+  santos: 80,
+  gremio: 75,
+  cruzeiro: 70,
+  'atletico-mineiro': 65,
+  vasco: 88,
 }
 
 /** URL del escudo real de un club (o null si no se conoce su id). */
