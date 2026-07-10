@@ -1,0 +1,1893 @@
+{
+  "competition": {
+    "id": "libertadores",
+    "name": "Copa Libertadores",
+    "short": "CONMEBOL Libertadores",
+    "emoji": "🏔️",
+    "color": "#eab308",
+    "accent": "#f97316",
+    "founded": 1960,
+    "continent": "Sudamérica",
+    "governing": "CONMEBOL",
+    "totalEditions": 65,
+    "currentChampion": "Atlético Mineiro",
+    "currentChampionCode": "br"
+  },
+  "editions": [
+    {
+      "year": 1960,
+      "champion": "Peñarol",
+      "cc": "uy",
+      "ru": "Olimpia",
+      "ruc": "py",
+      "final": {
+        "h": "Peñarol",
+        "a": "Olimpia",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Pedro Spencer",
+        "g": 8,
+        "nc": "ec"
+      },
+      "teams": 7,
+      "goals": 57
+    },
+    {
+      "year": 1961,
+      "champion": "Peñarol",
+      "cc": "uy",
+      "ru": "Palmeiras",
+      "ruc": "br",
+      "final": {
+        "h": "Peñarol",
+        "a": "Palmeiras",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 5,
+        "nc": "ec"
+      },
+      "teams": 9,
+      "goals": 85
+    },
+    {
+      "year": 1962,
+      "champion": "Santos",
+      "cc": "br",
+      "ru": "Peñarol",
+      "ruc": "uy",
+      "final": {
+        "h": "Santos",
+        "a": "Peñarol",
+        "hs": 3,
+        "as": 2,
+        "note": "Pelé en su mejor versión. Santos dominó Sudamérica con el Pelé joven",
+        "venue": "Estadio Nacional, Lima"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 11,
+        "nc": "ec"
+      },
+      "teams": 10,
+      "goals": 111
+    },
+    {
+      "year": 1963,
+      "champion": "Santos",
+      "cc": "br",
+      "ru": "Boca Juniors",
+      "ruc": "ar",
+      "final": {
+        "h": "Santos",
+        "a": "Boca Juniors",
+        "hs": 3,
+        "as": 2,
+        "note": "Pelé marcó en la final. Otro año de dominación del Santos",
+        "venue": "Maracaná, Río de Janeiro"
+      },
+      "top": {
+        "name": "Pelé",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 10,
+      "goals": 98
+    },
+    {
+      "year": 1964,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "Nacional",
+      "ruc": "uy",
+      "final": {
+        "h": "Independiente",
+        "a": "Nacional",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Libertadores de América, Avellaneda"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 9,
+        "nc": "ec"
+      },
+      "teams": 10,
+      "goals": 95
+    },
+    {
+      "year": 1965,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "Peñarol",
+      "ruc": "uy",
+      "final": {
+        "h": "Independiente",
+        "a": "Peñarol",
+        "hs": 4,
+        "as": 1,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 10,
+        "nc": "ec"
+      },
+      "teams": 10,
+      "goals": 97
+    },
+    {
+      "year": 1966,
+      "champion": "Peñarol",
+      "cc": "uy",
+      "ru": "River Plate",
+      "ruc": "ar",
+      "final": {
+        "h": "Peñarol",
+        "a": "River Plate",
+        "hs": 4,
+        "as": 2,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 8,
+        "nc": "ec"
+      },
+      "teams": 10,
+      "goals": 98
+    },
+    {
+      "year": 1967,
+      "champion": "Racing Club",
+      "cc": "ar",
+      "ru": "Nacional",
+      "ruc": "uy",
+      "final": {
+        "h": "Racing Club",
+        "a": "Nacional",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Monumental, Buenos Aires"
+      },
+      "top": {
+        "name": "Rubén Marcos",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 10,
+      "goals": 86
+    },
+    {
+      "year": 1968,
+      "champion": "Estudiantes",
+      "cc": "ar",
+      "ru": "Palmeiras",
+      "ruc": "br",
+      "final": {
+        "h": "Estudiantes",
+        "a": "Palmeiras",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio Ciudad de La Plata"
+      },
+      "top": {
+        "name": "Mario Conejo",
+        "g": 7,
+        "nc": "ar"
+      },
+      "teams": 10,
+      "goals": 78
+    },
+    {
+      "year": 1969,
+      "champion": "Estudiantes",
+      "cc": "ar",
+      "ru": "Nacional",
+      "ruc": "uy",
+      "final": {
+        "h": "Estudiantes",
+        "a": "Nacional",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio Ciudad de La Plata"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 11,
+        "nc": "ec"
+      },
+      "teams": 10,
+      "goals": 79
+    },
+    {
+      "year": 1970,
+      "champion": "Estudiantes",
+      "cc": "ar",
+      "ru": "Peñarol",
+      "ruc": "uy",
+      "final": {
+        "h": "Estudiantes",
+        "a": "Peñarol",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Ciudad de La Plata",
+        "note": "Tercer título consecutivo del Estudiantes. Dominio total argentino"
+      },
+      "top": {
+        "name": "Alberto Spencer",
+        "g": 11,
+        "nc": "ec"
+      },
+      "teams": 10,
+      "goals": 87
+    },
+    {
+      "year": 1971,
+      "champion": "Nacional",
+      "cc": "uy",
+      "ru": "Estudiantes",
+      "ruc": "ar",
+      "final": {
+        "h": "Nacional",
+        "a": "Estudiantes",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Mario Vilches",
+        "g": 7,
+        "nc": "uy"
+      },
+      "teams": 10,
+      "goals": 81
+    },
+    {
+      "year": 1972,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "Universitario",
+      "ruc": "pe",
+      "final": {
+        "h": "Independiente",
+        "a": "Universitario",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Nacional, Lima"
+      },
+      "top": {
+        "name": "Marcos Calderón",
+        "g": 9,
+        "nc": "pe"
+      },
+      "teams": 14,
+      "goals": 107
+    },
+    {
+      "year": 1973,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "Colo-Colo",
+      "ruc": "cl",
+      "final": {
+        "h": "Independiente",
+        "a": "Colo-Colo",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Nacional, Santiago"
+      },
+      "top": {
+        "name": "Hugo Gottardi",
+        "g": 10,
+        "nc": "ar"
+      },
+      "teams": 14,
+      "goals": 117
+    },
+    {
+      "year": 1974,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "São Paulo",
+      "ruc": "br",
+      "final": {
+        "h": "Independiente",
+        "a": "São Paulo",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Morumbi, São Paulo"
+      },
+      "top": {
+        "name": "Hugo Gottardi",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 14,
+      "goals": 123
+    },
+    {
+      "year": 1975,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "Unión Española",
+      "ruc": "cl",
+      "final": {
+        "h": "Independiente",
+        "a": "Unión Española",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Nacional, Santiago"
+      },
+      "top": {
+        "name": "Jorge Solari",
+        "g": 11,
+        "nc": "ar"
+      },
+      "teams": 18,
+      "goals": 139
+    },
+    {
+      "year": 1976,
+      "champion": "Cruzeiro",
+      "cc": "br",
+      "ru": "River Plate",
+      "ruc": "ar",
+      "final": {
+        "h": "Cruzeiro",
+        "a": "River Plate",
+        "hs": 3,
+        "as": 2,
+        "venue": "Estadio Mineirão, Belo Horizonte",
+        "note": "Primer título de un club brasileño. Zico no jugó pero Cruzeiro fue hegemónico"
+      },
+      "top": {
+        "name": "Nelinho",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 18,
+      "goals": 145
+    },
+    {
+      "year": 1977,
+      "champion": "Boca Juniors",
+      "cc": "ar",
+      "ru": "Cruzeiro",
+      "ruc": "br",
+      "final": {
+        "h": "Boca Juniors",
+        "a": "Cruzeiro",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Bombonera, Buenos Aires",
+        "note": "Primer título de Boca en la Libertadores"
+      },
+      "top": {
+        "name": "Jorge Giordano",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 18,
+      "goals": 147
+    },
+    {
+      "year": 1978,
+      "champion": "Boca Juniors",
+      "cc": "ar",
+      "ru": "Deportivo Cali",
+      "ruc": "co",
+      "final": {
+        "h": "Boca Juniors",
+        "a": "Deportivo Cali",
+        "hs": 4,
+        "as": 0,
+        "venue": "Estadio Bombonera, Buenos Aires"
+      },
+      "top": {
+        "name": "Maradona",
+        "g": 6,
+        "nc": "ar"
+      },
+      "teams": 18,
+      "goals": 163
+    },
+    {
+      "year": 1979,
+      "champion": "Olimpia",
+      "cc": "py",
+      "ru": "Boca Juniors",
+      "ruc": "ar",
+      "final": {
+        "h": "Olimpia",
+        "a": "Boca Juniors",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio Defensores del Chaco, Asunción"
+      },
+      "top": {
+        "name": "Roberto Cabañas",
+        "g": 9,
+        "nc": "py"
+      },
+      "teams": 22,
+      "goals": 179
+    },
+    {
+      "year": 1980,
+      "champion": "Nacional",
+      "cc": "uy",
+      "ru": "Internacional",
+      "ruc": "br",
+      "final": {
+        "h": "Nacional",
+        "a": "Internacional",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Waldemar Victorino",
+        "g": 8,
+        "nc": "uy"
+      },
+      "teams": 22,
+      "goals": 183
+    },
+    {
+      "year": 1981,
+      "champion": "Flamengo",
+      "cc": "br",
+      "ru": "Cobreloa",
+      "ruc": "cl",
+      "final": {
+        "h": "Flamengo",
+        "a": "Cobreloa",
+        "hs": 2,
+        "as": 1,
+        "et": true,
+        "venue": "Estadio Maracaná, Río de Janeiro",
+        "note": "Zico y Sócrates. Flamengo con su equipo legendario"
+      },
+      "top": {
+        "name": "Zico",
+        "g": 9,
+        "nc": "br"
+      },
+      "teams": 22,
+      "goals": 189
+    },
+    {
+      "year": 1982,
+      "champion": "Peñarol",
+      "cc": "uy",
+      "ru": "Cobreloa",
+      "ruc": "cl",
+      "final": {
+        "h": "Peñarol",
+        "a": "Cobreloa",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Fernando Morena",
+        "g": 9,
+        "nc": "uy"
+      },
+      "teams": 22,
+      "goals": 186
+    },
+    {
+      "year": 1983,
+      "champion": "Grêmio",
+      "cc": "br",
+      "ru": "Peñarol",
+      "ruc": "uy",
+      "final": {
+        "h": "Grêmio",
+        "a": "Peñarol",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Renato Gaúcho",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 22,
+      "goals": 182
+    },
+    {
+      "year": 1984,
+      "champion": "Independiente",
+      "cc": "ar",
+      "ru": "Grêmio",
+      "ruc": "br",
+      "final": {
+        "h": "Independiente",
+        "a": "Grêmio",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Libertadores de América",
+        "note": "Séptimo y último título de Independiente. El club con más Libertadores"
+      },
+      "top": {
+        "name": "Jorge Burruchaga",
+        "g": 7,
+        "nc": "ar"
+      },
+      "teams": 22,
+      "goals": 177
+    },
+    {
+      "year": 1985,
+      "champion": "Argentinos Juniors",
+      "cc": "ar",
+      "ru": "América de Cali",
+      "ruc": "co",
+      "final": {
+        "h": "Argentinos Juniors",
+        "a": "América de Cali",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 5,
+        "penA": 4,
+        "venue": "Estadio Diego Maradona, Bs.As."
+      },
+      "top": {
+        "name": "Carlos Funes",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 22,
+      "goals": 173
+    },
+    {
+      "year": 1986,
+      "champion": "River Plate",
+      "cc": "ar",
+      "ru": "América de Cali",
+      "ruc": "co",
+      "final": {
+        "h": "River Plate",
+        "a": "América de Cali",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Monumental, Buenos Aires",
+        "note": "Primer título de River. El año también ganaron el mundo con el Piojo y Ruggeri"
+      },
+      "top": {
+        "name": "Jorge Burruchaga",
+        "g": 7,
+        "nc": "ar"
+      },
+      "teams": 22,
+      "goals": 175
+    },
+    {
+      "year": 1987,
+      "champion": "Peñarol",
+      "cc": "uy",
+      "ru": "América de Cali",
+      "ruc": "co",
+      "final": {
+        "h": "Peñarol",
+        "a": "América de Cali",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Antonio Alzamendi",
+        "g": 9,
+        "nc": "uy"
+      },
+      "teams": 22,
+      "goals": 169
+    },
+    {
+      "year": 1988,
+      "champion": "Nacional",
+      "cc": "uy",
+      "ru": "Newell's Old Boys",
+      "ruc": "ar",
+      "final": {
+        "h": "Nacional",
+        "a": "Newell's Old Boys",
+        "hs": 3,
+        "as": 0,
+        "venue": "Estadio Centenario, Montevideo"
+      },
+      "top": {
+        "name": "Ernesto Rascón",
+        "g": 7,
+        "nc": "uy"
+      },
+      "teams": 22,
+      "goals": 167
+    },
+    {
+      "year": 1989,
+      "champion": "Nacional",
+      "cc": "co",
+      "ru": "Olimpia",
+      "ruc": "py",
+      "final": {
+        "h": "Nacional (Col)",
+        "a": "Olimpia",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio Metropolitano, Barranquilla",
+        "note": "Primer título colombiano. En pleno auge del narcotráfico que manchó al fútbol colombiano"
+      },
+      "top": {
+        "name": "Arnoldo Iguarán",
+        "g": 7,
+        "nc": "co"
+      },
+      "teams": 22,
+      "goals": 171
+    },
+    {
+      "year": 1990,
+      "champion": "Olimpia",
+      "cc": "py",
+      "ru": "Barcelona SC",
+      "ruc": "ec",
+      "final": {
+        "h": "Olimpia",
+        "a": "Barcelona SC",
+        "hs": 3,
+        "as": 1,
+        "venue": "Estadio Defensores del Chaco"
+      },
+      "top": {
+        "name": "Miguel Ángel Monzón",
+        "g": 9,
+        "nc": "py"
+      },
+      "teams": 22,
+      "goals": 175
+    },
+    {
+      "year": 1991,
+      "champion": "Colo-Colo",
+      "cc": "cl",
+      "ru": "Olimpia",
+      "ruc": "py",
+      "final": {
+        "h": "Colo-Colo",
+        "a": "Olimpia",
+        "hs": 3,
+        "as": 0,
+        "venue": "Estadio Monumental, Santiago",
+        "note": "Primer y único título chileno en la Libertadores. Histórico para el fútbol trasandino"
+      },
+      "top": {
+        "name": "Rubén Marcos",
+        "g": 11,
+        "nc": "cl"
+      },
+      "teams": 22,
+      "goals": 179
+    },
+    {
+      "year": 1992,
+      "champion": "São Paulo",
+      "cc": "br",
+      "ru": "Newell's Old Boys",
+      "ruc": "ar",
+      "final": {
+        "h": "São Paulo",
+        "a": "Newell's Old Boys",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 3,
+        "penA": 2,
+        "venue": "Estadio Morumbi",
+        "note": "Maradona jugó con Newell's pero no en la final. São Paulo inició su era dorada"
+      },
+      "top": {
+        "name": "Müller",
+        "g": 10,
+        "nc": "br"
+      },
+      "teams": 22,
+      "goals": 188
+    },
+    {
+      "year": 1993,
+      "champion": "São Paulo",
+      "cc": "br",
+      "ru": "Universidad de Chile",
+      "ruc": "cl",
+      "final": {
+        "h": "São Paulo",
+        "a": "Universidad de Chile",
+        "hs": 5,
+        "as": 1,
+        "venue": "Estadio Morumbi",
+        "note": "São Paulo con Cafu, Cafú y Mauro Silva. Fueron bicampeones y luego Mundial de Clubes"
+      },
+      "top": {
+        "name": "Darío Silva",
+        "g": 9,
+        "nc": "uy"
+      },
+      "teams": 22,
+      "goals": 191
+    },
+    {
+      "year": 1994,
+      "champion": "Vélez Sársfield",
+      "cc": "ar",
+      "ru": "São Paulo",
+      "ruc": "br",
+      "final": {
+        "h": "Vélez Sársfield",
+        "a": "São Paulo",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio José Amalfitani",
+        "note": "Único título de Vélez en la Libertadores"
+      },
+      "top": {
+        "name": "Jorge Bernal",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 25,
+      "goals": 201
+    },
+    {
+      "year": 1995,
+      "champion": "Grêmio",
+      "cc": "br",
+      "ru": "Atlético Nacional",
+      "ruc": "co",
+      "final": {
+        "h": "Grêmio",
+        "a": "Atlético Nacional",
+        "hs": 4,
+        "as": 1,
+        "venue": "Estadio Mineirão"
+      },
+      "top": {
+        "name": "Ronaldinho",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 25,
+      "goals": 213
+    },
+    {
+      "year": 1996,
+      "champion": "River Plate",
+      "cc": "ar",
+      "ru": "América de Cali",
+      "ruc": "co",
+      "final": {
+        "h": "River Plate",
+        "a": "América de Cali",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Monumental"
+      },
+      "top": {
+        "name": "Marcelo Gallardo",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 25,
+      "goals": 219
+    },
+    {
+      "year": 1997,
+      "champion": "Cruzeiro",
+      "cc": "br",
+      "ru": "Sporting Cristal",
+      "ruc": "pe",
+      "final": {
+        "h": "Cruzeiro",
+        "a": "Sporting Cristal",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Mineirão"
+      },
+      "top": {
+        "name": "Alex",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 25,
+      "goals": 208
+    },
+    {
+      "year": 1998,
+      "champion": "Vasco da Gama",
+      "cc": "br",
+      "ru": "Barcelona SC",
+      "ruc": "ec",
+      "final": {
+        "h": "Vasco da Gama",
+        "a": "Barcelona SC",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio São Januário"
+      },
+      "top": {
+        "name": "Marcelo",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 28,
+      "goals": 228
+    },
+    {
+      "year": 1999,
+      "champion": "Palmeiras",
+      "cc": "br",
+      "ru": "Deportivo Cali",
+      "ruc": "co",
+      "final": {
+        "h": "Palmeiras",
+        "a": "Deportivo Cali",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Palestra Itália"
+      },
+      "top": {
+        "name": "Lúcio",
+        "g": 6,
+        "nc": "br"
+      },
+      "teams": 28,
+      "goals": 224
+    },
+    {
+      "year": 2000,
+      "champion": "Boca Juniors",
+      "cc": "ar",
+      "ru": "Palmeiras",
+      "ruc": "br",
+      "final": {
+        "h": "Boca Juniors",
+        "a": "Palmeiras",
+        "hs": 3,
+        "as": 0,
+        "venue": "Estadio Bombonera",
+        "note": "Riquelme fue la gran figura. Boca comenzó su era gloriosa de principios de siglo"
+      },
+      "top": {
+        "name": "Martín Palermo",
+        "g": 11,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 261
+    },
+    {
+      "year": 2001,
+      "champion": "Boca Juniors",
+      "cc": "ar",
+      "ru": "Cruz Azul",
+      "ruc": "mx",
+      "final": {
+        "h": "Boca Juniors",
+        "a": "Cruz Azul",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Bombonera",
+        "note": "Riquelme en su cénit. Boca ganó la Libertadores con jugadores propios y un fútbol brillante"
+      },
+      "top": {
+        "name": "Juan Román Riquelme",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 268
+    },
+    {
+      "year": 2002,
+      "champion": "Olimpia",
+      "cc": "py",
+      "ru": "São Caetano",
+      "ruc": "br",
+      "final": {
+        "h": "Olimpia",
+        "a": "São Caetano",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Defensores del Chaco"
+      },
+      "top": {
+        "name": "Rodrigo",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 265
+    },
+    {
+      "year": 2003,
+      "champion": "Boca Juniors",
+      "cc": "ar",
+      "ru": "Santos",
+      "ruc": "br",
+      "final": {
+        "h": "Boca Juniors",
+        "a": "Santos",
+        "hs": 5,
+        "as": 1,
+        "note": "Final con Robinho vs Boca. Corinthians-Santos-Boca. Tercer título de Boca",
+        "venue": "Estadio Bombonera"
+      },
+      "top": {
+        "name": "Tevez",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 273
+    },
+    {
+      "year": 2004,
+      "champion": "Once Caldas",
+      "cc": "co",
+      "ru": "Boca Juniors",
+      "ruc": "ar",
+      "final": {
+        "h": "Once Caldas",
+        "a": "Boca Juniors",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 2,
+        "penA": 0,
+        "note": "La mayor sorpresa en décadas. Once Caldas eliminó hasta a Boca en penaltis. Boca falló todos",
+        "venue": "Estadio Palogrande, Manizales"
+      },
+      "top": {
+        "name": "Jonny Montaño",
+        "g": 7,
+        "nc": "co"
+      },
+      "teams": 32,
+      "goals": 279
+    },
+    {
+      "year": 2005,
+      "champion": "São Paulo",
+      "cc": "br",
+      "ru": "Atlético Paranaense",
+      "ruc": "br",
+      "final": {
+        "h": "São Paulo",
+        "a": "Atlético Paranaense",
+        "hs": 4,
+        "as": 0,
+        "venue": "Estadio Morumbi"
+      },
+      "top": {
+        "name": "Amoroso",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 284,
+      "mvp": "Carlos Tévez",
+      "mvpNc": "ar",
+      "scorer": "Tévez 2, Delgado; Nilmar",
+      "att": 45000,
+      "semis": [
+        "Boca (vs Junior)",
+        "Fútbol Club"
+      ],
+      "note2": "Boca Juniors ganó su quinta Libertadores. Tévez fue el gran nombre antes de irse a Corinthians. Marcó dos goles en la final."
+    },
+    {
+      "year": 2006,
+      "champion": "Internacional",
+      "cc": "br",
+      "ru": "São Paulo",
+      "ruc": "br",
+      "final": {
+        "h": "Internacional",
+        "a": "São Paulo",
+        "hs": 2,
+        "as": 2,
+        "pen": true,
+        "penH": 4,
+        "penA": 2,
+        "venue": "Estadio Beira-Rio, Porto Alegre"
+      },
+      "top": {
+        "name": "Nilmar",
+        "g": 9,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 289,
+      "mvp": "Adriano",
+      "mvpNc": "br",
+      "scorer": "Adriano 2; Herrera, Bernardi",
+      "att": 42000,
+      "semis": [
+        "Chivas",
+        "Boca Juniors"
+      ],
+      "note2": "Internacional de Porto Alegre ganó su primera Libertadores ante el São Paulo. Primer título del Inter en el torneo continental."
+    },
+    {
+      "year": 2007,
+      "champion": "Boca Juniors",
+      "cc": "ar",
+      "ru": "Grêmio",
+      "ruc": "br",
+      "final": {
+        "h": "Boca Juniors",
+        "a": "Grêmio",
+        "hs": 5,
+        "as": 0,
+        "venue": "Estadio Bombonera",
+        "note": "Cuarto título de Boca. Palermo fue clave. Destrucción total al Grêmio"
+      },
+      "top": {
+        "name": "Martín Palermo",
+        "g": 10,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 287,
+      "mvp": "Sebastián Battaglia",
+      "mvpNc": "ar",
+      "scorer": "Palermo, Scotti; Herrera",
+      "att": 55000,
+      "semis": [
+        "Grêmio",
+        "River Plate"
+      ],
+      "note2": "Boca Juniors ganó su sexta Libertadores ante el Grêmio brasileño. El equipo de Riquelme, Palermo y Battaglia fue el mejor del continente."
+    },
+    {
+      "year": 2008,
+      "champion": "LDU Quito",
+      "cc": "ec",
+      "ru": "Fluminense",
+      "ruc": "br",
+      "final": {
+        "h": "LDU Quito",
+        "a": "Fluminense",
+        "hs": 4,
+        "as": 2,
+        "pen": true,
+        "penH": 3,
+        "penA": 1,
+        "venue": "Estadio Casa Blanca, Quito",
+        "note": "Primer y único título ecuatoriano. LDU jugó a 2800 metros de altitud en Quito, ventaja colosal"
+      },
+      "top": {
+        "name": "Claudio Bieler",
+        "g": 10,
+        "nc": "ec"
+      },
+      "teams": 32,
+      "goals": 291,
+      "mvp": "Claudio Bieler",
+      "mvpNc": "ec",
+      "scorer": "Bieler, Holder; Herrera",
+      "att": 30000,
+      "semis": [
+        "Fluminense",
+        "Boca Juniors"
+      ],
+      "note2": "LDU de Quito se convirtió en el primer club ecuatoriano en ganar la Libertadores, venciendo al Fluminense en la tanda de penaltis."
+    },
+    {
+      "year": 2009,
+      "champion": "Estudiantes",
+      "cc": "ar",
+      "ru": "Cruzeiro",
+      "ruc": "br",
+      "final": {
+        "h": "Estudiantes",
+        "a": "Cruzeiro",
+        "hs": 2,
+        "as": 1,
+        "et": true,
+        "venue": "Estadio Ciudad de La Plata",
+        "note": "Mauro Boselli marcó el gol del título en el 115'. Estudiantes campeón 40 años después"
+      },
+      "top": {
+        "name": "Mauro Boselli",
+        "g": 11,
+        "nc": "ar"
+      },
+      "teams": 32,
+      "goals": 288,
+      "mvp": "Agüero",
+      "mvpNc": "ar",
+      "scorer": "Buonanotte, Cardozo; Araújo",
+      "att": 42000,
+      "semis": [
+        "Fluminense",
+        "Liga de Quito"
+      ],
+      "note2": "Estudiantes de La Plata ganó su cuarta Libertadores venciendo al Cruzeiro de Brasil."
+    },
+    {
+      "year": 2010,
+      "champion": "Internacional",
+      "cc": "br",
+      "ru": "Guadalajara",
+      "ruc": "mx",
+      "final": {
+        "h": "Internacional",
+        "a": "Guadalajara",
+        "hs": 3,
+        "as": 2,
+        "venue": "Estadio Beira-Rio, Porto Alegre"
+      },
+      "top": {
+        "name": "Alexandre Pato",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 284,
+      "mvp": "Giuliano",
+      "mvpNc": "br",
+      "scorer": "Giuliano, Fernandão; Ureña",
+      "att": 45000,
+      "semis": [
+        "Chivas",
+        "Deportivo Quito"
+      ],
+      "note2": "Internacional de Porto Alegre ganó su segunda Libertadores venciendo al Guadalajara de México."
+    },
+    {
+      "year": 2011,
+      "champion": "Santos",
+      "cc": "br",
+      "ru": "Peñarol",
+      "ruc": "uy",
+      "final": {
+        "h": "Santos",
+        "a": "Peñarol",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Monumental, Buenos Aires",
+        "note": "Neymar fue la figura. Santos ganó la Libertadores 48 años después de la de Pelé"
+      },
+      "top": {
+        "name": "Neymar",
+        "g": 6,
+        "nc": "br"
+      },
+      "teams": 32,
+      "goals": 298,
+      "mvp": "Luis Suárez",
+      "mvpNc": "uy",
+      "scorer": "Suárez, Fernández; Gamboa",
+      "att": 53000,
+      "semis": [
+        "Santos",
+        "Internacional"
+      ],
+      "note2": "Peñarol de Uruguay ganó su quinta Libertadores venciendo al Santos de Neymar. Era la cuarta Libertadores del club uruguayo."
+    },
+    {
+      "year": 2012,
+      "champion": "Corinthians",
+      "cc": "br",
+      "ru": "Boca Juniors",
+      "ruc": "ar",
+      "final": {
+        "h": "Corinthians",
+        "a": "Boca Juniors",
+        "hs": 2,
+        "as": 0,
+        "venue": "Estadio Pacaembú, São Paulo",
+        "note": "Rojas fue expulsado en el primer partido. Corinthians sin grandes nombres ganó el título"
+      },
+      "top": {
+        "name": "Guerrero",
+        "g": 8,
+        "nc": "pe"
+      },
+      "teams": 38,
+      "goals": 318,
+      "mvp": "Paulinho",
+      "mvpNc": "br",
+      "scorer": "Paulinho 2; Camacho",
+      "att": 40000,
+      "semis": [
+        "Santos",
+        "Internacional"
+      ],
+      "note2": "Corinthians ganó su primera Libertadores incluyendo a Paolo Guerrero. Venció al Boca Juniors en la final de dos partidos."
+    },
+    {
+      "year": 2013,
+      "champion": "Atlético Mineiro",
+      "cc": "br",
+      "ru": "Olimpia",
+      "ruc": "py",
+      "final": {
+        "h": "Atlético Mineiro",
+        "a": "Olimpia",
+        "hs": 4,
+        "as": 3,
+        "pen": true,
+        "penH": 4,
+        "penA": 3,
+        "venue": "Estadio Mineirão",
+        "note": "Ronaldinho fue figura pero no jugó la final. Hulk en su mejor momento"
+      },
+      "top": {
+        "name": "Ronaldinho",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 38,
+      "goals": 334,
+      "mvp": "Bernard",
+      "mvpNc": "br",
+      "scorer": "Ronaldinho pen; Herrera, Cardozo",
+      "att": 50000,
+      "semis": [
+        "Mineiro",
+        "Tijuana"
+      ],
+      "note2": "Atlético Mineiro ganó en penaltis ante Olimpia. Ronaldinho y Bernard fueron los grandes nombres. El Galo levantó por primera vez el trofeo."
+    },
+    {
+      "year": 2014,
+      "champion": "San Lorenzo",
+      "cc": "ar",
+      "ru": "Nacional",
+      "ruc": "uy",
+      "final": {
+        "h": "San Lorenzo",
+        "a": "Nacional",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Pedro Bidegain, Bs.As.",
+        "note": "Año del Papa Francisco (hincha de San Lorenzo). El Ciclón ganó su único título"
+      },
+      "top": {
+        "name": "Pablo Barrientos",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 38,
+      "goals": 342,
+      "mvp": "Gonzalo Bergessio",
+      "mvpNc": "ar",
+      "scorer": "Bergessio, Pisano, Dátolo",
+      "att": 45000,
+      "semis": [
+        "Mineiro",
+        "Estudiantes"
+      ],
+      "note2": "San Lorenzo ganó su primera Libertadores ante Nacional de Uruguay. El Papa Francisco, hincha declarado, envió sus felicitaciones al club."
+    },
+    {
+      "year": 2015,
+      "champion": "River Plate",
+      "cc": "ar",
+      "ru": "Tigres",
+      "ruc": "mx",
+      "final": {
+        "h": "River Plate",
+        "a": "Tigres",
+        "hs": 3,
+        "as": 0,
+        "venue": "Estadio Monumental, Buenos Aires",
+        "note": "Marcelo Gallardo como entrenador. River ganó con una mezcla única de fútbol y carácter"
+      },
+      "top": {
+        "name": "Lucas Alario",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 38,
+      "goals": 349,
+      "mvp": "Lucas Alario",
+      "mvpNc": "ar",
+      "scorer": "Alario 2, Sánchez; Damião",
+      "att": 47000,
+      "semis": [
+        "Guaraní",
+        "Barcelona SC"
+      ],
+      "note2": "River Plate ganó su cuarta Libertadores. Lucas Alario marcó dos goles ante Tigres de México en Santiago. El Más Grande levantó el trofeo 23 años después."
+    },
+    {
+      "year": 2016,
+      "champion": "Atlético Nacional",
+      "cc": "co",
+      "ru": "Independiente del Valle",
+      "ruc": "ec",
+      "final": {
+        "h": "Atlético Nacional",
+        "a": "Independiente del Valle",
+        "hs": 1,
+        "as": 1,
+        "pen": true,
+        "penH": 4,
+        "penA": 2,
+        "venue": "Estadio Atanasio Girardot, Medellín",
+        "note": "El fútbol colombiano volvió a reír. Tragedia de Chapecoense ese mismo noviembre"
+      },
+      "top": {
+        "name": "Miguel Borja",
+        "g": 9,
+        "nc": "co"
+      },
+      "teams": 38,
+      "goals": 352,
+      "mvp": "Miguel Borja",
+      "mvpNc": "co",
+      "scorer": "Borja, Moreno; Banguera",
+      "att": 40000,
+      "semis": [
+        "San Lorenzo",
+        "LDU Quito"
+      ],
+      "note2": "Atlético Nacional venció a Independiente del Valle de Ecuador. Año marcado por la tragedia del Chapecoense, equipo brasileño que viajaba a Medellín para la final de la Sudamericana."
+    },
+    {
+      "year": 2017,
+      "champion": "Grêmio",
+      "cc": "br",
+      "ru": "Lanús",
+      "ruc": "ar",
+      "final": {
+        "h": "Grêmio",
+        "a": "Lanús",
+        "hs": 2,
+        "as": 1,
+        "venue": "Estadio Mineirão",
+        "note": "Renato Gaúcho de entrenador ganó la Libertadores que ganó de jugador en 1983"
+      },
+      "top": {
+        "name": "Everton Cebolinha",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 38,
+      "goals": 348,
+      "mvp": "Luan",
+      "mvpNc": "br",
+      "scorer": "Luan 2, Kannemann; Acuña, Muñoz",
+      "att": 60000,
+      "semis": [
+        "Barcelona SC",
+        "River Plate"
+      ],
+      "note2": "Grêmio ganó su tercera Libertadores ante Lanús. Luan fue el gran nombre del torneo."
+    },
+    {
+      "year": 2018,
+      "champion": "River Plate",
+      "cc": "ar",
+      "ru": "Boca Juniors",
+      "ruc": "ar",
+      "final": {
+        "h": "River Plate",
+        "a": "Boca Juniors",
+        "hs": 3,
+        "as": 1,
+        "et": true,
+        "venue": "Santiago Bernabéu, Madrid",
+        "note": "La final del siglo. Jugada en Madrid por el ataque al bus de River en Buenos Aires. Quintero marcó en la prórroga. El Superclásico más épico de la historia"
+      },
+      "top": {
+        "name": "Lucas Pratto",
+        "g": 8,
+        "nc": "ar"
+      },
+      "teams": 38,
+      "goals": 357,
+      "mvp": "Juan Quintero",
+      "mvpNc": "co",
+      "scorer": "Benedetto 54' (pen); Pratto 68', Quintero 109', Palacios 117'",
+      "att": 61000,
+      "semis": [
+        "Grêmio",
+        "Boca Juniors"
+      ],
+      "note2": "La gran Superclásica en el Bernabéu. El partido de vuelta se suspendió tras el ataque al bus de River. Se jugó en Madrid. River ganó 3-1 en prórroga."
+    },
+    {
+      "year": 2019,
+      "champion": "Flamengo",
+      "cc": "br",
+      "ru": "River Plate",
+      "ruc": "ar",
+      "final": {
+        "h": "Flamengo",
+        "a": "River Plate",
+        "hs": 2,
+        "as": 1,
+        "et": true,
+        "venue": "Estadio Monumental, Lima",
+        "note": "Gabriel Barbosa \"Gabigol\" marcó en el 89' y 92'. River iba 1-0. La remontada más épica de la Libertadores moderna"
+      },
+      "top": {
+        "name": "Gabriel Barbosa",
+        "g": 9,
+        "nc": "br"
+      },
+      "teams": 38,
+      "goals": 367,
+      "mvp": "Gabriel Barbosa 'Gabigol'",
+      "mvpNc": "br",
+      "scorer": "Borré 89'; Gabigol 89', 92'",
+      "att": 75000,
+      "semis": [
+        "Grêmio",
+        "Boca Juniors"
+      ],
+      "note2": "GABIGOL! Flamengo iba perdiendo hasta el 89 y Gabigol marcó en el 89 y el 92 para el 2-1. La remontada más épica en la historia de las finales de Libertadores."
+    },
+    {
+      "year": 2020,
+      "champion": "Palmeiras",
+      "cc": "br",
+      "ru": "Santos",
+      "ruc": "br",
+      "final": {
+        "h": "Palmeiras",
+        "a": "Santos",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Maracaná, Río de Janeiro",
+        "note": "Final brasileña. Breno Lopes marcó en el 99'. Primer Palmeiras desde 1999"
+      },
+      "top": {
+        "name": "Rony",
+        "g": 7,
+        "nc": "br"
+      },
+      "teams": 38,
+      "goals": 301,
+      "mvp": "Rony",
+      "mvpNc": "br",
+      "scorer": "Breno Lopes 99'",
+      "att": 5000,
+      "semis": [
+        "River Plate",
+        "Boca Juniors"
+      ],
+      "note2": "Palmeiras ganó en el Maracaná ante Santos. Breno Lopes, de cabeza en el 99, marcó el único gol. Sin público por la pandemia."
+    },
+    {
+      "year": 2021,
+      "champion": "Palmeiras",
+      "cc": "br",
+      "ru": "Flamengo",
+      "ruc": "br",
+      "final": {
+        "h": "Palmeiras",
+        "a": "Flamengo",
+        "hs": 2,
+        "as": 1,
+        "et": true,
+        "venue": "Estadio Centenario, Montevideo",
+        "note": "Segunda final brasileña consecutiva. Deyverson marcó el 2-1 en el tiempo extra"
+      },
+      "top": {
+        "name": "Flávio Torres",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 38,
+      "goals": 318,
+      "mvp": "Gabriel Barbosa 'Gabigol'",
+      "mvpNc": "br",
+      "scorer": "Veiga 5'; Gabi 44', Gabigol 97'",
+      "att": 16000,
+      "semis": [
+        "Barcelona SC",
+        "River Plate"
+      ],
+      "note2": "Flamengo remontó al Palmeiras en la prórroga. Gabigol marcó en el 97 en Montevideo. COVID redujo el aforo a apenas 16.000 personas."
+    },
+    {
+      "year": 2022,
+      "champion": "Flamengo",
+      "cc": "br",
+      "ru": "Athletico Paranaense",
+      "ruc": "br",
+      "final": {
+        "h": "Flamengo",
+        "a": "Athletico Paranaense",
+        "hs": 1,
+        "as": 0,
+        "venue": "Estadio Monumental, Guayaquil",
+        "note": "Gabigol otra vez. Flamengo con Dorival Júnior. Brasil acaparó las finales 3 seguidas"
+      },
+      "top": {
+        "name": "Cristian Pavón",
+        "g": 9,
+        "nc": "ar"
+      },
+      "teams": 38,
+      "goals": 327,
+      "mvp": "Arrascaeta",
+      "mvpNc": "uy",
+      "scorer": "Gabigol 43'",
+      "att": 42000,
+      "semis": [
+        "Vélez",
+        "Estudiantes"
+      ],
+      "note2": "Flamengo ganó su segunda Libertadores consecutiva. Gabigol volvió a ser el héroe ante el Athletico Paranaense. Final 100% brasileña en Guayaquil."
+    },
+    {
+      "year": 2023,
+      "champion": "Fluminense",
+      "cc": "br",
+      "ru": "Boca Juniors",
+      "ruc": "ar",
+      "final": {
+        "h": "Fluminense",
+        "a": "Boca Juniors",
+        "hs": 2,
+        "as": 1,
+        "et": true,
+        "venue": "Estadio Maracaná, Río de Janeiro",
+        "note": "Germán Cano en el 99'. Primer título de Fluminense. El Maracaná repleto con 90.000 aficionados"
+      },
+      "top": {
+        "name": "Germán Cano",
+        "g": 9,
+        "nc": "co"
+      },
+      "teams": 38,
+      "goals": 338,
+      "mvp": "André",
+      "mvpNc": "br",
+      "scorer": "Cano 57', 65'",
+      "att": 73834,
+      "semis": [
+        "Olimpia",
+        "River Plate"
+      ],
+      "note2": "Fluminense ganó su primera Libertadores en el Maracaná. Germán Cano, goleador del torneo con 11 tantos, marcó un doblete ante Boca Juniors. La hinchada local desbordó el estadio."
+    },
+    {
+      "year": 2024,
+      "champion": "Atlético Mineiro",
+      "cc": "br",
+      "ru": "Atlético Racing",
+      "ruc": "ar",
+      "final": {
+        "h": "Atlético Mineiro",
+        "a": "Atlético Racing",
+        "hs": 3,
+        "as": 1,
+        "venue": "Estadio Monumental, Buenos Aires",
+        "note": "Hulk marcó un doblete. Primer título internacional del Galo desde 2013. Edición histórica"
+      },
+      "top": {
+        "name": "Hulk",
+        "g": 8,
+        "nc": "br"
+      },
+      "teams": 38,
+      "goals": 341,
+      "mvp": "Hulk",
+      "mvpNc": "br",
+      "scorer": "Hulk 18', 49', Battaglia 27'",
+      "att": 83214,
+      "semis": [
+        "Fluminense",
+        "Colo-Colo"
+      ],
+      "note2": "Atlético Mineiro se coronó por primera vez. Hulk, con 38 años, marcó dos goles en el Monumental de Buenos Aires ante Racing Club de Argentina."
+    }
+  ],
+  "records": {
+    "mostTitles": [
+      {
+        "name": "Independiente",
+        "titles": 7,
+        "nc": "ar",
+        "years": "1964, 65, 72, 73, 74, 75, 84"
+      },
+      {
+        "name": "Boca Juniors",
+        "titles": 6,
+        "nc": "ar",
+        "years": "1977, 78, 00, 01, 03, 07"
+      },
+      {
+        "name": "Estudiantes LP",
+        "titles": 4,
+        "nc": "ar",
+        "years": "1968, 69, 70, 09"
+      },
+      {
+        "name": "Nacional (Uy)",
+        "titles": 3,
+        "nc": "uy",
+        "years": "1971, 80, 88"
+      },
+      {
+        "name": "Peñarol",
+        "titles": 5,
+        "nc": "uy",
+        "years": "1960, 61, 66, 82, 87"
+      },
+      {
+        "name": "River Plate",
+        "titles": 4,
+        "nc": "ar",
+        "years": "1986, 96, 15, 18"
+      },
+      {
+        "name": "Flamengo",
+        "titles": 3,
+        "nc": "br",
+        "years": "1981, 19, 22"
+      },
+      {
+        "name": "Olimpia",
+        "titles": 3,
+        "nc": "py",
+        "years": "1979, 90, 02"
+      },
+      {
+        "name": "Santos",
+        "titles": 2,
+        "nc": "br",
+        "years": "1962, 63"
+      },
+      {
+        "name": "Grêmio",
+        "titles": 3,
+        "nc": "br",
+        "years": "1983, 95, 17"
+      }
+    ],
+    "topScorers": [
+      {
+        "name": "Alberto Spencer",
+        "goals": 54,
+        "nc": "ec",
+        "editions": "1960-1972"
+      },
+      {
+        "name": "Fernando Morena",
+        "goals": 37,
+        "nc": "uy",
+        "editions": "1971-1988"
+      },
+      {
+        "name": "Zico",
+        "goals": 30,
+        "nc": "br",
+        "editions": "1976-1986"
+      },
+      {
+        "name": "Pelé",
+        "goals": 21,
+        "nc": "br",
+        "editions": "1960-1964"
+      },
+      {
+        "name": "Juan Román Riquelme",
+        "goals": 20,
+        "nc": "ar",
+        "editions": "1997-2007"
+      },
+      {
+        "name": "Martín Palermo",
+        "goals": 27,
+        "nc": "ar",
+        "editions": "1999-2007"
+      },
+      {
+        "name": "Gabriel Barbosa",
+        "goals": 30,
+        "nc": "br",
+        "editions": "2019-2023"
+      }
+    ],
+    "mostFinals": [
+      {
+        "name": "Peñarol",
+        "finals": 8,
+        "nc": "uy",
+        "won": 5
+      },
+      {
+        "name": "Boca Juniors",
+        "finals": 10,
+        "nc": "ar",
+        "won": 6
+      },
+      {
+        "name": "Independiente",
+        "finals": 9,
+        "nc": "ar",
+        "won": 7
+      },
+      {
+        "name": "River Plate",
+        "finals": 7,
+        "nc": "ar",
+        "won": 4
+      },
+      {
+        "name": "Flamengo",
+        "finals": 5,
+        "nc": "br",
+        "won": 3
+      }
+    ],
+    "mostAppearances": [
+      {
+        "name": "Alberto Spencer",
+        "apps": 76,
+        "nc": "ec"
+      },
+      {
+        "name": "Juan Román Riquelme",
+        "apps": 63,
+        "nc": "ar"
+      },
+      {
+        "name": "Martín Palermo",
+        "apps": 62,
+        "nc": "ar"
+      },
+      {
+        "name": "Zico",
+        "apps": 57,
+        "nc": "br"
+      }
+    ]
+  },
+  "curiosities": [
+    {
+      "id": 1,
+      "emoji": "🤯",
+      "tag": "La final del siglo",
+      "title": "River vs Boca en el Bernabéu",
+      "body": "La final de 2018 tuvo que jugarse en Madrid porque el autobús de River fue atacado con gases lacrimógenos en Buenos Aires. El Superclásico más épico de la historia terminó con Quintero marcando en la prórroga."
+    },
+    {
+      "id": 2,
+      "emoji": "😱",
+      "tag": "Gabigol eterno",
+      "title": "Flamengo 2019: dos goles en los últimos 3 minutos",
+      "body": "River ganaba 1-0 en Lima. Minuto 89: Gabigol empató. Minuto 92: Gabigol marcó el 2-1. Cien mil hinchas del Flamengo en el Perú. Uno de los momentos más dramáticos de la historia del fútbol sudamericano."
+    },
+    {
+      "id": 3,
+      "emoji": "🏆",
+      "tag": "El rey de la copa",
+      "title": "Independiente: 7 Libertadores, el récord que nadie alcanza",
+      "body": "El Rojo de Avellaneda ganó 7 Copa Libertadores entre 1964 y 1984, incluyendo 4 seguidas (1972-75). Tienen más títulos que ningún otro club. Con presupuesto limitado, eran los reyes de Sudamérica."
+    },
+    {
+      "id": 4,
+      "emoji": "⚡",
+      "tag": "Altura extrema",
+      "title": "La ventaja de Quito: a 2850 metros de altitud",
+      "body": "LDU Quito ganó la Copa Libertadores 2008 jugando sus partidos de local a casi 3000 metros de altitud. Los visitantes llegaban agotados por la falta de oxígeno. El estadio Casa Blanca era una fortaleza casi imposible."
+    },
+    {
+      "id": 5,
+      "emoji": "🎩",
+      "tag": "Récord goleador",
+      "title": "Alberto Spencer: el ecuatoriano eterno",
+      "body": "Alberto Spencer es el máximo goleador histórico con 54 goles. Ecuatoriano que jugó en Peñarol, es prácticamente desconocido fuera de Sudamérica pero marcó en 7 ediciones distintas. Un genio injustamente olvidado."
+    },
+    {
+      "id": 6,
+      "emoji": "😭",
+      "tag": "Tragedia",
+      "title": "La Chapecoense: el vuelo que nunca llegó",
+      "body": "En 2016, el avión de Chapecoense se estrelló en Colombia cuando viajaban a jugar la final de la Copa Sudamericana. 71 personas murieron. El fútbol sudamericano se unió como nunca antes para honrar su memoria."
+    },
+    {
+      "id": 7,
+      "emoji": "🔥",
+      "tag": "Dominio brasileño",
+      "title": "Brasil ganó 6 finales seguidas (2019-2024)",
+      "body": "Flamengo 2019, Palmeiras 2020, Palmeiras 2021, Flamengo 2022, Fluminense 2023, Atlético Mineiro 2024. Brasil llevó 6 años seguidos ganando la Copa. Un dominio sin precedentes en la historia del torneo."
+    },
+    {
+      "id": 8,
+      "emoji": "🔄",
+      "tag": "El destino de Gallardo",
+      "title": "Gallardo: jugador y entrenador campeón",
+      "body": "Marcelo Gallardo ganó la Libertadores en 1996 como jugador de River Plate. Veinte años después, la ganó como entrenador en 2015 y 2018. Un héroe total en Núñez."
+    },
+    {
+      "id": 9,
+      "emoji": "🤚",
+      "tag": "Sorpresa histórica",
+      "title": "Boca falló todos los penaltis en 2004",
+      "body": "En la final de 2004, Boca Juniors perdió contra Once Caldas de Colombia. En los penaltis, Boca falló los 4 primeros disparos. Once Caldas, un equipo de Manizales, conquistó la Libertadores de la forma más inesperada."
+    },
+    {
+      "id": 10,
+      "emoji": "⭐",
+      "tag": "Pelé vs El mundo",
+      "title": "Santos 1962-63: Pelé con 21 años ya dominaba el continente",
+      "body": "El Santos de Pelé ganó las Libertadoras de 1962 y 1963. Pelé tenía 21 y 22 años. Marcaba en cada partido como quien respira. La diferencia con el resto era tan grande que parecía injusta."
+    },
+    {
+      "id": 11,
+      "emoji": "🏟️",
+      "tag": "Final en el Maracaná",
+      "title": "Fluminense 2023: 90.000 personas en el Maracaná",
+      "body": "La final de 2023 entre Fluminense y Boca se jugó en el Maracaná. Germán Cano marcó en el 99'. Con 90.000 almas en el templo del fútbol brasileño, fue una de las noches más bellas del fútbol sudamericano."
+    },
+    {
+      "id": 12,
+      "emoji": "🌍",
+      "tag": "El único chileno",
+      "title": "Colo-Colo 1991: el único título para Chile",
+      "body": "Solo hay un equipo chileno que ganó la Copa Libertadores: el Colo-Colo de 1991. Eliminaron a Olimpia en la final. Han pasado más de 30 años y ningún club chileno ha podido repetirlo."
+    },
+    {
+      "id": 13,
+      "emoji": "💔",
+      "tag": "El que nunca ganó",
+      "title": "Riquelme: el mejor que nunca alzó la copa",
+      "body": "Juan Román Riquelme es considerado el jugador más brillante de su generación en Sudamérica. Ganó la Libertadores con Boca en 2000, 2001 y 2003 como jugador clave, pero nunca la pudo alzar solo como capitán en su etapa final."
+    },
+    {
+      "id": 14,
+      "emoji": "🎯",
+      "tag": "La final en Europa",
+      "title": "¿Por qué la final de 2018 se jugó en Madrid?",
+      "body": "El partido de vuelta entre River y Boca en el Monumental fue suspendido tras el ataque al autobús de River. La CONMEBOL decidió moverla a Madrid. 40.000 argentinos viajaron. River ganó 3-1 en el Bernabéu ante la incredulidad del mundo."
+    },
+    {
+      "id": 15,
+      "emoji": "🚩",
+      "tag": "Polémica narco",
+      "title": "El Nacional de Colombia 1989: el título manchado",
+      "body": "El Nacional de Colombia ganó la Libertadores de 1989 en plena era del Cartel de Medellín. La selección colombiana y sus clubes fueron investigados por vínculos con el narcotráfico. Un título que la historia recuerda con sombras."
+    }
+  ]
+}

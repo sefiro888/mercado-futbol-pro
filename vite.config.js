@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5173,
+    port: 5174,
     open: false, // Don't auto-open browser in terminal environment
   },
 })

@@ -15,16 +15,19 @@ const ClubDetail = lazy(() => import('@/pages/ClubDetail.jsx'))
 const Players = lazy(() => import('@/pages/Players.jsx'))
 const PlayerDetail = lazy(() => import('@/pages/PlayerDetail.jsx'))
 const Rumours = lazy(() => import('@/pages/Rumours.jsx'))
-const Compare = lazy(() => import('@/pages/Compare.jsx'))
-const Simulator = lazy(() => import('@/pages/Simulator.jsx'))
-const MarketLive = lazy(() => import('@/pages/MarketLive.jsx'))
-const OnceIdeal = lazy(() => import('@/pages/OnceIdeal.jsx'))
-const Rankings = lazy(() => import('@/pages/Rankings.jsx'))
-const Watchlist = lazy(() => import('@/pages/Watchlist.jsx'))
-const Quiz = lazy(() => import('@/pages/Quiz.jsx'))
-const LeagueStats = lazy(() => import('@/pages/LeagueStats.jsx'))
-const Mundial = lazy(() => import('@/pages/Mundial.jsx'))
 const TransferHistory = lazy(() => import('@/pages/TransferHistory.jsx'))
+const Simulator = lazy(() => import('@/pages/Simulator.jsx'))
+const Mundial = lazy(() => import('@/pages/Mundial.jsx'))
+const Champions = lazy(() => import('@/pages/Champions.jsx'))
+const Eurocopa = lazy(() => import('@/pages/Eurocopa.jsx'))
+const Libertadores = lazy(() => import('@/pages/Libertadores.jsx'))
+const Rankings = lazy(() => import('@/pages/Rankings.jsx'))
+const LeagueStats = lazy(() => import('@/pages/LeagueStats.jsx'))
+const OnceIdeal = lazy(() => import('@/pages/OnceIdeal.jsx'))
+const Watchlist = lazy(() => import('@/pages/Watchlist.jsx'))
+const Compare = lazy(() => import('@/pages/Compare.jsx'))
+const Quiz = lazy(() => import('@/pages/Quiz.jsx'))
+const MarketLive = lazy(() => import('@/pages/MarketLive.jsx'))
 const NotFound = lazy(() => import('@/pages/NotFound.jsx'))
 
 // Vuelve arriba al cambiar de ruta (mejor UX en navegación SPA).
@@ -65,16 +68,19 @@ export default function App() {
               <Route path="/jugadores" element={<Players />} />
               <Route path="/jugadores/:slug" element={<PlayerDetail />} />
               <Route path="/rumores" element={<Rumours />} />
-              <Route path="/comparador" element={<Compare />} />
-              <Route path="/simulador" element={<Simulator />} />
-              <Route path="/mercado-vivo" element={<MarketLive />} />
-              <Route path="/once-ideal" element={<OnceIdeal />} />
-              <Route path="/rankings" element={<Rankings />} />
-              <Route path="/watchlist" element={<Watchlist />} />
-              <Route path="/quiz" element={<Quiz />} />
-              <Route path="/ligas" element={<LeagueStats />} />
-              <Route path="/mundial" element={<Mundial />} />
               <Route path="/historial-fichajes" element={<TransferHistory />} />
+              <Route path="/simulador" element={<Simulator />} />
+              <Route path="/mundial" element={<Mundial />} />
+              <Route path="/champions" element={<Champions />} />
+              <Route path="/eurocopa" element={<Eurocopa />} />
+              <Route path="/libertadores" element={<Libertadores />} />
+              <Route path="/rankings" element={<Rankings />} />
+              <Route path="/estadisticas" element={<LeagueStats />} />
+              <Route path="/once-ideal" element={<OnceIdeal />} />
+              <Route path="/watchlist" element={<Watchlist />} />
+              <Route path="/comparar" element={<Compare />} />
+              <Route path="/quiz" element={<Quiz />} />
+              <Route path="/mercado-vivo" element={<MarketLive />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>

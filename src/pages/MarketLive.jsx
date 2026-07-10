@@ -140,8 +140,7 @@ export default function MarketLive() {
   const clubs = getAllClubs()
 
   const filtered = useMemo(() => {
-    // Filtrar solo transfers de la temporada actual (2026/27)
-    let ts = allTransfers.filter((t) => t.status === 'confirmado' && t.season === '2026/27')
+    let ts = allTransfers.filter((t) => t.status === 'confirmado')
     if (leagueFilter !== 'Todas') {
       ts = ts.filter((t) => {
         const fromLeague = getClubLeague(t.fromClubId, clubs)
